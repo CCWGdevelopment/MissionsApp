@@ -26,6 +26,3 @@ class MissionaryCell: UITableViewCell {
 
 }
 
-// SUP
-
-var sup
