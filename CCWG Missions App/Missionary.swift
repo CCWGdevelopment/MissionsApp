@@ -41,12 +41,13 @@ class Missionary {
     var naMissionaryImage:[String] = [courtneyNusslock.image, nusslock.image, vincentFamily.image, amandaWest.image]
     var naMissionaryInfo: [String] = [courtneyNusslock.info, nusslock.info, vincentFamily.info, amandaWest.info]
 
+
     // Africa Missionaries
 
-    let gaonaInfo = "A short blurb about Bond and Heather goes here"
-    let abaleInfo = "A short blurb about Bosco and Janae goes here"
-    let nyikaInfo = "A short blurb about Nyika family goes here"
-    let onzimaInfo = "A short blurb about Onzima family goes here"
+    let gaonaInfo = "A short blurb about Bond and Heather goes here."
+    let abaleInfo = "A short blurb about Bosco and Janae goes here."
+    let nyikaInfo = "A short blurb about Nyika family goes here."
+    let onzimaInfo = "A short blurb about Onzima family goes here."
 
     var gaona = Missionary(name: "Bond and Heather Gaona", image: "gaona", info: gaonaInfo)
     var abale = Missionary(name: "Bosco and Janae Abale", image: "", info: abaleInfo)
@@ -60,18 +61,51 @@ class Missionary {
     var africaMissionaryImage: [String] = [gaona.image, abale.image, nyika.image, onzima.image]
     var africaMissionaryInfo: [String] = [gaona.info, abale.info, nyika.info, onzima.info]
 
+
     // Asia Missionaries
 
+    let garciaInfo = "A short blurb about Aaron and Jenna goes here."
+    let sarkarInfo = "A short blurb about Pankaj and Tonielle goes here."
+    let singhInfo = "A short blurb about the Singh family goes here."
+
+    var garcia = Missionary(name: "Aaron and Jenna Garcia", image: "garcia", info: garciaInfo)
+    var sarkar = Missionary(name: "Pankaj and Tonielle Sarkar", image: "sarkar", info: sarkarInfo)
+    var singh = Missionary(name: "Singh Family", image: "singh", info: singhInfo)
 
 
     // Asia Missionary Arrays
 
+    var asiaMissionaryName:[String] = [garcia.name, sarkar.name, singh.name]
+    var asiaMissionaryImage:[String] = [garcia.image, sarkar.image, singh.image]
+    var asiaMissionaryInfo:[String] = [garcia.info, sarkar.info, singh.info]
+
+
     // Pacific Islands Missionaries
+
+    let cisnerosInfo = "A short blurb about Vickie Cisneros goes here."
+
+    var cisneros = Missionary(name: "Vickie Cisneros", image: "cisneros", info: cisnerosInfo)
+
 
     // Pacific Islands Missionary Arrays
 
+    var pacificislandMissionaryName:[String] = [cisneros.name]
+    var pacificislandMissionaryImage:[String] = [cisneros.image]
+    var pacificislandMissionaryInfo:[String] = [cisneros.info]
+
+
     // Carribean Missionaries
 
+    let bastiaInfo = "A short blurb about Bastia goes here."
+
+    var bastia = Missionary(name: "Bastia", image: "bastia", info: bastiaInfo)
+
+
     // Carribean Missionary Arrays
+
+    var carribeanMissionaryName:[String] = [bastia.name]
+    var carribeanMissionaryImage:[String] = [bastia.image]
+    var carribeanMissionaryInfo:[String] = [bastia.info]
+
 
 
