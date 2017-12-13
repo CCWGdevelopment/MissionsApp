@@ -48,7 +48,8 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if selectedCountry == "North America" {
-            return northamericaNameArray.count
+//            return northamericaNameArray.count
+            return naMissionaryName.count
         }
         else if selectedCountry == "Africa" {
             return africaNameArray.count
@@ -63,9 +64,13 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         let cell = tableView.dequeueReusableCell(withIdentifier: "MissionaryCell", for: indexPath) as! MissionaryCell
         
         if selectedCountry == "North America" {
-            cell.missionaryNameLabel.text = northamericaNameArray[indexPath.row]
-            cell.missionaryInfoLabel.text = northamericaInfoArray[indexPath.row]
-            cell.missionaryImageView.image = UIImage(named: northamericaImageArray[indexPath.row])
+//            cell.missionaryNameLabel.text = northamericaNameArray[indexPath.row]
+//            cell.missionaryInfoLabel.text = northamericaInfoArray[indexPath.row]
+//            cell.missionaryImageView.image = UIImage(named: northamericaImageArray[indexPath.row])
+            
+            cell.missionaryNameLabel.text = naMissionaryName[indexPath.row]
+            cell.missionaryInfoLabel.text = naMissionaryInfo[indexPath.row]
+            cell.missionaryImageView.image = UIImage(named: naMissionaryImage[indexPath.row])
         }
         else if selectedCountry == "Africa" {
             cell.missionaryNameLabel.text = africaNameArray[indexPath.row]
