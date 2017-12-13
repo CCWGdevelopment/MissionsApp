@@ -179,11 +179,27 @@
                         <outlet property="selectedCountryImageViewer" destination="zZR-Ok-ZWl" id="fHg-m3-62i"/>
                         <outlet property="selectedCountryLabel" destination="B4z-dg-5By" id="mm0-GT-Ww7"/>
                         <outlet property="selectedCountryTitle" destination="spe-3i-cwz" id="QnY-Gv-pvh"/>
+                        <segue destination="CZa-xH-fDG" kind="show" id="WJ0-Sj-XOX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bm0-mo-f9m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1090" y="84"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TX9-Ma-tO2">
+            <objects>
+                <viewController id="CZa-xH-fDG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jpu-Tq-aSE">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ueR-hV-dEk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8RE-au-UAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1818" y="84"/>
         </scene>
     </scenes>
     <resources>
