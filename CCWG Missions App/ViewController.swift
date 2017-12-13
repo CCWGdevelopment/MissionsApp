@@ -24,17 +24,17 @@ class ViewController: UIViewController {
         let detail:DetailController = segue.destination as! DetailController
         if segue.identifier == "NorthAmerica" {
             detail.selectedCountry = "North America"
-            detail.selectedImage = "northamericaImage"
+            detail.selectedImage = "North America_UIimageView_Country"
             detail.selectedTitle = "NA Title"
         }
         else if segue.identifier == "Africa" {
             detail.selectedCountry = "Africa"
-            detail.selectedImage = "africaImage"
+            detail.selectedImage = "Africa_UIimageView_Country"
             detail.selectedTitle = "Africa Title"
         }
         else {
             detail.selectedCountry = "Asia"
-            detail.selectedImage = "asiaImage"
+            detail.selectedImage = "Asia_UIimageView_Country"
             detail.selectedTitle = "Asia Title"
         }
     }
