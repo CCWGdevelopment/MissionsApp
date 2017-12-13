@@ -14,16 +14,16 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     var selectedImage:String = ""
     var selectedTitle:String = ""
     
-    var northamericaNameArray:[String] = ["Courtney Nusslock", "Jeff and Burnadette Nusslock"]
-    var africaNameArray:[String] = ["Bond and Heather Gaona", "Bosco and Janae Abale"]
-    var asiaNameArray:[String] = ["Aaron and Jenna Garcia", "Bond and Heather Gaona", "Pankaj and Tonielle Sarkar"]
-    var northamericaInfoArray:[String] = ["Courtney is currently serving along side her parents in Mexico", "Jeff and Burnadette are serving in Mexico"]
-    var africaInfoArray:[String] = ["Bond and Heather travel all over with their daughter Briana", "Bosco and Janae serve in Africa with their two children"]
-    var asiaInfoArray:[String] = ["Aaron and Jenna serve in India and Nepal", "Bond and Heather travel all over with their daughter Briana", "Pankaj and Tonielle oversee Calvary Chapel School of Worship Nepal"]
+    var northamericaNameArray:[String] = ["Courtney Nusslock", "Jeff and Burnadette Nusslock", "Vincent Family", "Amanda West"]
+    var africaNameArray:[String] = ["Bond and Heather Gaona", "Bosco and Janae Abale", "Nyika Family", "Onzima Family"]
+    var asiaNameArray:[String] = ["Aaron and Jenna Garcia", "Bond and Heather Gaona", "Pankaj and Tonielle Sarkar", "Singh family"]
+    var northamericaInfoArray:[String] = ["Courtney is currently serving along side her parents in Mexico", "Jeff and Burnadette are serving in Mexico", "Mike Vincent and his family serve full time in Rosarito", "Amanda serves in Kentucky"]
+    var africaInfoArray:[String] = ["Bond and Heather travel all over with their daughter Briana", "Bosco and Janae serve in Africa with their two children", "Nyika Family blurb goes here", "Onzima Family blurb goes here"]
+    var asiaInfoArray:[String] = ["Aaron and Jenna serve in India and Nepal", "Bond and Heather travel all over with their daughter Briana", "Pankaj and Tonielle oversee Calvary Chapel School of Worship Nepal", "Singh family blurb here"]
     
-    var northamericaImageArray:[String] = ["courtneynusslock", ""]
-    var africaImageArray:[String] = ["gaona", ""]
-    var asiaImageArray:[String] = ["", "gaona", ""]
+    var northamericaImageArray:[String] = ["courtneynusslock", "nusslock", "vincent", "west"]
+    var africaImageArray:[String] = ["gaona", "", "nyika", "onzima"]
+    var asiaImageArray:[String] = ["garcia", "gaona", "sarkar", "singh"]
     
     @IBOutlet weak var selectedCountryLabel: UILabel!    
     @IBOutlet weak var selectedCountryImageViewer: UIImageView!
@@ -79,10 +79,6 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
             
         return cell
-    }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        <#code#>
     }
     
 
