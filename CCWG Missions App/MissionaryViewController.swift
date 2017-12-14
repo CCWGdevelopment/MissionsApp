@@ -38,6 +38,12 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         // Dispose of any resources that can be recreated.
     }
     
+    // No Status Bar
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     @IBAction func sendEmail(_ sender: Any) {
         
         let mailComposeViewController = configuredMailComposeViewController()
