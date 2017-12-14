@@ -14,6 +14,9 @@ class MissionaryViewController: UIViewController {
     @IBOutlet weak var missionaryTitleImageViewer: UIImageView!
     @IBOutlet weak var missionaryImageViewer: UIImageView!
     @IBOutlet weak var missionaryBioLabel: UILabel!
+    @IBOutlet weak var sendEmailButton: UIButton!
+    
+    var buttonString:String = "Send an email to \n\(selectedNameArray[missionaryIndex])"
     
     
     override func viewDidLoad() {
@@ -23,7 +26,7 @@ class MissionaryViewController: UIViewController {
         missionaryTitleImageViewer.image = UIImage(named: selectedImage)
         missionaryImageViewer.image = UIImage(named: selectedImageArray[missionaryIndex])
         missionaryBioLabel.text = selectedInfoArray[missionaryIndex]
-        
+        sendEmailButton.setTitle(buttonString, for: UIControlState.normal)
 
         // Do any additional setup after loading the view.
     }
@@ -33,15 +36,11 @@ class MissionaryViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func sendEmail(_ sender: Any) {
+        
     }
-    */
-
+    
+    
+    
+    
 }
