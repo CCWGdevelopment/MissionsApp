@@ -80,7 +80,12 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I50-aE-y8X">
-                                <rect key="frame" x="8" y="28" width="34" height="30"/>
+                                <rect key="frame" x="20" y="40" width="44" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="d7h-OE-iIe"/>
+                                    <constraint firstAttribute="height" constant="50" id="sZI-ur-wkO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="xde-v3-i2C"/>
@@ -155,16 +160,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="I50-aE-y8X" firstAttribute="top" secondItem="3sZ-Av-cgz" secondAttribute="top" constant="20" id="13A-bv-YXg"/>
+                            <constraint firstItem="I50-aE-y8X" firstAttribute="leading" secondItem="3sZ-Av-cgz" secondAttribute="leading" constant="20" id="2fo-Dh-IZa"/>
                             <constraint firstItem="dBg-R0-A1h" firstAttribute="leading" secondItem="aEL-XQ-Iy1" secondAttribute="leading" id="9ZR-U6-FJV"/>
                             <constraint firstItem="zZR-Ok-ZWl" firstAttribute="leading" secondItem="dBg-R0-A1h" secondAttribute="leading" id="AgQ-IN-Hbb"/>
                             <constraint firstItem="zZR-Ok-ZWl" firstAttribute="top" secondItem="aEL-XQ-Iy1" secondAttribute="top" id="AwA-1G-GjV"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="I50-aE-y8X" secondAttribute="trailing" constant="20" symbolic="YES" id="F8X-hT-Xy8"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="I50-aE-y8X" secondAttribute="trailing" constant="20" symbolic="YES" id="DSe-C6-SOG"/>
                             <constraint firstItem="dBg-R0-A1h" firstAttribute="bottom" secondItem="3sZ-Av-cgz" secondAttribute="bottom" id="UcR-UK-vLY"/>
                             <constraint firstAttribute="trailing" secondItem="dBg-R0-A1h" secondAttribute="trailing" id="ZK6-J6-qd0"/>
-                            <constraint firstItem="I50-aE-y8X" firstAttribute="top" secondItem="3sZ-Av-cgz" secondAttribute="top" constant="8" id="ZKE-EC-5DH"/>
                             <constraint firstItem="dBg-R0-A1h" firstAttribute="centerX" secondItem="spe-3i-cwz" secondAttribute="centerX" id="cmm-il-tTu"/>
                             <constraint firstItem="spe-3i-cwz" firstAttribute="top" secondItem="zZR-Ok-ZWl" secondAttribute="bottom" constant="8" symbolic="YES" id="njR-f6-48S"/>
-                            <constraint firstItem="I50-aE-y8X" firstAttribute="leading" secondItem="3sZ-Av-cgz" secondAttribute="leading" constant="8" id="sjn-zf-sdV"/>
                             <constraint firstItem="zZR-Ok-ZWl" firstAttribute="trailing" secondItem="dBg-R0-A1h" secondAttribute="trailing" id="y6Y-bb-5wm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3sZ-Av-cgz"/>
@@ -194,7 +199,12 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pyh-Iq-ekc">
-                                <rect key="frame" x="8" y="28" width="34" height="30"/>
+                                <rect key="frame" x="20" y="40" width="44" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="V3h-Pz-QEN"/>
+                                    <constraint firstAttribute="height" constant="50" id="Vep-PF-Ydu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="Vrc-FP-bOJ" kind="show" identifier="back" id="cgM-7R-dv6"/>
@@ -228,19 +238,19 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="CYk-l7-Vt8" firstAttribute="leading" secondItem="0QF-9Q-apa" secondAttribute="trailing" constant="52" id="B0J-Lz-lsu"/>
+                            <constraint firstItem="pyh-Iq-ekc" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" constant="20" id="G2e-lU-Xg3"/>
                             <constraint firstItem="0QF-9Q-apa" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" constant="63" id="HKW-wA-ZjY"/>
-                            <constraint firstItem="pyh-Iq-ekc" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" constant="8" id="JEg-cv-wWq"/>
                             <constraint firstItem="vo6-pP-3xc" firstAttribute="centerX" secondItem="TpI-4n-8NW" secondAttribute="centerX" id="P6g-U5-fH1"/>
                             <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="CYk-l7-Vt8" secondAttribute="bottom" constant="317" id="PQ1-iP-7rs"/>
                             <constraint firstAttribute="trailing" secondItem="TpI-4n-8NW" secondAttribute="trailing" id="WOc-vy-FOV"/>
                             <constraint firstItem="TpI-4n-8NW" firstAttribute="top" secondItem="Jpu-Tq-aSE" secondAttribute="top" id="Wsu-3K-vES"/>
                             <constraint firstItem="0QF-9Q-apa" firstAttribute="top" secondItem="vo6-pP-3xc" secondAttribute="bottom" constant="27" id="Y5Q-BY-2Fe"/>
                             <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="0QF-9Q-apa" secondAttribute="bottom" constant="69" id="cdg-u7-zgg"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pyh-Iq-ekc" secondAttribute="trailing" constant="20" symbolic="YES" id="g3X-aC-dzC"/>
-                            <constraint firstItem="pyh-Iq-ekc" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" constant="8" id="gEI-eW-kAA"/>
                             <constraint firstItem="vo6-pP-3xc" firstAttribute="top" secondItem="TpI-4n-8NW" secondAttribute="bottom" constant="29" id="h4O-jP-aEy"/>
                             <constraint firstItem="TpI-4n-8NW" firstAttribute="leading" secondItem="Jpu-Tq-aSE" secondAttribute="leading" id="o7j-Kg-R7a"/>
                             <constraint firstItem="ueR-hV-dEk" firstAttribute="trailing" secondItem="CYk-l7-Vt8" secondAttribute="trailing" constant="127" id="qK7-qN-F17"/>
+                            <constraint firstItem="pyh-Iq-ekc" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" constant="20" id="vGi-tf-iiO"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pyh-Iq-ekc" secondAttribute="trailing" constant="20" symbolic="YES" id="zfl-BC-hX4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ueR-hV-dEk"/>
                     </view>
