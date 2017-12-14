@@ -21,21 +21,22 @@ class ViewController: UIViewController {
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let detail:DetailController = segue.destination as! DetailController
+//        let detail:DetailController = segue.destination as! DetailController
         if segue.identifier == "NorthAmerica" {
-            detail.selectedCountry = "North America"
-            detail.selectedImage = "North America_UIimageView_Country"
-            detail.selectedTitle = "NA Title"
+            
+            selectedCountry = "North America"
+            selectedImage = "North America_UIimageView_Country"
+            selectedTitle = "NA Title"
         }
         else if segue.identifier == "Africa" {
-            detail.selectedCountry = "Africa"
-            detail.selectedImage = "Africa_UIimageView_Country"
-            detail.selectedTitle = "Africa Title"
+            selectedCountry = "Africa"
+            selectedImage = "Africa_UIimageView_Country"
+            selectedTitle = "Africa Title"
         }
         else {
-            detail.selectedCountry = "Asia"
-            detail.selectedImage = "Asia_UIimageView_Country"
-            detail.selectedTitle = "Asia Title"
+            selectedCountry = "Asia"
+            selectedImage = "Asia_UIimageView_Country"
+            selectedTitle = "Asia Title"
         }
     }
 

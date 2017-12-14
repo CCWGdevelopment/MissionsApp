@@ -8,14 +8,19 @@
 
 import UIKit
 
-class DetailController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+// Global variables used to pass selected country info
 
-    var selectedCountry:String = ""
-    var selectedImage:String = ""
-    var selectedTitle:String = ""
+var selectedCountry:String = ""
+var selectedImage:String = ""
+var selectedTitle:String = ""
+var selectedNameArray:[String] = [""]
+var selectedImageArray:[String] = [""]
+var selectedInfoArray:[String] = [""]
+var missionaryIndex:Int = 0
+
+
+class DetailController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    
-    @IBOutlet weak var selectedCountryLabel: UILabel!    
     @IBOutlet weak var selectedCountryImageViewer: UIImageView!
     @IBOutlet weak var selectedCountryTitle: UILabel!
     
@@ -23,7 +28,6 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        selectedCountryLabel.text = selectedCountry
         selectedCountryImageViewer.image = UIImage(named: selectedImage)
         selectedCountryTitle.text = selectedTitle
         
@@ -54,6 +58,10 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         
         if selectedCountry == "North America" {
             
+            selectedNameArray = naMissionaryName
+            selectedImageArray = naMissionaryImage
+            selectedInfoArray = naMissionaryInfo
+            
             cell.missionaryNameLabel.text = naMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = naMissionaryInfo[indexPath.row]
             cell.missionaryImageView.image = UIImage(named: naMissionaryImage[indexPath.row])
@@ -61,12 +69,20 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else if selectedCountry == "Africa" {
             
+            selectedNameArray = africaMissionaryName
+            selectedImageArray = africaMissionaryImage
+            selectedInfoArray = africaMissionaryInfo
+            
             cell.missionaryNameLabel.text = africaMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = africaMissionaryInfo[indexPath.row]
             cell.missionaryImageView.image = UIImage(named: africaMissionaryImage[indexPath.row])
             
         }
         else {
+            
+            selectedNameArray = asiaMissionaryName
+            selectedImageArray = asiaMissionaryImage
+            selectedInfoArray = asiaMissionaryInfo
 
             cell.missionaryNameLabel.text = asiaMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = asiaMissionaryInfo[indexPath.row]
@@ -75,6 +91,11 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
             
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        missionaryIndex = indexPath.row
+        performSegue(withIdentifier: "segue", sender: self)
     }
     
 

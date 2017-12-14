@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2468AA4B1FDDACA000E7C506 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468AA4A1FDDACA000E7C506 /* DetailController.swift */; };
+		248C66391FE1DDBD00620545 /* MissionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248C66381FE1DDBD00620545 /* MissionaryViewController.swift */; };
 		24A20E441FE08F0300AAD91C /* MissionaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A20E431FE08F0300AAD91C /* MissionaryCell.swift */; };
 		24A854A31FE0DDF200846A37 /* Missionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A854A21FE0DDF200846A37 /* Missionary.swift */; };
 		24DDB3411FDDA922002A0722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDB3401FDDA922002A0722 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		2468AA4A1FDDACA000E7C506 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		248C66381FE1DDBD00620545 /* MissionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionaryViewController.swift; sourceTree = "<group>"; };
 		24A20E431FE08F0300AAD91C /* MissionaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionaryCell.swift; sourceTree = "<group>"; };
 		24A854A21FE0DDF200846A37 /* Missionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missionary.swift; sourceTree = "<group>"; };
 		24DDB33D1FDDA922002A0722 /* CCWG Missions App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCWG Missions App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +67,7 @@
 				24A854A21FE0DDF200846A37 /* Missionary.swift */,
 				2468AA4A1FDDACA000E7C506 /* DetailController.swift */,
 				24DDB3441FDDA922002A0722 /* Main.storyboard */,
+				248C66381FE1DDBD00620545 /* MissionaryViewController.swift */,
 				24A20E431FE08F0300AAD91C /* MissionaryCell.swift */,
 				24DDB3471FDDA922002A0722 /* Assets.xcassets */,
 				24DDB3491FDDA922002A0722 /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 			files = (
 				24DDB3431FDDA922002A0722 /* ViewController.swift in Sources */,
 				24A20E441FE08F0300AAD91C /* MissionaryCell.swift in Sources */,
+				248C66391FE1DDBD00620545 /* MissionaryViewController.swift in Sources */,
 				24A854A31FE0DDF200846A37 /* Missionary.swift in Sources */,
 				2468AA4B1FDDACA000E7C506 /* DetailController.swift in Sources */,
 				24DDB3411FDDA922002A0722 /* AppDelegate.swift in Sources */,
