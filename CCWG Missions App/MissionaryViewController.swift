@@ -18,7 +18,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBOutlet weak var missionaryBioLabel: UILabel!
     @IBOutlet weak var sendEmailButton: UIButton!
     
-    var buttonString:String = "Send an email to \n\(selectedNameArray[missionaryIndex])"
+    var buttonString:String = "Send an email to \(selectedNameArray[missionaryIndex])"
     
     
     override func viewDidLoad() {
