@@ -53,7 +53,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     func configuredMailComposeViewController() -> MFMailComposeViewController {
         let mailComposerVC = MFMailComposeViewController()
         mailComposerVC.mailComposeDelegate = self
-        mailComposerVC.setToRecipients(["marcus@ccwg.org"])
+        mailComposerVC.setToRecipients([selectedEmailArray[missionaryIndex]])
         
         mailComposerVC.setSubject("Hello, \(selectedNameArray[missionaryIndex])!")
         mailComposerVC.setMessageBody("Type message here", isHTML: false)

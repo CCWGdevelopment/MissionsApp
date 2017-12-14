@@ -16,8 +16,8 @@ var selectedTitle:String = ""
 var selectedNameArray:[String] = [""]
 var selectedImageArray:[String] = [""]
 var selectedInfoArray:[String] = [""]
+var selectedEmailArray:[String] = [""]
 var missionaryIndex:Int = 0
-var ineededtocommit:String = "hi"
 
 class DetailController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
@@ -61,6 +61,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             selectedNameArray = naMissionaryName
             selectedImageArray = naMissionaryImage
             selectedInfoArray = naMissionaryInfo
+            selectedEmailArray = naMissionaryEmail
             
             cell.missionaryNameLabel.text = naMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = naMissionaryInfo[indexPath.row]
@@ -72,6 +73,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             selectedNameArray = africaMissionaryName
             selectedImageArray = africaMissionaryImage
             selectedInfoArray = africaMissionaryInfo
+            selectedEmailArray = africaMissionaryEmail
             
             cell.missionaryNameLabel.text = africaMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = africaMissionaryInfo[indexPath.row]
@@ -83,6 +85,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             selectedNameArray = asiaMissionaryName
             selectedImageArray = asiaMissionaryImage
             selectedInfoArray = asiaMissionaryInfo
+            selectedEmailArray = asiaMissionaryEmail
 
             cell.missionaryNameLabel.text = asiaMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = asiaMissionaryInfo[indexPath.row]
