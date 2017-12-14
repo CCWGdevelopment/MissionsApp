@@ -19,6 +19,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    // No Status Bar
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //        let detail:DetailController = segue.destination as! DetailController
