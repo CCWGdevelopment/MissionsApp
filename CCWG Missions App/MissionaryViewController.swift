@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import Foundation
+import MessageUI
 
-class MissionaryViewController: UIViewController {
+class MissionaryViewController: UIViewController, MFMailComposeViewControllerDelegate {
     
     @IBOutlet weak var missionaryLabel: UILabel!
     @IBOutlet weak var missionaryTitleImageViewer: UIImageView!
@@ -38,9 +40,38 @@ class MissionaryViewController: UIViewController {
     
     @IBAction func sendEmail(_ sender: Any) {
         
+        let mailComposeViewController = configuredMailComposeViewController()
+        if MFMailComposeViewController.canSendMail() {
+            self.present(mailComposeViewController, animated: true, completion: nil)
+        }
+        else {
+            self.showSendMailErrorAlert()
+        }
+        
     }
     
+    func configuredMailComposeViewController() -> MFMailComposeViewController {
+        let mailComposerVC = MFMailComposeViewController()
+        mailComposerVC.mailComposeDelegate = self
+        mailComposerVC.setToRecipients(["marcus@ccwg.org"])
+        
+        mailComposerVC.setSubject("Hello, \(selectedNameArray[missionaryIndex])!")
+        mailComposerVC.setMessageBody("Type message here", isHTML: false)
+        
+        return mailComposerVC
+    }
     
+    func showSendMailErrorAlert() {
+        
+        let sendMailErrorAlert = UIAlertController(title: "Could not send email", message: "Your device must have an active email account", preferredStyle: UIAlertControllerStyle.alert)
+        
+        sendMailErrorAlert.show(self, sender: Any?.self)
+        
+    }
+    
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true, completion: nil)
+    }
     
     
 }
