@@ -17,7 +17,7 @@ var selectedNameArray:[String] = [""]
 var selectedImageArray:[String] = [""]
 var selectedInfoArray:[String] = [""]
 var missionaryIndex:Int = 0
-var ineededtocommit:String = "hi"
+var ineededtocommit:String = ""
 
 class DetailController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
