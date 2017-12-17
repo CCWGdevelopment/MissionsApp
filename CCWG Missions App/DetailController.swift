@@ -39,6 +39,13 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         // Dispose of any resources that can be recreated.
     }
     
+    
+    // No Status Bar
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if selectedCountry == "North America" {
 //            return northamericaNameArray.count
