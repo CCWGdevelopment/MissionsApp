@@ -60,11 +60,11 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             
             selectedNameArray = naMissionaryName
             selectedImageArray = naMissionaryImage
-            selectedInfoArray = naMissionaryInfo
+            selectedInfoArray = naMissionaryinfoShort
             selectedEmailArray = naMissionaryEmail
             
             cell.missionaryNameLabel.text = naMissionaryName[indexPath.row]
-            cell.missionaryInfoLabel.text = naMissionaryInfo[indexPath.row]
+            cell.missionaryInfoLabel.text = naMissionaryinfoShort[indexPath.row]
             cell.missionaryImageView.image = UIImage(named: naMissionaryImage[indexPath.row])
             
         }
@@ -72,11 +72,11 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             
             selectedNameArray = africaMissionaryName
             selectedImageArray = africaMissionaryImage
-            selectedInfoArray = africaMissionaryInfo
+            selectedInfoArray = africaMissionaryinfoShort
             selectedEmailArray = africaMissionaryEmail
             
             cell.missionaryNameLabel.text = africaMissionaryName[indexPath.row]
-            cell.missionaryInfoLabel.text = africaMissionaryInfo[indexPath.row]
+            cell.missionaryInfoLabel.text = africaMissionaryinfoShort[indexPath.row]
             cell.missionaryImageView.image = UIImage(named: africaMissionaryImage[indexPath.row])
             
         }
@@ -84,11 +84,11 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             
             selectedNameArray = asiaMissionaryName
             selectedImageArray = asiaMissionaryImage
-            selectedInfoArray = asiaMissionaryInfo
+            selectedInfoArray = asiaMissionaryinfoShort
             selectedEmailArray = asiaMissionaryEmail
 
             cell.missionaryNameLabel.text = asiaMissionaryName[indexPath.row]
-            cell.missionaryInfoLabel.text = asiaMissionaryInfo[indexPath.row]
+            cell.missionaryInfoLabel.text = asiaMissionaryinfoShort[indexPath.row]
             cell.missionaryImageView.image = UIImage(named: asiaMissionaryImage[indexPath.row])
             
         }
