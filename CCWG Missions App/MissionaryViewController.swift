@@ -27,7 +27,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         missionaryLabel.text = selectedNameArray[missionaryIndex]
         missionaryTitleImageViewer.image = UIImage(named: selectedImage)
         missionaryImageViewer.image = UIImage(named: selectedImageArray[missionaryIndex])
-        missionaryBioLabel.text = selectedInfoArray[missionaryIndex]
+        missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
         sendEmailButton.setTitle(buttonString, for: UIControlState.normal)
 
         // Do any additional setup after loading the view.
