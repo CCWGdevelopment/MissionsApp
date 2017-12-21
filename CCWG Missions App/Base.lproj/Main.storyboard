@@ -108,7 +108,7 @@
                                         <rect key="frame" x="0.0" y="28" width="1366" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wRq-Wh-Ij1" id="Zj3-KB-UQ9">
-                                            <rect key="frame" x="0.0" y="0.0" width="1333" height="119.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1333" height="120"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Iui-MQ-ZzY">

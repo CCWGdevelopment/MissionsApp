@@ -31,17 +31,17 @@ class ViewController: UIViewController {
         if segue.identifier == "NorthAmerica" {
             
             selectedCountry = "North America"
-            selectedImage = "northamericaUIimageView"
+            selectedImage = "northamerica"
             selectedTitle = "NA Title"
         }
         else if segue.identifier == "Africa" {
             selectedCountry = "Africa"
-            selectedImage = "africaUIimageView"
+            selectedImage = "africa"
             selectedTitle = "Africa Title"
         }
         else {
             selectedCountry = "Asia"
-            selectedImage = "asiapacificUIimageView"
+            selectedImage = "asia"
             selectedTitle = "Asia Title"
         }
     }
