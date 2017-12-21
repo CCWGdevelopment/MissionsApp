@@ -20,32 +20,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="world map" translatesAutoresizingMaskIntoConstraints="NO" id="hlH-40-xIZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ipadpro129" translatesAutoresizingMaskIntoConstraints="NO" id="hlH-40-xIZ">
                                 <rect key="frame" x="0.0" y="-20" width="1366" height="1044"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v47-A8-XfU">
-                                <rect key="frame" x="216" y="400" width="188" height="114"/>
+                                <rect key="frame" x="100" y="420" width="450" height="194"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="188" id="5Fm-qO-mUM"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="450" id="5Fm-qO-mUM"/>
                                 </constraints>
-                                <state key="normal" title="North America"/>
+                                <state key="normal" title="North America">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="Vrc-FP-bOJ" kind="show" identifier="NorthAmerica" id="tt3-8N-hRB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qn0-kf-Lr9">
-                                <rect key="frame" x="609" y="453" width="249" height="269"/>
+                                <rect key="frame" x="515" y="600" width="449" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Africa"/>
+                                <state key="normal" title="Africa">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="Vrc-FP-bOJ" kind="show" identifier="Africa" id="j44-0A-uQC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sc2-3L-AZG">
-                                <rect key="frame" x="856" y="212" width="490" height="357"/>
+                                <rect key="frame" x="772" y="235" width="490" height="357"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Asia"/>
+                                <state key="normal" title="Asia">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="Vrc-FP-bOJ" kind="show" identifier="Asia" id="Efc-od-6tb"/>
                                 </connections>
@@ -53,10 +59,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="v47-A8-XfU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="216" id="PCi-df-qRM"/>
-                            <constraint firstItem="v47-A8-XfU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="380" id="Z0e-IB-csa"/>
+                            <constraint firstItem="v47-A8-XfU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="PCi-df-qRM"/>
+                            <constraint firstItem="v47-A8-XfU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="400" id="Z0e-IB-csa"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="v47-A8-XfU" secondAttribute="trailing" constant="20" symbolic="YES" id="huE-6L-mIm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="v47-A8-XfU" secondAttribute="bottom" constant="510" id="wAk-Ro-wWm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="v47-A8-XfU" secondAttribute="bottom" constant="410" id="wAk-Ro-wWm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -277,9 +283,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="world map" width="1500" height="1125"/>
+        <image name="ipadpro129" width="910" height="682"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cgM-7R-dv6"/>
+        <segue reference="j44-0A-uQC"/>
     </inferredMetricsTieBreakers>
 </document>
