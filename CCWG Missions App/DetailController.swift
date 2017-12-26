@@ -49,7 +49,6 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if selectedCountry == "North America" {
-//            return northamericaNameArray.count
             return naMissionaryName.count
         }
         else if selectedCountry == "Africa" {
