@@ -237,7 +237,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="wTZ-rm-U9G"/>
                                 </constraints>
-                                <state key="normal" title="Send Email to missionary"/>
+                                <state key="normal" title="Send Email"/>
                                 <connections>
                                     <action selector="sendEmail:" destination="CZa-xH-fDG" eventType="touchUpInside" id="h5q-BU-cfc"/>
                                 </connections>
@@ -245,7 +245,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fRE-lu-uw3">
                                 <rect key="frame" x="862" y="871" width="377" height="120"/>
                                 <color key="backgroundColor" red="0.44248975940000002" green="0.73463182660000004" blue="0.96993559600000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Support missionary"/>
+                                <state key="normal" title="Support Missionary"/>
                                 <connections>
                                     <action selector="supportMissionary:" destination="CZa-xH-fDG" eventType="touchUpInside" id="nde-rr-c0K"/>
                                 </connections>

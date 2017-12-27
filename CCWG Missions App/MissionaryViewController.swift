@@ -20,8 +20,6 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBOutlet weak var sendEmailButton: UIButton!
     @IBOutlet weak var supportMissionaryButton: UIButton!
     
-    var sendEmailButtonString:String = "Send an email to \(selectedNameArray[missionaryIndex])"
-    var supportButtonString:String = "Support \(selectedNameArray[missionaryIndex])"
     
     
     override func viewDidLoad() {
@@ -31,9 +29,8 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         missionaryTitleImageViewer.image = UIImage(named: selectedImage)
         missionaryImageViewer.image = UIImage(named: selectedImageArray[missionaryIndex])
         missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
-        sendEmailButton.setTitle(sendEmailButtonString, for: UIControlState.normal)
-        supportMissionaryButton.setTitle(supportButtonString, for: UIControlState.normal)
-
+      
+        
         // Do any additional setup after loading the view.
     }
 
