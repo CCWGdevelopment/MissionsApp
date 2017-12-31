@@ -65,7 +65,7 @@ class Missionary {
     let emukuinfoLong = "Emuku family bio and current ministry update placeholder"
 
     var gaona = Missionary(name: "Bond and Heather Gaona", image: "gaona", infoShort: gaonainfoShort, infoLong: gaonainfoLong, email: "")
-    var abale = Missionary(name: "John Bosco and Janae Abale", image: "", infoShort: abaleinfoShort, infoLong: abaleinfoLong, email: "")
+    var abale = Missionary(name: "John Bosco and Janay Abale", image: "", infoShort: abaleinfoShort, infoLong: abaleinfoLong, email: "pippil88@yahoo.com")
     var nyika = Missionary(name: "Nyika Family", image: "nyika", infoShort: nyikainfoShort, infoLong: nyikainfoLong, email: "")
     var onzima = Missionary(name: "Onzima Family", image: "onzima", infoShort: onzimainfoShort, infoLong: onzimainfoLong, email: "")
     var douglass = Missionary(name: "Douglass Family", image: "douglass", infoShort: douglassinfoShort, infoLong: douglassinfoLong, email: "")
@@ -87,8 +87,8 @@ class Missionary {
     let garciainfoLong = "Aaron and Jena Garcia bio and current ministry update placeholder"
     let sarkarinfoShort = "A short blurb about Pankaj and Tonielle goes here."
     let sarkarinfoLong = "Pankaj and Tonielle Sarkar bio and current ministry update placeholder"
-    let davisinfoShort = "A short blurb about the Davis family goes here"
-    let davisinfoLong = "Davis family bio and current ministry update placeholder"
+    let davisinfoShort = "A short blurb about the Jim and Shonda Davis goes here"
+    let davisinfoLong = "Jim and Shonda Davis bio and current ministry update placeholder"
 
     var garcia = Missionary(name: "Aaron and Jenna Garcia", image: "garcia", infoShort: garciainfoShort, infoLong: garciainfoLong, email: "")
     var sarkar = Missionary(name: "Pankaj and Tonielle Sarkar", image: "sarkar", infoShort: sarkarinfoShort, infoLong: sarkarinfoLong, email: "")
@@ -109,7 +109,7 @@ class Missionary {
     let cisnerosinfoShort = "A short blurb about Vickie Cisneros goes here."
     let cisnerosinfoLong = "Vickie Cisneros bio and current ministry update placeholder"
 
-    var cisneros = Missionary(name: "Vickie Cisneros", image: "cisneros", infoShort: cisnerosinfoShort, infoLong: cisnerosinfoLong, email: "")
+    var cisneros = Missionary(name: "Vickie Cisneros", image: "cisneros", infoShort: cisnerosinfoShort, infoLong: cisnerosinfoLong, email: "vickieccwgmissions@gmail.com")
 
 
     // Pacific Islands Missionary Arrays

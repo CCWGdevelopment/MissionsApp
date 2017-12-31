@@ -69,32 +69,6 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         
         return mailComposerVC
     }
-    
-    // Newsletter sign up functions
-    
-    @IBAction func sendNewsletterEmail(_ sender: Any) {
-        
-        let newsletterComposeViewController = configuredNewsletterMailComposeViewController()
-        if MFMailComposeViewController.canSendMail() {
-            self.present(newsletterComposeViewController, animated: true, completion: nil)
-        }
-        else {
-            self.showSendMailErrorAlert()
-        }
-        
-    }
-    
-    
-    func configuredNewsletterMailComposeViewController() -> MFMailComposeViewController {
-        let newsletterComposerVC = MFMailComposeViewController()
-        newsletterComposerVC.mailComposeDelegate = self
-        newsletterComposerVC.setToRecipients(["marcus@ccwg.org"])
-        
-        newsletterComposerVC.setSubject("Sign me up for \(selectedNameArray[missionaryIndex])'s newsletter!")
-        newsletterComposerVC.setMessageBody("Please enter your email address here to sign up for newsletter:", isHTML: false)
-        
-        return newsletterComposerVC
-    }
 
     
     // email error handling

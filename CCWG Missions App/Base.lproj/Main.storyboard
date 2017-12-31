@@ -231,37 +231,43 @@
                                     <constraint firstAttribute="height" constant="236" id="S4o-An-Zff"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="11o-hs-Swk">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="11o-hs-Swk" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
                                 <rect key="frame" x="862" y="729" width="377" height="120"/>
                                 <color key="backgroundColor" red="0.44248975935153301" green="0.73463182663484861" blue="0.96993559598922729" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="wTZ-rm-U9G"/>
                                 </constraints>
                                 <state key="normal" title="Send Email"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="sendEmail:" destination="CZa-xH-fDG" eventType="touchUpInside" id="h5q-BU-cfc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fRE-lu-uw3">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fRE-lu-uw3" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
                                 <rect key="frame" x="862" y="871" width="377" height="120"/>
                                 <color key="backgroundColor" red="0.44248975940000002" green="0.73463182660000004" blue="0.96993559600000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Support Missionary"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="supportMissionary:" destination="CZa-xH-fDG" eventType="touchUpInside" id="nde-rr-c0K"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ral-Y2-dO5">
-                                <rect key="frame" x="524" y="909" width="225" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.44248975940000002" green="0.73463182660000004" blue="0.96993559600000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Sign up for newsletter"/>
-                                <connections>
-                                    <action selector="sendNewsletterEmail:" destination="CZa-xH-fDG" eventType="touchUpInside" id="OVO-9C-TyM"/>
-                                    <action selector="supportMissionary:" destination="CZa-xH-fDG" eventType="touchUpInside" id="glD-QV-GBh"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Missionary Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QF-9Q-apa">
-                                <rect key="frame" x="63" y="407" width="747" height="548"/>
+                                <rect key="frame" x="63" y="407" width="747" height="469"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="747" id="DUV-Zh-Nou"/>
                                 </constraints>
@@ -269,6 +275,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ugc-zH-ISq" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
+                                <rect key="frame" x="420" y="871" width="377" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.44248975940000002" green="0.73463182660000004" blue="0.96993559600000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Sign up for newsletter"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="supportMissionary:" destination="CZa-xH-fDG" eventType="touchUpInside" id="MhM-P6-EDu"/>
+                                    <segue destination="QvX-78-0vR" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="bh1-4f-RlF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -286,7 +313,7 @@
                             <constraint firstItem="0QF-9Q-apa" firstAttribute="top" secondItem="vo6-pP-3xc" secondAttribute="bottom" constant="27" id="Y5Q-BY-2Fe"/>
                             <constraint firstItem="11o-hs-Swk" firstAttribute="leading" secondItem="CYk-l7-Vt8" secondAttribute="leading" id="ZSK-bT-PQF"/>
                             <constraint firstItem="fRE-lu-uw3" firstAttribute="trailing" secondItem="11o-hs-Swk" secondAttribute="trailing" id="bgq-xF-rLm"/>
-                            <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="0QF-9Q-apa" secondAttribute="bottom" constant="69" id="cdg-u7-zgg"/>
+                            <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="0QF-9Q-apa" secondAttribute="bottom" constant="148" id="cdg-u7-zgg"/>
                             <constraint firstItem="vo6-pP-3xc" firstAttribute="top" secondItem="TpI-4n-8NW" secondAttribute="bottom" constant="29" id="h4O-jP-aEy"/>
                             <constraint firstItem="TpI-4n-8NW" firstAttribute="leading" secondItem="Jpu-Tq-aSE" secondAttribute="leading" id="o7j-Kg-R7a"/>
                             <constraint firstItem="ueR-hV-dEk" firstAttribute="trailing" secondItem="CYk-l7-Vt8" secondAttribute="trailing" constant="127" id="qK7-qN-F17"/>
@@ -308,6 +335,111 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8RE-au-UAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1839.970717423133" y="83.7890625"/>
+        </scene>
+        <!--Newsletter Pop UpVC-->
+        <scene sceneID="tpT-Fq-dUg">
+            <objects>
+                <viewController id="QvX-78-0vR" customClass="NewsletterPopUpVC" customModule="CCWG_Missions_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E7a-E6-a4x">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1CU-42-uga">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="xT3-iW-64Z">
+                                    <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUG-zd-G6h" customClass="DesignableView" customModule="CCWG_Missions_App" customModuleProvider="target">
+                                            <rect key="frame" x="503" y="332" width="360" height="360"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="8FO-Wb-jvJ">
+                                                    <rect key="frame" x="30" y="116.5" width="300" height="128.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter email address" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eto-kZ-GA6">
+                                                            <rect key="frame" x="0.0" y="0.0" width="300" height="20.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UyO-md-Y9v">
+                                                            <rect key="frame" x="0.0" y="44.5" width="300" height="30"/>
+                                                            <nil key="textColor"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <textInputTraits key="textInputTraits"/>
+                                                        </textField>
+                                                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIA-b0-ecO" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="98.5" width="300" height="30"/>
+                                                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <state key="normal" title="Sign Up">
+                                                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                    <real key="value" value="2"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="4"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                            <connections>
+                                                                <action selector="signUp:" destination="QvX-78-0vR" eventType="touchUpInside" id="yje-WD-DBt"/>
+                                                            </connections>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="300" id="6XG-73-uJR"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbe-J2-Dhg">
+                                                    <rect key="frame" x="306" y="8" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="X"/>
+                                                    <connections>
+                                                        <action selector="closePupUp:" destination="QvX-78-0vR" eventType="touchUpInside" id="Djx-Y7-5Yt"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.44248975940000002" green="0.73463182660000004" blue="0.96993559600000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstItem="8FO-Wb-jvJ" firstAttribute="centerY" secondItem="fUG-zd-G6h" secondAttribute="centerY" id="5FO-0C-aBC"/>
+                                                <constraint firstAttribute="width" constant="360" id="FMO-63-bDt"/>
+                                                <constraint firstItem="8FO-Wb-jvJ" firstAttribute="centerX" secondItem="fUG-zd-G6h" secondAttribute="centerX" id="a9y-P7-qfF"/>
+                                                <constraint firstAttribute="height" constant="360" id="eR1-nM-cU9"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="7"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="fUG-zd-G6h" firstAttribute="centerY" secondItem="xT3-iW-64Z" secondAttribute="centerY" id="Oim-zJ-yYz"/>
+                                        <constraint firstItem="fUG-zd-G6h" firstAttribute="centerX" secondItem="xT3-iW-64Z" secondAttribute="centerX" id="Pcf-zH-7nF"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1CU-42-uga" firstAttribute="top" secondItem="E7a-E6-a4x" secondAttribute="top" id="K9Q-9M-LTr"/>
+                            <constraint firstItem="1CU-42-uga" firstAttribute="bottom" secondItem="Ul2-cK-ZHZ" secondAttribute="bottom" id="YP2-cR-Qvr"/>
+                            <constraint firstItem="1CU-42-uga" firstAttribute="leading" secondItem="E7a-E6-a4x" secondAttribute="leading" id="l5T-aB-vTy"/>
+                            <constraint firstAttribute="trailing" secondItem="1CU-42-uga" secondAttribute="trailing" id="xkH-4I-v2P"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ul2-cK-ZHZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="UyO-md-Y9v" id="aFD-18-zyI"/>
+                        <outlet property="signUpButton" destination="WIA-b0-ecO" id="q2i-PC-VsF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mPE-UV-LsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1852.7086383601757" y="801.5625"/>
         </scene>
     </scenes>
     <resources>
