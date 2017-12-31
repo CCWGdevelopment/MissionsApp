@@ -351,10 +351,10 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUG-zd-G6h" customClass="DesignableView" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                            <rect key="frame" x="503" y="332" width="360" height="360"/>
+                                            <rect key="frame" x="503" y="133" width="360" height="360"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="8FO-Wb-jvJ">
-                                                    <rect key="frame" x="30" y="116.5" width="300" height="128.5"/>
+                                                    <rect key="frame" x="30" y="143.5" width="300" height="74.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter email address" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eto-kZ-GA6">
                                                             <rect key="frame" x="0.0" y="0.0" width="300" height="20.5"/>
@@ -366,25 +366,21 @@
                                                             <rect key="frame" x="0.0" y="44.5" width="300" height="30"/>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                            <textInputTraits key="textInputTraits"/>
+                                                            <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done" textContentType="email"/>
                                                         </textField>
-                                                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIA-b0-ecO" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="98.5" width="300" height="30"/>
-                                                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <state key="normal" title="Sign Up">
-                                                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            </state>
+                                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTV-9A-eAx" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="74.5" width="300" height="0.0"/>
+                                                            <state key="normal" title="Sign Up"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                                                     <real key="value" value="2"/>
                                                                 </userDefinedRuntimeAttribute>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                    <real key="value" value="4"/>
+                                                                    <real key="value" value="5"/>
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
                                                             <connections>
-                                                                <action selector="signUp:" destination="QvX-78-0vR" eventType="touchUpInside" id="yje-WD-DBt"/>
+                                                                <action selector="signUp:" destination="QvX-78-0vR" eventType="touchUpInside" id="161-C5-rI0"/>
                                                             </connections>
                                                         </button>
                                                     </subviews>
@@ -416,7 +412,7 @@
                                         </view>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="fUG-zd-G6h" firstAttribute="centerY" secondItem="xT3-iW-64Z" secondAttribute="centerY" id="Oim-zJ-yYz"/>
+                                        <constraint firstItem="fUG-zd-G6h" firstAttribute="centerY" secondItem="xT3-iW-64Z" secondAttribute="centerY" constant="-199" id="Oim-zJ-yYz"/>
                                         <constraint firstItem="fUG-zd-G6h" firstAttribute="centerX" secondItem="xT3-iW-64Z" secondAttribute="centerX" id="Pcf-zH-7nF"/>
                                     </constraints>
                                 </view>
@@ -434,7 +430,7 @@
                     </view>
                     <connections>
                         <outlet property="emailTextField" destination="UyO-md-Y9v" id="aFD-18-zyI"/>
-                        <outlet property="signUpButton" destination="WIA-b0-ecO" id="q2i-PC-VsF"/>
+                        <outlet property="signUpButton" destination="BTV-9A-eAx" id="P4V-31-jK1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mPE-UV-LsK" userLabel="First Responder" sceneMemberID="firstResponder"/>

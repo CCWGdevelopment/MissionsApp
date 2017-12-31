@@ -32,12 +32,12 @@ class Missionary {
     let courtneyinfoLong = "Courtney Nusslock bio and current ministry update placeholder"
     let nusslockinfoShort = "Jeff and Burnadette are serving full time in Rosarito, Mexico"
     let nusslockinfoLong = "Jeff and Burnadette bio and current ministry update placeholder"
-    let vincentinfoShort = "A short blurb about the Vincent family goes here"
-    let vincentinfoLong = "Vincent family bio and current ministry update placeholder"
+    let vincentinfoShort = "A short blurb about Pastor Mike and Sarah Vincent goes here"
+    let vincentinfoLong = "Pastor Mike and Sarah Vincent bio and current ministry update placeholder"
 
-    var courtneyNusslock = Missionary(name: "Courtney Nusslock", image: "courtneynusslock", infoShort: courtneyinfoShort, infoLong: courtneyinfoLong, email: "")
-    var nusslock = Missionary(name: "Jeff and Burnadette Nusslock", image: "nusslock", infoShort: nusslockinfoShort, infoLong: nusslockinfoLong, email: "")
-    var vincentFamily = Missionary(name: "Vincent Family", image: "vincent", infoShort: vincentinfoShort, infoLong: vincentinfoLong, email: "")
+    var courtneyNusslock = Missionary(name: "Courtney Nusslock", image: "courtneynusslock", infoShort: courtneyinfoShort, infoLong: courtneyinfoLong, email: "cjnusslock@icloud.com")
+    var nusslock = Missionary(name: "Jeff and Burnadette Nusslock", image: "nusslock", infoShort: nusslockinfoShort, infoLong: nusslockinfoLong, email: "compeloutreach@gmail.com")
+    var vincentFamily = Missionary(name: "Pastor Mike and Sarah Vincent", image: "vincent", infoShort: vincentinfoShort, infoLong: vincentinfoLong, email: "calvarychapelrosarito@yahoo.com")
 
 
     // North America Missionary Arrays
@@ -51,25 +51,25 @@ class Missionary {
 
     // Africa Missionaries
 
-    let gaonainfoShort = "A short blurb about Bond and Heather goes here."
-    let gaonainfoLong = "Bond and Heather Gaona bio and current ministry update placeholder"
-    let abaleinfoShort = "A short blurb about John Bosco and Janay goes here."
-    let abaleinfoLong = "John Bosco and Janay Abale bio and current ministry update placeholder"
-    let nyikainfoShort = "A short blurb about Nyika family goes here."
-    let nyikainfoLong = "Nyika family bio and current ministry update placeholder"
-    let onzimainfoShort = "A short blurb about Onzima family goes here."
-    let onzimainfoLong = "Onzima family bio and current ministry update placeholder"
-    let douglassinfoShort = " A short blurb about the Douglass family goes here."
-    let douglassinfoLong = "Douglass family bio and current ministry update placeholder"
+    let gaonainfoShort = "A short blurb about Pastor Bond and Heather goes here."
+    let gaonainfoLong = "Pastor Bond and Heather Gaona bio and current ministry update placeholder"
+    let abaleinfoShort = "A short blurb about Pastor John Bosco and Janay goes here."
+    let abaleinfoLong = "Pastor John Bosco and Janay Abale bio and current ministry update placeholder"
+    let nyikainfoShort = "A short blurb about Pastor James and Jane Nyika goes here."
+    let nyikainfoLong = "Pastor James and Jane Nyika bio and current ministry update placeholder"
+    let onzimainfoShort = "A short blurb about Pastor David and Medline Onzima goes here."
+    let onzimainfoLong = "Pastor David and Medline Onzima bio and current ministry update placeholder"
+    let douglassinfoShort = " A short blurb about Pastor Rob and Heidi Douglass goes here."
+    let douglassinfoLong = "Pastor Rob and Heidi Douglass bio and current ministry update placeholder"
     let emukuinfoShort = "A short blurb about the Emuku family goes here."
     let emukuinfoLong = "Emuku family bio and current ministry update placeholder"
 
-    var gaona = Missionary(name: "Bond and Heather Gaona", image: "gaona", infoShort: gaonainfoShort, infoLong: gaonainfoLong, email: "")
-    var abale = Missionary(name: "John Bosco and Janay Abale", image: "", infoShort: abaleinfoShort, infoLong: abaleinfoLong, email: "pippil88@yahoo.com")
-    var nyika = Missionary(name: "Nyika Family", image: "nyika", infoShort: nyikainfoShort, infoLong: nyikainfoLong, email: "")
-    var onzima = Missionary(name: "Onzima Family", image: "onzima", infoShort: onzimainfoShort, infoLong: onzimainfoLong, email: "")
-    var douglass = Missionary(name: "Douglass Family", image: "douglass", infoShort: douglassinfoShort, infoLong: douglassinfoLong, email: "")
-    var emuku = Missionary(name: "Emuku Family", image: "emuku", infoShort: emukuinfoShort, infoLong: emukuinfoLong, email: "")
+    var gaona = Missionary(name: "Pastor Bond and Heather Gaona", image: "gaona", infoShort: gaonainfoShort, infoLong: gaonainfoLong, email: "bond@sgwm.com")
+    var abale = Missionary(name: "Pastor John Bosco and Janay Abale", image: "", infoShort: abaleinfoShort, infoLong: abaleinfoLong, email: "pippil88@yahoo.com")
+    var nyika = Missionary(name: "Pastor James and Jane Nyika", image: "nyika", infoShort: nyikainfoShort, infoLong: nyikainfoLong, email: "jamesandjanenyika@gmail.com")
+    var onzima = Missionary(name: "Pastor David and Medline Onzima", image: "onzima", infoShort: onzimainfoShort, infoLong: onzimainfoLong, email: "calvarychapelarua@gmail.com")
+    var douglass = Missionary(name: "Pastor Rob and Heidi Douglass", image: "douglass", infoShort: douglassinfoShort, infoLong: douglassinfoLong, email: "douglass.rob@gmail.com")
+    var emuku = Missionary(name: "Emuku Family", image: "emuku", infoShort: emukuinfoShort, infoLong: emukuinfoLong, email: "emukujuv@yahoo.com")
 
 
     // Africa Missionary Arrays
@@ -87,21 +87,22 @@ class Missionary {
     let garciainfoLong = "Aaron and Jena Garcia bio and current ministry update placeholder"
     let sarkarinfoShort = "A short blurb about Pankaj and Tonielle goes here."
     let sarkarinfoLong = "Pankaj and Tonielle Sarkar bio and current ministry update placeholder"
-    let davisinfoShort = "A short blurb about the Jim and Shonda Davis goes here"
+    let davisinfoShort = "A short blurb about Jim and Shonda Davis goes here"
     let davisinfoLong = "Jim and Shonda Davis bio and current ministry update placeholder"
+    let daliyainfoShort = "A short blurb about Pastor Manoj and Nasreen Daliya goes here"
 
-    var garcia = Missionary(name: "Aaron and Jenna Garcia", image: "garcia", infoShort: garciainfoShort, infoLong: garciainfoLong, email: "")
-    var sarkar = Missionary(name: "Pankaj and Tonielle Sarkar", image: "sarkar", infoShort: sarkarinfoShort, infoLong: sarkarinfoLong, email: "")
-    var davis = Missionary(name: "Davis Family", image: "davis", infoShort: davisinfoShort, infoLong: davisinfoLong, email: "")
+    var garcia = Missionary(name: "Aaron and Jenna Garcia", image: "garcia", infoShort: garciainfoShort, infoLong: garciainfoLong, email: "garciaccwgmissions@gmail.com")
+    var sarkar = Missionary(name: "Pankaj and Tonielle Sarkar", image: "sarkar", infoShort: sarkarinfoShort, infoLong: sarkarinfoLong, email: "Sarkar@sgwm.com")
+    var davis = Missionary(name: "Jim and Shonda Davis", image: "davis", infoShort: davisinfoShort, infoLong: davisinfoLong, email: "ptadavis@aol.com")
 
 
     // Asia Missionary Arrays
 
-    var asiaMissionaryName:[String] = [garcia.name, sarkar.name, davis.name]
-    var asiaMissionaryImage:[String] = [garcia.image, sarkar.image, davis.image]
-    var asiaMissionaryinfoShort:[String] = [garcia.infoShort, sarkar.infoShort, davis.infoShort]
-    var asiaMissionaryinfoLong:[String] = [garcia.infoLong, sarkar.infoLong, davis.infoLong]
-    var asiaMissionaryEmail:[String] = [garcia.email, sarkar.email, davis.email]
+    var asiaMissionaryName:[String] = [gaona.name, garcia.name, sarkar.name, davis.name]
+    var asiaMissionaryImage:[String] = [gaona.image, garcia.image, sarkar.image, davis.image]
+    var asiaMissionaryinfoShort:[String] = [gaona.infoShort, garcia.infoShort, sarkar.infoShort, davis.infoShort]
+var asiaMissionaryinfoLong:[String] = [gaona.infoLong, garcia.infoLong, sarkar.infoLong, davis.infoLong]
+    var asiaMissionaryEmail:[String] = [gaona.email, garcia.email, sarkar.email, davis.email]
 
 
     // Pacific Islands Missionaries
@@ -123,10 +124,10 @@ class Missionary {
 
     // Carribean Missionaries
 
-    let bastiainfoShort = "A short blurb about Bastia goes here."
-    let bastiainfoLong = "Bastia bio and current ministry update placeholder"
+    let bastiainfoShort = "A short blurb about Pastor Huguener Bastia goes here."
+    let bastiainfoLong = "Pastor Huguener Bastia bio and current ministry update placeholder"
 
-    var bastia = Missionary(name: "Bastia", image: "bastia", infoShort: bastiainfoShort, infoLong: bastiainfoLong, email: "")
+    var bastia = Missionary(name: "Pastor Huguener Bastia", image: "bastia", infoShort: bastiainfoShort, infoLong: bastiainfoLong, email: "cccgetsaved@yahoo.com")
 
 
     // Carribean Missionary Arrays

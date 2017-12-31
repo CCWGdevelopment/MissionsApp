@@ -46,10 +46,10 @@ class NewsletterPopUpVC: UIViewController, MFMailComposeViewControllerDelegate {
     
     @objc func setButton(textField: UITextField) {
         if emailTextField.text == "" {
-            signUpButton.isEnabled = false
+            signUpButton.isHidden = true
         }
         else {
-            signUpButton.isEnabled = true
+            signUpButton.isHidden = false
         }
     }
     
