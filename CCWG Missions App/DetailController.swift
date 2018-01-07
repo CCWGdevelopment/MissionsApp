@@ -54,6 +54,33 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         else if selectedCountry == "Africa" {
             return africaMissionaryName.count
         }
+        else if selectedCountry == "Haiti" {
+            return haitiMissionaryName.count
+        }
+        else if selectedCountry == "India" {
+            return indiaMissionaryName.count
+        }
+        else if selectedCountry == "Italy" {
+            return italyMissionaryName.count
+        }
+        else if selectedCountry == "Mexico" {
+            return mexicoMissionaryName.count
+        }
+        else if selectedCountry == "Nepal" {
+            return nepalMissionaryName.count
+        }
+        else if selectedCountry == "New Zealand" {
+            return newzealandMissionaryName.count
+        }
+        else if selectedCountry == "Philippines" {
+            return philippinesMissionaryName.count
+        }
+        else if selectedCountry == "South Sudan" {
+            return southsudanMissionaryName.count
+        }
+        else if selectedCountry == "Uganda" {
+            return ugandaMissionaryName.count
+        }
         else {
             return asiaMissionaryName.count
         }
@@ -87,6 +114,123 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             cell.missionaryNameLabel.text = africaMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = africaMissionaryinfoShort[indexPath.row]
             cell.missionaryImageView.image = UIImage(named: africaMissionaryImage[indexPath.row])
+            
+        }
+        else if selectedCountry == "Haiti" {
+            
+            selectedNameArray = haitiMissionaryName
+            selectedImageArray = haitiMissionaryImage
+            selectedShortInfoArray = haitiMissionaryinfoShort
+            selectedLongInfoArray = haitiMissionaryinfoLong
+            selectedEmailArray = haitiMissionaryEmail
+            
+            cell.missionaryNameLabel.text = haitiMissionaryName[indexPath.row]
+            cell.missionaryInfoLabel.text = haitiMissionaryinfoShort[indexPath.row]
+            cell.missionaryImageView.image = UIImage(named: haitiMissionaryImage[indexPath.row])
+            
+        }
+        else if selectedCountry == "India" {
+            
+            selectedNameArray = indiaMissionaryName
+            selectedImageArray = indiaMissionaryImage
+            selectedShortInfoArray = indiaMissionaryinfoShort
+            selectedLongInfoArray = indiaMissionaryinfoLong
+            selectedEmailArray = indiaMissionaryEmail
+            
+            cell.missionaryNameLabel.text = indiaMissionaryName[indexPath.row]
+            cell.missionaryInfoLabel.text = indiaMissionaryinfoShort[indexPath.row]
+            cell.missionaryImageView.image = UIImage(named: indiaMissionaryImage[indexPath.row])
+            
+        }
+        else if selectedCountry == "Italy" {
+            
+            selectedNameArray = italyMissionaryName
+            selectedImageArray = italyMissionaryImage
+            selectedShortInfoArray = italyMissionaryinfoShort
+            selectedLongInfoArray = italyMissionaryinfoLong
+            selectedEmailArray = italyMissionaryEmail
+            
+            cell.missionaryNameLabel.text = italyMissionaryName[indexPath.row]
+            cell.missionaryInfoLabel.text = italyMissionaryinfoShort[indexPath.row]
+            cell.missionaryImageView.image = UIImage(named: italyMissionaryImage[indexPath.row])
+            
+        }
+        else if selectedCountry == "Mexico" {
+            
+            selectedNameArray = mexicoMissionaryName
+            selectedImageArray = mexicoMissionaryImage
+            selectedShortInfoArray = mexicoMissionaryinfoShort
+            selectedLongInfoArray = mexicoMissionaryinfoLong
+            selectedEmailArray = mexicoMissionaryEmail
+            
+            cell.missionaryNameLabel.text = mexicoMissionaryName[indexPath.row]
+            cell.missionaryInfoLabel.text = mexicoMissionaryinfoShort[indexPath.row]
+            cell.missionaryImageView.image = UIImage(named: mexicoMissionaryImage[indexPath.row])
+            
+        }
+        else if selectedCountry == "Nepal" {
+            
+            selectedNameArray = nepalMissionaryName
+            selectedImageArray = nepalMissionaryImage
+            selectedShortInfoArray = nepalMissionaryinfoShort
+            selectedLongInfoArray = nepalMissionaryinfoLong
+            selectedEmailArray = nepalMissionaryEmail
+            
+            cell.missionaryNameLabel.text = nepalMissionaryName[indexPath.row]
+            cell.missionaryInfoLabel.text = nepalMissionaryinfoShort[indexPath.row]
+            cell.missionaryImageView.image = UIImage(named: nepalMissionaryImage[indexPath.row])
+            
+        }
+        else if selectedCountry == "New Zealand" {
+            
+            selectedNameArray = newzealandMissionaryName
+            selectedImageArray = newzealandMissionaryImage
+            selectedShortInfoArray = newzealandMissionaryinfoShort
+            selectedLongInfoArray = newzealandMissionaryinfoLong
+            selectedEmailArray = newzealandMissionaryEmail
+            
+            cell.missionaryNameLabel.text = newzealandMissionaryName[indexPath.row]
+            cell.missionaryInfoLabel.text = newzealandMissionaryinfoShort[indexPath.row]
+            cell.missionaryImageView.image = UIImage(named: newzealandMissionaryImage[indexPath.row])
+            
+        }
+        else if selectedCountry == "Philippines" {
+            
+            selectedNameArray = philippinesMissionaryName
+            selectedImageArray = philippinesMissionaryImage
+            selectedShortInfoArray = philippinesMissionaryinfoShort
+            selectedLongInfoArray = philippinesMissionaryinfoLong
+            selectedEmailArray = philippinesMissionaryEmail
+            
+            cell.missionaryNameLabel.text = philippinesMissionaryName[indexPath.row]
+            cell.missionaryInfoLabel.text = philippinesMissionaryinfoShort[indexPath.row]
+            cell.missionaryImageView.image = UIImage(named: philippinesMissionaryImage[indexPath.row])
+            
+        }
+        else if selectedCountry == "South Sudan" {
+            
+            selectedNameArray = southsudanMissionaryName
+            selectedImageArray = southsudanMissionaryImage
+            selectedShortInfoArray = southsudanMissionaryinfoShort
+            selectedLongInfoArray = southsudanMissionaryinfoLong
+            selectedEmailArray = southsudanMissionaryEmail
+            
+            cell.missionaryNameLabel.text = southsudanMissionaryName[indexPath.row]
+            cell.missionaryInfoLabel.text = southsudanMissionaryinfoShort[indexPath.row]
+            cell.missionaryImageView.image = UIImage(named: southsudanMissionaryImage[indexPath.row])
+            
+        }
+        else if selectedCountry == "Uganda" {
+            
+            selectedNameArray = ugandaMissionaryName
+            selectedImageArray = ugandaMissionaryImage
+            selectedShortInfoArray = ugandaMissionaryinfoShort
+            selectedLongInfoArray = ugandaMissionaryinfoLong
+            selectedEmailArray = ugandaMissionaryEmail
+            
+            cell.missionaryNameLabel.text = ugandaMissionaryName[indexPath.row]
+            cell.missionaryInfoLabel.text = ugandaMissionaryinfoShort[indexPath.row]
+            cell.missionaryImageView.image = UIImage(named: ugandaMissionaryImage[indexPath.row])
             
         }
         else {
