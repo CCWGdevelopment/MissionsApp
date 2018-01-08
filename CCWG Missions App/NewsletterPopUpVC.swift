@@ -17,9 +17,8 @@ class NewsletterPopUpVC: UIViewController, UITextFieldDelegate, MFMailComposeVie
     
     
     override func viewDidLoad() {
-        super.viewDidLoad()
         
-        emailTextField.addTarget(self, action: #selector(setButton(textField:)), for: UIControlEvents.editingChanged)
+        super.viewDidLoad()
         
     }
 
@@ -69,14 +68,16 @@ class NewsletterPopUpVC: UIViewController, UITextFieldDelegate, MFMailComposeVie
     
     // Hide button when the email text field is blank. Unhide button when there is text
     
-    @objc func setButton(textField: UITextField) {
-        if emailTextField.text == "" {
-            signUpButton.isHidden = true
-        }
-        else {
-            signUpButton.isHidden = false
-        }
-    }
+//    @objc func setButton(textField: UITextField) {
+//        if emailTextField.text == "" {
+//            signUpButton.isEnabled = false
+//            signUpButton.backgroundColor = UIColor.clear
+//        }
+//        else {
+//            signUpButton.isEnabled = true
+//            signUpButton.backgroundColor = UIColor.cyan
+//        }
+//    }
     
     // Email view controller
     

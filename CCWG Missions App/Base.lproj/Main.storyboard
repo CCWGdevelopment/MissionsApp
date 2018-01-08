@@ -354,7 +354,7 @@
                                             <rect key="frame" x="503" y="133" width="360" height="360"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="8FO-Wb-jvJ">
-                                                    <rect key="frame" x="30" y="143.5" width="300" height="74.5"/>
+                                                    <rect key="frame" x="30" y="116.5" width="300" height="128.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter email address" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eto-kZ-GA6">
                                                             <rect key="frame" x="0.0" y="0.0" width="300" height="20.5"/>
@@ -371,8 +371,9 @@
                                                                 <outlet property="delegate" destination="QvX-78-0vR" id="VbH-gS-8ly"/>
                                                             </connections>
                                                         </textField>
-                                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTV-9A-eAx" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="74.5" width="300" height="0.0"/>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTV-9A-eAx" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="98.5" width="300" height="30"/>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <state key="normal" title="Sign Up"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
