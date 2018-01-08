@@ -137,7 +137,7 @@ class Missionary {
     var asiaMissionaryEmail:[String] = [gaona.email, garcia.email, sarkar.email]
 
 
-////////////   Updated missionarys and arrays ///////////
+////////////   Updated missionarys and arrays   ///////////
 
 
     // Haiti arrays

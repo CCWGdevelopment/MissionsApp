@@ -34,15 +34,31 @@ class NewsletterPopUpVC: UIViewController, MFMailComposeViewControllerDelegate {
     
     
     @IBAction func signUp(_ sender: Any) {
-        let mailComposeViewController = configuredMailComposeViewController()
-        if MFMailComposeViewController.canSendMail() {
-            self.present(mailComposeViewController, animated: true, completion: nil)
+        let providedEmailAddress = emailTextField.text
+        
+        let isEmailAddressValid = isValidEmailAddress(emailAddressString: providedEmailAddress!)
+        
+        if isEmailAddressValid{
+            
+            let mailComposeViewController = configuredMailComposeViewController()
+            
+            if MFMailComposeViewController.canSendMail() {
+                self.present(mailComposeViewController, animated: true, completion: nil)
+            }
+            else {
+                self.showSendMailErrorAlert()
+            }
         }
         else {
-            self.showSendMailErrorAlert()
+            print ("Invalid")
+            displayAlertMessage(messageToDisplay: "Please enter a valid email address")
         }
         
+
+        
     }
+    
+    // Hide button when the email text field is blank. Unhide button when there is text
     
     @objc func setButton(textField: UITextField) {
         if emailTextField.text == "" {
@@ -52,6 +68,8 @@ class NewsletterPopUpVC: UIViewController, MFMailComposeViewControllerDelegate {
             signUpButton.isHidden = false
         }
     }
+    
+    // Email view controller
     
     func configuredMailComposeViewController() -> MFMailComposeViewController {
         let mailComposerVC = MFMailComposeViewController()
@@ -85,5 +103,48 @@ class NewsletterPopUpVC: UIViewController, MFMailComposeViewControllerDelegate {
         }
     }
     
+    // email text field validation
+    
+    func isValidEmailAddress(emailAddressString: String) -> Bool {
+        
+        var returnValue = true
+        let emailRegEx = "[A-Z0-9a-z.-_]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,3}"
+        
+        do {
+            let regex = try NSRegularExpression(pattern: emailRegEx)
+            let nsString = emailAddressString as NSString
+            let results = regex.matches(in: emailAddressString, range: NSRange(location: 0, length: nsString.length))
+            
+            if results.count == 0
+            {
+                returnValue = false
+            }
+            
+        } catch let error as NSError {
+            print("invalid regex: \(error.localizedDescription)")
+            returnValue = false
+        }
+        
+        return  returnValue
+    }
+    
+    // Alert dialogue for email text field validation
 
+    func displayAlertMessage(messageToDisplay: String){
+        let alertController = UIAlertController(title: "Invalid Email Address", message: messageToDisplay, preferredStyle: .alert)
+        
+        let OKAction = UIAlertAction(title: "OK", style: .default) { (action:UIAlertAction!) in
+            
+            // Code in this block will trigger when OK button tapped.
+            print("Ok button tapped");
+            
+        }
+        
+        alertController.addAction(OKAction)
+        
+        self.present(alertController, animated: true, completion:nil)
+    }
+    
+
+    
 }
