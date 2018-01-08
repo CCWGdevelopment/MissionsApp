@@ -10,7 +10,7 @@ import UIKit
 import Foundation
 import MessageUI
 
-class NewsletterPopUpVC: UIViewController, MFMailComposeViewControllerDelegate {
+class NewsletterPopUpVC: UIViewController, UITextFieldDelegate, MFMailComposeViewControllerDelegate {
     
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var signUpButton: DesignableButton!
@@ -26,6 +26,15 @@ class NewsletterPopUpVC: UIViewController, MFMailComposeViewControllerDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if emailTextField.text == ""{
+            self.dismiss(animated: true, completion: nil)
+        }
+        else{
+            self.view.endEditing(true)
+        }
     }
     
     @IBAction func closePupUp(_ sender: Any) {
@@ -145,6 +154,11 @@ class NewsletterPopUpVC: UIViewController, MFMailComposeViewControllerDelegate {
         self.present(alertController, animated: true, completion:nil)
     }
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        signUp((Any).self)
+        emailTextField.resignFirstResponder()
+        return true
+    }
 
     
 }
