@@ -28,66 +28,77 @@ class ViewController: UIViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //        let detail:DetailController = segue.destination as! DetailController
+        
+        
+    /************************   DESIGN NOTE   *******************************
+         
+         Please type all 'selectedTitle' text capitalized for now
+         Hopefully future implementation of an 'All Caps' style can fix that
+         - Brandon
+         
+    ************************************************************************/
+        
+        
         if segue.identifier == "NorthAmerica" {
             
             selectedCountry = "North America"
             selectedImage = "northamerica"
-            selectedTitle = "NA Title"
+            selectedTitle = "NORTH AMERICA"
         }
         else if segue.identifier == "Africa" {
             selectedCountry = "Africa"
             selectedImage = "africa"
-            selectedTitle = "Africa Title"
+            selectedTitle = "AFRICA"
         }
         else if segue.identifier == "China" {
             selectedCountry = "China"
             selectedImage = "china"
-            selectedTitle = "China"
+            selectedTitle = "CHINA"
         }
         else if segue.identifier == "Haiti" {
             selectedCountry = "Haiti"
             selectedImage = "haiti"
-            selectedTitle = "Haiti"
+            selectedTitle = "HAITI"
         }
         else if segue.identifier == "India" {
             selectedCountry = "India"
             selectedImage = "india"
-            selectedTitle = "India"
+            selectedTitle = "INDIA"
         }
         else if segue.identifier == "Italy" {
             selectedCountry = "Italy"
             selectedImage = "italy"
-            selectedTitle = "Italy"
+            selectedTitle = "ITALY"
         }
         else if segue.identifier == "Kenya" {
             selectedCountry = "Kenya"
             selectedImage = "kenya"
-            selectedTitle = "Kenya"
+            selectedTitle = "KENYA"
         }
         else if segue.identifier == "Mexico" {
             selectedCountry = "Mexico"
             selectedImage = "mexico"
-            selectedTitle = "Mexico"
+            selectedTitle = "MEXICO"
         }
         else if segue.identifier == "Nepal" {
             selectedCountry = "Nepal"
             selectedImage = "nepal"
-            selectedTitle = "Nepal"
+            selectedTitle = "NEPAL"
         }
         else if segue.identifier == "New Zealand" {
             selectedCountry = "New Zealand"
             selectedImage = "newzealand"
-            selectedTitle = "New Zealand"
+            selectedTitle = "NEW ZEALAND"
         }
         else if segue.identifier == "Philippines" {
             selectedCountry = "Philippines"
             selectedImage = "philippines"
-            selectedTitle = "Philippines"
+            selectedTitle = "PHILIPPINES"
         }
         else if segue.identifier == "South Sudan" {
             selectedCountry = "South Sudan"
             selectedImage = "southsudan"
-            selectedTitle = "South Sudan"
+            selectedTitle = "SOUTH SUDAN"
         }
         else if segue.identifier == "USA" {
             selectedCountry = "USA"
@@ -97,12 +108,12 @@ class ViewController: UIViewController {
         else if segue.identifier == "Uganda" {
             selectedCountry = "Uganda"
             selectedImage = "uganda"
-            selectedTitle = "Uganda"
+            selectedTitle = "UGANDA"
         }
         else {
             selectedCountry = "Asia"
             selectedImage = "asia"
-            selectedTitle = "Asia Title"
+            selectedTitle = "ASIA"
         }
     }
 

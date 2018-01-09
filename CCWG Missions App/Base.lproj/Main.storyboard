@@ -79,8 +79,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zZR-Ok-ZWl">
-                                <rect key="frame" x="0.0" y="0.0" width="1366" height="319"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zZR-Ok-ZWl">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="360"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="319" id="KvX-HF-GPF"/>
                                 </constraints>
@@ -97,8 +97,8 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="xde-v3-i2C"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dBg-R0-A1h">
-                                <rect key="frame" x="0.0" y="452" width="1366" height="572"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dBg-R0-A1h">
+                                <rect key="frame" x="0.0" y="649" width="1366" height="375"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="572" id="3m1-za-X3d"/>
@@ -157,10 +157,10 @@
                                     <outlet property="delegate" destination="Vrc-FP-bOJ" id="1hl-JP-Gzc"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spe-3i-cwz">
-                                <rect key="frame" x="666" y="327" width="34" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spe-3i-cwz">
+                                <rect key="frame" x="0.0" y="65" width="1366" height="230"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="100"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -172,10 +172,10 @@
                             <constraint firstItem="zZR-Ok-ZWl" firstAttribute="leading" secondItem="dBg-R0-A1h" secondAttribute="leading" id="AgQ-IN-Hbb"/>
                             <constraint firstItem="zZR-Ok-ZWl" firstAttribute="top" secondItem="aEL-XQ-Iy1" secondAttribute="top" id="AwA-1G-GjV"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="I50-aE-y8X" secondAttribute="trailing" constant="20" symbolic="YES" id="DSe-C6-SOG"/>
+                            <constraint firstItem="spe-3i-cwz" firstAttribute="centerX" secondItem="zZR-Ok-ZWl" secondAttribute="centerX" id="F5l-OF-OJg"/>
                             <constraint firstItem="dBg-R0-A1h" firstAttribute="bottom" secondItem="3sZ-Av-cgz" secondAttribute="bottom" id="UcR-UK-vLY"/>
                             <constraint firstAttribute="trailing" secondItem="dBg-R0-A1h" secondAttribute="trailing" id="ZK6-J6-qd0"/>
-                            <constraint firstItem="dBg-R0-A1h" firstAttribute="centerX" secondItem="spe-3i-cwz" secondAttribute="centerX" id="cmm-il-tTu"/>
-                            <constraint firstItem="spe-3i-cwz" firstAttribute="top" secondItem="zZR-Ok-ZWl" secondAttribute="bottom" constant="8" symbolic="YES" id="njR-f6-48S"/>
+                            <constraint firstItem="spe-3i-cwz" firstAttribute="centerY" secondItem="zZR-Ok-ZWl" secondAttribute="centerY" id="rw5-TH-z5z"/>
                             <constraint firstItem="zZR-Ok-ZWl" firstAttribute="trailing" secondItem="dBg-R0-A1h" secondAttribute="trailing" id="y6Y-bb-5wm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3sZ-Av-cgz"/>
@@ -446,6 +446,7 @@
         <image name="ipadpro129" width="910" height="682"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="WJ0-Sj-XOX"/>
         <segue reference="cgM-7R-dv6"/>
     </inferredMetricsTieBreakers>
 </document>
