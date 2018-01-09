@@ -69,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="290.77598828696921" y="84.9609375"/>
+            <point key="canvasLocation" x="138" y="-16"/>
         </scene>
         <!--Detail Controller-->
         <scene sceneID="D9Q-iq-Ofe">
@@ -167,7 +167,7 @@
                                 <rect key="frame" x="20" y="380" width="341" height="190"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNQ-ae-WEt">
-                                <rect key="frame" x="387" y="380" width="456" height="48"/>
+                                <rect key="frame" x="443" y="380" width="456" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -200,24 +200,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bm0-mo-f9m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1089.7510980966324" y="83.7890625"/>
+            <point key="canvasLocation" x="873" y="-16"/>
         </scene>
         <!--Missionary View Controller-->
         <scene sceneID="TX9-Ma-tO2">
             <objects>
-                <viewController id="CZa-xH-fDG" customClass="MissionaryViewController" customModule="CCWG_Missions_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="pageSheet" id="CZa-xH-fDG" customClass="MissionaryViewController" customModule="CCWG_Missions_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jpu-Tq-aSE">
-                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1004"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TpI-4n-8NW">
-                                <rect key="frame" x="0.0" y="0.0" width="1366" height="319"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="319" id="4MQ-g9-OVo"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pyh-Iq-ekc">
-                                <rect key="frame" x="20" y="40" width="44" height="50"/>
+                                <rect key="frame" x="20" y="20" width="44" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="V3h-Pz-QEN"/>
                                     <constraint firstAttribute="height" constant="50" id="Vep-PF-Ydu"/>
@@ -228,41 +222,31 @@
                                     <segue destination="Vrc-FP-bOJ" kind="show" identifier="back" id="cgM-7R-dv6"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Missionary Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vo6-pP-3xc">
-                                <rect key="frame" x="617" y="348" width="132" height="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Missionary Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vo6-pP-3xc">
+                                <rect key="frame" x="20" y="154" width="498" height="87"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="o3M-eR-bkP"/>
+                                    <constraint firstAttribute="height" constant="87" id="tDJ-lE-Rtg"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CYk-l7-Vt8">
-                                <rect key="frame" x="862" y="471" width="377" height="236"/>
+                                <rect key="frame" x="597" y="154" width="380" height="229"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="236" id="S4o-An-Zff"/>
+                                    <constraint firstAttribute="width" constant="380" id="A4P-H0-2eI"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="11o-hs-Swk" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                <rect key="frame" x="862" y="729" width="377" height="120"/>
-                                <color key="backgroundColor" red="0.44248975935153301" green="0.73463182663484861" blue="0.96993559598922729" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="wTZ-rm-U9G"/>
-                                </constraints>
-                                <state key="normal" title="Send Email"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="sendEmail:" destination="CZa-xH-fDG" eventType="touchUpInside" id="h5q-BU-cfc"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fRE-lu-uw3" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                <rect key="frame" x="862" y="871" width="377" height="120"/>
-                                <color key="backgroundColor" red="0.44248975940000002" green="0.73463182660000004" blue="0.96993559600000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Support Missionary"/>
+                                <rect key="frame" x="532" y="478" width="215" height="44"/>
+                                <color key="backgroundColor" red="0.9882352941176471" green="0.36078431372549019" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="215" id="k9Z-ua-xX8"/>
+                                    <constraint firstAttribute="height" constant="44" id="n30-zu-86L"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="SUPPORT"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                         <real key="value" value="1"/>
@@ -278,20 +262,22 @@
                                     <action selector="supportMissionary:" destination="CZa-xH-fDG" eventType="touchUpInside" id="nde-rr-c0K"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Missionary Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QF-9Q-apa">
-                                <rect key="frame" x="63" y="407" width="747" height="469"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="747" id="DUV-Zh-Nou"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Missionary Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QF-9Q-apa">
+                                <rect key="frame" x="63" y="572" width="914" height="393"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ugc-zH-ISq" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                <rect key="frame" x="420" y="871" width="377" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.44248975940000002" green="0.73463182660000004" blue="0.96993559600000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Sign up for newsletter"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ugc-zH-ISq" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
+                                <rect key="frame" x="40" y="478" width="215" height="44"/>
+                                <color key="backgroundColor" red="0.9882352941176471" green="0.36078431372549019" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="215" id="JEI-6P-IID"/>
+                                    <constraint firstAttribute="height" constant="44" id="xWq-VS-TbP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="SIGN UP FOR NEWSLETTER"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                         <real key="value" value="1"/>
@@ -308,29 +294,69 @@
                                     <segue destination="QvX-78-0vR" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="bh1-4f-RlF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eyP-3h-f0e" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
+                                <rect key="frame" x="769" y="478" width="215" height="44"/>
+                                <color key="backgroundColor" red="0.9882352941176471" green="0.36078431372549019" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="HZl-Rw-iGe"/>
+                                    <constraint firstAttribute="width" constant="215" id="pkY-aJ-uZl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="SIGN UP FOR CARE TEAM"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="11o-hs-Swk" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
+                                <rect key="frame" x="283" y="478" width="215" height="44"/>
+                                <color key="backgroundColor" red="0.9882352941176471" green="0.36078431372549019" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="A75-3B-ERX"/>
+                                    <constraint firstAttribute="width" constant="215" id="jNV-UW-2Ig"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="SEND EMAIL"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="sendEmail:" destination="CZa-xH-fDG" eventType="touchUpInside" id="h5q-BU-cfc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="CYk-l7-Vt8" firstAttribute="leading" secondItem="0QF-9Q-apa" secondAttribute="trailing" constant="52" id="B0J-Lz-lsu"/>
-                            <constraint firstItem="11o-hs-Swk" firstAttribute="trailing" secondItem="CYk-l7-Vt8" secondAttribute="trailing" id="B39-AQ-yTU"/>
+                            <constraint firstItem="eyP-3h-f0e" firstAttribute="leading" secondItem="fRE-lu-uw3" secondAttribute="trailing" constant="22" id="EvU-N7-jkq"/>
                             <constraint firstItem="pyh-Iq-ekc" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" constant="20" id="G2e-lU-Xg3"/>
-                            <constraint firstItem="0QF-9Q-apa" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" constant="63" id="HKW-wA-ZjY"/>
-                            <constraint firstItem="fRE-lu-uw3" firstAttribute="leading" secondItem="11o-hs-Swk" secondAttribute="leading" id="I26-zB-jq0"/>
-                            <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="fRE-lu-uw3" secondAttribute="bottom" constant="33" id="NRw-zz-wxX"/>
-                            <constraint firstItem="11o-hs-Swk" firstAttribute="top" secondItem="CYk-l7-Vt8" secondAttribute="bottom" constant="22" id="OUU-Q4-cpr"/>
-                            <constraint firstItem="vo6-pP-3xc" firstAttribute="centerX" secondItem="TpI-4n-8NW" secondAttribute="centerX" id="P6g-U5-fH1"/>
-                            <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="CYk-l7-Vt8" secondAttribute="bottom" constant="317" id="PQ1-iP-7rs"/>
-                            <constraint firstAttribute="trailing" secondItem="TpI-4n-8NW" secondAttribute="trailing" id="WOc-vy-FOV"/>
-                            <constraint firstItem="TpI-4n-8NW" firstAttribute="top" secondItem="Jpu-Tq-aSE" secondAttribute="top" id="Wsu-3K-vES"/>
-                            <constraint firstItem="0QF-9Q-apa" firstAttribute="top" secondItem="vo6-pP-3xc" secondAttribute="bottom" constant="27" id="Y5Q-BY-2Fe"/>
-                            <constraint firstItem="11o-hs-Swk" firstAttribute="leading" secondItem="CYk-l7-Vt8" secondAttribute="leading" id="ZSK-bT-PQF"/>
-                            <constraint firstItem="fRE-lu-uw3" firstAttribute="trailing" secondItem="11o-hs-Swk" secondAttribute="trailing" id="bgq-xF-rLm"/>
-                            <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="0QF-9Q-apa" secondAttribute="bottom" constant="148" id="cdg-u7-zgg"/>
-                            <constraint firstItem="vo6-pP-3xc" firstAttribute="top" secondItem="TpI-4n-8NW" secondAttribute="bottom" constant="29" id="h4O-jP-aEy"/>
-                            <constraint firstItem="TpI-4n-8NW" firstAttribute="leading" secondItem="Jpu-Tq-aSE" secondAttribute="leading" id="o7j-Kg-R7a"/>
-                            <constraint firstItem="ueR-hV-dEk" firstAttribute="trailing" secondItem="CYk-l7-Vt8" secondAttribute="trailing" constant="127" id="qK7-qN-F17"/>
-                            <constraint firstItem="fRE-lu-uw3" firstAttribute="top" secondItem="11o-hs-Swk" secondAttribute="bottom" constant="22" id="qNR-sy-0dF"/>
+                            <constraint firstItem="vo6-pP-3xc" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" constant="20" id="JCN-dr-8Z9"/>
+                            <constraint firstItem="vo6-pP-3xc" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" constant="154" id="OMg-TZ-xid"/>
+                            <constraint firstItem="fRE-lu-uw3" firstAttribute="leading" secondItem="11o-hs-Swk" secondAttribute="trailing" constant="34" id="OcW-jq-eH0"/>
+                            <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="CYk-l7-Vt8" secondAttribute="bottom" constant="621" id="OfY-xv-Cqc"/>
+                            <constraint firstItem="eyP-3h-f0e" firstAttribute="baseline" secondItem="ugc-zH-ISq" secondAttribute="baseline" id="P3u-1n-Ada"/>
+                            <constraint firstItem="CYk-l7-Vt8" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" constant="154" id="QJ1-yH-fDk"/>
+                            <constraint firstItem="vo6-pP-3xc" firstAttribute="leading" secondItem="0QF-9Q-apa" secondAttribute="leading" constant="-43" id="SwI-yM-ZKY"/>
+                            <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="0QF-9Q-apa" secondAttribute="bottom" constant="39" id="a7S-Bd-4Ql"/>
+                            <constraint firstItem="ueR-hV-dEk" firstAttribute="trailing" secondItem="eyP-3h-f0e" secondAttribute="trailing" constant="40" id="dtG-dn-t98"/>
+                            <constraint firstItem="CYk-l7-Vt8" firstAttribute="leading" secondItem="vo6-pP-3xc" secondAttribute="trailing" constant="79" id="kYN-aM-zqQ"/>
+                            <constraint firstItem="ugc-zH-ISq" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" constant="40" id="o2j-S2-HBj"/>
+                            <constraint firstItem="fRE-lu-uw3" firstAttribute="top" secondItem="CYk-l7-Vt8" secondAttribute="bottom" constant="95" id="o6D-BT-uem"/>
+                            <constraint firstItem="ueR-hV-dEk" firstAttribute="trailing" secondItem="0QF-9Q-apa" secondAttribute="trailing" constant="47" id="oOx-6Q-Kl2"/>
+                            <constraint firstItem="ueR-hV-dEk" firstAttribute="trailing" secondItem="CYk-l7-Vt8" secondAttribute="trailing" constant="47" id="qY3-OF-cMT"/>
+                            <constraint firstItem="fRE-lu-uw3" firstAttribute="baseline" secondItem="ugc-zH-ISq" secondAttribute="baseline" id="ued-uD-F2H"/>
                             <constraint firstItem="pyh-Iq-ekc" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" constant="20" id="vGi-tf-iiO"/>
+                            <constraint firstItem="fRE-lu-uw3" firstAttribute="top" secondItem="11o-hs-Swk" secondAttribute="top" id="z3P-qx-X1C"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pyh-Iq-ekc" secondAttribute="trailing" constant="20" symbolic="YES" id="zfl-BC-hX4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ueR-hV-dEk"/>
@@ -339,14 +365,13 @@
                         <outlet property="missionaryBioLabel" destination="0QF-9Q-apa" id="os3-96-ogP"/>
                         <outlet property="missionaryImageViewer" destination="CYk-l7-Vt8" id="Tj3-yE-Rlm"/>
                         <outlet property="missionaryLabel" destination="vo6-pP-3xc" id="h8a-XX-HSA"/>
-                        <outlet property="missionaryTitleImageViewer" destination="TpI-4n-8NW" id="r1a-NW-nMn"/>
                         <outlet property="sendEmailButton" destination="11o-hs-Swk" id="u5E-pA-ZHv"/>
                         <outlet property="supportMissionaryButton" destination="fRE-lu-uw3" id="Xku-50-WM0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8RE-au-UAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1839.970717423133" y="83.7890625"/>
+            <point key="canvasLocation" x="1578" y="-16"/>
         </scene>
         <!--Newsletter Pop UpVC-->
         <scene sceneID="tpT-Fq-dUg">
@@ -413,7 +438,7 @@
                                                     </connections>
                                                 </button>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.44248975940000002" green="0.73463182660000004" blue="0.96993559600000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="8FO-Wb-jvJ" firstAttribute="centerY" secondItem="fUG-zd-G6h" secondAttribute="centerY" id="5FO-0C-aBC"/>
                                                 <constraint firstAttribute="width" constant="360" id="FMO-63-bDt"/>
@@ -451,27 +476,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mPE-UV-LsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1852.7086383601757" y="801.5625"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="nNk-8r-KMA">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7bY-Zp-Vf5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="yNW-yQ-Yal" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="JBE-Dj-Ljf">
-                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="1078" y="880"/>
+            <point key="canvasLocation" x="1578" y="696"/>
         </scene>
     </scenes>
     <resources>
         <image name="ipadpro129" width="910" height="682"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Efc-od-6tb"/>
+        <segue reference="cgM-7R-dv6"/>
     </inferredMetricsTieBreakers>
 </document>

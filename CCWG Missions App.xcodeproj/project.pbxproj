@@ -16,7 +16,7 @@
 		24A854A31FE0DDF200846A37 /* Missionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A854A21FE0DDF200846A37 /* Missionary.swift */; };
 		24DDB3411FDDA922002A0722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDB3401FDDA922002A0722 /* AppDelegate.swift */; };
 		24DDB3431FDDA922002A0722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDB3421FDDA922002A0722 /* ViewController.swift */; };
-		24DDB3461FDDA922002A0722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DDB3441FDDA922002A0722 /* Main.storyboard */; settings = {ASSET_TAGS = ("Country Info", ); }; };
+		24DDB3461FDDA922002A0722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DDB3441FDDA922002A0722 /* Main.storyboard */; };
 		24DDB3481FDDA922002A0722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DDB3471FDDA922002A0722 /* Assets.xcassets */; };
 		24DDB34B1FDDA922002A0722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DDB3491FDDA922002A0722 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */

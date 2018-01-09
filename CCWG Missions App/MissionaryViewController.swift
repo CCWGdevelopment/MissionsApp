@@ -26,7 +26,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         super.viewDidLoad()
         
         missionaryLabel.text = selectedNameArray[missionaryIndex]
-        missionaryTitleImageViewer.image = UIImage(named: selectedImage)
+        //missionaryTitleImageViewer.image = UIImage(named: selectedImage)
         missionaryImageViewer.image = UIImage(named: selectedImageArray[missionaryIndex])
         missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
       
