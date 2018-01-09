@@ -25,6 +25,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     
     @IBOutlet weak var selectedCountryImageViewer: UIImageView!
     @IBOutlet weak var selectedCountryTitle: UILabel!
+    @IBOutlet weak var selectedCountryIcon: UIImageView!
     
     
     override func viewDidLoad() {
@@ -32,6 +33,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
 
         selectedCountryImageViewer.image = UIImage(named: selectedImage)
         selectedCountryTitle.text = selectedTitle
+
         
         // Do any additional setup after loading the view.
     }
