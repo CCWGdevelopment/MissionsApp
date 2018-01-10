@@ -14,6 +14,7 @@ import UIKit
 var selectedCountry:String = ""
 var selectedImage:String = ""
 var selectedTitle:String = ""
+var selectedCountryIcon:String = ""
 var selectedNameArray:[String] = [""]
 var selectedImageArray:[String] = [""]
 var selectedShortInfoArray:[String] = [""]
@@ -25,14 +26,15 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     
     @IBOutlet weak var selectedCountryImageViewer: UIImageView!
     @IBOutlet weak var selectedCountryTitle: UILabel!
-    @IBOutlet weak var selectedCountryIcon: UIImageView!
+    @IBOutlet weak var selectedCountryIconImageViewer: UIImageView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         selectedCountryImageViewer.image = UIImage(named: selectedImage)
-        selectedCountryTitle.text = selectedTitle
+        selectedCountryTitle.text = selectedTitle.uppercased()
+        selectedCountryIconImageViewer.image = UIImage(named: selectedCountryIcon)
 
         
         // Do any additional setup after loading the view.

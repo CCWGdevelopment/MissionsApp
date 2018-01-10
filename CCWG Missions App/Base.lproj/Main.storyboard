@@ -160,23 +160,24 @@
                                 </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spe-3i-cwz">
-                                <rect key="frame" x="439" y="111" width="488" height="120"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="100"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="452.5" y="111" width="461" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wlv-ng-SDe">
-                                <rect key="frame" x="20" y="348" width="412" height="300"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="412" id="fnJ-zB-Qva"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNQ-ae-WEt">
                                 <rect key="frame" x="440" y="380" width="906" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A4Y-Rm-3Bd">
+                                <rect key="frame" x="16" y="373" width="400" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="1on-Sp-VKx"/>
+                                    <constraint firstAttribute="width" constant="400" id="oxG-ss-zWY"/>
+                                </constraints>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1kr-FG-hiU">
                                 <rect key="frame" x="0.0" y="341" width="1366" height="342"/>
                                 <color key="backgroundColor" red="0.56487301251986688" green="1" blue="0.6009133799888503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -195,16 +196,15 @@
                             <constraint firstItem="zZR-Ok-ZWl" firstAttribute="top" secondItem="aEL-XQ-Iy1" secondAttribute="top" id="AwA-1G-GjV"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="I50-aE-y8X" secondAttribute="trailing" constant="20" symbolic="YES" id="DSe-C6-SOG"/>
                             <constraint firstItem="1kr-FG-hiU" firstAttribute="trailing" secondItem="3sZ-Av-cgz" secondAttribute="trailing" id="DdQ-Zq-sk2"/>
+                            <constraint firstItem="A4Y-Rm-3Bd" firstAttribute="top" secondItem="zZR-Ok-ZWl" secondAttribute="bottom" constant="32" id="Dt8-DD-Tcg"/>
                             <constraint firstItem="spe-3i-cwz" firstAttribute="centerX" secondItem="zZR-Ok-ZWl" secondAttribute="centerX" id="F5l-OF-OJg"/>
-                            <constraint firstItem="wlv-ng-SDe" firstAttribute="centerY" secondItem="3sZ-Av-cgz" secondAttribute="centerY" constant="-23" id="Fc2-u4-rn1"/>
-                            <constraint firstItem="dBg-R0-A1h" firstAttribute="top" secondItem="wlv-ng-SDe" secondAttribute="bottom" constant="34" id="IfA-re-twQ"/>
+                            <constraint firstItem="A4Y-Rm-3Bd" firstAttribute="leading" secondItem="3sZ-Av-cgz" secondAttribute="leading" constant="16" id="Jaq-VG-7Mf"/>
                             <constraint firstItem="dBg-R0-A1h" firstAttribute="bottom" secondItem="3sZ-Av-cgz" secondAttribute="bottom" id="UcR-UK-vLY"/>
                             <constraint firstItem="I50-aE-y8X" firstAttribute="top" secondItem="3sZ-Av-cgz" secondAttribute="top" constant="20" id="Xfj-CQ-iro"/>
                             <constraint firstAttribute="trailing" secondItem="dBg-R0-A1h" secondAttribute="trailing" id="Y1i-pi-A3Y"/>
                             <constraint firstItem="dBg-R0-A1h" firstAttribute="top" secondItem="zZR-Ok-ZWl" secondAttribute="bottom" constant="341.30000000000001" id="dKs-WF-rTn"/>
                             <constraint firstItem="3sZ-Av-cgz" firstAttribute="trailing" secondItem="zZR-Ok-ZWl" secondAttribute="trailing" id="k9N-hs-P3n"/>
                             <constraint firstAttribute="trailing" secondItem="dBg-R0-A1h" secondAttribute="trailing" id="k9Z-kH-d6x"/>
-                            <constraint firstItem="I50-aE-y8X" firstAttribute="leading" secondItem="wlv-ng-SDe" secondAttribute="leading" id="kk6-tC-nyC"/>
                             <constraint firstItem="zZR-Ok-ZWl" firstAttribute="leading" secondItem="aEL-XQ-Iy1" secondAttribute="leading" id="qEn-kg-0KW"/>
                             <constraint firstItem="zZR-Ok-ZWl" firstAttribute="top" secondItem="aEL-XQ-Iy1" secondAttribute="top" id="qGA-YB-OAU"/>
                             <constraint firstItem="spe-3i-cwz" firstAttribute="centerY" secondItem="zZR-Ok-ZWl" secondAttribute="centerY" id="rw5-TH-z5z"/>
@@ -218,7 +218,7 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="selectedCountryIcon" destination="wlv-ng-SDe" id="Hk4-fi-hqX"/>
+                        <outlet property="selectedCountryIconImageViewer" destination="A4Y-Rm-3Bd" id="5o6-M0-mr4"/>
                         <outlet property="selectedCountryImageViewer" destination="zZR-Ok-ZWl" id="fHg-m3-62i"/>
                         <outlet property="selectedCountryTitle" destination="spe-3i-cwz" id="QnY-Gv-pvh"/>
                         <segue destination="CZa-xH-fDG" kind="show" identifier="segue" id="WJ0-Sj-XOX"/>
@@ -226,7 +226,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bm0-mo-f9m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="884" y="-87"/>
+            <point key="canvasLocation" x="989.60468521229859" y="-16.40625"/>
         </scene>
         <!--Missionary View Controller-->
         <scene sceneID="TX9-Ma-tO2">
@@ -245,7 +245,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="Vrc-FP-bOJ" kind="show" identifier="back" id="cgM-7R-dv6"/>
+                                    <segue destination="Vrc-FP-bOJ" kind="show" identifier="back" animates="NO" id="cgM-7R-dv6"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Missionary Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vo6-pP-3xc">
@@ -397,7 +397,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8RE-au-UAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1898" y="-263"/>
+            <point key="canvasLocation" x="1871" y="-16"/>
         </scene>
         <!--Newsletter Pop UpVC-->
         <scene sceneID="tpT-Fq-dUg">
@@ -502,7 +502,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mPE-UV-LsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1805" y="674"/>
+            <point key="canvasLocation" x="1871" y="793"/>
         </scene>
     </scenes>
     <resources>

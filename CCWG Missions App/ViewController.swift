@@ -43,62 +43,64 @@ class ViewController: UIViewController {
             
             selectedCountry = "North America"
             selectedImage = "northamerica"
-            selectedTitle = "NORTH AMERICA"
+            selectedTitle = "North America"
+            selectedCountryIcon = "northamericaicon"
         }
         else if segue.identifier == "Africa" {
             selectedCountry = "Africa"
             selectedImage = "africa"
-            selectedTitle = "AFRICA"
+            selectedTitle = "Africa"
+            selectedCountryIcon = ""
         }
         else if segue.identifier == "China" {
             selectedCountry = "China"
             selectedImage = "china"
-            selectedTitle = "CHINA"
+            selectedTitle = "China"
         }
         else if segue.identifier == "Haiti" {
             selectedCountry = "Haiti"
             selectedImage = "haiti"
-            selectedTitle = "HAITI"
+            selectedTitle = "Haiti"
         }
         else if segue.identifier == "India" {
             selectedCountry = "India"
             selectedImage = "india"
-            selectedTitle = "INDIA"
+            selectedTitle = "India"
         }
         else if segue.identifier == "Italy" {
             selectedCountry = "Italy"
             selectedImage = "italy"
-            selectedTitle = "ITALY"
+            selectedTitle = "Italy"
         }
         else if segue.identifier == "Kenya" {
             selectedCountry = "Kenya"
             selectedImage = "kenya"
-            selectedTitle = "KENYA"
+            selectedTitle = "Kenya"
         }
         else if segue.identifier == "Mexico" {
             selectedCountry = "Mexico"
             selectedImage = "mexico"
-            selectedTitle = "MEXICO"
+            selectedTitle = "Mexico"
         }
         else if segue.identifier == "Nepal" {
             selectedCountry = "Nepal"
             selectedImage = "nepal"
-            selectedTitle = "NEPAL"
+            selectedTitle = "Nepal"
         }
         else if segue.identifier == "New Zealand" {
             selectedCountry = "New Zealand"
             selectedImage = "newzealand"
-            selectedTitle = "NEW ZEALAND"
+            selectedTitle = "New Zealand"
         }
         else if segue.identifier == "Philippines" {
             selectedCountry = "Philippines"
             selectedImage = "philippines"
-            selectedTitle = "PHILIPPINES"
+            selectedTitle = "Philippines"
         }
         else if segue.identifier == "South Sudan" {
             selectedCountry = "South Sudan"
             selectedImage = "southsudan"
-            selectedTitle = "SOUTH SUDAN"
+            selectedTitle = "South Sudan"
         }
         else if segue.identifier == "USA" {
             selectedCountry = "USA"
@@ -108,12 +110,12 @@ class ViewController: UIViewController {
         else if segue.identifier == "Uganda" {
             selectedCountry = "Uganda"
             selectedImage = "uganda"
-            selectedTitle = "UGANDA"
+            selectedTitle = "Uganda"
         }
         else {
             selectedCountry = "Asia"
             selectedImage = "asia"
-            selectedTitle = "ASIA"
+            selectedTitle = "Asia"
         }
     }
 
