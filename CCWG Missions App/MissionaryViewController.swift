@@ -19,6 +19,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBOutlet weak var missionaryBioLabel: UILabel!
     @IBOutlet weak var sendEmailButton: UIButton!
     @IBOutlet weak var supportMissionaryButton: UIButton!
+    @IBOutlet weak var infoShortLabel: UILabel!
     
     
     
@@ -28,6 +29,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         missionaryLabel.text = selectedNameArray[missionaryIndex]
         //missionaryTitleImageViewer.image = UIImage(named: selectedImage)
         missionaryImageViewer.image = UIImage(named: selectedImageArray[missionaryIndex])
+        infoShortLabel.text = selectedShortInfoArray[missionaryIndex]
         missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
       
         
