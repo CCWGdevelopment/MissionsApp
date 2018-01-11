@@ -32,8 +32,7 @@ class ViewController: UIViewController {
         
     /************************   DESIGN NOTE   *******************************
          
-         Please type all 'selectedTitle' text capitalized for now
-         Hopefully future implementation of an 'All Caps' style can fix that
+         I AM DUMB
          - Brandon
          
     ************************************************************************/
