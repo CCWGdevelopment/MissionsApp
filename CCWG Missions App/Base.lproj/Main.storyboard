@@ -295,11 +295,11 @@
                                     <segue destination="Vrc-FP-bOJ" kind="show" identifier="Mexico" id="sUR-KB-sTp"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="CALVARY CHAPEL WESTGROVE" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y6o-O9-msY">
-                                <rect key="frame" x="20" y="20" width="1326" height="157"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="CALVARY CHAPEL WESTGROVE" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6o-O9-msY">
+                                <rect key="frame" x="20" y="40" width="1326" height="137"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="72"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" textContentType="organization"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ipadpro129" translatesAutoresizingMaskIntoConstraints="NO" id="hlH-40-xIZ">
                                 <rect key="frame" x="0.0" y="-20" width="1366" height="1044"/>
@@ -363,7 +363,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rjt-7V-AsZ" secondAttribute="trailing" constant="402" id="LUC-n4-X8Q"/>
                             <constraint firstItem="0TQ-oy-PXf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="414" id="O81-ii-pMS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rjt-7V-AsZ" secondAttribute="bottom" constant="284" id="Qqn-9V-CnK"/>
-                            <constraint firstItem="y6o-O9-msY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Qxp-gI-gZk"/>
+                            <constraint firstItem="y6o-O9-msY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Qxp-gI-gZk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M2T-zr-3oB" secondAttribute="trailing" constant="402" id="U3r-Ti-cC9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y6o-O9-msY" secondAttribute="trailing" constant="20" id="VLF-BZ-ncm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fCy-uN-aip" secondAttribute="bottom" constant="20" id="VWl-z0-gqe"/>
