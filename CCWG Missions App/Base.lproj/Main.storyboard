@@ -676,11 +676,15 @@
                             <constraint firstItem="11o-hs-Swk" firstAttribute="centerX" secondItem="ueR-hV-dEk" secondAttribute="centerX" id="AYO-2Q-588"/>
                             <constraint firstItem="pyh-Iq-ekc" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" constant="20" id="G2e-lU-Xg3"/>
                             <constraint firstItem="vo6-pP-3xc" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" constant="20" id="JCN-dr-8Z9"/>
+                            <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="fRE-lu-uw3" secondAttribute="bottom" constant="478" id="Mw9-bB-Uik"/>
                             <constraint firstItem="vo6-pP-3xc" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" constant="154" id="OMg-TZ-xid"/>
                             <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="CYk-l7-Vt8" secondAttribute="bottom" constant="621" id="OfY-xv-Cqc"/>
                             <constraint firstItem="CYk-l7-Vt8" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" constant="154" id="QJ1-yH-fDk"/>
                             <constraint firstItem="vo6-pP-3xc" firstAttribute="leading" secondItem="0QF-9Q-apa" secondAttribute="leading" constant="-43" id="SwI-yM-ZKY"/>
+                            <constraint firstItem="fRE-lu-uw3" firstAttribute="leading" secondItem="11o-hs-Swk" secondAttribute="trailing" constant="92" id="TXv-AY-Dbf"/>
+                            <constraint firstItem="11o-hs-Swk" firstAttribute="leading" secondItem="ugc-zH-ISq" secondAttribute="trailing" constant="92" id="Xxv-ox-eql"/>
                             <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="0QF-9Q-apa" secondAttribute="bottom" constant="39" id="a7S-Bd-4Ql"/>
+                            <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="11o-hs-Swk" secondAttribute="bottom" constant="482" id="cLx-Qn-SUP"/>
                             <constraint firstItem="fRE-lu-uw3" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" constant="478" id="dWU-m6-YCO"/>
                             <constraint firstItem="ueR-hV-dEk" firstAttribute="trailing" secondItem="fRE-lu-uw3" secondAttribute="trailing" constant="96" id="gZb-8v-W7P"/>
                             <constraint firstItem="fRE-lu-uw3" firstAttribute="centerY" secondItem="ueR-hV-dEk" secondAttribute="centerY" id="hrf-vb-tNU"/>
@@ -690,6 +694,7 @@
                             <constraint firstItem="ugc-zH-ISq" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" constant="96" id="tHh-B6-utf"/>
                             <constraint firstItem="ugc-zH-ISq" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" constant="478" id="twD-Yp-LsF"/>
                             <constraint firstItem="pyh-Iq-ekc" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" constant="20" id="vGi-tf-iiO"/>
+                            <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="ugc-zH-ISq" secondAttribute="bottom" constant="482" id="xyJ-OB-QZz"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pyh-Iq-ekc" secondAttribute="trailing" constant="20" symbolic="YES" id="zfl-BC-hX4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ueR-hV-dEk"/>
