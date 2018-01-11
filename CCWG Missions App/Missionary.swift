@@ -30,11 +30,11 @@ class Missionary {
 
     let abaleinfoShort = "A short blurb about Pastor John Bosco and Janay goes here."
     let abaleinfoLong = "Pastor John Bosco and Janay Abale bio and current ministry update placeholder"
-    var abale = Missionary(name: "Pastor John Bosco and Janay Abale", image: "", infoShort: abaleinfoShort, infoLong: abaleinfoLong, email: "pippil88@yahoo.com")
+    var abale = Missionary(name: "Pastor John Bosco and Janay Abale", image: "abale", infoShort: abaleinfoShort, infoLong: abaleinfoLong, email: "pippil88@yahoo.com")
 
     let agabeinfoShort = "A short blurb about Pastor Chris Agabe goes here."
     let agabeinfoLong = "Pastor Chris Agabe bio and current ministry update placeholder"
-    var agabe = Missionary(name: "Pastor Chris Agabe", image: "agabe", infoShort: agabeinfoShort, infoLong: agabeinfoLong, email: "agabachris786@gmail.com")
+    var agabe = Missionary(name: "Pastor Chris Agabe", image: "agaba", infoShort: agabeinfoShort, infoLong: agabeinfoLong, email: "agabachris786@gmail.com")
 
     let bastiainfoShort = "A short blurb about Pastor Huguener Bastia goes here."
     let bastiainfoLong = "Pastor Huguener Bastia bio and current ministry update placeholder"
@@ -58,7 +58,7 @@ class Missionary {
 
     let diegoinfoShort = "A short blurb about Iyana Diego goes here"
     let diegoinfoLong = "Iyana Diego bio and current ministry update placeholder"
-    var diego = Missionary(name: "Iyana Diego", image: "diego", infoShort: diegoinfoShort, infoLong: diegoinfoLong, email: "iyanana95@gmail.com")
+    var diego = Missionary(name: "Iyana Diego", image: "iyana", infoShort: diegoinfoShort, infoLong: diegoinfoLong, email: "iyanana95@gmail.com")
 
     let douglassinfoShort = " A short blurb about Pastor Rob and Heidi Douglass goes here."
     let douglassinfoLong = "Pastor Rob and Heidi Douglass bio and current ministry update placeholder"
@@ -78,7 +78,7 @@ class Missionary {
 
     let hernandezinfoShort = "A short blurb about Amy Hernandez goes here."
     let hernandezinfoLong = "Amy Hernandez bio and current ministry update placeholder"
-    var hernandez = Missionary(name: "Amy Hernandez", image: "hernandez", infoShort: hernandezinfoShort, infoLong: hernandezinfoLong, email: "amyisabel3@yahoo.com")
+    var hernandez = Missionary(name: "Amy Hernandez", image: "amyhernandez", infoShort: hernandezinfoShort, infoLong: hernandezinfoLong, email: "amyisabel3@yahoo.com")
 
     let courtneyinfoShort = "Courtney is currently serving in Rosarito, Mexico alongside her parents."
     let courtneyinfoLong = "Courtney Nusslock bio and current ministry update placeholder"
@@ -86,7 +86,7 @@ class Missionary {
 
     let nelsoninfoShort = "A short blurb about Dane Nelson goes here."
     let nelsoninfoLong = "Dane Nelson bio and current ministry update placeholder"
-    var nelson = Missionary(name: "Dane Nelson", image: "nelson", infoShort: nelsoninfoShort, infoLong: nelsoninfoLong, email: "dane5golf@mgail.com")
+    var nelson = Missionary(name: "Dane Nelson", image: "dane", infoShort: nelsoninfoShort, infoLong: nelsoninfoLong, email: "dane5golf@mgail.com")
 
     let nusslockinfoShort = "Jeff and Burnadette are serving full time in Rosarito, Mexico"
     let nusslockinfoLong = "Jeff and Burnadette bio and current ministry update placeholder"
