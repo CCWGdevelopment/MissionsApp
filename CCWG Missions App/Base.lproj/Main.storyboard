@@ -11,11 +11,6 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="HelveticaNeue.ttc">
-            <string>HelveticaNeue-Bold</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -26,7 +21,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGy-7D-6K3" userLabel="chinaButton" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                <rect key="frame" x="65.5" y="779" width="225" height="225"/>
+                                <rect key="frame" x="66" y="779" width="225" height="225"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
                                 </accessibility>
@@ -276,7 +271,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ncd-yj-KSt" userLabel="mexicoButton" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                <rect key="frame" x="1070.5" y="515" width="225" height="225"/>
+                                <rect key="frame" x="1071" y="515" width="225" height="225"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
                                 </accessibility>
@@ -300,10 +295,10 @@
                                     <segue destination="Vrc-FP-bOJ" kind="show" identifier="Mexico" id="sUR-KB-sTp"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="CALVARY CHAPEL WESTGROVE" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y6o-O9-msY">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="CALVARY CHAPEL WESTGROVE" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y6o-O9-msY">
                                 <rect key="frame" x="20" y="20" width="1326" height="157"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="72"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="72"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ipadpro129" translatesAutoresizingMaskIntoConstraints="NO" id="hlH-40-xIZ">
@@ -374,6 +369,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fCy-uN-aip" secondAttribute="bottom" constant="20" id="VWl-z0-gqe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="L4l-wB-8Fe" secondAttribute="bottom" constant="546" id="aL1-Bb-R01"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZUi-sJ-QMq" secondAttribute="trailing" constant="76" id="cKA-XZ-HBS"/>
+                            <constraint firstItem="L4l-wB-8Fe" firstAttribute="top" secondItem="y6o-O9-msY" secondAttribute="bottom" constant="76" id="ca9-rF-iOR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ncd-yj-KSt" secondAttribute="trailing" constant="70.5" id="ffw-PF-m3J"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M2T-zr-3oB" secondAttribute="bottom" constant="20" id="ijK-7w-Lbf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="O7Y-0Z-LK0" secondAttribute="trailing" constant="402" id="leH-Eq-Q9p"/>
