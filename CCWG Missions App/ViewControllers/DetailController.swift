@@ -53,11 +53,8 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if selectedCountry == "North America" {
-            return naMissionaryName.count
-        }
-        else if selectedCountry == "Africa" {
-            return africaMissionaryName.count
+        if selectedCountry == "China" {
+            return chinaMissionaryName.count
         }
         else if selectedCountry == "Haiti" {
             return haitiMissionaryName.count
@@ -67,6 +64,9 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else if selectedCountry == "Italy" {
             return italyMissionaryName.count
+        }
+        else if selectedCountry == "Kenya" {
+            return kenyaMissionaryName.count
         }
         else if selectedCountry == "Mexico" {
             return mexicoMissionaryName.count
@@ -86,8 +86,8 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         else if selectedCountry == "Uganda" {
             return ugandaMissionaryName.count
         }
-        else {
-            return asiaMissionaryName.count
+        else{
+            return usaMissionaryName.count
         }
     }
     
@@ -95,30 +95,17 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "MissionaryCell", for: indexPath) as! MissionaryCell
         
-        if selectedCountry == "North America" {
+        if selectedCountry == "China" {
             
-            selectedNameArray = naMissionaryName
-            selectedImageArray = naMissionaryImage
-            selectedShortInfoArray = naMissionaryinfoShort
-            selectedLongInfoArray = naMissionaryinfoLong
-            selectedEmailArray = naMissionaryEmail
+            selectedNameArray = chinaMissionaryName
+            selectedImageArray = chinaMissionaryImage
+            selectedShortInfoArray = chinaMissionaryinfoShort
+            selectedLongInfoArray = chinaMissionaryinfoLong
+            selectedEmailArray = chinaMissionaryEmail
             
-            cell.missionaryNameLabel.text = naMissionaryName[indexPath.row]
-            cell.missionaryInfoLabel.text = naMissionaryinfoShort[indexPath.row]
-            cell.missionaryImageView.image = UIImage(named: naMissionaryImage[indexPath.row])
-            
-        }
-        else if selectedCountry == "Africa" {
-            
-            selectedNameArray = africaMissionaryName
-            selectedImageArray = africaMissionaryImage
-            selectedShortInfoArray = africaMissionaryinfoShort
-            selectedLongInfoArray = africaMissionaryinfoLong
-            selectedEmailArray = africaMissionaryEmail
-            
-            cell.missionaryNameLabel.text = africaMissionaryName[indexPath.row]
-            cell.missionaryInfoLabel.text = africaMissionaryinfoShort[indexPath.row]
-            cell.missionaryImageView.image = UIImage(named: africaMissionaryImage[indexPath.row])
+            cell.missionaryNameLabel.text = chinaMissionaryName[indexPath.row]
+            cell.missionaryInfoLabel.text = chinaMissionaryinfoShort[indexPath.row]
+            cell.missionaryImageView.image = UIImage(named: chinaMissionaryImage[indexPath.row])
             
         }
         else if selectedCountry == "Haiti" {
@@ -158,6 +145,19 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             cell.missionaryNameLabel.text = italyMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = italyMissionaryinfoShort[indexPath.row]
             cell.missionaryImageView.image = UIImage(named: italyMissionaryImage[indexPath.row])
+            
+        }
+        else if selectedCountry == "Kenya" {
+            
+            selectedNameArray = kenyaMissionaryName
+            selectedImageArray = kenyaMissionaryImage
+            selectedShortInfoArray = kenyaMissionaryinfoShort
+            selectedLongInfoArray = kenyaMissionaryinfoLong
+            selectedEmailArray = kenyaMissionaryEmail
+            
+            cell.missionaryNameLabel.text = kenyaMissionaryName[indexPath.row]
+            cell.missionaryInfoLabel.text = kenyaMissionaryinfoShort[indexPath.row]
+            cell.missionaryImageView.image = UIImage(named: kenyaMissionaryImage[indexPath.row])
             
         }
         else if selectedCountry == "Mexico" {
@@ -240,15 +240,15 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else {
             
-            selectedNameArray = asiaMissionaryName
-            selectedImageArray = asiaMissionaryImage
-            selectedShortInfoArray = asiaMissionaryinfoShort
-            selectedLongInfoArray = asiaMissionaryinfoLong
-            selectedEmailArray = asiaMissionaryEmail
+            selectedNameArray = usaMissionaryName
+            selectedImageArray = usaMissionaryImage
+            selectedShortInfoArray = usaMissionaryinfoShort
+            selectedLongInfoArray = usaMissionaryinfoLong
+            selectedEmailArray = usaMissionaryEmail
 
-            cell.missionaryNameLabel.text = asiaMissionaryName[indexPath.row]
-            cell.missionaryInfoLabel.text = asiaMissionaryinfoShort[indexPath.row]
-            cell.missionaryImageView.image = UIImage(named: asiaMissionaryImage[indexPath.row])
+            cell.missionaryNameLabel.text = usaMissionaryName[indexPath.row]
+            cell.missionaryInfoLabel.text = usaMissionaryinfoShort[indexPath.row]
+            cell.missionaryImageView.image = UIImage(named: usaMissionaryImage[indexPath.row])
             
         }
             

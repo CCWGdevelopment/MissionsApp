@@ -112,35 +112,19 @@ class Missionary {
     let wrightinfoLong = "Brandon Wright bio and current ministry update placeholder"
     var wright = Missionary(name: "Brandon Wright", image: "wright", infoShort: wrightinfoShort, infoLong: wrightinfoLong, email: "bwrightttt23@gmail.com")
 
-    // North America Missionary Arrays
 
-    var naMissionaryName:[String] = [courtneyNusslock.name, nusslock.name, vincent.name]
-    var naMissionaryImage:[String] = [courtneyNusslock.image, nusslock.image, vincent.image]
-    var naMissionaryinfoShort:[String] = [courtneyNusslock.infoShort, nusslock.infoShort, vincent.infoShort]
-    var naMissionaryinfoLong:[String] = [courtneyNusslock.infoLong, nusslock.infoLong, vincent.infoLong]
-    var naMissionaryEmail:[String] = [courtneyNusslock.email, nusslock.email, vincent.email]
+////////////   Missionary Arrays  ///////////
 
-    // Africa Missionary Arrays
+    // China
 
-    var africaMissionaryName:[String] = [gaona.name, abale.name, nyika.name, onzima.name, douglass.name, emuku.image]
-    var africaMissionaryImage: [String] = [gaona.image, abale.image, nyika.image, onzima.image, douglass.image, emuku.image]
-    var africaMissionaryinfoShort: [String] = [gaona.infoShort, abale.infoShort, nyika.infoShort, onzima.infoShort, douglass.infoShort, emuku.infoShort]
-    var africaMissionaryinfoLong: [String] = [gaona.infoLong, abale.infoLong, nyika.infoLong, onzima.infoLong, douglass.infoLong, emuku.infoLong]
-    var africaMissionaryEmail: [String] = [gaona.email, abale.email, nyika.email, onzima.email, douglass.email, emuku.email]
-
-    // Asia Missionary Arrays
-
-    var asiaMissionaryName:[String] = [gaona.name, garcia.name, sarkar.name]
-    var asiaMissionaryImage:[String] = [gaona.image, garcia.image, sarkar.image]
-    var asiaMissionaryinfoShort:[String] = [gaona.infoShort, garcia.infoShort, sarkar.infoShort]
-    var asiaMissionaryinfoLong:[String] = [gaona.infoLong, garcia.infoLong, sarkar.infoLong]
-    var asiaMissionaryEmail:[String] = [gaona.email, garcia.email, sarkar.email]
+    var chinaMissionaryName:[String] = []
+    var chinaMissionaryImage:[String] = []
+    var chinaMissionaryinfoShort:[String] = []
+    var chinaMissionaryinfoLong:[String] = []
+    var chinaMissionaryEmail:[String] = []
 
 
-////////////   Updated missionarys and arrays   ///////////
-
-
-    // Haiti arrays
+    // Haiti
 
     var haitiMissionaryName:[String] = [bastia.name]
     var haitiMissionaryImage:[String] = [bastia.image]
@@ -149,7 +133,7 @@ class Missionary {
     var haitiMissionaryEmail:[String] = [bastia.email]
 
 
-    // India arrays
+    // India
 
     var indiaMissionaryName:[String] = [daliya.name]
     var indiaMissionaryImage:[String] = [daliya.image]
@@ -158,13 +142,22 @@ class Missionary {
     var indiaMissionaryEmail:[String] = [daliya.email]
 
 
-    // Italy arrays
+    // Italy
 
     var italyMissionaryName:[String] = [hernandez.name]
     var italyMissionaryImage:[String] = [hernandez.image]
     var italyMissionaryinfoShort:[String] = [hernandez.infoShort]
     var italyMissionaryinfoLong:[String] = [hernandez.infoLong]
     var italyMissionaryEmail:[String] = [hernandez.email]
+
+
+    // Kenya
+
+    var kenyaMissionaryName:[String] = []
+    var kenyaMissionaryImage:[String] = []
+    var kenyaMissionaryinfoShort:[String] = []
+    var kenyaMissionaryinfoLong:[String] = []
+    var kenyaMissionaryEmail:[String] = []
 
 
     // Mexico
@@ -221,5 +214,12 @@ class Missionary {
     var ugandaMissionaryEmail:[String] = [abale.email, agabe.email, breznau.email, diego.email, emuku.email, gaona.email, garcia.email, nelson.email, onzima.email, wright.email]
 
 
+    // USA
+
+    var usaMissionaryName:[String] = []
+    var usaMissionaryImage:[String] = []
+    var usaMissionaryinfoShort:[String] = []
+    var usaMissionaryinfoLong:[String] = []
+    var usaMissionaryEmail:[String] = []
 
 

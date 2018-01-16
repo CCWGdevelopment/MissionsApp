@@ -20,7 +20,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" text="CALVARY CHAPEL WESTGROVE" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6o-O9-msY">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="CALVARY CHAPEL WESTGROVE" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6o-O9-msY">
                                 <rect key="frame" x="20" y="40" width="1326" height="137"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="72"/>
@@ -99,6 +99,7 @@
                             <constraint firstItem="s1V-4q-igf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OSS-bJ-rhF"/>
                             <constraint firstItem="y6o-O9-msY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Qxp-gI-gZk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y6o-O9-msY" secondAttribute="trailing" constant="20" id="VLF-BZ-ncm"/>
+                            <constraint firstItem="s1V-4q-igf" firstAttribute="top" secondItem="y6o-O9-msY" secondAttribute="bottom" constant="62" id="YaY-8a-SpT"/>
                             <constraint firstItem="y6o-O9-msY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="w9q-ig-j5Z"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -334,12 +335,6 @@
                                     <action selector="supportMissionary:" destination="CZa-xH-fDG" eventType="touchUpInside" id="nde-rr-c0K"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Missionary Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QF-9Q-apa">
-                                <rect key="frame" x="63" y="572" width="914" height="393"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="11o-hs-Swk" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
                                 <rect key="frame" x="404" y="478" width="216" height="44"/>
                                 <color key="backgroundColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -392,6 +387,12 @@
                                     <segue destination="QvX-78-0vR" kind="presentation" modalPresentationStyle="overFullScreen" modalTransitionStyle="crossDissolve" id="bh1-4f-RlF"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Missionary Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QF-9Q-apa">
+                                <rect key="frame" x="73" y="571" width="914" height="393"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -546,6 +547,6 @@
         <image name="italyiocn" width="341" height="341"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="0HU-OZ-EYt"/>
+        <segue reference="cgM-7R-dv6"/>
     </inferredMetricsTieBreakers>
 </document>

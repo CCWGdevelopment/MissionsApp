@@ -131,9 +131,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             selectedTitle = "USA"
             performSegue(withIdentifier: "go", sender: Any?.self)
         }
-
-        
     }
-
 }
 
