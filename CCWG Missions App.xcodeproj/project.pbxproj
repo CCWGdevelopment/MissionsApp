@@ -14,6 +14,7 @@
 		249621AF1FF4778A00E23A36 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249621AE1FF4778A00E23A36 /* DesignableView.swift */; };
 		24A20E441FE08F0300AAD91C /* MissionaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A20E431FE08F0300AAD91C /* MissionaryCell.swift */; };
 		24A854A31FE0DDF200846A37 /* Missionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A854A21FE0DDF200846A37 /* Missionary.swift */; };
+		24C52165200E6F12002C9A27 /* countryIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C52164200E6F12002C9A27 /* countryIconCell.swift */; };
 		24DDB3411FDDA922002A0722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDB3401FDDA922002A0722 /* AppDelegate.swift */; };
 		24DDB3431FDDA922002A0722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDB3421FDDA922002A0722 /* ViewController.swift */; };
 		24DDB3461FDDA922002A0722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DDB3441FDDA922002A0722 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		249621AE1FF4778A00E23A36 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		24A20E431FE08F0300AAD91C /* MissionaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionaryCell.swift; sourceTree = "<group>"; };
 		24A854A21FE0DDF200846A37 /* Missionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missionary.swift; sourceTree = "<group>"; };
+		24C52164200E6F12002C9A27 /* countryIconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countryIconCell.swift; sourceTree = "<group>"; };
 		24DDB33D1FDDA922002A0722 /* CCWG Missions App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCWG Missions App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DDB3401FDDA922002A0722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24DDB3421FDDA922002A0722 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,26 @@
 			path = IBDesignables;
 			sourceTree = "<group>";
 		};
+		24C52166200E707E002C9A27 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				24A20E431FE08F0300AAD91C /* MissionaryCell.swift */,
+				24C52164200E6F12002C9A27 /* countryIconCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		24C52167200E70A1002C9A27 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				24DDB3421FDDA922002A0722 /* ViewController.swift */,
+				2468AA4A1FDDACA000E7C506 /* DetailController.swift */,
+				248C66381FE1DDBD00620545 /* MissionaryViewController.swift */,
+				245A6B571FF4A14500E7261C /* NewsletterPopUpVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		24DDB3341FDDA922002A0722 = {
 			isa = PBXGroup;
 			children = (
@@ -77,14 +99,11 @@
 		24DDB33F1FDDA922002A0722 /* CCWG Missions App */ = {
 			isa = PBXGroup;
 			children = (
+				24C52166200E707E002C9A27 /* CustomCells */,
 				249621AB1FF46C3B00E23A36 /* IBDesignables */,
+				24C52167200E70A1002C9A27 /* ViewControllers */,
 				24DDB3401FDDA922002A0722 /* AppDelegate.swift */,
-				24DDB3421FDDA922002A0722 /* ViewController.swift */,
-				2468AA4A1FDDACA000E7C506 /* DetailController.swift */,
-				248C66381FE1DDBD00620545 /* MissionaryViewController.swift */,
-				245A6B571FF4A14500E7261C /* NewsletterPopUpVC.swift */,
 				24A854A21FE0DDF200846A37 /* Missionary.swift */,
-				24A20E431FE08F0300AAD91C /* MissionaryCell.swift */,
 				24DDB3441FDDA922002A0722 /* Main.storyboard */,
 				24DDB3471FDDA922002A0722 /* Assets.xcassets */,
 				24DDB3491FDDA922002A0722 /* LaunchScreen.storyboard */,
@@ -177,6 +196,7 @@
 				2468AA4B1FDDACA000E7C506 /* DetailController.swift in Sources */,
 				24DDB3411FDDA922002A0722 /* AppDelegate.swift in Sources */,
 				245A6B581FF4A14500E7261C /* NewsletterPopUpVC.swift in Sources */,
+				24C52165200E6F12002C9A27 /* countryIconCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
