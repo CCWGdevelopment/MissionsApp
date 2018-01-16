@@ -167,7 +167,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="Vrc-FP-bOJ" kind="show" identifier="Hati" id="KtN-XI-o81"/>
+                                    <segue destination="Vrc-FP-bOJ" kind="show" identifier="Haiti" id="KtN-XI-o81"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4l-wB-8Fe" userLabel="ugandaButton" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
@@ -217,7 +217,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="Vrc-FP-bOJ" kind="show" identifier="NorthAmerica" id="iXu-yg-rfn"/>
+                                    <segue destination="Vrc-FP-bOJ" kind="show" identifier="North America" id="iXu-yg-rfn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5D-eS-CCb" userLabel="phillipinesButton" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
@@ -666,7 +666,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="supportMissionary:" destination="CZa-xH-fDG" eventType="touchUpInside" id="MhM-P6-EDu"/>
-                                    <segue destination="QvX-78-0vR" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="bh1-4f-RlF"/>
+                                    <segue destination="QvX-78-0vR" kind="presentation" modalPresentationStyle="overFullScreen" modalTransitionStyle="crossDissolve" id="bh1-4f-RlF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -796,7 +796,7 @@
                                         <constraint firstItem="fUG-zd-G6h" firstAttribute="centerX" secondItem="xT3-iW-64Z" secondAttribute="centerX" id="Pcf-zH-7nF"/>
                                     </constraints>
                                 </view>
-                                <blurEffect style="light"/>
+                                <blurEffect style="extraLight"/>
                             </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -834,6 +834,6 @@
         <image name="ugandaicon" width="341" height="341"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cgM-7R-dv6"/>
+        <segue reference="iXu-yg-rfn"/>
     </inferredMetricsTieBreakers>
 </document>

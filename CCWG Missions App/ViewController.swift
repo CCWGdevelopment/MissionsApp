@@ -32,13 +32,13 @@ class ViewController: UIViewController {
         
     /************************   DESIGN NOTE   *******************************
          
-         I AM DUMB
+         I AM AWESOME
          - Brandon
          
     ************************************************************************/
         
         
-        if segue.identifier == "NorthAmerica" {
+        if segue.identifier == "North America" {
             
             selectedCountry = "North America"
             selectedImage = "northamerica"
