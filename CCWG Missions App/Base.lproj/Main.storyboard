@@ -116,7 +116,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-627" y="-17"/>
+            <point key="canvasLocation" x="50" y="-16"/>
         </scene>
         <!--Detail Controller-->
         <scene sceneID="D9Q-iq-Ofe">
@@ -435,7 +435,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8RE-au-UAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2628" y="-17"/>
+            <point key="canvasLocation" x="1897" y="-40"/>
         </scene>
         <!--Newsletter Pop UpVC-->
         <scene sceneID="tpT-Fq-dUg">
@@ -452,10 +452,10 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUG-zd-G6h" customClass="DesignableView" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                            <rect key="frame" x="503" y="133" width="360" height="360"/>
+                                            <rect key="frame" x="503" y="132" width="360" height="362.5"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="8FO-Wb-jvJ">
-                                                    <rect key="frame" x="30" y="116.5" width="300" height="128.5"/>
+                                                    <rect key="frame" x="30" y="117" width="300" height="128.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter email address" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eto-kZ-GA6">
                                                             <rect key="frame" x="0.0" y="0.0" width="300" height="20.5"/>
@@ -493,9 +493,11 @@
                                                         <constraint firstAttribute="width" constant="300" id="6XG-73-uJR"/>
                                                     </constraints>
                                                 </stackView>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbe-J2-Dhg">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbe-J2-Dhg">
                                                     <rect key="frame" x="306" y="8" width="46" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="46" id="iro-OP-3PL"/>
+                                                    </constraints>
                                                     <state key="normal" title="X"/>
                                                     <connections>
                                                         <action selector="closePupUp:" destination="QvX-78-0vR" eventType="touchUpInside" id="Djx-Y7-5Yt"/>
@@ -504,10 +506,12 @@
                                             </subviews>
                                             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
+                                                <constraint firstItem="8FO-Wb-jvJ" firstAttribute="top" secondItem="sbe-J2-Dhg" secondAttribute="bottom" constant="79" id="1LZ-1u-Ged"/>
                                                 <constraint firstItem="8FO-Wb-jvJ" firstAttribute="centerY" secondItem="fUG-zd-G6h" secondAttribute="centerY" id="5FO-0C-aBC"/>
                                                 <constraint firstAttribute="width" constant="360" id="FMO-63-bDt"/>
+                                                <constraint firstItem="sbe-J2-Dhg" firstAttribute="top" secondItem="fUG-zd-G6h" secondAttribute="topMargin" id="Rgv-g2-4d9"/>
+                                                <constraint firstItem="sbe-J2-Dhg" firstAttribute="trailing" secondItem="fUG-zd-G6h" secondAttribute="trailingMargin" id="XA3-6g-769"/>
                                                 <constraint firstItem="8FO-Wb-jvJ" firstAttribute="centerX" secondItem="fUG-zd-G6h" secondAttribute="centerX" id="a9y-P7-qfF"/>
-                                                <constraint firstAttribute="height" constant="360" id="eR1-nM-cU9"/>
                                             </constraints>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -540,7 +544,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mPE-UV-LsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2628" y="1416"/>
+            <point key="canvasLocation" x="1897" y="900"/>
         </scene>
     </scenes>
     <resources>
