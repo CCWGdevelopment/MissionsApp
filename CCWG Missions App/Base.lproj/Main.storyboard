@@ -70,18 +70,30 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YFq-Gm-MSK">
-                                                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                                    <rect key="frame" x="35" y="0.0" width="130" height="130"/>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Countrylabel" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHa-FL-md4">
+                                                    <rect key="frame" x="20" y="151" width="160" height="29"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="YFq-Gm-MSK" secondAttribute="bottom" id="WY7-2d-ZWh"/>
+                                            <constraint firstAttribute="bottom" secondItem="cHa-FL-md4" secondAttribute="bottom" constant="20" id="6Xa-hK-39i"/>
+                                            <constraint firstItem="cHa-FL-md4" firstAttribute="leading" secondItem="gQK-aj-BwT" secondAttribute="leading" constant="20" id="7N4-9S-gA4"/>
+                                            <constraint firstAttribute="bottom" secondItem="YFq-Gm-MSK" secondAttribute="bottom" constant="70" id="WY7-2d-ZWh"/>
                                             <constraint firstItem="YFq-Gm-MSK" firstAttribute="top" secondItem="gQK-aj-BwT" secondAttribute="top" id="arX-hr-gul"/>
-                                            <constraint firstAttribute="trailing" secondItem="YFq-Gm-MSK" secondAttribute="trailing" id="iL0-9G-Ozk"/>
-                                            <constraint firstItem="YFq-Gm-MSK" firstAttribute="leading" secondItem="gQK-aj-BwT" secondAttribute="leading" id="r9n-IN-EOf"/>
+                                            <constraint firstAttribute="trailing" secondItem="YFq-Gm-MSK" secondAttribute="trailing" constant="35" id="drq-Hq-YR6"/>
+                                            <constraint firstItem="cHa-FL-md4" firstAttribute="centerX" secondItem="gQK-aj-BwT" secondAttribute="centerX" id="du3-R6-blh"/>
+                                            <constraint firstAttribute="trailing" secondItem="cHa-FL-md4" secondAttribute="trailing" constant="20" id="oFL-Of-CUO"/>
+                                            <constraint firstItem="YFq-Gm-MSK" firstAttribute="leading" secondItem="gQK-aj-BwT" secondAttribute="leading" constant="35" id="ukW-C9-Xr5"/>
+                                            <constraint firstItem="YFq-Gm-MSK" firstAttribute="centerX" secondItem="gQK-aj-BwT" secondAttribute="centerX" id="woE-lc-ceU"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="countryIconImageViewer" destination="YFq-Gm-MSK" id="wdB-Kr-bga"/>
+                                            <outlet property="countryLabel" destination="cHa-FL-md4" id="0Uc-57-Woi"/>
                                             <segue destination="Vrc-FP-bOJ" kind="show" identifier="go" id="0HU-OZ-EYt"/>
                                         </connections>
                                     </collectionViewCell>
@@ -116,7 +128,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="50" y="-16"/>
+            <point key="canvasLocation" x="49.633967789165446" y="-16.40625"/>
         </scene>
         <!--Detail Controller-->
         <scene sceneID="D9Q-iq-Ofe">
@@ -552,6 +564,6 @@
         <image name="italyiocn" width="341" height="341"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cgM-7R-dv6"/>
+        <segue reference="0HU-OZ-EYt"/>
     </inferredMetricsTieBreakers>
 </document>
