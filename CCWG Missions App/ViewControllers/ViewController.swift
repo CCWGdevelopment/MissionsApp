@@ -14,7 +14,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     let countryIconArray: [String] = ["chinacircle", "haiticircle", "indiacircle", "italycircle", "kenyacircle", "mexicocircle", "nepalcircle", "newzealandcircle", "philippinescircle", "southsudancircle", "ugandacircle", "usaicon"]
     
     
-    let countryNameArray: [String] = ["China", "Haiti", "India", "Italy", "Kenya", "Mexico", "Nepal", "New Zealand", "Philippines", "South Sudan", "Uganda", "USA"]
+    let countryNameArray: [String] = ["China", "Haiti", "India", "Italy", "Kenya", "Mexico", "Nepal", "New Zealand", "Philippines", "South Sudan", "Uganda", "United States"]
     
     var countryIndex:Int = 0
     

@@ -11,6 +11,14 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Metropolis-Black.otf">
+            <string>Metropolis-Black</string>
+        </array>
+        <array key="Metropolis-Bold.otf">
+            <string>Metropolis-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -23,7 +31,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="CALVARY CHAPEL WESTGROVE" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6o-O9-msY">
                                 <rect key="frame" x="20" y="40" width="1326" height="137"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="72"/>
+                                <fontDescription key="fontDescription" name="Metropolis-Black" family="Metropolis" pointSize="76"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" textContentType="organization"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ipadpro129" translatesAutoresizingMaskIntoConstraints="NO" id="hlH-40-xIZ">
@@ -72,9 +80,9 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YFq-Gm-MSK">
                                                     <rect key="frame" x="35" y="0.0" width="130" height="130"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Countrylabel" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHa-FL-md4">
-                                                    <rect key="frame" x="20" y="151" width="160" height="29"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Countrylabel" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHa-FL-md4">
+                                                    <rect key="frame" x="20" y="150" width="160" height="30"/>
+                                                    <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="30"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
