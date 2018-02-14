@@ -18,6 +18,9 @@
         <array key="Metropolis-Bold.otf">
             <string>Metropolis-Bold</string>
         </array>
+        <array key="Metropolis-RegularItalic.otf">
+            <string>Metropolis-RegularItalic</string>
+        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -320,7 +323,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="87" id="tDJ-lE-Rtg"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
+                                <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -364,8 +367,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="InfoShort" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHX-fJ-K4J">
-                                <rect key="frame" x="20" y="241" width="545" height="142"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="InfoShort" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHX-fJ-K4J">
+                                <rect key="frame" x="20" y="227" width="545" height="100"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -379,7 +382,7 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="tTa-jq-4SS"/>
                                     <constraint firstAttribute="height" constant="44" id="xWq-VS-TbP"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="SIGN UP FOR NEWSLETTER"/>
                                 <userDefinedRuntimeAttributes>
@@ -417,6 +420,13 @@
                                     <action selector="sendEmail:" destination="CZa-xH-fDG" eventType="touchUpInside" id="h5q-BU-cfc"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="favverse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCA-7r-Vbl">
+                                <rect key="frame" x="20" y="335" width="545" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Metropolis-RegularItalic" family="Metropolis" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -451,6 +461,7 @@
                     <connections>
                         <outlet property="infoShortLabel" destination="FHX-fJ-K4J" id="F1v-PS-Hp2"/>
                         <outlet property="missionaryBioLabel" destination="0QF-9Q-apa" id="os3-96-ogP"/>
+                        <outlet property="missionaryFavoriteVerse" destination="UCA-7r-Vbl" id="LdE-f6-vPj"/>
                         <outlet property="missionaryImageViewer" destination="CYk-l7-Vt8" id="Tj3-yE-Rlm"/>
                         <outlet property="missionaryLabel" destination="vo6-pP-3xc" id="h8a-XX-HSA"/>
                         <outlet property="sendEmailButton" destination="11o-hs-Swk" id="u5E-pA-ZHv"/>
@@ -459,7 +470,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8RE-au-UAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1897" y="-40"/>
+            <point key="canvasLocation" x="1896.6325036603221" y="-40.4296875"/>
         </scene>
         <!--Newsletter Pop UpVC-->
         <scene sceneID="tpT-Fq-dUg">

@@ -20,6 +20,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBOutlet weak var sendEmailButton: UIButton!
     @IBOutlet weak var supportMissionaryButton: UIButton!
     @IBOutlet weak var infoShortLabel: UILabel!
+    @IBOutlet weak var missionaryFavoriteVerse: UILabel!
     
     
     

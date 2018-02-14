@@ -19,6 +19,7 @@ var selectedNameArray:[String] = [""]
 var selectedImageArray:[String] = [""]
 var selectedShortInfoArray:[String] = [""]
 var selectedLongInfoArray:[String] = [""]
+var selectedFavoriteVerseArray: [String] = [""]
 var selectedEmailArray:[String] = [""]
 var missionaryIndex:Int = 0
 
