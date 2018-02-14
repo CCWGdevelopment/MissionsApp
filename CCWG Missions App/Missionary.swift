@@ -86,7 +86,13 @@ class Missionary {
     var hernandez = Missionary(name: "Amy Hernandez", image: "amyhernandez", infoShort: hernandezinfoShort, infoLong: hernandezinfoLong, email: "amyisabel3@yahoo.com")
 
     let courtneyinfoShort = "Courtney is currently serving in Rosarito, Mexico alongside her parents."
-    let courtneyinfoLong = "After serving in Rosarito, Mexico for one year, Courtney moved with her parents to La Mision, a small farming community about two hours south of the border, to come on staff at a new Calvary Chapel church plant. She has been there for one year now and is involved with recovery home ministries for men with addiction and women saved from human trafficking and prostitution. For the past year, Courtney has used her experience from Calvary Chapel School of Worship to help direct the worship team at Calvary Chapel Liberty Ranch, while leading worship for their Sunday and Wednesday services. During the week, she spends time at the women’s home teaching and discipling the women. Courtney teaches a weekly women’s Bible study on Thursday evenings. On Saturdays, she volunteers at an equine therapy center that provides free services to families with children who have mental or physical handicaps. She helps care for the horses, prays with families, and assists with exercise and therapy programs."
+    let courtneyinfoLong = """
+    After serving in Rosarito, Mexico for one year, Courtney moved with her parents to La Mision, a small farming community about two hours south of the border, to come on staff at a new Calvary Chapel church plant.
+
+    She has been there for one year now and is involved with recovery home ministries for men with addiction and women saved from human trafficking and prostitution. For the past year, Courtney has used her experience from Calvary Chapel School of Worship to help direct the worship team at Calvary Chapel Liberty Ranch, while leading worship for their Sunday and Wednesday services. During the week, she spends time at the women’s home teaching and discipling the women.
+
+    Courtney teaches a weekly women’s Bible study on Thursday evenings. On Saturdays, she volunteers at an equine therapy center that provides free services to families with children who have mental or physical handicaps. She helps care for the horses, prays with families, and assists with exercise and therapy programs.
+"""
     var courtneyNusslock = Missionary(name: "Courtney Nusslock", image: "courtneynusslock", infoShort: courtneyinfoShort, infoLong: courtneyinfoLong, email: "cjnusslock@icloud.com")
 
     let nelsoninfoShort = "A short blurb about Dane Nelson goes here."
