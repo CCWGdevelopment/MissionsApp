@@ -32,6 +32,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         missionaryImageViewer.image = UIImage(named: selectedImageArray[missionaryIndex])
         infoShortLabel.text = selectedShortInfoArray[missionaryIndex]
         missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
+        missionaryFavoriteVerse.text = selectedFavoriteVerseArray[missionaryIndex]
       
         
         // Do any additional setup after loading the view.

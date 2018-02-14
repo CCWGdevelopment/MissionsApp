@@ -157,6 +157,7 @@ let courtneyfavoriteVerse = "Genisis 1:1"
     var chinaMissionaryImage:[String] = [chinamissionary.image]
     var chinaMissionaryinfoShort:[String] = [chinamissionary.infoShort]
     var chinaMissionaryinfoLong:[String] = [chinamissionary.infoLong]
+    var chinaMissionaryfavoriteVerse:[String] = [chinamissionary.favoriteVerse]
     var chinaMissionaryEmail:[String] = [chinamissionary.email]
 
 
@@ -166,6 +167,7 @@ let courtneyfavoriteVerse = "Genisis 1:1"
     var haitiMissionaryImage:[String] = [bastia.image]
     var haitiMissionaryinfoShort:[String] = [bastia.infoShort]
     var haitiMissionaryinfoLong:[String] = [bastia.infoLong]
+    var haitiMissionaryfavoriteVerse:[String] = [bastia.favoriteVerse]
     var haitiMissionaryEmail:[String] = [bastia.email]
 
 
@@ -175,6 +177,7 @@ let courtneyfavoriteVerse = "Genisis 1:1"
     var indiaMissionaryImage:[String] = [daliya.image]
     var indiaMissionaryinfoShort:[String] = [daliya.infoShort]
     var indiaMissionaryinfoLong:[String] = [daliya.infoLong]
+    var indiaMissionaryfavoriteVerse:[String] = [daliya.favoriteVerse]
     var indiaMissionaryEmail:[String] = [daliya.email]
 
 
@@ -184,6 +187,7 @@ let courtneyfavoriteVerse = "Genisis 1:1"
     var italyMissionaryImage:[String] = [hernandez.image]
     var italyMissionaryinfoShort:[String] = [hernandez.infoShort]
     var italyMissionaryinfoLong:[String] = [hernandez.infoLong]
+    var italyMissionaryfavoriteVerse:[String] = [hernandez.favoriteVerse]
     var italyMissionaryEmail:[String] = [hernandez.email]
 
 
@@ -193,6 +197,7 @@ let courtneyfavoriteVerse = "Genisis 1:1"
     var kenyaMissionaryImage:[String] = []
     var kenyaMissionaryinfoShort:[String] = []
     var kenyaMissionaryinfoLong:[String] = []
+    var kenyaMissionaryfavoriteVerse:[String] = []
     var kenyaMissionaryEmail:[String] = []
 
 
@@ -202,6 +207,7 @@ let courtneyfavoriteVerse = "Genisis 1:1"
     var mexicoMissionaryImage:[String] = [nusslock.image, courtneyNusslock.image, vincent.image]
     var mexicoMissionaryinfoShort:[String] = [nusslock.infoShort, courtneyNusslock.infoShort, vincent.infoShort]
     var mexicoMissionaryinfoLong:[String] = [nusslock.infoLong, courtneyNusslock.infoLong, vincent.infoLong]
+    var mexicoMissionaryfavoriteVerse:[String] = [nusslock.favoriteVerse, courtneyNusslock.favoriteVerse, vincent.favoriteVerse]
     var mexicoMissionaryEmail:[String] = [nusslock.email, courtneyNusslock.email, vincent.email]
 
 
@@ -211,6 +217,7 @@ let courtneyfavoriteVerse = "Genisis 1:1"
     var nepalMissionaryImage:[String] = [gaona.image, garcia.image, nelson.image, sarkar.image, wright.image]
     var nepalMissionaryinfoShort:[String] = [gaona.infoShort, garcia.infoShort, nelson.infoShort, sarkar.infoShort, wright.infoShort]
     var nepalMissionaryinfoLong:[String] = [gaona.infoLong, garcia.infoLong, nelson.infoLong, sarkar.infoLong, wright.infoLong]
+    var nepalMissionaryfavoriteVerse:[String] = [gaona.favoriteVerse, garcia.favoriteVerse, nelson.favoriteVerse, sarkar.favoriteVerse, wright.favoriteVerse]
     var nepalMissionaryEmail:[String] = [gaona.email, garcia.email, nelson.email, sarkar.email, wright.email]
 
 
@@ -220,6 +227,7 @@ let courtneyfavoriteVerse = "Genisis 1:1"
     var newzealandMissionaryImage:[String] = [cisneros.image]
     var newzealandMissionaryinfoShort:[String] = [cisneros.infoShort]
     var newzealandMissionaryinfoLong:[String] = [cisneros.infoLong]
+    var newzealandMissionaryfavoriteVerse:[String] = [cisneros.favoriteVerse]
     var newzealandMissionaryEmail:[String] = [cisneros.email]
 
 
@@ -229,6 +237,7 @@ let courtneyfavoriteVerse = "Genisis 1:1"
     var philippinesMissionaryImage:[String] = [davis.image]
     var philippinesMissionaryinfoShort:[String] = [davis.infoShort]
     var philippinesMissionaryinfoLong:[String] = [davis.infoLong]
+    var philippinesMissionaryfavoriteVerse:[String] = [davis.favoriteVerse]
     var philippinesMissionaryEmail:[String] = [davis.email]
 
 
@@ -238,6 +247,7 @@ let courtneyfavoriteVerse = "Genisis 1:1"
     var southsudanMissionaryImage:[String] = [douglass.image, nyika.image]
     var southsudanMissionaryinfoShort:[String] = [douglass.infoShort, nyika.infoShort]
     var southsudanMissionaryinfoLong:[String] = [douglass.infoLong, nyika.infoLong]
+    var southsudanMissionaryfavoriteVerse:[String] = [douglass.favoriteVerse]
     var southsudanMissionaryEmail:[String] = [douglass.email, nyika.email]
 
 
@@ -247,6 +257,7 @@ let courtneyfavoriteVerse = "Genisis 1:1"
     var ugandaMissionaryImage:[String] = [abale.image, agabe.image, breznau.image, diego.image, emuku.image, gaona.image, garcia.image, nelson.image, onzima.image, wright.image]
     var ugandaMissionaryinfoShort:[String] = [abale.infoShort, agabe.infoShort, breznau.infoShort, diego.infoShort, emuku.infoShort, gaona.infoShort, garcia.infoShort, nelson.infoShort, onzima.infoShort, wright.infoShort]
     var ugandaMissionaryinfoLong:[String] = [abale.infoLong, agabe.infoLong, breznau.infoLong, diego.infoLong, emuku.infoLong, gaona.infoLong, garcia.infoLong, nelson.infoLong, onzima.infoLong, wright.infoLong]
+    var ugandaMissionaryfavoriteVerse:[String] = [abale.favoriteVerse, agabe.favoriteVerse, breznau.favoriteVerse, diego.favoriteVerse, emuku.favoriteVerse, gaona.favoriteVerse, garcia.favoriteVerse, nelson.favoriteVerse, onzima.favoriteVerse, wright.favoriteVerse]
     var ugandaMissionaryEmail:[String] = [abale.email, agabe.email, breznau.email, diego.email, emuku.email, gaona.email, garcia.email, nelson.email, onzima.email, wright.email]
 
 
@@ -256,6 +267,7 @@ let courtneyfavoriteVerse = "Genisis 1:1"
     var usaMissionaryImage:[String] = []
     var usaMissionaryinfoShort:[String] = []
     var usaMissionaryinfoLong:[String] = []
+    var usaMissionaryfavoriteVerse:[String] = []
     var usaMissionaryEmail:[String] = []
 
 
