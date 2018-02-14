@@ -10,5 +10,6 @@ import UIKit
 
 class countryIconCell: UICollectionViewCell {
     @IBOutlet weak var countryIconImageViewer: UIImageView!
+    @IBOutlet weak var countryLabel: UILabel!
     
 }

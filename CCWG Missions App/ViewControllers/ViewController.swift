@@ -11,7 +11,10 @@ import UIKit
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     @IBOutlet weak var countryIconCollectionView: UICollectionView!
     
-    let countryIconArray: [String] = ["chinaicon", "haitiicon", "indiaicon", "italyicon", "kenyaicon", "mexicoicon", "nepalicon", "newzealandicon", "philippinesicon", "southsudanicon", "ugandaicon", "USAicon"]
+    let countryIconArray: [String] = ["chinacircle", "haiticircle", "indiacircle", "italycircle", "kenyacircle", "mexicocircle", "nepalcircle", "newzealandcircle", "philippinescircle", "southsudancircle", "ugandacircle", "usaicon"]
+    
+    
+    let countryNameArray: [String] = ["China", "Haiti", "India", "Italy", "Kenya", "Mexico", "Nepal", "New Zealand", "Philippines", "South Sudan", "Uganda", "United States"]
     
     var countryIndex:Int = 0
     
@@ -55,6 +58,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let collectionCell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionCell", for: indexPath) as! countryIconCell
         collectionCell.countryIconImageViewer.image = UIImage(named: countryIconArray[indexPath.row])
+        collectionCell.countryLabel.text = countryNameArray[indexPath.row]
         
         return collectionCell
     }
