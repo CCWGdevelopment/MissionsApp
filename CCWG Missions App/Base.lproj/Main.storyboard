@@ -19,6 +19,15 @@
         <array key="Metropolis-Bold.otf">
             <string>Metropolis-Bold</string>
         </array>
+        <array key="Metropolis-Medium.otf">
+            <string>Metropolis-Medium</string>
+        </array>
+        <array key="Metropolis-Regular.otf">
+            <string>Metropolis-Regular</string>
+        </array>
+        <array key="Metropolis-RegularItalic.otf">
+            <string>Metropolis-RegularItalic</string>
+        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -310,7 +319,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="V3h-Pz-QEN"/>
                                     <constraint firstAttribute="height" constant="50" id="Vep-PF-Ydu"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Metropolis-Medium" family="Metropolis" pointSize="17"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="Vrc-FP-bOJ" kind="show" identifier="back" animates="NO" id="cgM-7R-dv6"/>
@@ -331,7 +340,7 @@
                                     <constraint firstAttribute="height" constant="44" id="Q9a-YL-JHa"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="216" id="qoE-kT-qrD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Metropolis-Black" family="Metropolis" pointSize="14"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="SUPPORT FINANCIALLY"/>
                                 <userDefinedRuntimeAttributes>
@@ -355,13 +364,13 @@
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" text="InfoShort" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHX-fJ-K4J">
                                 <rect key="frame" x="20" y="162" width="545" height="64"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Metropolis-Medium" family="Metropolis" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -372,7 +381,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="216" id="3UM-7M-bZy"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="tTa-jq-4SS"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Metropolis-Black" family="Metropolis" pointSize="14"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="SIGN UP FOR NEWSLETTER"/>
                                 <userDefinedRuntimeAttributes>
@@ -398,7 +407,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="216" id="AAI-yh-ahZ"/>
                                     <constraint firstAttribute="height" constant="44" id="vd2-lR-iem"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Metropolis-Black" family="Metropolis" pointSize="14"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="SEND EMAIL"/>
                                 <userDefinedRuntimeAttributes>
@@ -412,7 +421,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4r-Uo-mGB">
                                 <rect key="frame" x="20" y="244" width="545" height="139"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Metropolis-RegularItalic" family="Metropolis" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
