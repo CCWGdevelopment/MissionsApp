@@ -28,19 +28,21 @@
         <array key="Metropolis-RegularItalic.otf">
             <string>Metropolis-RegularItalic</string>
         </array>
+        <array key="Metropolis-SemiBold.otf">
+            <string>Metropolis-SemiBold</string>
+        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CCWG_Missions_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="CALVARY CHAPEL WESTGROVE" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6o-O9-msY">
+                            <textView opaque="NO" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="CALVARY CHAPEL WESTGROVE" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6o-O9-msY">
                                 <rect key="frame" x="20" y="40" width="1326" height="137"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Metropolis-Black" family="Metropolis" pointSize="76"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" textContentType="organization"/>
                             </textView>
@@ -122,7 +124,7 @@
                                 </connections>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="s1V-4q-igf" secondAttribute="bottom" id="2fB-hE-V3j"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s1V-4q-igf" secondAttribute="trailing" id="LzI-uv-2gE"/>
@@ -237,8 +239,8 @@
                                 </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spe-3i-cwz">
-                                <rect key="frame" x="439.5" y="111" width="487.5" height="120"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="100"/>
+                                <rect key="frame" x="435.5" y="121" width="496.5" height="100"/>
+                                <fontDescription key="fontDescription" name="Metropolis-SemiBold" family="Metropolis" pointSize="100"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
