@@ -20,7 +20,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBOutlet weak var sendEmailButton: UIButton!
     @IBOutlet weak var supportMissionaryButton: UIButton!
     @IBOutlet weak var infoShortLabel: UILabel!
-    @IBOutlet weak var missionaryFavoriteVerse: UILabel!
+    @IBOutlet weak var missionaryfavoriteVerse: UILabel!
     
     
     
@@ -32,7 +32,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         missionaryImageViewer.image = UIImage(named: selectedImageArray[missionaryIndex])
         infoShortLabel.text = selectedShortInfoArray[missionaryIndex]
         missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
-        missionaryFavoriteVerse.text = selectedFavoriteVerseArray[missionaryIndex]
+        missionaryfavoriteVerse.text = selectedFavoriteVerseArray[missionaryIndex]
       
         
         // Do any additional setup after loading the view.

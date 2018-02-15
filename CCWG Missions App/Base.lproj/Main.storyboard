@@ -18,9 +18,6 @@
         <array key="Metropolis-Bold.otf">
             <string>Metropolis-Bold</string>
         </array>
-        <array key="Metropolis-RegularItalic.otf">
-            <string>Metropolis-RegularItalic</string>
-        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -420,10 +417,10 @@
                                     <action selector="sendEmail:" destination="CZa-xH-fDG" eventType="touchUpInside" id="h5q-BU-cfc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="favverse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCA-7r-Vbl">
-                                <rect key="frame" x="20" y="335" width="545" height="97"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4r-Uo-mGB">
+                                <rect key="frame" x="20" y="345" width="545" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Metropolis-RegularItalic" family="Metropolis" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -461,9 +458,9 @@
                     <connections>
                         <outlet property="infoShortLabel" destination="FHX-fJ-K4J" id="F1v-PS-Hp2"/>
                         <outlet property="missionaryBioLabel" destination="0QF-9Q-apa" id="os3-96-ogP"/>
-                        <outlet property="missionaryFavoriteVerse" destination="UCA-7r-Vbl" id="LdE-f6-vPj"/>
                         <outlet property="missionaryImageViewer" destination="CYk-l7-Vt8" id="Tj3-yE-Rlm"/>
                         <outlet property="missionaryLabel" destination="vo6-pP-3xc" id="h8a-XX-HSA"/>
+                        <outlet property="missionaryfavoriteVerse" destination="Q4r-Uo-mGB" id="hBj-oa-1Z3"/>
                         <outlet property="sendEmailButton" destination="11o-hs-Swk" id="u5E-pA-ZHv"/>
                         <outlet property="supportMissionaryButton" destination="fRE-lu-uw3" id="Xku-50-WM0"/>
                     </connections>
