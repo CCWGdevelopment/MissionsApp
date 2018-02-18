@@ -425,14 +425,41 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OCP-VN-tR7">
-                                <rect key="frame" x="20" y="538" width="600" height="446"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OCP-VN-tR7" userLabel="infoLongScrollView">
+                                <rect key="frame" x="20" y="538" width="625" height="446"/>
                                 <subviews>
                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QF-9Q-apa">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="94"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="625" height="94"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                         </accessibility>
+                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices, tortor vitae vestibulum bibendum, felis sapien cursus dolor, quis feugiat nulla risus dictum odio. Maecenas aliquet tellus quam, id dignissim velit tristique quis. Vivamus faucibus luctus hendrerit. Sed odio justo, efficitur eu auctor nec, cursus sed turpis. Nam consectetur facilisis quam, eu vestibulum felis pretium ac. Proin sit amet ante dictum nisi cursus consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque euismod ipsum elit, ac fermentum sem egestas sed.
+
+Nulla mauris ante, pharetra eget facilisis eu, feugiat et ligula. Ut euismod diam posuere, tincidunt justo et, euismod leo. Curabitur hendrerit nisl at placerat dapibus. Morbi maximus nulla vel convallis eleifend. Nulla scelerisque rhoncus urna, vitae rutrum dolor tincidunt eu. Sed molestie a lacus in fermentum. Nulla vulputate ac sem sit amet convallis. Integer sed quam nec lectus condimentum imperdiet. Nam mauris neque, tempus nec sollicitudin sed, eleifend ut nisl. Curabitur ac elit nibh. Quisque est nunc, tempor vel nibh quis, varius imperdiet sapien. Pellentesque augue lectus, bibendum ut pretium quis, finibus eu nibh. Proin at feugiat elit. Praesent vulputate consequat nulla nec volutpat.
+
+Vestibulum leo ipsum, posuere sit amet luctus quis, porttitor ac diam. Praesent condimentum mi a facilisis varius. Proin interdum at massa non suscipit. Suspendisse tincidunt semper augue non molestie. Proin vitae nunc lacinia, dignissim diam sit amet, consectetur nulla. Nam dignissim, dolor in tempus auctor, ligula dui imperdiet justo, quis ullamcorper tortor lorem quis nisl. Aliquam et lectus consectetur, molestie ante id, fermentum urna. Proin eget mattis massa. Etiam eleifend velit et ante egestas, in sagittis enim vestibulum. Fusce venenatis auctor lacus vitae tincidunt. Morbi accumsan elit ligula, vitae ultricies turpis mattis ac.
+
+Sed sed ligula in sapien tristique finibus nec id nulla. Sed laoreet ante non ligula maximus fermentum. Maecenas faucibus maximus velit, vitae cursus nulla. Nulla non dapibus arcu. Sed interdum sapien libero, ac accumsan neque eleifend et. Suspendisse mattis nunc eget ipsum faucibus lobortis. Vivamus quis mattis velit. Aliquam sit amet dignissim elit. Ut finibus, mi sit amet imperdiet aliquet, mauris nisi volutpat magna, at hendrerit elit ex sit amet elit.
+
+Aenean accumsan auctor nisl nec maximus. Suspendisse convallis odio quis turpis rhoncus, posuere convallis justo facilisis. Curabitur ullamcorper erat ut dictum tempor. Pellentesque metus nunc, interdum semper feugiat eu, tincidunt vitae metus. Curabitur ut nisi in erat faucibus mattis quis ullamcorper lectus. Ut tincidunt lorem sapien, a semper mi accumsan in. In dignissim finibus dapibus. Morbi vel quam vitae lacus dapibus ornare. Pellentesque gravida sapien a sapien fermentum, at hendrerit nibh sollicitudin.</string>
+                                        <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="0QF-9Q-apa" secondAttribute="bottom" constant="352" placeholder="YES" id="Ew0-5F-JU2"/>
+                                    <constraint firstAttribute="trailing" secondItem="0QF-9Q-apa" secondAttribute="trailing" id="Guk-8Q-ihJ"/>
+                                    <constraint firstItem="0QF-9Q-apa" firstAttribute="leading" secondItem="OCP-VN-tR7" secondAttribute="leading" id="M2o-tQ-dIn"/>
+                                    <constraint firstItem="0QF-9Q-apa" firstAttribute="width" secondItem="OCP-VN-tR7" secondAttribute="width" id="P8F-wq-0F6"/>
+                                    <constraint firstItem="0QF-9Q-apa" firstAttribute="top" secondItem="OCP-VN-tR7" secondAttribute="top" id="l0K-mv-oCs"/>
+                                </constraints>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ip9-uF-RmD" userLabel="PrayerRequestScrollView">
+                                <rect key="frame" x="674" y="538" width="330" height="446"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPh-Ij-B68">
+                                        <rect key="frame" x="0.0" y="0.0" width="330" height="94"/>
                                         <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices, tortor vitae vestibulum bibendum, felis sapien cursus dolor, quis feugiat nulla risus dictum odio. Maecenas aliquet tellus quam, id dignissim velit tristique quis. Vivamus faucibus luctus hendrerit. Sed odio justo, efficitur eu auctor nec, cursus sed turpis. Nam consectetur facilisis quam, eu vestibulum felis pretium ac. Proin sit amet ante dictum nisi cursus consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque euismod ipsum elit, ac fermentum sem egestas sed.
 
 Nulla mauris ante, pharetra eget facilisis eu, feugiat et ligula. Ut euismod diam posuere, tincidunt justo et, euismod leo. Curabitur hendrerit nisl at placerat dapibus. Morbi maximus nulla vel convallis eleifend. Nulla scelerisque rhoncus urna, vitae rutrum dolor tincidunt eu. Sed molestie a lacus in fermentum. Nulla vulputate ac sem sit amet convallis. Integer sed quam nec lectus condimentum imperdiet. Nam mauris neque, tempus nec sollicitudin sed, eleifend ut nisl. Curabitur ac elit nibh. Quisque est nunc, tempor vel nibh quis, varius imperdiet sapien. Pellentesque augue lectus, bibendum ut pretium quis, finibus eu nibh. Proin at feugiat elit. Praesent vulputate consequat nulla nec volutpat.
@@ -442,17 +469,17 @@ Vestibulum leo ipsum, posuere sit amet luctus quis, porttitor ac diam. Praesent 
 Sed sed ligula in sapien tristique finibus nec id nulla. Sed laoreet ante non ligula maximus fermentum. Maecenas faucibus maximus velit, vitae cursus nulla. Nulla non dapibus arcu. Sed interdum sapien libero, ac accumsan neque eleifend et. Suspendisse mattis nunc eget ipsum faucibus lobortis. Vivamus quis mattis velit. Aliquam sit amet dignissim elit. Ut finibus, mi sit amet imperdiet aliquet, mauris nisi volutpat magna, at hendrerit elit ex sit amet elit.
 
 Aenean accumsan auctor nisl nec maximus. Suspendisse convallis odio quis turpis rhoncus, posuere convallis justo facilisis. Curabitur ullamcorper erat ut dictum tempor. Pellentesque metus nunc, interdum semper feugiat eu, tincidunt vitae metus. Curabitur ut nisi in erat faucibus mattis quis ullamcorper lectus. Ut tincidunt lorem sapien, a semper mi accumsan in. In dignissim finibus dapibus. Morbi vel quam vitae lacus dapibus ornare. Pellentesque gravida sapien a sapien fermentum, at hendrerit nibh sollicitudin.</mutableString>
-                                        <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="0QF-9Q-apa" secondAttribute="bottom" constant="360" placeholder="YES" id="Ew0-5F-JU2"/>
-                                    <constraint firstAttribute="trailing" secondItem="0QF-9Q-apa" secondAttribute="trailing" id="Guk-8Q-ihJ"/>
-                                    <constraint firstItem="0QF-9Q-apa" firstAttribute="leading" secondItem="OCP-VN-tR7" secondAttribute="leading" id="M2o-tQ-dIn"/>
-                                    <constraint firstItem="0QF-9Q-apa" firstAttribute="width" secondItem="OCP-VN-tR7" secondAttribute="width" id="P8F-wq-0F6"/>
-                                    <constraint firstItem="0QF-9Q-apa" firstAttribute="top" secondItem="OCP-VN-tR7" secondAttribute="top" id="l0K-mv-oCs"/>
+                                    <constraint firstAttribute="bottom" secondItem="RPh-Ij-B68" secondAttribute="bottom" constant="352" placeholder="YES" id="5L7-Jl-wO4"/>
+                                    <constraint firstItem="RPh-Ij-B68" firstAttribute="width" secondItem="ip9-uF-RmD" secondAttribute="width" id="P7T-22-pja"/>
+                                    <constraint firstItem="RPh-Ij-B68" firstAttribute="top" secondItem="ip9-uF-RmD" secondAttribute="top" id="V6R-cP-nwI"/>
+                                    <constraint firstItem="RPh-Ij-B68" firstAttribute="leading" secondItem="ip9-uF-RmD" secondAttribute="leading" id="fTt-41-dIb"/>
+                                    <constraint firstAttribute="trailing" secondItem="RPh-Ij-B68" secondAttribute="trailing" id="l1b-yL-fym"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -467,6 +494,7 @@ Aenean accumsan auctor nisl nec maximus. Suspendisse convallis odio quis turpis 
                             <constraint firstItem="11o-hs-Swk" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" constant="478" id="HcN-Yr-0d0"/>
                             <constraint firstItem="11o-hs-Swk" firstAttribute="leading" secondItem="ugc-zH-ISq" secondAttribute="trailing" constant="92" id="N4M-AI-RBI"/>
                             <constraint firstItem="ueR-hV-dEk" firstAttribute="trailing" secondItem="CYk-l7-Vt8" secondAttribute="trailing" constant="47" id="QQ1-Wn-G1w"/>
+                            <constraint firstItem="ueR-hV-dEk" firstAttribute="trailing" secondItem="ip9-uF-RmD" secondAttribute="trailing" constant="20" id="S9H-hx-7ZU"/>
                             <constraint firstItem="CYk-l7-Vt8" firstAttribute="trailing" secondItem="vo6-pP-3xc" secondAttribute="trailing" id="SW5-HO-Eia"/>
                             <constraint firstItem="ugc-zH-ISq" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" constant="96" id="UEa-0u-qaR"/>
                             <constraint firstItem="vo6-pP-3xc" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" constant="20" id="Uq8-3h-jVu"/>
@@ -478,12 +506,15 @@ Aenean accumsan auctor nisl nec maximus. Suspendisse convallis odio quis turpis 
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pyh-Iq-ekc" secondAttribute="trailing" constant="20" symbolic="YES" id="eXj-4D-arI"/>
                             <constraint firstItem="CYk-l7-Vt8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FHX-fJ-K4J" secondAttribute="trailing" constant="30" id="gRg-i2-Wbd"/>
                             <constraint firstItem="vo6-pP-3xc" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" constant="42" id="gvk-G0-m7v"/>
-                            <constraint firstItem="ueR-hV-dEk" firstAttribute="trailing" secondItem="OCP-VN-tR7" secondAttribute="trailing" constant="404" id="j16-aM-Xwl"/>
+                            <constraint firstItem="ueR-hV-dEk" firstAttribute="trailing" secondItem="OCP-VN-tR7" secondAttribute="trailing" constant="379" id="j16-aM-Xwl"/>
+                            <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="ip9-uF-RmD" secondAttribute="bottom" constant="20" id="jLT-JW-qiz"/>
                             <constraint firstItem="CYk-l7-Vt8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Q4r-Uo-mGB" secondAttribute="trailing" constant="30" id="kFj-Ib-a4n"/>
                             <constraint firstItem="FHX-fJ-K4J" firstAttribute="firstBaseline" secondItem="vo6-pP-3xc" secondAttribute="baseline" constant="40.5" id="klw-4o-FWc"/>
                             <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="OCP-VN-tR7" secondAttribute="bottom" constant="20" id="lSW-Q3-Jma"/>
+                            <constraint firstItem="ip9-uF-RmD" firstAttribute="top" secondItem="fRE-lu-uw3" secondAttribute="bottom" constant="16" id="mGQ-XR-pFT"/>
                             <constraint firstItem="ugc-zH-ISq" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" constant="478" id="o7p-F8-ytS"/>
                             <constraint firstItem="OCP-VN-tR7" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" constant="20" id="uJn-2i-bGa"/>
+                            <constraint firstItem="ip9-uF-RmD" firstAttribute="leading" secondItem="OCP-VN-tR7" secondAttribute="trailing" constant="29" id="yVX-mp-6tR"/>
                             <constraint firstItem="ueR-hV-dEk" firstAttribute="trailing" secondItem="fRE-lu-uw3" secondAttribute="trailing" constant="96" id="yhu-CL-gky"/>
                             <constraint firstItem="fRE-lu-uw3" firstAttribute="leading" secondItem="11o-hs-Swk" secondAttribute="trailing" constant="92" id="zCn-7c-oxg"/>
                         </constraints>
@@ -495,6 +526,8 @@ Aenean accumsan auctor nisl nec maximus. Suspendisse convallis odio quis turpis 
                         <outlet property="missionaryImageViewer" destination="CYk-l7-Vt8" id="Tj3-yE-Rlm"/>
                         <outlet property="missionaryLabel" destination="vo6-pP-3xc" id="h8a-XX-HSA"/>
                         <outlet property="missionaryfavoriteVerse" destination="Q4r-Uo-mGB" id="hBj-oa-1Z3"/>
+                        <outlet property="prayerRequestLabel" destination="RPh-Ij-B68" id="jB1-HL-jhj"/>
+                        <outlet property="prayerRequestScrollView" destination="ip9-uF-RmD" id="hVo-gy-Jn4"/>
                         <outlet property="scrollView" destination="OCP-VN-tR7" id="HgD-cJ-6g9"/>
                         <outlet property="sendEmailButton" destination="11o-hs-Swk" id="u5E-pA-ZHv"/>
                         <outlet property="supportMissionaryButton" destination="fRE-lu-uw3" id="Xku-50-WM0"/>
