@@ -42,6 +42,7 @@ class Missionary {
 """
     let abaleprayerRequest = """
 \u{2022} Please pray for their health, protection from malaria, safety while ministering in a dangerous area, fruitful ministry, and wisdom in all areas of life
+
 \u{2022} Pray that the church to withstands persecution from the Muslims and that the church will mature in faith and walk in holiness
 """
     var abale = Missionary(name: "Pastor John Bosco and Janay Abale", image: "abale", infoShort: abaleinfoShort, infoLong: abaleinfoLong, favoriteVerse: abalefavoriteVerse, prayerRequest: abaleprayerRequest, email: "pippil88@yahoo.com")
@@ -75,7 +76,9 @@ We have seen Pastor Bastia’s church grow from less than 20 people meeting unde
 """
     let bastiaprayerRequest = """
 \u{2022} For the Lord’s provision to improve school building to accommodate for growing number of students
+
 \u{2022} Fruitful ministry through the new marketplace
+
 \u{2022} Protection over the church and children of God from spiritual oppression
 """
     var bastia = Missionary(name: "Pastor Huguener Bastia", image: "bastia", infoShort: bastiainfoShort, infoLong: bastiainfoLong, favoriteVerse: bastiafavoriteVerse, prayerRequest: bastiaprayerRequest, email: "cccgetsaved@yahoo.com")
@@ -91,7 +94,9 @@ Becky Breznau currently lives as a missionary in Arua, Uganda. Her greatest pass
 """
     let breznauprayerRequest = """
 \u{2022} For the development and completion of the children’s home
+
 \u{2022} Pray that the Lord would give Becky wisdom and boldness as she minister to women in her area
+
 \u{2022} For safety and financial provision
 """
     var breznau = Missionary(name: "Becky Breznau", image: "breznau", infoShort: breznauinfoShort, infoLong: breznauinfoLong, favoriteVerse: breznaufavoriteVerse, prayerRequest: breznauprayerRequest, email: "becky.breznau@yahoo.com")
@@ -109,7 +114,9 @@ For security reasons we cannot give any further details about what they are doin
 """
     let chinaprayerRequest = """
 \u{2022} Continual salvation of souls in the midst of persecution
+
 \u{2022} For God to raise up leaders and ministry workers
+
 \u{2022} For the Lord’s will with current political situation in regard to Christianity
 """
     var chinamissionary = Missionary(name: "China Missionaries", image: "china", infoShort: chinamissionaryinfoShort, infoLong: chinamissionaryinfoLong, favoriteVerse: chinafavoriteVerse, prayerRequest: chinaprayerRequest, email: "")
@@ -127,7 +134,9 @@ Vickie believes the Lord desires to do a mighty work in New Zealand and the surr
 """
     let cisnerosprayerRequest = """
 \u{2022} Please pray for the nation of New Zealand, that hearts would be open to the saving power of the Gospel and there would be a spiritual revival
+
 \u{2022} Pray that the Lord would raise up laborers to be a part of the ministries and church plants in New Zealand and the surrounding nations
+
 \u{2022} Please pray for the hearts of the staff and students at CCBI to be open to the Lord’s work and trust that the Lord will continue to provide for their needs
 """
     var cisneros = Missionary(name: "Vickie Cisneros", image: "cisneros", infoShort: cisnerosinfoShort, infoLong: cisnerosinfoLong, favoriteVerse: cisnerosfavoriteVerse, prayerRequest:cisnerosprayerRequest, email: "vickieccwgmissions@gmail.com")
@@ -145,7 +154,9 @@ God has allowed them to open computer centers in three different villages where 
 """
     let daliyaprayerRequest = """
 \u{2022} Pray that God would soften the hearts of the villagers to hear and receive the Word of God
+
 \u{2022} For safety and provision for their entire team
+
 \u{2022} For wisdom and provision while handling their monthly budget
 """
     var daliya = Missionary(name: "Pastor Manoj and Nasreen Daliya", image: "daliya", infoShort: daliyainfoShort, infoLong: daliyainfoLong, favoriteVerse: daliyafavoriteVerse, prayerRequest: daliyaprayerRequest, email: "daliya.manoj@gmail.com")
@@ -163,7 +174,9 @@ Jim and Shonda want to let everyone know they love visitors and hope to see many
 """
     let davisprayerRequest = """
 \u{2022} Please pray for more American missionaries to join PTA
+
 \u{2022} For Jim and Shonda’s health and protection
+
 \u{2022} For God’s continual provisions for the ministry and their family
 """
     var davis = Missionary(name: "Jim and Shonda Davis", image: "davis", infoShort: davisinfoShort, infoLong: davisinfoLong, favoriteVerse: davisfavoriteVerse, prayerRequest: davisprayerRequest, email: "ptadavis@aol.com")
@@ -181,8 +194,11 @@ God has blessed Iyana with love for administration, assisting, and discipleship,
 """
     let diegoprayerRequest = """
 \u{2022} For humility, compassion, love towards the Ugandans
+
 \u{2022} A smooth adjustment to new cultural and social differences
+
 \u{2022} For health and safety
+
 \u{2022} For boldness to share about Jesus in all circumstances
 """
     var diego = Missionary(name: "Iyana Diego", image: "iyana", infoShort: diegoinfoShort, infoLong: diegoinfoLong, favoriteVerse: diegofavoriteVerse, prayerRequest: diegoprayerRequest, email: "iyanana95@gmail.com")
@@ -214,46 +230,14 @@ Also, Pastor Juventine is the Uganda National Director for Promise Child Ministr
 """
     let emukuprayerRequest = """
 \u{2022} For the Lord’s guidance in every step of ministry
+
 \u{2022} Continued provision for Promise Child students and those who wish the further their education through college
+
 \u{2022} For the Word of God to stir up young leaders to be the next generation of ministry workers
+
 \u{2022} For the Lord to send more medical professionals to help the people Uganda
 """
     var emuku = Missionary(name: "Pastor Juventine and Elizabeth Emuku", image: "emuku", infoShort: emukuinfoShort, infoLong: emukuinfoLong, favoriteVerse: emukufavoriteVerse, prayerRequest: emukuprayerRequest, email: "emukujuv@yahoo.com")
-
-
-    //**Gaona**
-    let gaonainfoShort = "A short blurb about Pastor Bond and Heather goes here."
-    let gaonainfoLong = """
-Pastor Bond, Heather and their young daughter Breanna Gaona are serving as full-time missionaries with Saving Grace World Missions, Calvary Chapel WestGrove, and Promise Child Ministries. They minister in different countries throughout Asia and Africa and are passionate about providing Biblical training for local Pastors and Leaders.
-
-The Gaonas are serving the Lord by discipling and raising up nationals to serve and sharing the Gospel with those who have never before heard the name of Jesus. Pastor Bond and Heather hold important roles in the administration of many international ministries as well as overseeing church plants and Bible colleges throughout Asia and Africa.
-"""
-    let gaonafavoriteVerse = """
-            n/a
-"""
-    let gaonoprayerRequest = ""
-    var gaona = Missionary(name: "Pastor Bond and Heather Gaona", image: "gaona", infoShort: gaonainfoShort, infoLong: gaonainfoLong, favoriteVerse: gaonafavoriteVerse, prayerRequest: gaonoprayerRequest, email: "bond@sgwm.com")
-
-
-    //**Garcia**
-    let garciainfoShort = "A short blurb about Aaron and Jenna goes here."
-    let garciainfoLong = """
-Pastor Aaron and Jena Garcia have been living in the country of Nepal, which has over 300 unreached remote people groups lining the remotest parts of the Himalayas, since 2012. Nepal is one of the fastest growing percentages of Hindus and Buddhist converting to Christianity despite the government outlawing conversion to Christianity.
-
-God has provided the Garcias with an opportunity to serve and teach at Calvary Chapel Bible College Nepal, where they raise up and train God’s people in His Word. Aaron and Jena believe their calling is reaching the unreached people of Nepal by teaching the Bible students to be true disciples in lesson and life example before sending them out to replicate this work in their home villages throughout Nepal.
-
-Pastor Aaron and Jena’s heart is that God will cause many to hear and believe the Gospel, prayerfully leading to some of the most remote parts of the world having Bible teaching churches in their midst shining for Christ and laboring until His return!
-"""
-    let garciafavoriteVerse = """
-“How then will they call on Him in whom they have not believed? And how are they to believe in Him of whom they have never heard? And how are they to hear without someone preaching?” Romans‬ ‭10:14‬ ‭‬‬‬‬
-"""
-    let garciaprayerRequest = """
-\u{2022} For CBCC Students to grow in grace and in the Knowledge of God’s word
-\u{2022} That the students may see the direction of God’s will for their lives
-\u{2022} Protection and safety for the church from persecution
-\u{2022} For the church to have great boldness to preach the Gospel regardless of challenging circumstances
-"""
-    var garcia = Missionary(name: "Aaron and Jenna Garcia", image: "garcia", infoShort: garciainfoShort, infoLong: garciainfoLong, favoriteVerse: garciafavoriteVerse, prayerRequest: garciaprayerRequest, email: "garciaccwgmissions@gmail.com")
 
 
     //**Hernandez**
@@ -268,8 +252,11 @@ In March 2018, Amy will join the ministry at CC Ferrara, serving with the church
 """
     let hernandezprayerRequest = """
 \u{2022} For favor in learning the language fluently
+
 \u{2022} A smooth transition throughout the first year
+
 \u{2022} New friendships/conversations with university students who are being taught atheism and have wrong views of Jesus and salvation
+
 \u{2022} Discipleship opportunities with new believers
 """
     var hernandez = Missionary(name: "Amy Hernandez", image: "amyhernandez", infoShort: hernandezinfoShort, infoLong: hernandezinfoLong, favoriteVerse: hernandezfavoriteVerse, prayerRequest: hernandezprayerRequest, email: "amyisabel3@yahoo.com")
@@ -289,7 +276,9 @@ In March 2018, Amy will join the ministry at CC Ferrara, serving with the church
 """
     let courtneyprayerRequest = """
 \u{2022} For Courtney to learn Spanish and get immersed in the community
+
 \u{2022} For the Gospel to be spread with power
+
 \u{2022} For financial and personal provision
 """
     var courtneyNusslock = Missionary(name: "Courtney Nusslock", image: "courtneynusslock", infoShort: courtneyinfoShort, infoLong: courtneyinfoLong, favoriteVerse: courtneyfavoriteVerse, prayerRequest: courtneyprayerRequest, email: "cjnusslock@icloud.com")
@@ -307,8 +296,11 @@ Dane will now have the great opportunity to reach many unreached people groups w
 """
     let nelsonprayerRequest = """
 \u{2022} For endurance while on the field
+
 \u{2022} To be a man who is filled with and empowered by the Holy Spirit
+
 \u{2022} For God to use Dane to teach His Word with diligence
+
 \u{2022} For the hearts of the people to be reached and open doors to proclaim the Gospel with boldness
 """
     var nelson = Missionary(name: "Dane Nelson", image: "dane", infoShort: nelsoninfoShort, infoLong: nelsoninfoLong, favoriteVerse: nelsonfavoriteVerse, prayerRequest: nelsonprayerRequest, email: "dane5golf@mgail.com")
@@ -326,6 +318,7 @@ Jeff and Bernadette are currently praying about going further south and duplicat
 """
     let nusslockprayerRequest = """
 \u{2022} Please pray for teams to come along side and work with the Nusslocks as they continue to build and disciple
+
 \u{2022} Prayers of protection over their family, health, financial support, wisdom, and discernment
 """
     var nusslock = Missionary(name: "Jeff and Burnadette Nusslock", image: "nusslock", infoShort: nusslockinfoShort, infoLong: nusslockinfoLong, favoriteVerse: nusslockfavoriteVerse, prayerRequest: nusslockprayerRequest, email: "compeloutreach@gmail.com")
@@ -343,6 +336,7 @@ let nyikafavoriteVerse = """
 """
 let nyikaprayerRequest = """
 \u{2022} Please pray for them as they visit the work among the unreached people in Narus South Sudan
+
 \u{2022} For God’s provision and favor as they move to Northern Uganda to start intentional discipleship among the two million South Sudanese refugees
 """
 var nyika = Missionary(name: "Pastor James and Jane Nyika", image: "nyika", infoShort: nyikainfoShort, infoLong: nyikainfoLong, favoriteVerse: nyikafavoriteVerse, prayerRequest: nyikaprayerRequest, email: "jamesandjanenyika@gmail.com")
@@ -360,8 +354,11 @@ Also, they are part of a Bible school for young women who desire to learn more a
 """
     let onzimaprayerRequest = """
 \u{2022} For the community to open up and receive the Gospel
+
 \u{2022} Pray for strength and provision for the completion of the main Church building
+
 \u{2022} Pray for God to raise up more leaders as the church grows
+
 \u{2022} Pray for the Lord to continue to provide for their family and a deeper understanding of God’s Word
 """
     var onzima = Missionary(name: "Pastor David and Medline Onzima", image: "onzima", infoShort: onzimainfoShort, infoLong: onzimainfoLong, favoriteVerse: onzimafavoriteVerse, prayerRequest: onzimaprayerRequest, email: "calvarychapelarua@gmail.com")
@@ -379,8 +376,11 @@ In addition, Pastor Pankaj and Tonielle are greatly involved in overseeing the P
 """
     let sarkarprayerRequest = """
 \u{2022} For wisdom and guidance for them while they run the ministries
+
 \u{2022} For unity between each of the ministry team members
+
 \u{2022} For spiritual and physical protection over their marriage, family, and ministries
+
 \u{2022} For ministry and personal financial provision
 """
 
@@ -397,7 +397,9 @@ In 2002, the Vincent family moved from Orange County to Rosarito, Mexico as miss
 """
     let vincentprayerRequest = """
 \u{2022} Please pray for the continual grow of their ministry
+
 \u{2022} For God’s favor for more church plants to be sent out
+
 \u{2022} For God’s provision of more Bible teaching ministry workers in Mexico
 """
     var vincent = Missionary(name: "Pastor Mike and Sarah Vincent", image: "vincent", infoShort: vincentinfoShort, infoLong: vincentinfoLong, favoriteVerse: vincentfavoriteVerse, prayerRequest: vincentprayerRequest, email: "calvarychapelrosarito@yahoo.com")
@@ -417,7 +419,9 @@ Brandon says that the Lord has stirred him with a passion in this mission to mak
 """
     let wrightprayerRequest = """
 \u{2022} Pray for strength and boldness to preach in challenging and uncomfortable situations
+
 \u{2022} Pray that the Lord will reveal His Word to Brandon as he teaches at the Bible colleges
+
 \u{2022} Pray for safety and provision throughout travel and stay
 """
 var wright = Missionary(name: "Brandon Wright", image: "wright", infoShort: wrightinfoShort, infoLong: wrightinfoLong, favoriteVerse: wrightfavoriteVerse, prayerRequest: wrightprayerRequest, email: "bwrightttt23@gmail.com")
@@ -493,13 +497,13 @@ var wright = Missionary(name: "Brandon Wright", image: "wright", infoShort: wrig
 
     // Nepal
 
-    var nepalMissionaryName:[String] = [gaona.name, garcia.name, nelson.name, sarkar.name, wright.name]
-    var nepalMissionaryImage:[String] = [gaona.image, garcia.image, nelson.image, sarkar.image, wright.image]
-    var nepalMissionaryinfoShort:[String] = [gaona.infoShort, garcia.infoShort, nelson.infoShort, sarkar.infoShort, wright.infoShort]
-    var nepalMissionaryinfoLong:[String] = [gaona.infoLong, garcia.infoLong, nelson.infoLong, sarkar.infoLong, wright.infoLong]
-    var nepalMissionaryfavoriteVerse:[String] = [gaona.favoriteVerse, garcia.favoriteVerse, nelson.favoriteVerse, sarkar.favoriteVerse, wright.favoriteVerse]
-    var nepalMissionaryPrayerRequest:[String] = [gaona.prayerRequest, garcia.prayerRequest, nelson.prayerRequest, sarkar.prayerRequest, wright.prayerRequest]
-    var nepalMissionaryEmail:[String] = [gaona.email, garcia.email, nelson.email, sarkar.email, wright.email]
+    var nepalMissionaryName:[String] = [nelson.name, sarkar.name, wright.name]
+    var nepalMissionaryImage:[String] = [nelson.image, sarkar.image, wright.image]
+    var nepalMissionaryinfoShort:[String] = [nelson.infoShort, sarkar.infoShort, wright.infoShort]
+    var nepalMissionaryinfoLong:[String] = [nelson.infoLong, sarkar.infoLong, wright.infoLong]
+    var nepalMissionaryfavoriteVerse:[String] = [nelson.favoriteVerse, sarkar.favoriteVerse, wright.favoriteVerse]
+    var nepalMissionaryPrayerRequest:[String] = [nelson.prayerRequest, sarkar.prayerRequest, wright.prayerRequest]
+    var nepalMissionaryEmail:[String] = [nelson.email, sarkar.email, wright.email]
 
 
     // New Zealand arrays
@@ -537,13 +541,13 @@ var wright = Missionary(name: "Brandon Wright", image: "wright", infoShort: wrig
 
     // Uganda
 
-    var ugandaMissionaryName:[String] = [abale.name, agabe.name, breznau.name, diego.name, emuku.name, gaona.name, garcia.name, nelson.name, onzima.name, wright.name]
-    var ugandaMissionaryImage:[String] = [abale.image, agabe.image, breznau.image, diego.image, emuku.image, gaona.image, garcia.image, nelson.image, onzima.image, wright.image]
-    var ugandaMissionaryinfoShort:[String] = [abale.infoShort, agabe.infoShort, breznau.infoShort, diego.infoShort, emuku.infoShort, gaona.infoShort, garcia.infoShort, nelson.infoShort, onzima.infoShort, wright.infoShort]
-    var ugandaMissionaryinfoLong:[String] = [abale.infoLong, agabe.infoLong, breznau.infoLong, diego.infoLong, emuku.infoLong, gaona.infoLong, garcia.infoLong, nelson.infoLong, onzima.infoLong, wright.infoLong]
-    var ugandaMissionaryfavoriteVerse:[String] = [abale.favoriteVerse, agabe.favoriteVerse, breznau.favoriteVerse, diego.favoriteVerse, emuku.favoriteVerse, gaona.favoriteVerse, garcia.favoriteVerse, nelson.favoriteVerse, onzima.favoriteVerse, wright.favoriteVerse]
-    var ugandaMissionaryPrayerRequest:[String] = [abale.prayerRequest, agabe.prayerRequest, breznau.prayerRequest, diego.prayerRequest, emuku.prayerRequest, gaona.prayerRequest, garcia.prayerRequest, nelson.prayerRequest, onzima.prayerRequest, wright.prayerRequest]
-    var ugandaMissionaryEmail:[String] = [abale.email, agabe.email, breznau.email, diego.email, emuku.email, gaona.email, garcia.email, nelson.email, onzima.email, wright.email]
+    var ugandaMissionaryName:[String] = [abale.name, agabe.name, breznau.name, diego.name, emuku.name, nelson.name, onzima.name, wright.name]
+    var ugandaMissionaryImage:[String] = [abale.image, agabe.image, breznau.image, diego.image, emuku.image, nelson.image, onzima.image, wright.image]
+    var ugandaMissionaryinfoShort:[String] = [abale.infoShort, agabe.infoShort, breznau.infoShort, diego.infoShort, emuku.infoShort, nelson.infoShort, onzima.infoShort, wright.infoShort]
+    var ugandaMissionaryinfoLong:[String] = [abale.infoLong, agabe.infoLong, breznau.infoLong, diego.infoLong, emuku.infoLong, nelson.infoLong, onzima.infoLong, wright.infoLong]
+    var ugandaMissionaryfavoriteVerse:[String] = [abale.favoriteVerse, agabe.favoriteVerse, breznau.favoriteVerse, diego.favoriteVerse, emuku.favoriteVerse, nelson.favoriteVerse, onzima.favoriteVerse, wright.favoriteVerse]
+    var ugandaMissionaryPrayerRequest:[String] = [abale.prayerRequest, agabe.prayerRequest, breznau.prayerRequest, diego.prayerRequest, emuku.prayerRequest, nelson.prayerRequest, onzima.prayerRequest, wright.prayerRequest]
+    var ugandaMissionaryEmail:[String] = [abale.email, agabe.email, breznau.email, diego.email, emuku.email,  nelson.email, onzima.email, wright.email]
 
 
     // USA
