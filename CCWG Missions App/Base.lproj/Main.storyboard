@@ -181,7 +181,7 @@
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="142" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dBg-R0-A1h">
                                 <rect key="frame" x="0.0" y="682" width="1366" height="341"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.01" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="341.30000000000001" id="3m1-za-X3d"/>
                                     <constraint firstAttribute="width" constant="1366" id="cc1-I4-6bk"/>
@@ -228,6 +228,7 @@
                                                 <constraint firstItem="ClV-Ef-32s" firstAttribute="top" secondItem="Zj3-KB-UQ9" secondAttribute="topMargin" constant="10" id="xrB-TS-xQ3"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.01" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="missionaryImageView" destination="Iui-MQ-ZzY" id="KdT-PO-OOF"/>
                                             <outlet property="missionaryInfoLabel" destination="7ee-M7-2KL" id="T2s-db-Fc6"/>
@@ -676,6 +677,7 @@ Aenean accumsan auctor nisl nec maximus. Suspendisse convallis odio quis turpis 
         <image name="italyiocn" width="341" height="341"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="WJ0-Sj-XOX"/>
         <segue reference="cgM-7R-dv6"/>
     </inferredMetricsTieBreakers>
 </document>
