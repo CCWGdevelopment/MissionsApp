@@ -338,23 +338,25 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fRE-lu-uw3" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
                                 <rect key="frame" x="712" y="478" width="216" height="44"/>
-                                <color key="backgroundColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Q9a-YL-JHa"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="216" id="qoE-kT-qrD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Metropolis-Black" family="Metropolis" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="22"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="SUPPORT FINANCIALLY"/>
+                                <state key="normal" title="Support">
+                                    <color key="titleColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                        <real key="value" value="1"/>
+                                        <real key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="value" red="0.47058823529999999" green="0.3803921569" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="5"/>
+                                        <real key="value" value="0.0"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
@@ -369,23 +371,25 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ugc-zH-ISq" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
                                 <rect key="frame" x="96" y="478" width="216" height="44"/>
-                                <color key="backgroundColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="216" id="3UM-7M-bZy"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="tTa-jq-4SS"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Metropolis-Black" family="Metropolis" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="22"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="SIGN UP FOR NEWSLETTER"/>
+                                <state key="normal" title="Get Updates">
+                                    <color key="titleColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                        <real key="value" value="1"/>
+                                        <real key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="value" red="0.47058823529999999" green="0.3803921569" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="5"/>
+                                        <real key="value" value="0.0"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
@@ -395,17 +399,28 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="11o-hs-Swk" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
                                 <rect key="frame" x="404" y="478" width="216" height="44"/>
-                                <color key="backgroundColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="216" id="AAI-yh-ahZ"/>
                                     <constraint firstAttribute="height" constant="44" id="vd2-lR-iem"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Metropolis-Black" family="Metropolis" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="22"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="SEND EMAIL"/>
+                                <state key="normal" title="Send Email">
+                                    <color key="titleColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="5"/>
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.47058823529999999" green="0.3803921569" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
@@ -469,7 +484,7 @@ Aenean accumsan auctor nisl nec maximus. Suspendisse convallis odio quis turpis 
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPh-Ij-B68">
                                         <rect key="frame" x="0.0" y="82" width="330" height="94"/>
-                                        <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices, tortor vitae vestibulum bibendum, felis sapien cursus dolor, quis feugiat nulla risus dictum odio. Maecenas aliquet tellus quam, id dignissim velit tristique quis. Vivamus faucibus luctus hendrerit. Sed odio justo, efficitur eu auctor nec, cursus sed turpis. Nam consectetur facilisis quam, eu vestibulum felis pretium ac. Proin sit amet ante dictum nisi cursus consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque euismod ipsum elit, ac fermentum sem egestas sed.
+                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices, tortor vitae vestibulum bibendum, felis sapien cursus dolor, quis feugiat nulla risus dictum odio. Maecenas aliquet tellus quam, id dignissim velit tristique quis. Vivamus faucibus luctus hendrerit. Sed odio justo, efficitur eu auctor nec, cursus sed turpis. Nam consectetur facilisis quam, eu vestibulum felis pretium ac. Proin sit amet ante dictum nisi cursus consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque euismod ipsum elit, ac fermentum sem egestas sed.
 
 Nulla mauris ante, pharetra eget facilisis eu, feugiat et ligula. Ut euismod diam posuere, tincidunt justo et, euismod leo. Curabitur hendrerit nisl at placerat dapibus. Morbi maximus nulla vel convallis eleifend. Nulla scelerisque rhoncus urna, vitae rutrum dolor tincidunt eu. Sed molestie a lacus in fermentum. Nulla vulputate ac sem sit amet convallis. Integer sed quam nec lectus condimentum imperdiet. Nam mauris neque, tempus nec sollicitudin sed, eleifend ut nisl. Curabitur ac elit nibh. Quisque est nunc, tempor vel nibh quis, varius imperdiet sapien. Pellentesque augue lectus, bibendum ut pretium quis, finibus eu nibh. Proin at feugiat elit. Praesent vulputate consequat nulla nec volutpat.
 
@@ -477,7 +492,7 @@ Vestibulum leo ipsum, posuere sit amet luctus quis, porttitor ac diam. Praesent 
 
 Sed sed ligula in sapien tristique finibus nec id nulla. Sed laoreet ante non ligula maximus fermentum. Maecenas faucibus maximus velit, vitae cursus nulla. Nulla non dapibus arcu. Sed interdum sapien libero, ac accumsan neque eleifend et. Suspendisse mattis nunc eget ipsum faucibus lobortis. Vivamus quis mattis velit. Aliquam sit amet dignissim elit. Ut finibus, mi sit amet imperdiet aliquet, mauris nisi volutpat magna, at hendrerit elit ex sit amet elit.
 
-Aenean accumsan auctor nisl nec maximus. Suspendisse convallis odio quis turpis rhoncus, posuere convallis justo facilisis. Curabitur ullamcorper erat ut dictum tempor. Pellentesque metus nunc, interdum semper feugiat eu, tincidunt vitae metus. Curabitur ut nisi in erat faucibus mattis quis ullamcorper lectus. Ut tincidunt lorem sapien, a semper mi accumsan in. In dignissim finibus dapibus. Morbi vel quam vitae lacus dapibus ornare. Pellentesque gravida sapien a sapien fermentum, at hendrerit nibh sollicitudin.</mutableString>
+Aenean accumsan auctor nisl nec maximus. Suspendisse convallis odio quis turpis rhoncus, posuere convallis justo facilisis. Curabitur ullamcorper erat ut dictum tempor. Pellentesque metus nunc, interdum semper feugiat eu, tincidunt vitae metus. Curabitur ut nisi in erat faucibus mattis quis ullamcorper lectus. Ut tincidunt lorem sapien, a semper mi accumsan in. In dignissim finibus dapibus. Morbi vel quam vitae lacus dapibus ornare. Pellentesque gravida sapien a sapien fermentum, at hendrerit nibh sollicitudin.</string>
                                         <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -661,6 +676,6 @@ Aenean accumsan auctor nisl nec maximus. Suspendisse convallis odio quis turpis 
         <image name="italyiocn" width="341" height="341"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="0HU-OZ-EYt"/>
+        <segue reference="cgM-7R-dv6"/>
     </inferredMetricsTieBreakers>
 </document>
