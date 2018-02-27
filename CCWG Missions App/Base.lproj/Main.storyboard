@@ -93,10 +93,12 @@
                                                     <rect key="frame" x="35" y="0.0" width="130" height="130"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Countrylabel" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHa-FL-md4">
-                                                    <rect key="frame" x="20" y="150" width="160" height="30"/>
+                                                    <rect key="frame" x="20" y="148" width="160" height="32"/>
                                                     <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="30"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
+                                                    <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <size key="shadowOffset" width="2" height="2"/>
                                                 </label>
                                             </subviews>
                                         </view>
@@ -433,7 +435,7 @@
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                         </accessibility>
-                                        <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices, tortor vitae vestibulum bibendum, felis sapien cursus dolor, quis feugiat nulla risus dictum odio. Maecenas aliquet tellus quam, id dignissim velit tristique quis. Vivamus faucibus luctus hendrerit. Sed odio justo, efficitur eu auctor nec, cursus sed turpis. Nam consectetur facilisis quam, eu vestibulum felis pretium ac. Proin sit amet ante dictum nisi cursus consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque euismod ipsum elit, ac fermentum sem egestas sed.
+                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices, tortor vitae vestibulum bibendum, felis sapien cursus dolor, quis feugiat nulla risus dictum odio. Maecenas aliquet tellus quam, id dignissim velit tristique quis. Vivamus faucibus luctus hendrerit. Sed odio justo, efficitur eu auctor nec, cursus sed turpis. Nam consectetur facilisis quam, eu vestibulum felis pretium ac. Proin sit amet ante dictum nisi cursus consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque euismod ipsum elit, ac fermentum sem egestas sed.
 
 Nulla mauris ante, pharetra eget facilisis eu, feugiat et ligula. Ut euismod diam posuere, tincidunt justo et, euismod leo. Curabitur hendrerit nisl at placerat dapibus. Morbi maximus nulla vel convallis eleifend. Nulla scelerisque rhoncus urna, vitae rutrum dolor tincidunt eu. Sed molestie a lacus in fermentum. Nulla vulputate ac sem sit amet convallis. Integer sed quam nec lectus condimentum imperdiet. Nam mauris neque, tempus nec sollicitudin sed, eleifend ut nisl. Curabitur ac elit nibh. Quisque est nunc, tempor vel nibh quis, varius imperdiet sapien. Pellentesque augue lectus, bibendum ut pretium quis, finibus eu nibh. Proin at feugiat elit. Praesent vulputate consequat nulla nec volutpat.
 
@@ -441,7 +443,7 @@ Vestibulum leo ipsum, posuere sit amet luctus quis, porttitor ac diam. Praesent 
 
 Sed sed ligula in sapien tristique finibus nec id nulla. Sed laoreet ante non ligula maximus fermentum. Maecenas faucibus maximus velit, vitae cursus nulla. Nulla non dapibus arcu. Sed interdum sapien libero, ac accumsan neque eleifend et. Suspendisse mattis nunc eget ipsum faucibus lobortis. Vivamus quis mattis velit. Aliquam sit amet dignissim elit. Ut finibus, mi sit amet imperdiet aliquet, mauris nisi volutpat magna, at hendrerit elit ex sit amet elit.
 
-Aenean accumsan auctor nisl nec maximus. Suspendisse convallis odio quis turpis rhoncus, posuere convallis justo facilisis. Curabitur ullamcorper erat ut dictum tempor. Pellentesque metus nunc, interdum semper feugiat eu, tincidunt vitae metus. Curabitur ut nisi in erat faucibus mattis quis ullamcorper lectus. Ut tincidunt lorem sapien, a semper mi accumsan in. In dignissim finibus dapibus. Morbi vel quam vitae lacus dapibus ornare. Pellentesque gravida sapien a sapien fermentum, at hendrerit nibh sollicitudin.</mutableString>
+Aenean accumsan auctor nisl nec maximus. Suspendisse convallis odio quis turpis rhoncus, posuere convallis justo facilisis. Curabitur ullamcorper erat ut dictum tempor. Pellentesque metus nunc, interdum semper feugiat eu, tincidunt vitae metus. Curabitur ut nisi in erat faucibus mattis quis ullamcorper lectus. Ut tincidunt lorem sapien, a semper mi accumsan in. In dignissim finibus dapibus. Morbi vel quam vitae lacus dapibus ornare. Pellentesque gravida sapien a sapien fermentum, at hendrerit nibh sollicitudin.</string>
                                         <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -619,6 +621,6 @@ Aenean accumsan auctor nisl nec maximus. Suspendisse convallis odio quis turpis 
         <image name="italyiocn" width="341" height="341"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cgM-7R-dv6"/>
+        <segue reference="0HU-OZ-EYt"/>
     </inferredMetricsTieBreakers>
 </document>
