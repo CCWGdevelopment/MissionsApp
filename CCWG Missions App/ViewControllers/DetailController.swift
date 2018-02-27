@@ -20,6 +20,7 @@ var selectedImageArray:[String] = [""]
 var selectedShortInfoArray:[String] = [""]
 var selectedLongInfoArray:[String] = [""]
 var selectedFavoriteVerseArray: [String] = [""]
+var selectedPrayerRequestArray: [String] = [""]
 var selectedEmailArray:[String] = [""]
 var missionaryIndex:Int = 0
 
@@ -103,6 +104,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             selectedShortInfoArray = chinaMissionaryinfoShort
             selectedLongInfoArray = chinaMissionaryinfoLong
             selectedFavoriteVerseArray = chinaMissionaryfavoriteVerse
+            selectedPrayerRequestArray = chinaMissionaryPrayerRequest
             selectedEmailArray = chinaMissionaryEmail
             
             cell.missionaryNameLabel.text = chinaMissionaryName[indexPath.row]
@@ -117,6 +119,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             selectedShortInfoArray = haitiMissionaryinfoShort
             selectedLongInfoArray = haitiMissionaryinfoLong
             selectedFavoriteVerseArray = haitiMissionaryfavoriteVerse
+            selectedPrayerRequestArray = haitiMissionaryPrayerRequest
             selectedEmailArray = haitiMissionaryEmail
             
             cell.missionaryNameLabel.text = haitiMissionaryName[indexPath.row]
@@ -131,6 +134,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             selectedShortInfoArray = indiaMissionaryinfoShort
             selectedLongInfoArray = indiaMissionaryinfoLong
             selectedFavoriteVerseArray = indiaMissionaryfavoriteVerse
+            selectedPrayerRequestArray = indiaMissionaryPrayerRequest
             selectedEmailArray = indiaMissionaryEmail
             
             cell.missionaryNameLabel.text = indiaMissionaryName[indexPath.row]
@@ -145,6 +149,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             selectedShortInfoArray = italyMissionaryinfoShort
             selectedLongInfoArray = italyMissionaryinfoLong
             selectedFavoriteVerseArray = italyMissionaryfavoriteVerse
+            selectedPrayerRequestArray = italyMissionaryPrayerRequest
             selectedEmailArray = italyMissionaryEmail
             
             cell.missionaryNameLabel.text = italyMissionaryName[indexPath.row]
@@ -159,6 +164,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             selectedShortInfoArray = kenyaMissionaryinfoShort
             selectedLongInfoArray = kenyaMissionaryinfoLong
             selectedFavoriteVerseArray = kenyaMissionaryfavoriteVerse
+            selectedPrayerRequestArray = kenyaMissionaryPrayerRequest
             selectedEmailArray = kenyaMissionaryEmail
             
             cell.missionaryNameLabel.text = kenyaMissionaryName[indexPath.row]
@@ -173,6 +179,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             selectedShortInfoArray = mexicoMissionaryinfoShort
             selectedLongInfoArray = mexicoMissionaryinfoLong
             selectedFavoriteVerseArray = mexicoMissionaryfavoriteVerse
+            selectedPrayerRequestArray = mexicoMissionaryPrayerRequest
             selectedEmailArray = mexicoMissionaryEmail
             
             cell.missionaryNameLabel.text = mexicoMissionaryName[indexPath.row]
@@ -187,6 +194,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             selectedShortInfoArray = nepalMissionaryinfoShort
             selectedLongInfoArray = nepalMissionaryinfoLong
             selectedFavoriteVerseArray = nepalMissionaryfavoriteVerse
+            selectedPrayerRequestArray = nepalMissionaryPrayerRequest
             selectedEmailArray = nepalMissionaryEmail
             
             cell.missionaryNameLabel.text = nepalMissionaryName[indexPath.row]
@@ -201,6 +209,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             selectedShortInfoArray = newzealandMissionaryinfoShort
             selectedLongInfoArray = newzealandMissionaryinfoLong
             selectedFavoriteVerseArray = newzealandMissionaryfavoriteVerse
+            selectedPrayerRequestArray = newzealandMissionaryPrayerRequest
             selectedEmailArray = newzealandMissionaryEmail
             
             cell.missionaryNameLabel.text = newzealandMissionaryName[indexPath.row]
@@ -215,6 +224,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             selectedShortInfoArray = philippinesMissionaryinfoShort
             selectedLongInfoArray = philippinesMissionaryinfoLong
             selectedFavoriteVerseArray = philippinesMissionaryfavoriteVerse
+            selectedPrayerRequestArray = philippinesMissionaryPrayerRequest
             selectedEmailArray = philippinesMissionaryEmail
             
             cell.missionaryNameLabel.text = philippinesMissionaryName[indexPath.row]
@@ -229,6 +239,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             selectedShortInfoArray = southsudanMissionaryinfoShort
             selectedLongInfoArray = southsudanMissionaryinfoLong
             selectedFavoriteVerseArray = southsudanMissionaryfavoriteVerse
+            selectedPrayerRequestArray = southsudanMissionaryPrayerRequest
             selectedEmailArray = southsudanMissionaryEmail
             
             cell.missionaryNameLabel.text = southsudanMissionaryName[indexPath.row]
@@ -243,6 +254,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             selectedShortInfoArray = ugandaMissionaryinfoShort
             selectedLongInfoArray = ugandaMissionaryinfoLong
             selectedFavoriteVerseArray = ugandaMissionaryfavoriteVerse
+            selectedPrayerRequestArray = ugandaMissionaryPrayerRequest
             selectedEmailArray = ugandaMissionaryEmail
             
             cell.missionaryNameLabel.text = ugandaMissionaryName[indexPath.row]
@@ -257,6 +269,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             selectedShortInfoArray = usaMissionaryinfoShort
             selectedLongInfoArray = usaMissionaryinfoLong
             selectedFavoriteVerseArray = usaMissionaryfavoriteVerse
+            selectedPrayerRequestArray = usaMissionaryPrayerRequest
             selectedEmailArray = usaMissionaryEmail
 
             cell.missionaryNameLabel.text = usaMissionaryName[indexPath.row]
