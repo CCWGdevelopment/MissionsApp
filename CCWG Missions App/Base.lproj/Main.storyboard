@@ -318,7 +318,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Nc-hX-v9y">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="366"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="375"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pyh-Iq-ekc">
                                         <rect key="frame" x="20" y="20" width="44" height="40"/>
@@ -338,13 +338,13 @@
                                             <constraint firstAttribute="height" constant="64" id="Smo-6G-4rq"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Metropolis-Medium" family="Metropolis" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4r-Uo-mGB">
                                         <rect key="frame" x="465" y="116" width="484" height="139"/>
                                         <fontDescription key="fontDescription" name="Metropolis-RegularItalic" family="Metropolis" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" text="Missionary Name" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vo6-pP-3xc">
@@ -353,12 +353,11 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="889" id="Bnt-uJ-rA2"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="45"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CYk-l7-Vt8">
                                         <rect key="frame" x="75" y="116" width="315" height="239"/>
-                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="315" id="A4P-H0-2eI"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="305" id="MzV-9j-UBJ"/>
@@ -374,7 +373,7 @@
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pyh-Iq-ekc" secondAttribute="trailing" constant="20" symbolic="YES" id="7Y2-ay-ClJ"/>
                                     <constraint firstItem="vo6-pP-3xc" firstAttribute="leading" secondItem="5Nc-hX-v9y" secondAttribute="leading" constant="68" id="9Qt-8s-JoX"/>
                                     <constraint firstItem="CYk-l7-Vt8" firstAttribute="leading" secondItem="5Nc-hX-v9y" secondAttribute="leading" constant="75" id="9Sk-Mg-hW4"/>
-                                    <constraint firstAttribute="height" constant="366" id="B6x-Z6-avj"/>
+                                    <constraint firstAttribute="height" constant="375" id="B6x-Z6-avj"/>
                                     <constraint firstItem="CYk-l7-Vt8" firstAttribute="top" secondItem="Q4r-Uo-mGB" secondAttribute="top" id="JC9-EW-o1p"/>
                                     <constraint firstItem="FHX-fJ-K4J" firstAttribute="trailing" secondItem="Q4r-Uo-mGB" secondAttribute="trailing" id="PQN-eU-9Tp"/>
                                     <constraint firstItem="FHX-fJ-K4J" firstAttribute="leading" secondItem="CYk-l7-Vt8" secondAttribute="trailing" constant="75" id="ZAf-O0-x4k"/>
