@@ -342,13 +342,13 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="64" id="Smo-6G-4rq"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Metropolis-Medium" family="Metropolis" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Metropolis-Medium" family="Metropolis" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4r-Uo-mGB">
                                         <rect key="frame" x="465" y="121" width="484" height="139"/>
-                                        <fontDescription key="fontDescription" name="Metropolis-RegularItalic" family="Metropolis" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Metropolis-RegularItalic" family="Metropolis" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
