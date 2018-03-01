@@ -639,36 +639,42 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUG-zd-G6h" customClass="DesignableView" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                            <rect key="frame" x="503" y="132" width="360" height="362.5"/>
+                                            <rect key="frame" x="503" y="116.5" width="360" height="276"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="8FO-Wb-jvJ">
-                                                    <rect key="frame" x="30" y="117" width="300" height="128.5"/>
+                                                    <rect key="frame" x="30" y="58" width="300" height="160"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter email address" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eto-kZ-GA6">
-                                                            <rect key="frame" x="0.0" y="0.0" width="300" height="20.5"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email*" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eto-kZ-GA6">
+                                                            <rect key="frame" x="0.0" y="0.0" width="300" height="35"/>
+                                                            <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UyO-md-Y9v">
-                                                            <rect key="frame" x="0.0" y="44.5" width="300" height="30"/>
+                                                            <rect key="frame" x="0.0" y="59" width="300" height="30"/>
                                                             <nil key="textColor"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="20"/>
                                                             <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
                                                             <connections>
                                                                 <outlet property="delegate" destination="QvX-78-0vR" id="VbH-gS-8ly"/>
                                                             </connections>
                                                         </textField>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTV-9A-eAx" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="98.5" width="300" height="30"/>
+                                                            <rect key="frame" x="0.0" y="113" width="300" height="47"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <state key="normal" title="Sign Up"/>
+                                                            <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
+                                                            <state key="normal" title="Sign Up">
+                                                                <color key="titleColor" red="0.4549019608" green="0.38431372549999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            </state>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                                    <real key="value" value="2"/>
+                                                                    <real key="value" value="3"/>
                                                                 </userDefinedRuntimeAttribute>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                    <real key="value" value="5"/>
+                                                                    <real key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                    <color key="value" red="0.4549019608" green="0.38431372549999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
                                                             <connections>
@@ -678,6 +684,7 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                                     </subviews>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="300" id="6XG-73-uJR"/>
+                                                        <constraint firstItem="eto-kZ-GA6" firstAttribute="top" secondItem="8FO-Wb-jvJ" secondAttribute="top" id="J5v-0O-7gd"/>
                                                     </constraints>
                                                 </stackView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbe-J2-Dhg">
@@ -685,15 +692,17 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="46" id="iro-OP-3PL"/>
                                                     </constraints>
-                                                    <state key="normal" title="X"/>
+                                                    <state key="normal" title="X">
+                                                        <color key="titleColor" red="0.32549019610000002" green="0.4431372549" blue="0.16078431369999999" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="closePupUp:" destination="QvX-78-0vR" eventType="touchUpInside" id="Djx-Y7-5Yt"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
-                                                <constraint firstItem="8FO-Wb-jvJ" firstAttribute="top" secondItem="sbe-J2-Dhg" secondAttribute="bottom" constant="79" id="1LZ-1u-Ged"/>
+                                                <constraint firstItem="8FO-Wb-jvJ" firstAttribute="top" secondItem="sbe-J2-Dhg" secondAttribute="bottom" constant="20" id="1LZ-1u-Ged"/>
                                                 <constraint firstItem="8FO-Wb-jvJ" firstAttribute="centerY" secondItem="fUG-zd-G6h" secondAttribute="centerY" id="5FO-0C-aBC"/>
                                                 <constraint firstAttribute="width" constant="360" id="FMO-63-bDt"/>
                                                 <constraint firstItem="sbe-J2-Dhg" firstAttribute="top" secondItem="fUG-zd-G6h" secondAttribute="topMargin" id="Rgv-g2-4d9"/>
@@ -702,17 +711,17 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                             </constraints>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                    <real key="value" value="7"/>
+                                                    <integer key="value" value="15"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </view>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="fUG-zd-G6h" firstAttribute="centerY" secondItem="xT3-iW-64Z" secondAttribute="centerY" constant="-199" id="Oim-zJ-yYz"/>
-                                        <constraint firstItem="fUG-zd-G6h" firstAttribute="centerX" secondItem="xT3-iW-64Z" secondAttribute="centerX" id="Pcf-zH-7nF"/>
+                                        <constraint firstItem="fUG-zd-G6h" firstAttribute="centerX" secondItem="xT3-iW-64Z" secondAttribute="centerX" id="bjp-Mf-ChC"/>
+                                        <constraint firstItem="fUG-zd-G6h" firstAttribute="top" secondItem="xT3-iW-64Z" secondAttribute="top" constant="116.5" id="kZP-bX-u25"/>
                                     </constraints>
                                 </view>
-                                <blurEffect style="extraLight"/>
+                                <blurEffect style="dark"/>
                             </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
