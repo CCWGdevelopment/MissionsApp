@@ -20,6 +20,8 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBOutlet weak var supportMissionaryButton: UIButton!
     @IBOutlet weak var infoShortLabel: UILabel!
     @IBOutlet weak var missionaryfavoriteVerse: UILabel!
+    @IBOutlet weak var missionaryBioLabel: UILabel!
+    @IBOutlet weak var prayerRequestLabel: UILabel!
     
     
     
@@ -30,9 +32,9 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         //missionaryTitleImageViewer.image = UIImage(named: selectedImage)
         missionaryImageViewer.image = UIImage(named: selectedImageArray[missionaryIndex])
         infoShortLabel.text = selectedShortInfoArray[missionaryIndex]
-//        missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
+        missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
         missionaryfavoriteVerse.text = selectedFavoriteVerseArray[missionaryIndex]
-//        prayerRequestLabel.text = selectedPrayerRequestArray[missionaryIndex]
+        prayerRequestLabel.text = selectedPrayerRequestArray[missionaryIndex]
         
 //        scrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: missionaryBioLabel.bottomAnchor).isActive = true
         
