@@ -18,9 +18,6 @@
         <array key="Metropolis-Bold.otf">
             <string>Metropolis-Bold</string>
         </array>
-        <array key="Metropolis-BoldItalic.otf">
-            <string>Metropolis-BoldItalic</string>
-        </array>
         <array key="Metropolis-Medium.otf">
             <string>Metropolis-Medium</string>
         </array>
@@ -369,6 +366,7 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="FHX-fJ-K4J" firstAttribute="bottom" secondItem="CYk-l7-Vt8" secondAttribute="bottom" constant="-10" id="2Up-da-0ap"/>
                                     <constraint firstItem="CYk-l7-Vt8" firstAttribute="top" secondItem="vo6-pP-3xc" secondAttribute="bottom" constant="51" id="2r1-am-e7I"/>
@@ -386,6 +384,106 @@
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vo6-pP-3xc" secondAttribute="trailing" id="sC8-Cf-oKp"/>
                                     <constraint firstAttribute="trailing" secondItem="FHX-fJ-K4J" secondAttribute="trailing" constant="75" id="yev-VY-hNq"/>
                                     <constraint firstItem="FHX-fJ-K4J" firstAttribute="leading" secondItem="Q4r-Uo-mGB" secondAttribute="leading" id="yhX-9X-9DG"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cwO-EA-7i3">
+                                <rect key="frame" x="0.0" y="470" width="1024" height="534"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0GC-ei-e1d">
+                                        <rect key="frame" x="0.0" y="0.0" width="512" height="534"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9j-dF-Lb4">
+                                                <rect key="frame" x="8" y="8" width="496" height="81"/>
+                                                <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="496" id="Cuj-0Q-Rah"/>
+                                                    <constraint firstAttribute="height" constant="81" id="lah-1K-js9"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="81" id="usV-k9-EJA"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Metropolis-SemiBold" family="Metropolis" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9f-JJ-Xwb">
+                                                <rect key="frame" x="8" y="97" width="496" height="514"/>
+                                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat id turpis eget dictum. Etiam eleifend condimentum dolor nec volutpat. Maecenas bibendum, nulla eu convallis consequat, ipsum est volutpat metus, ac dapibus urna sapien non turpis. In augue eros, fringilla eu justo ac, fringilla rhoncus dui. Donec odio tellus, feugiat eu urna sed, porttitor sollicitudin libero. Proin maximus leo id augue ullamcorper, ac interdum sem tincidunt. Suspendisse pellentesque accumsan augue, sit amet fermentum nisl blandit sed. Nam ullamcorper, quam in hendrerit hendrerit, diam metus pellentesque dolor, eu vestibulum lacus mauris sit amet dolor. Suspendisse in sollicitudin tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut vulputate faucibus dolor. Pellentesque elementum augue ex, sed eleifend eros luctus et.
+
+Aenean venenatis ornare nunc quis efficitur. Maecenas laoreet, augue eget porta suscipit, dolor nunc rutrum nulla, tempus dapibus purus sapien vitae mauris. Morbi nec tincidunt est, vel pellentesque lectus. Maecenas ultricies scelerisque dui, eu molestie nunc feugiat ut. Ut et nunc id lectus dapibus convallis. Cras eu pretium nibh. Nunc finibus urna quis leo gravida suscipit. Proin ultrices ante et lacus sollicitudin pharetra.
+
+Vivamus lacinia lacinia ante, id efficitur odio bibendum et. Donec at magna fringilla, rutrum dolor sed, vehicula arcu. Phasellus vel dui tempor, viverra elit vitae, mattis neque. Aliquam hendrerit risus ac ligula tincidunt scelerisque. Aliquam at nisl ac mauris tempus finibus. Donec sollicitudin purus elit, vitae eleifend enim hendrerit at. Nunc sed ornare lacus. Duis ac sem vestibulum, laoreet ex vel, consectetur quam. Proin purus augue, gravida ac tempus efficitur, dignissim rutrum leo. Sed sit amet dolor pretium, aliquet tortor sit amet, molestie nunc. Donec odio ligula, gravida sit amet augue et, iaculis pulvinar quam.
+
+Suspendisse potenti. Phasellus luctus blandit maximus. Donec pulvinar ex a orci aliquam, et dapibus nulla tristique. Morbi pulvinar vulputate ligula, nec molestie purus vulputate at. Nunc faucibus felis quis sem faucibus accumsan. Vestibulum consectetur vitae odio et aliquam. Morbi finibus dui sed magna molestie, vitae imperdiet est vulputate. Nulla suscipit nunc sed nunc sagittis, ut porttitor erat dictum. Ut nisi mauris, molestie tempor fringilla ut, dictum vitae nulla. Duis at lacinia eros, nec ullamcorper velit. Donec porta pulvinar facilisis. Duis quam lacus, laoreet fringilla mi id, cursus rhoncus mi. Curabitur tristique pulvinar congue. Donec cursus neque vel tortor luctus vehicula et id nunc. Nulla in tincidunt metus. Nam interdum risus risus, sit amet vulputate turpis efficitur at.
+
+Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas massa sed laoreet. Phasellus porttitor lacus nec lacus lobortis, sed sagittis turpis interdum. Phasellus pellentesque efficitur condimentum. Maecenas suscipit, turpis eu luctus bibendum, nisl mauris vulputate neque, porta facilisis diam tortor non massa. In sed nibh imperdiet, dictum felis sed, lobortis arcu. Fusce luctus facilisis sem a posuere.</mutableString>
+                                                <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="M9j-dF-Lb4" firstAttribute="leading" secondItem="0GC-ei-e1d" secondAttribute="leading" constant="8" id="5I1-ri-HCf"/>
+                                            <constraint firstAttribute="trailing" secondItem="V9f-JJ-Xwb" secondAttribute="trailing" constant="8" id="Cad-bR-Wzr"/>
+                                            <constraint firstItem="V9f-JJ-Xwb" firstAttribute="leading" secondItem="0GC-ei-e1d" secondAttribute="leading" constant="8" id="WLi-TN-QTZ"/>
+                                            <constraint firstAttribute="bottom" secondItem="V9f-JJ-Xwb" secondAttribute="bottom" constant="-77" id="X4h-Aw-NIY"/>
+                                            <constraint firstItem="V9f-JJ-Xwb" firstAttribute="top" secondItem="M9j-dF-Lb4" secondAttribute="bottom" constant="8" id="ZPd-R5-zUV"/>
+                                            <constraint firstItem="M9j-dF-Lb4" firstAttribute="top" secondItem="0GC-ei-e1d" secondAttribute="top" constant="8" id="aZh-5P-org"/>
+                                            <constraint firstAttribute="trailing" secondItem="M9j-dF-Lb4" secondAttribute="trailing" constant="8" id="hrx-Lv-g5F"/>
+                                        </constraints>
+                                    </scrollView>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LUw-e0-fdK">
+                                        <rect key="frame" x="512" y="0.0" width="512" height="534"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prayer Requests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wgu-r1-XwW">
+                                                <rect key="frame" x="8" y="8" width="496" height="81"/>
+                                                <color key="backgroundColor" red="0.44248975940000002" green="0.73463182660000004" blue="0.96993559600000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="81" id="4XW-hs-XB2"/>
+                                                    <constraint firstAttribute="width" constant="496" id="dIZ-Bv-Ttd"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Metropolis-SemiBold" family="Metropolis" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfI-2V-fEi">
+                                                <rect key="frame" x="8" y="97" width="496" height="1134"/>
+                                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat id turpis eget dictum. Etiam eleifend condimentum dolor nec volutpat. Maecenas bibendum, nulla eu convallis consequat, ipsum est volutpat metus, ac dapibus urna sapien non turpis. In augue eros, fringilla eu justo ac, fringilla rhoncus dui. Donec odio tellus, feugiat eu urna sed, porttitor sollicitudin libero. Proin maximus leo id augue ullamcorper, ac interdum sem tincidunt. Suspendisse pellentesque accumsan augue, sit amet fermentum nisl blandit sed. Nam ullamcorper, quam in hendrerit hendrerit, diam metus pellentesque dolor, eu vestibulum lacus mauris sit amet dolor. Suspendisse in sollicitudin tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut vulputate faucibus dolor. Pellentesque elementum augue ex, sed eleifend eros luctus et.
+
+Aenean venenatis ornare nunc quis efficitur. Maecenas laoreet, augue eget porta suscipit, dolor nunc rutrum nulla, tempus dapibus purus sapien vitae mauris. Morbi nec tincidunt est, vel pellentesque lectus. Maecenas ultricies scelerisque dui, eu molestie nunc feugiat ut. Ut et nunc id lectus dapibus convallis. Cras eu pretium nibh. Nunc finibus urna quis leo gravida suscipit. Proin ultrices ante et lacus sollicitudin pharetra.
+
+Vivamus lacinia lacinia ante, id efficitur odio bibendum et. Donec at magna fringilla, rutrum dolor sed, vehicula arcu. Phasellus vel dui tempor, viverra elit vitae, mattis neque. Aliquam hendrerit risus ac ligula tincidunt scelerisque. Aliquam at nisl ac mauris tempus finibus. Donec sollicitudin purus elit, vitae eleifend enim hendrerit at. Nunc sed ornare lacus. Duis ac sem vestibulum, laoreet ex vel, consectetur quam. Proin purus augue, gravida ac tempus efficitur, dignissim rutrum leo. Sed sit amet dolor pretium, aliquet tortor sit amet, molestie nunc. Donec odio ligula, gravida sit amet augue et, iaculis pulvinar quam.
+
+Suspendisse potenti. Phasellus luctus blandit maximus. Donec pulvinar ex a orci aliquam, et dapibus nulla tristique. Morbi pulvinar vulputate ligula, nec molestie purus vulputate at. Nunc faucibus felis quis sem faucibus accumsan. Vestibulum consectetur vitae odio et aliquam. Morbi finibus dui sed magna molestie, vitae imperdiet est vulputate. Nulla suscipit nunc sed nunc sagittis, ut porttitor erat dictum. Ut nisi mauris, molestie tempor fringilla ut, dictum vitae nulla. Duis at lacinia eros, nec ullamcorper velit. Donec porta pulvinar facilisis. Duis quam lacus, laoreet fringilla mi id, cursus rhoncus mi. Curabitur tristique pulvinar congue. Donec cursus neque vel tortor luctus vehicula et id nunc. Nulla in tincidunt metus. Nam interdum risus risus, sit amet vulputate turpis efficitur at.
+
+Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas massa sed laoreet. Phasellus porttitor lacus nec lacus lobortis, sed sagittis turpis interdum. Phasellus pellentesque efficitur condimentum. Maecenas suscipit, turpis eu luctus bibendum, nisl mauris vulputate neque, porta facilisis diam tortor non massa. In sed nibh imperdiet, dictum felis sed, lobortis arcu. Fusce luctus facilisis sem a posuere.</mutableString>
+                                                <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="yfI-2V-fEi" secondAttribute="trailing" constant="8" id="1VD-wo-Xqc"/>
+                                            <constraint firstItem="yfI-2V-fEi" firstAttribute="top" secondItem="Wgu-r1-XwW" secondAttribute="bottom" constant="8" id="9uC-4M-Pyq"/>
+                                            <constraint firstItem="Wgu-r1-XwW" firstAttribute="leading" secondItem="LUw-e0-fdK" secondAttribute="leading" constant="8" id="Li1-ZL-F5x"/>
+                                            <constraint firstItem="yfI-2V-fEi" firstAttribute="leading" secondItem="LUw-e0-fdK" secondAttribute="leading" constant="8" id="Msr-FT-erY"/>
+                                            <constraint firstAttribute="bottom" secondItem="yfI-2V-fEi" secondAttribute="bottom" constant="-77" id="NKD-Vc-6z5"/>
+                                            <constraint firstAttribute="trailing" secondItem="Wgu-r1-XwW" secondAttribute="trailing" constant="8" id="dDk-JI-TmK"/>
+                                            <constraint firstItem="Wgu-r1-XwW" firstAttribute="top" secondItem="LUw-e0-fdK" secondAttribute="top" constant="8" id="kN8-E6-S0B"/>
+                                        </constraints>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="0GC-ei-e1d" secondAttribute="trailing" constant="512" id="6mh-Kk-xNu"/>
+                                    <constraint firstAttribute="bottom" secondItem="LUw-e0-fdK" secondAttribute="bottom" id="Aka-D9-upv"/>
+                                    <constraint firstAttribute="trailing" secondItem="LUw-e0-fdK" secondAttribute="trailing" id="Gep-ei-B3l"/>
+                                    <constraint firstItem="0GC-ei-e1d" firstAttribute="top" secondItem="cwO-EA-7i3" secondAttribute="top" id="K1x-pz-Eoj"/>
+                                    <constraint firstItem="0GC-ei-e1d" firstAttribute="leading" secondItem="cwO-EA-7i3" secondAttribute="leading" id="L21-ji-x0b"/>
+                                    <constraint firstAttribute="bottom" secondItem="0GC-ei-e1d" secondAttribute="bottom" id="amy-UT-NRP"/>
+                                    <constraint firstItem="LUw-e0-fdK" firstAttribute="top" secondItem="cwO-EA-7i3" secondAttribute="top" id="l10-eV-tPb"/>
+                                    <constraint firstItem="LUw-e0-fdK" firstAttribute="leading" secondItem="cwO-EA-7i3" secondAttribute="leading" constant="512" id="yIf-yN-pfE"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l7G-fZ-aXH">
@@ -422,8 +520,7 @@
                                         <rect key="frame" x="38" y="30" width="216" height="44"/>
                                         <color key="backgroundColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="216" id="3UM-7M-bZy"/>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="tTa-jq-4SS"/>
+                                            <constraint firstAttribute="height" constant="44" id="dKX-qX-DQS"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="22"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -477,133 +574,46 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="ugc-zH-ISq" firstAttribute="baseline" secondItem="11o-hs-Swk" secondAttribute="baseline" id="A4Y-BI-sRw"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ugc-zH-ISq" secondAttribute="trailing" constant="20" symbolic="YES" id="B2y-WS-Reh"/>
-                                    <constraint firstItem="ugc-zH-ISq" firstAttribute="leading" secondItem="l7G-fZ-aXH" secondAttribute="leading" constant="38" id="FAK-NW-FEM"/>
-                                    <constraint firstItem="ugc-zH-ISq" firstAttribute="centerY" secondItem="l7G-fZ-aXH" secondAttribute="centerY" id="UeS-na-AZ2"/>
-                                    <constraint firstItem="ugc-zH-ISq" firstAttribute="baseline" secondItem="fRE-lu-uw3" secondAttribute="baseline" id="XH4-9W-kLA"/>
-                                    <constraint firstAttribute="trailing" secondItem="fRE-lu-uw3" secondAttribute="trailing" constant="38" id="YSi-5w-zV1"/>
-                                    <constraint firstItem="fRE-lu-uw3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="l7G-fZ-aXH" secondAttribute="leading" constant="20" symbolic="YES" id="pvN-IR-2su"/>
+                                    <constraint firstAttribute="trailing" secondItem="ugc-zH-ISq" secondAttribute="trailing" constant="770" id="0fu-Gi-AVh"/>
+                                    <constraint firstAttribute="trailing" secondItem="fRE-lu-uw3" secondAttribute="trailing" constant="38" id="14X-sX-TrY"/>
+                                    <constraint firstAttribute="bottom" secondItem="fRE-lu-uw3" secondAttribute="bottom" constant="31" id="1we-45-Ysa"/>
+                                    <constraint firstAttribute="trailing" secondItem="11o-hs-Swk" secondAttribute="trailing" constant="404" id="4mL-de-OhZ"/>
+                                    <constraint firstAttribute="height" constant="105" id="7Ch-3C-fJX"/>
+                                    <constraint firstItem="11o-hs-Swk" firstAttribute="top" secondItem="l7G-fZ-aXH" secondAttribute="top" constant="30" id="7vE-uN-xfv"/>
+                                    <constraint firstItem="11o-hs-Swk" firstAttribute="leading" secondItem="l7G-fZ-aXH" secondAttribute="leading" constant="404" id="I4C-KT-VJv"/>
+                                    <constraint firstAttribute="bottom" secondItem="ugc-zH-ISq" secondAttribute="bottom" constant="31" id="IEc-eZ-ndK"/>
+                                    <constraint firstItem="ugc-zH-ISq" firstAttribute="leading" secondItem="l7G-fZ-aXH" secondAttribute="leading" constant="38" id="OF0-5a-hUZ"/>
+                                    <constraint firstItem="ugc-zH-ISq" firstAttribute="top" secondItem="l7G-fZ-aXH" secondAttribute="top" constant="30" id="QWa-Te-2XQ"/>
+                                    <constraint firstItem="fRE-lu-uw3" firstAttribute="leading" secondItem="l7G-fZ-aXH" secondAttribute="leading" constant="770" id="cpu-rE-eVM"/>
+                                    <constraint firstItem="fRE-lu-uw3" firstAttribute="top" secondItem="l7G-fZ-aXH" secondAttribute="top" constant="30" id="vSw-JL-zyT"/>
+                                    <constraint firstAttribute="bottom" secondItem="11o-hs-Swk" secondAttribute="bottom" constant="31" id="wKJ-9G-HDd"/>
                                     <constraint firstItem="11o-hs-Swk" firstAttribute="centerX" secondItem="l7G-fZ-aXH" secondAttribute="centerX" id="xUs-gV-KAb"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OCP-VN-tR7" userLabel="infoLongScrollView">
-                                <rect key="frame" x="0.0" y="478" width="530" height="526"/>
-                                <subviews>
-                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QF-9Q-apa">
-                                        <rect key="frame" x="37" y="82" width="454" height="1338"/>
-                                        <accessibility key="accessibilityConfiguration">
-                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                        </accessibility>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1338" id="1eK-eB-hSG"/>
-                                            <constraint firstAttribute="width" constant="454" id="yv5-yF-c3y"/>
-                                        </constraints>
-                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices, tortor vitae vestibulum bibendum, felis sapien cursus dolor, quis feugiat nulla risus dictum odio. Maecenas aliquet tellus quam, id dignissim velit tristique quis. Vivamus faucibus luctus hendrerit. Sed odio justo, efficitur eu auctor nec, cursus sed turpis. Nam consectetur facilisis quam, eu vestibulum felis pretium ac. Proin sit amet ante dictum nisi cursus consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque euismod ipsum elit, ac fermentum sem egestas sed.
-
-Nulla mauris ante, pharetra eget facilisis eu, feugiat et ligula. Ut euismod diam posuere, tincidunt justo et, euismod leo. Curabitur hendrerit nisl at placerat dapibus. Morbi maximus nulla vel convallis eleifend. Nulla scelerisque rhoncus urna, vitae rutrum dolor tincidunt eu. Sed molestie a lacus in fermentum. Nulla vulputate ac sem sit amet convallis. Integer sed quam nec lectus condimentum imperdiet. Nam mauris neque, tempus nec sollicitudin sed, eleifend ut nisl. Curabitur ac elit nibh. Quisque est nunc, tempor vel nibh quis, varius imperdiet sapien. Pellentesque augue lectus, bibendum ut pretium quis, finibus eu nibh. Proin at feugiat elit. Praesent vulputate consequat nulla nec volutpat.
-
-Vestibulum leo ipsum, posuere sit amet luctus quis, porttitor ac diam. Praesent condimentum mi a facilisis varius. Proin interdum at massa non suscipit. Suspendisse tincidunt semper augue non molestie. Proin vitae nunc lacinia, dignissim diam sit amet, consectetur nulla. Nam dignissim, dolor in tempus auctor, ligula dui imperdiet justo, quis ullamcorper tortor lorem quis nisl. Aliquam et lectus consectetur, molestie ante id, fermentum urna. Proin eget mattis massa. Etiam eleifend velit et ante egestas, in sagittis enim vestibulum. Fusce venenatis auctor lacus vitae tincidunt. Morbi accumsan elit ligula, vitae ultricies turpis mattis ac.
-
-Sed sed ligula in sapien tristique finibus nec id nulla. Sed laoreet ante non ligula maximus fermentum. Maecenas faucibus maximus velit, vitae cursus nulla. Nulla non dapibus arcu. Sed interdum sapien libero, ac accumsan neque eleifend et. Suspendisse mattis nunc eget ipsum faucibus lobortis. Vivamus quis mattis velit. Aliquam sit amet dignissim elit. Ut finibus, mi sit amet imperdiet aliquet, mauris nisi volutpat magna, at hendrerit elit ex sit amet elit.
-
-Aenean accumsan auctor nisl nec maximus. Suspendisse convallis odio quis turpis rhoncus, posuere convallis justo facilisis. Curabitur ullamcorper erat ut dictum tempor. Pellentesque metus nunc, interdum semper feugiat eu, tincidunt vitae metus. Curabitur ut nisi in erat faucibus mattis quis ullamcorper lectus. Ut tincidunt lorem sapien, a semper mi accumsan in. In dignissim finibus dapibus. Morbi vel quam vitae lacus dapibus ornare. Pellentesque gravida sapien a sapien fermentum, at hendrerit nibh sollicitudin.</string>
-                                        <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="25"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tqh-dh-zhu">
-                                        <rect key="frame" x="102" y="8" width="314" height="66"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="314" id="2o7-OC-Tue"/>
-                                            <constraint firstAttribute="height" constant="66" id="FhG-6g-eKd"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Metropolis-BoldItalic" family="Metropolis" pointSize="22"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="0QF-9Q-apa" firstAttribute="leading" secondItem="OCP-VN-tR7" secondAttribute="leading" constant="37" id="M2o-tQ-dIn"/>
-                                    <constraint firstAttribute="trailing" secondItem="0QF-9Q-apa" secondAttribute="trailing" constant="39" id="VAm-MC-aYl"/>
-                                    <constraint firstAttribute="height" constant="526" id="dgO-EI-wS6"/>
-                                    <constraint firstAttribute="bottom" secondItem="0QF-9Q-apa" secondAttribute="bottom" constant="-894" id="gFZ-WJ-ZFP"/>
-                                    <constraint firstItem="0QF-9Q-apa" firstAttribute="top" secondItem="OCP-VN-tR7" secondAttribute="top" constant="82" id="heo-uD-Q16"/>
-                                    <constraint firstItem="tqh-dh-zhu" firstAttribute="centerX" secondItem="0QF-9Q-apa" secondAttribute="centerX" constant="-5" id="kbM-aW-0xL"/>
-                                    <constraint firstItem="tqh-dh-zhu" firstAttribute="top" secondItem="OCP-VN-tR7" secondAttribute="topMargin" id="ybw-a8-h9A"/>
-                                    <constraint firstItem="0QF-9Q-apa" firstAttribute="top" secondItem="tqh-dh-zhu" secondAttribute="bottom" constant="8" symbolic="YES" id="zS7-97-WIL"/>
-                                </constraints>
-                            </scrollView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ip9-uF-RmD" userLabel="PrayerRequestScrollView">
-                                <rect key="frame" x="560" y="478" width="464" height="526"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prayer Requests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMq-1a-LaA">
-                                        <rect key="frame" x="75" y="8" width="314" height="66"/>
-                                        <fontDescription key="fontDescription" name="Metropolis-BoldItalic" family="Metropolis" pointSize="22"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPh-Ij-B68">
-                                        <rect key="frame" x="33" y="82" width="398" height="1338"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1338" id="BtK-Y5-cz5"/>
-                                        </constraints>
-                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices, tortor vitae vestibulum bibendum, felis sapien cursus dolor, quis feugiat nulla risus dictum odio. Maecenas aliquet tellus quam, id dignissim velit tristique quis. Vivamus faucibus luctus hendrerit. Sed odio justo, efficitur eu auctor nec, cursus sed turpis. Nam consectetur facilisis quam, eu vestibulum felis pretium ac. Proin sit amet ante dictum nisi cursus consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque euismod ipsum elit, ac fermentum sem egestas sed.
-
-Nulla mauris ante, pharetra eget facilisis eu, feugiat et ligula. Ut euismod diam posuere, tincidunt justo et, euismod leo. Curabitur hendrerit nisl at placerat dapibus. Morbi maximus nulla vel convallis eleifend. Nulla scelerisque rhoncus urna, vitae rutrum dolor tincidunt eu. Sed molestie a lacus in fermentum. Nulla vulputate ac sem sit amet convallis. Integer sed quam nec lectus condimentum imperdiet. Nam mauris neque, tempus nec sollicitudin sed, eleifend ut nisl. Curabitur ac elit nibh. Quisque est nunc, tempor vel nibh quis, varius imperdiet sapien. Pellentesque augue lectus, bibendum ut pretium quis, finibus eu nibh. Proin at feugiat elit. Praesent vulputate consequat nulla nec volutpat.
-
-Vestibulum leo ipsum, posuere sit amet luctus quis, porttitor ac diam. Praesent condimentum mi a facilisis varius. Proin interdum at massa non suscipit. Suspendisse tincidunt semper augue non molestie. Proin vitae nunc lacinia, dignissim diam sit amet, consectetur nulla. Nam dignissim, dolor in tempus auctor, ligula dui imperdiet justo, quis ullamcorper tortor lorem quis nisl. Aliquam et lectus consectetur, molestie ante id, fermentum urna. Proin eget mattis massa. Etiam eleifend velit et ante egestas, in sagittis enim vestibulum. Fusce venenatis auctor lacus vitae tincidunt. Morbi accumsan elit ligula, vitae ultricies turpis mattis ac.
-
-Sed sed ligula in sapien tristique finibus nec id nulla. Sed laoreet ante non ligula maximus fermentum. Maecenas faucibus maximus velit, vitae cursus nulla. Nulla non dapibus arcu. Sed interdum sapien libero, ac accumsan neque eleifend et. Suspendisse mattis nunc eget ipsum faucibus lobortis. Vivamus quis mattis velit. Aliquam sit amet dignissim elit. Ut finibus, mi sit amet imperdiet aliquet, mauris nisi volutpat magna, at hendrerit elit ex sit amet elit.
-
-Aenean accumsan auctor nisl nec maximus. Suspendisse convallis odio quis turpis rhoncus, posuere convallis justo facilisis. Curabitur ullamcorper erat ut dictum tempor. Pellentesque metus nunc, interdum semper feugiat eu, tincidunt vitae metus. Curabitur ut nisi in erat faucibus mattis quis ullamcorper lectus. Ut tincidunt lorem sapien, a semper mi accumsan in. In dignissim finibus dapibus. Morbi vel quam vitae lacus dapibus ornare. Pellentesque gravida sapien a sapien fermentum, at hendrerit nibh sollicitudin.</string>
-                                        <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="18"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="RPh-Ij-B68" secondAttribute="bottom" constant="-894" placeholder="YES" id="5L7-Jl-wO4"/>
-                                    <constraint firstItem="RPh-Ij-B68" firstAttribute="top" secondItem="jMq-1a-LaA" secondAttribute="bottom" constant="8" id="6fX-r5-RTK"/>
-                                    <constraint firstItem="jMq-1a-LaA" firstAttribute="top" secondItem="ip9-uF-RmD" secondAttribute="topMargin" id="Jni-Xo-U3d"/>
-                                    <constraint firstItem="RPh-Ij-B68" firstAttribute="width" secondItem="ip9-uF-RmD" secondAttribute="width" constant="-66" id="P7T-22-pja"/>
-                                    <constraint firstItem="RPh-Ij-B68" firstAttribute="leading" secondItem="ip9-uF-RmD" secondAttribute="leading" constant="33" id="ScC-sT-RBb"/>
-                                    <constraint firstItem="RPh-Ij-B68" firstAttribute="top" secondItem="ip9-uF-RmD" secondAttribute="top" constant="82" id="V6R-cP-nwI"/>
-                                    <constraint firstAttribute="trailing" secondItem="RPh-Ij-B68" secondAttribute="trailing" constant="33" id="l1b-yL-fym"/>
-                                    <constraint firstItem="jMq-1a-LaA" firstAttribute="centerX" secondItem="ip9-uF-RmD" secondAttribute="centerX" id="pqG-CD-Esj"/>
-                                    <constraint firstItem="jMq-1a-LaA" firstAttribute="leading" secondItem="ip9-uF-RmD" secondAttribute="leading" constant="75" id="qlT-OC-dO9"/>
-                                </constraints>
-                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="l7G-fZ-aXH" secondAttribute="bottom" constant="534" id="4Et-QX-ri1"/>
-                            <constraint firstItem="OCP-VN-tR7" firstAttribute="leading" secondItem="l7G-fZ-aXH" secondAttribute="leading" id="EZ7-KC-9aI"/>
+                            <constraint firstItem="cwO-EA-7i3" firstAttribute="top" secondItem="l7G-fZ-aXH" secondAttribute="bottom" id="1Ce-ry-6UO"/>
                             <constraint firstItem="l7G-fZ-aXH" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" id="G9P-bz-W5d"/>
                             <constraint firstItem="ueR-hV-dEk" firstAttribute="trailing" secondItem="5Nc-hX-v9y" secondAttribute="trailing" id="HyI-Ys-aoa"/>
-                            <constraint firstItem="ip9-uF-RmD" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" constant="560" id="KfE-KC-Omc"/>
-                            <constraint firstItem="ueR-hV-dEk" firstAttribute="trailing" secondItem="ip9-uF-RmD" secondAttribute="trailing" id="S9H-hx-7ZU"/>
-                            <constraint firstItem="ip9-uF-RmD" firstAttribute="top" secondItem="OCP-VN-tR7" secondAttribute="top" id="W8i-A2-Xej"/>
+                            <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="cwO-EA-7i3" secondAttribute="bottom" id="aIO-Id-JjB"/>
                             <constraint firstItem="l7G-fZ-aXH" firstAttribute="trailing" secondItem="ueR-hV-dEk" secondAttribute="trailing" id="bLt-WS-67p"/>
                             <constraint firstItem="5Nc-hX-v9y" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" id="c05-e8-HXS"/>
                             <constraint firstItem="l7G-fZ-aXH" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" constant="365" id="c9w-EA-f03"/>
-                            <constraint firstItem="ueR-hV-dEk" firstAttribute="bottom" secondItem="ip9-uF-RmD" secondAttribute="bottom" id="jLT-JW-qiz"/>
+                            <constraint firstItem="cwO-EA-7i3" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" constant="470" id="ebC-NG-ckJ"/>
+                            <constraint firstItem="ueR-hV-dEk" firstAttribute="trailing" secondItem="cwO-EA-7i3" secondAttribute="trailing" id="oJP-mq-Gtu"/>
                             <constraint firstItem="5Nc-hX-v9y" firstAttribute="top" secondItem="ueR-hV-dEk" secondAttribute="top" id="oTK-z1-Enu"/>
-                            <constraint firstItem="OCP-VN-tR7" firstAttribute="top" secondItem="l7G-fZ-aXH" secondAttribute="bottom" constant="8" symbolic="YES" id="sLw-1b-O0U"/>
-                            <constraint firstItem="ip9-uF-RmD" firstAttribute="leading" secondItem="OCP-VN-tR7" secondAttribute="trailing" constant="30" id="ySF-Fl-Nxe"/>
+                            <constraint firstItem="cwO-EA-7i3" firstAttribute="leading" secondItem="ueR-hV-dEk" secondAttribute="leading" id="vUM-ar-hXG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ueR-hV-dEk"/>
                     </view>
                     <connections>
                         <outlet property="infoShortLabel" destination="FHX-fJ-K4J" id="F1v-PS-Hp2"/>
-                        <outlet property="missionaryBioLabel" destination="0QF-9Q-apa" id="os3-96-ogP"/>
                         <outlet property="missionaryImageViewer" destination="CYk-l7-Vt8" id="Tj3-yE-Rlm"/>
                         <outlet property="missionaryLabel" destination="vo6-pP-3xc" id="h8a-XX-HSA"/>
                         <outlet property="missionaryfavoriteVerse" destination="Q4r-Uo-mGB" id="hBj-oa-1Z3"/>
-                        <outlet property="prayerRequestLabel" destination="RPh-Ij-B68" id="jB1-HL-jhj"/>
-                        <outlet property="prayerRequestScrollView" destination="ip9-uF-RmD" id="hVo-gy-Jn4"/>
-                        <outlet property="scrollView" destination="OCP-VN-tR7" id="HgD-cJ-6g9"/>
                         <outlet property="sendEmailButton" destination="11o-hs-Swk" id="u5E-pA-ZHv"/>
                         <outlet property="supportMissionaryButton" destination="fRE-lu-uw3" id="Xku-50-WM0"/>
                     </connections>

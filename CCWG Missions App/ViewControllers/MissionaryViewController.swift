@@ -16,13 +16,9 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBOutlet weak var missionaryLabel: UILabel!
     @IBOutlet weak var missionaryTitleImageViewer: UIImageView!
     @IBOutlet weak var missionaryImageViewer: UIImageView!
-    @IBOutlet weak var missionaryBioLabel: UILabel!
-    @IBOutlet weak var prayerRequestScrollView: UIScrollView!
-    @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var sendEmailButton: UIButton!
     @IBOutlet weak var supportMissionaryButton: UIButton!
     @IBOutlet weak var infoShortLabel: UILabel!
-    @IBOutlet weak var prayerRequestLabel: UILabel!
     @IBOutlet weak var missionaryfavoriteVerse: UILabel!
     
     
@@ -34,13 +30,13 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         //missionaryTitleImageViewer.image = UIImage(named: selectedImage)
         missionaryImageViewer.image = UIImage(named: selectedImageArray[missionaryIndex])
         infoShortLabel.text = selectedShortInfoArray[missionaryIndex]
-        missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
+//        missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
         missionaryfavoriteVerse.text = selectedFavoriteVerseArray[missionaryIndex]
-        prayerRequestLabel.text = selectedPrayerRequestArray[missionaryIndex]
+//        prayerRequestLabel.text = selectedPrayerRequestArray[missionaryIndex]
         
-        scrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: missionaryBioLabel.bottomAnchor).isActive = true
+//        scrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: missionaryBioLabel.bottomAnchor).isActive = true
         
-        prayerRequestScrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: prayerRequestLabel.bottomAnchor).isActive = true
+//        prayerRequestScrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: prayerRequestLabel.bottomAnchor).isActive = true
       
         
         // Do any additional setup after loading the view.
