@@ -18,8 +18,8 @@
 		24DDB3411FDDA922002A0722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDB3401FDDA922002A0722 /* AppDelegate.swift */; };
 		24DDB3431FDDA922002A0722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DDB3421FDDA922002A0722 /* ViewController.swift */; };
 		24DDB3461FDDA922002A0722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DDB3441FDDA922002A0722 /* Main.storyboard */; };
-		24DDB3481FDDA922002A0722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DDB3471FDDA922002A0722 /* Assets.xcassets */; };
 		24DDB34B1FDDA922002A0722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DDB3491FDDA922002A0722 /* LaunchScreen.storyboard */; };
+		8F15ADBB2048C55B0029CF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F15ADBA2048C55B0029CF04 /* Assets.xcassets */; };
 		8F8E4E90202A8DED000D3445 /* Metropolis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F8E4E7E202A8DE6000D3445 /* Metropolis-Bold.otf */; };
 		8F8E4E91202A8DED000D3445 /* Metropolis-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F8E4E7F202A8DE6000D3445 /* Metropolis-ExtraLightItalic.otf */; };
 		8F8E4E92202A8DED000D3445 /* Metropolis-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F8E4E80202A8DE6000D3445 /* Metropolis-ThinItalic.otf */; };
@@ -53,9 +53,9 @@
 		24DDB3401FDDA922002A0722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24DDB3421FDDA922002A0722 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24DDB3451FDDA922002A0722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		24DDB3471FDDA922002A0722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24DDB34A1FDDA922002A0722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24DDB34C1FDDA922002A0722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F15ADBA2048C55B0029CF04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F8E4E7E202A8DE6000D3445 /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Bold.otf"; sourceTree = "<group>"; };
 		8F8E4E7F202A8DE6000D3445 /* Metropolis-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraLightItalic.otf"; sourceTree = "<group>"; };
 		8F8E4E80202A8DE6000D3445 /* Metropolis-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ThinItalic.otf"; sourceTree = "<group>"; };
@@ -119,6 +119,7 @@
 		24DDB3341FDDA922002A0722 = {
 			isa = PBXGroup;
 			children = (
+				8F15ADBA2048C55B0029CF04 /* Assets.xcassets */,
 				8F8E4E7D202A8DA5000D3445 /* Fonts */,
 				24DDB33F1FDDA922002A0722 /* CCWG Missions App */,
 				24DDB33E1FDDA922002A0722 /* Products */,
@@ -142,7 +143,6 @@
 				24DDB3401FDDA922002A0722 /* AppDelegate.swift */,
 				24A854A21FE0DDF200846A37 /* Missionary.swift */,
 				24DDB3441FDDA922002A0722 /* Main.storyboard */,
-				24DDB3471FDDA922002A0722 /* Assets.xcassets */,
 				24DDB3491FDDA922002A0722 /* LaunchScreen.storyboard */,
 				24DDB34C1FDDA922002A0722 /* Info.plist */,
 			);
@@ -240,13 +240,13 @@
 				8F8E4E92202A8DED000D3445 /* Metropolis-ThinItalic.otf in Resources */,
 				8F8E4E9E202A8DED000D3445 /* Metropolis-BoldItalic.otf in Resources */,
 				8F8E4E91202A8DED000D3445 /* Metropolis-ExtraLightItalic.otf in Resources */,
+				8F15ADBB2048C55B0029CF04 /* Assets.xcassets in Resources */,
 				8F8E4E9F202A8DED000D3445 /* Metropolis-Regular.otf in Resources */,
 				8F8E4E9D202A8DED000D3445 /* Metropolis-LightItalic.otf in Resources */,
 				8F8E4E96202A8DED000D3445 /* Metropolis-SemiBoldItalic.otf in Resources */,
 				8F8E4E9A202A8DED000D3445 /* Metropolis-Medium.otf in Resources */,
 				8F8E4E93202A8DED000D3445 /* Metropolis-RegularItalic.otf in Resources */,
 				24DDB34B1FDDA922002A0722 /* LaunchScreen.storyboard in Resources */,
-				24DDB3481FDDA922002A0722 /* Assets.xcassets in Resources */,
 				8F8E4E98202A8DED000D3445 /* Metropolis-ExtraBoldItalic.otf in Resources */,
 				8F8E4E9B202A8DED000D3445 /* Metropolis-Light.otf in Resources */,
 				8F8E4E99202A8DED000D3445 /* Metropolis-ExtraBold.otf in Resources */,

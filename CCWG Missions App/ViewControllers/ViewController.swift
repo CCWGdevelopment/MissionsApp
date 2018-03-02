@@ -123,7 +123,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         }
         else if countryIndex == 9 {
             selectedCountry = "South Sudan"
-            selectedImage = "southsudan"
+            selectedImage = "southsudanimage"
             selectedTitle = "South Sudan"
             performSegue(withIdentifier: "go", sender: Any?.self)
         }
@@ -139,6 +139,11 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             selectedTitle = "USA"
             performSegue(withIdentifier: "go", sender: Any?.self)
         }
+        else if countryIndex == 99 {
+            selectedCountry = ""
+            selectedImage = ""
+            selectedTitle = ""
+            performSegue(withIdentifier: "go", sender: Any?.self)
     }
 }
-
+}
