@@ -22,8 +22,6 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBOutlet weak var missionaryfavoriteVerse: UILabel!
     @IBOutlet weak var missionaryBioLabel: UILabel!
     @IBOutlet weak var prayerRequestLabel: UILabel!
-    
-    @IBOutlet weak var missionaryBioLabel: UILabel!
     @IBOutlet weak var missionaryPrayerRequestLabel: UILabel!
     @IBOutlet weak var aboutScrollView: UIScrollView!
     @IBOutlet weak var prayerScrollView: UIScrollView!

@@ -412,7 +412,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9f-JJ-Xwb">
-                                                <rect key="frame" x="8" y="97" width="496" height="1400"/>
+                                                <rect key="frame" x="25" y="97" width="462" height="2325"/>
                                                 <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat id turpis eget dictum. Etiam eleifend condimentum dolor nec volutpat. Maecenas bibendum, nulla eu convallis consequat, ipsum est volutpat metus, ac dapibus urna sapien non turpis. In augue eros, fringilla eu justo ac, fringilla rhoncus dui. Donec odio tellus, feugiat eu urna sed, porttitor sollicitudin libero. Proin maximus leo id augue ullamcorper, ac interdum sem tincidunt. Suspendisse pellentesque accumsan augue, sit amet fermentum nisl blandit sed. Nam ullamcorper, quam in hendrerit hendrerit, diam metus pellentesque dolor, eu vestibulum lacus mauris sit amet dolor. Suspendisse in sollicitudin tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut vulputate faucibus dolor. Pellentesque elementum augue ex, sed eleifend eros luctus et.
 
@@ -622,6 +622,7 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                         <outlet property="missionaryLabel" destination="vo6-pP-3xc" id="h8a-XX-HSA"/>
                         <outlet property="missionaryPrayerRequestLabel" destination="yfI-2V-fEi" id="Bpi-Uv-Fzc"/>
                         <outlet property="missionaryfavoriteVerse" destination="Q4r-Uo-mGB" id="hBj-oa-1Z3"/>
+                        <outlet property="prayerRequestLabel" destination="yfI-2V-fEi" id="9JM-DU-3pQ"/>
                         <outlet property="prayerScrollView" destination="LUw-e0-fdK" id="klY-bT-qs2"/>
                         <outlet property="sendEmailButton" destination="11o-hs-Swk" id="u5E-pA-ZHv"/>
                         <outlet property="supportMissionaryButton" destination="fRE-lu-uw3" id="Xku-50-WM0"/>
