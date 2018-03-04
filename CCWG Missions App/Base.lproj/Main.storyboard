@@ -342,7 +342,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="InfoShort" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHX-fJ-K4J">
-                                        <rect key="frame" x="465" y="286" width="484" height="64"/>
+                                        <rect key="frame" x="465" y="294.5" width="484" height="64"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="64" id="Smo-6G-4rq"/>
                                         </constraints>
@@ -351,13 +351,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4r-Uo-mGB">
-                                        <rect key="frame" x="465" y="121" width="484" height="139"/>
+                                        <rect key="frame" x="465" y="129.5" width="484" height="139"/>
                                         <fontDescription key="fontDescription" name="Metropolis-RegularItalic" family="Metropolis" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" text="Missionary Name" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vo6-pP-3xc">
-                                        <rect key="frame" x="68" y="20" width="889" height="50"/>
+                                        <rect key="frame" x="68" y="20" width="889" height="58.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="889" id="Bnt-uJ-rA2"/>
                                         </constraints>
@@ -366,7 +366,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CYk-l7-Vt8">
-                                        <rect key="frame" x="75" y="121" width="315" height="239"/>
+                                        <rect key="frame" x="75" y="129.5" width="315" height="239"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="315" id="A4P-H0-2eI"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="305" id="MzV-9j-UBJ"/>
@@ -453,7 +453,7 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfI-2V-fEi">
-                                                <rect key="frame" x="25" y="97" width="462" height="2325"/>
+                                                <rect key="frame" x="25" y="97" width="462" height="2505"/>
                                                 <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat id turpis eget dictum. Etiam eleifend condimentum dolor nec volutpat. Maecenas bibendum, nulla eu convallis consequat, ipsum est volutpat metus, ac dapibus urna sapien non turpis. In augue eros, fringilla eu justo ac, fringilla rhoncus dui. Donec odio tellus, feugiat eu urna sed, porttitor sollicitudin libero. Proin maximus leo id augue ullamcorper, ac interdum sem tincidunt. Suspendisse pellentesque accumsan augue, sit amet fermentum nisl blandit sed. Nam ullamcorper, quam in hendrerit hendrerit, diam metus pellentesque dolor, eu vestibulum lacus mauris sit amet dolor. Suspendisse in sollicitudin tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut vulputate faucibus dolor. Pellentesque elementum augue ex, sed eleifend eros luctus et.
 
 Aenean venenatis ornare nunc quis efficitur. Maecenas laoreet, augue eget porta suscipit, dolor nunc rutrum nulla, tempus dapibus purus sapien vitae mauris. Morbi nec tincidunt est, vel pellentesque lectus. Maecenas ultricies scelerisque dui, eu molestie nunc feugiat ut. Ut et nunc id lectus dapibus convallis. Cras eu pretium nibh. Nunc finibus urna quis leo gravida suscipit. Proin ultrices ante et lacus sollicitudin pharetra.
@@ -647,19 +647,19 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUG-zd-G6h" customClass="DesignableView" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                            <rect key="frame" x="503" y="116.5" width="360" height="276"/>
+                                            <rect key="frame" x="503" y="116.5" width="360" height="288"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="8FO-Wb-jvJ">
-                                                    <rect key="frame" x="30" y="58" width="300" height="160"/>
+                                                    <rect key="frame" x="30" y="58" width="300" height="172"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email*" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eto-kZ-GA6">
-                                                            <rect key="frame" x="0.0" y="0.0" width="300" height="35"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="300" height="41"/>
                                                             <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UyO-md-Y9v">
-                                                            <rect key="frame" x="0.0" y="59" width="300" height="30"/>
+                                                            <rect key="frame" x="0.0" y="65" width="300" height="30"/>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="20"/>
                                                             <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
@@ -668,7 +668,7 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                                             </connections>
                                                         </textField>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTV-9A-eAx" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="113" width="300" height="47"/>
+                                                            <rect key="frame" x="0.0" y="119" width="300" height="53"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
                                                             <state key="normal" title="Sign Up">
