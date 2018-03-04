@@ -21,6 +21,10 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBOutlet weak var infoShortLabel: UILabel!
     @IBOutlet weak var missionaryfavoriteVerse: UILabel!
     
+    @IBOutlet weak var missionaryBioLabel: UILabel!
+    @IBOutlet weak var missionaryPrayerRequestLabel: UILabel!
+    @IBOutlet weak var aboutScrollView: UIScrollView!
+    @IBOutlet weak var prayerScrollView: UIScrollView!
     
     
     override func viewDidLoad() {
@@ -30,13 +34,13 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         //missionaryTitleImageViewer.image = UIImage(named: selectedImage)
         missionaryImageViewer.image = UIImage(named: selectedImageArray[missionaryIndex])
         infoShortLabel.text = selectedShortInfoArray[missionaryIndex]
-//        missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
+        missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
         missionaryfavoriteVerse.text = selectedFavoriteVerseArray[missionaryIndex]
-//        prayerRequestLabel.text = selectedPrayerRequestArray[missionaryIndex]
+        missionaryPrayerRequestLabel.text = selectedPrayerRequestArray[missionaryIndex]
         
-//        scrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: missionaryBioLabel.bottomAnchor).isActive = true
+//    aboutScrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: missionaryBioLabel.bottomAnchor).isActive = true
         
-//        prayerRequestScrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: prayerRequestLabel.bottomAnchor).isActive = true
+//    prayerScrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: missionaryPrayerRequestLabel.bottomAnchor).isActive = true
       
         
         // Do any additional setup after loading the view.
