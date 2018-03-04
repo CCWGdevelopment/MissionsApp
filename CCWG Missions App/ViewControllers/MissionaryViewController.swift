@@ -20,6 +20,8 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBOutlet weak var supportMissionaryButton: UIButton!
     @IBOutlet weak var infoShortLabel: UILabel!
     @IBOutlet weak var missionaryfavoriteVerse: UILabel!
+    @IBOutlet weak var missionaryBioLabel: UILabel!
+    @IBOutlet weak var prayerRequestLabel: UILabel!
     
     @IBOutlet weak var missionaryBioLabel: UILabel!
     @IBOutlet weak var missionaryPrayerRequestLabel: UILabel!

@@ -12,11 +12,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Metropolis-Black.otf">
-            <string>Metropolis-Black</string>
-        </array>
         <array key="Metropolis-Bold.otf">
             <string>Metropolis-Bold</string>
+        </array>
+        <array key="Metropolis-BoldItalic.otf">
+            <string>Metropolis-BoldItalic</string>
+        </array>
+        <array key="Metropolis-ExtraBold.otf">
+            <string>Metropolis-ExtraBold</string>
         </array>
         <array key="Metropolis-Medium.otf">
             <string>Metropolis-Medium</string>
@@ -35,14 +38,15 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CCWG_Missions_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" id="BYZ-38-t0r" customClass="ViewController" customModule="CCWG_Missions_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" opaque="NO" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView opaque="NO" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="CALVARY CHAPEL WESTGROVE" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6o-O9-msY">
-                                <rect key="frame" x="20" y="40" width="1326" height="137"/>
-                                <fontDescription key="fontDescription" name="Metropolis-Black" family="Metropolis" pointSize="76"/>
+                            <textView opaque="NO" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="CALVARY WESTGROVE MISSIONS" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6o-O9-msY">
+                                <rect key="frame" x="20" y="82" width="1326" height="97"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Metropolis-ExtraBold" family="Metropolis" pointSize="76"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" textContentType="organization"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ipadpro129" translatesAutoresizingMaskIntoConstraints="NO" id="hlH-40-xIZ">
@@ -94,7 +98,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Countrylabel" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHa-FL-md4">
                                                     <rect key="frame" x="20" y="148" width="160" height="32"/>
                                                     <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="30"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="0.2131618923611111" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                     <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                                                     <size key="shadowOffset" width="2" height="2"/>
@@ -125,14 +129,14 @@
                                 </connections>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.32549019610000002" green="0.4431372549" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="s1V-4q-igf" secondAttribute="bottom" id="2fB-hE-V3j"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s1V-4q-igf" secondAttribute="trailing" id="LzI-uv-2gE"/>
                             <constraint firstItem="s1V-4q-igf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OSS-bJ-rhF"/>
-                            <constraint firstItem="y6o-O9-msY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Qxp-gI-gZk"/>
+                            <constraint firstItem="y6o-O9-msY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="Qxp-gI-gZk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y6o-O9-msY" secondAttribute="trailing" constant="20" id="VLF-BZ-ncm"/>
-                            <constraint firstItem="s1V-4q-igf" firstAttribute="top" secondItem="y6o-O9-msY" secondAttribute="bottom" constant="62" id="YaY-8a-SpT"/>
+                            <constraint firstItem="s1V-4q-igf" firstAttribute="top" secondItem="y6o-O9-msY" secondAttribute="bottom" constant="60" id="YaY-8a-SpT"/>
                             <constraint firstItem="y6o-O9-msY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="w9q-ig-j5Z"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -154,13 +158,14 @@
         <!--Detail Controller-->
         <scene sceneID="D9Q-iq-Ofe">
             <objects>
-                <viewController id="Vrc-FP-bOJ" customClass="DetailController" customModule="CCWG_Missions_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" id="Vrc-FP-bOJ" customClass="DetailController" customModule="CCWG_Missions_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aEL-XQ-Iy1">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zZR-Ok-ZWl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zZR-Ok-ZWl">
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="341"/>
+                                <color key="backgroundColor" red="0.32549019610000002" green="0.4431372549" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="341.30000000000001" id="KvX-HF-GPF"/>
                                 </constraints>
@@ -172,8 +177,10 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="d7h-OE-iIe"/>
                                     <constraint firstAttribute="height" constant="50" id="sZI-ur-wkO"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Back"/>
+                                <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="17"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="xde-v3-i2C"/>
                                 </connections>
@@ -327,37 +334,39 @@
                                             <constraint firstAttribute="height" constant="40" id="Xr2-qT-Y1k"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Metropolis-Medium" family="Metropolis" pointSize="17"/>
-                                        <state key="normal" title="Back"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
                                         <connections>
                                             <segue destination="Vrc-FP-bOJ" kind="show" identifier="back" animates="NO" id="cgM-7R-dv6"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="InfoShort" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHX-fJ-K4J">
-                                        <rect key="frame" x="465" y="281" width="484" height="64"/>
+                                        <rect key="frame" x="465" y="286" width="484" height="64"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="64" id="Smo-6G-4rq"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Metropolis-Medium" family="Metropolis" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Metropolis-Medium" family="Metropolis" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4r-Uo-mGB">
-                                        <rect key="frame" x="465" y="116" width="484" height="139"/>
-                                        <fontDescription key="fontDescription" name="Metropolis-RegularItalic" family="Metropolis" pointSize="17"/>
+                                        <rect key="frame" x="465" y="121" width="484" height="139"/>
+                                        <fontDescription key="fontDescription" name="Metropolis-RegularItalic" family="Metropolis" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" text="Missionary Name" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vo6-pP-3xc">
-                                        <rect key="frame" x="68" y="20" width="889" height="45"/>
+                                        <rect key="frame" x="68" y="20" width="889" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="889" id="Bnt-uJ-rA2"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="45"/>
+                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="50"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CYk-l7-Vt8">
-                                        <rect key="frame" x="75" y="116" width="315" height="239"/>
+                                        <rect key="frame" x="75" y="121" width="315" height="239"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="315" id="A4P-H0-2eI"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="305" id="MzV-9j-UBJ"/>
@@ -365,7 +374,7 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.32549019610000002" green="0.4431372549" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="FHX-fJ-K4J" firstAttribute="bottom" secondItem="CYk-l7-Vt8" secondAttribute="bottom" constant="-10" id="2Up-da-0ap"/>
                                     <constraint firstItem="CYk-l7-Vt8" firstAttribute="top" secondItem="vo6-pP-3xc" secondAttribute="bottom" constant="51" id="2r1-am-e7I"/>
@@ -393,13 +402,12 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9j-dF-Lb4">
                                                 <rect key="frame" x="8" y="8" width="496" height="81"/>
-                                                <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="496" id="Cuj-0Q-Rah"/>
                                                     <constraint firstAttribute="height" constant="81" id="lah-1K-js9"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="81" id="usV-k9-EJA"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Metropolis-SemiBold" family="Metropolis" pointSize="25"/>
+                                                <fontDescription key="fontDescription" name="Metropolis-BoldItalic" family="Metropolis" pointSize="35"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -415,17 +423,17 @@ Vivamus lacinia lacinia ante, id efficitur odio bibendum et. Donec at magna frin
 Suspendisse potenti. Phasellus luctus blandit maximus. Donec pulvinar ex a orci aliquam, et dapibus nulla tristique. Morbi pulvinar vulputate ligula, nec molestie purus vulputate at. Nunc faucibus felis quis sem faucibus accumsan. Vestibulum consectetur vitae odio et aliquam. Morbi finibus dui sed magna molestie, vitae imperdiet est vulputate. Nulla suscipit nunc sed nunc sagittis, ut porttitor erat dictum. Ut nisi mauris, molestie tempor fringilla ut, dictum vitae nulla. Duis at lacinia eros, nec ullamcorper velit. Donec porta pulvinar facilisis. Duis quam lacus, laoreet fringilla mi id, cursus rhoncus mi. Curabitur tristique pulvinar congue. Donec cursus neque vel tortor luctus vehicula et id nunc. Nulla in tincidunt metus. Nam interdum risus risus, sit amet vulputate turpis efficitur at.
 
 Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas massa sed laoreet. Phasellus porttitor lacus nec lacus lobortis, sed sagittis turpis interdum. Phasellus pellentesque efficitur condimentum. Maecenas suscipit, turpis eu luctus bibendum, nisl mauris vulputate neque, porta facilisis diam tortor non massa. In sed nibh imperdiet, dictum felis sed, lobortis arcu. Fusce luctus facilisis sem a posuere.</string>
-                                                <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="20"/>
+                                                <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
+                                                <string key="userLabel">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat id turpis eget dictum. Etiam eleifend condimentum dolor nec volutpat. Maecenas bibendum, nulla eu convallis consequat, ipsum est volutpat metus, ac dapibus urna sapien non turpis. In augue eros, fringilla eu justo ac, fringilla rhoncus dui. Donec odio tellus, feugiat eu urna sed, porttitor sollicitudin libero. Proin maximus leo id augue ullamcorper, ac interdum sem tincidunt. Suspendisse pellentesque accumsan augue, sit amet fermentum nisl blandit sed. Nam ullamcorper, quam in hendrerit hendrerit, diam metus pellentesque dolor, eu vestibulum lacus mauris sit amet dolor. Suspendisse in sollicitudin tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut vulputate faucibus dolor. Pellentesque elementum augue ex, sed eleifend eros luctus et.  Aenean venenatis ornare nunc quis efficitur. Maecenas laoreet, augue eget porta suscipit, dolor nunc rutrum nulla, tempus dapibus purus sapien vitae mauris. Morbi nec tincidunt est, vel pellentesque lectus. Maecenas ultricies scelerisque dui, eu molestie nunc feugiat ut. Ut et nunc id lectus dapibus convallis. Cras eu pretium nibh. Nunc finibus urna quis leo gravida suscipit. Proin ultrices ante et lacus sollicitudin pharetra.  Vivamus lacinia lacinia ante, id efficitur odio bibendum et. Donec at magna fringilla, rutrum dolor sed, vehicula arcu. Phasellus vel dui tempor, viverra elit vitae, mattis neque. Aliquam hendrerit risus ac ligula tincidunt scelerisque. Aliquam at nisl ac mauris tempus finibus. Donec sollicitudin purus elit, vitae eleifend enim hendrerit at. Nunc sed ornare lacus. Duis ac sem vestibulum, laoreet ex vel, consectetur quam. Proin purus augue, gravida ac tempus efficitur, dignissim rutrum leo. Sed sit amet dolor pretium, aliquet tortor sit amet, molestie nunc. Donec odio ligula, gravida sit amet augue et, iaculis pulvinar quam.  Suspendisse potenti. Phasellus luctus blandit maximus. Donec pulvinar ex a orci aliquam, et dapibus nulla tristique. Morbi pulvinar vulputate ligula, nec molestie purus vulputate at. Nunc faucibus felis quis sem faucibus accumsan. Vestibulum consectetur vitae odio et aliquam. Morbi finibus dui sed magna molestie, vitae imperdiet est vulputate. Nulla suscipit nunc sed nunc sagittis, ut porttitor erat dictum. Ut nisi mauris, molestie tempor fringilla ut, dictum vitae nulla. Duis at lacinia eros, nec ullamcorper velit. Donec porta pulvinar facilisis. Duis quam lacus, laoreet fringilla mi id, cursus rhoncus mi. Curabitur tristique pulvinar congue. Donec cursus neque vel tortor luctus vehicula et id nunc. Nulla in tincidunt metus. Nam interdum risus risus, sit amet vulputate turpis efficitur at.  Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas massa sed laoreet. Phasellus porttitor lacus nec lacus lobortis, sed sagittis turpis interdum. Phasellus pellentesque efficitur condimentum. Maecenas suscipit, turpis eu luctus bibendum, nisl mauris vulputate neque, porta facilisis diam tortor non massa. In sed nibh imperdiet, dictum felis sed, lobortis arcu. Fusce luctus facilisis sem a posuere.</string>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="M9j-dF-Lb4" firstAttribute="leading" secondItem="0GC-ei-e1d" secondAttribute="leading" constant="8" id="5I1-ri-HCf"/>
-                                            <constraint firstAttribute="trailing" secondItem="V9f-JJ-Xwb" secondAttribute="trailing" constant="8" id="Cad-bR-Wzr"/>
-                                            <constraint firstItem="V9f-JJ-Xwb" firstAttribute="leading" secondItem="0GC-ei-e1d" secondAttribute="leading" constant="8" id="WLi-TN-QTZ"/>
-                                            <constraint firstAttribute="bottom" secondItem="V9f-JJ-Xwb" secondAttribute="bottom" constant="-77" id="X4h-Aw-NIY"/>
+                                            <constraint firstAttribute="trailing" secondItem="V9f-JJ-Xwb" secondAttribute="trailing" constant="25" id="Cad-bR-Wzr"/>
+                                            <constraint firstItem="V9f-JJ-Xwb" firstAttribute="leading" secondItem="0GC-ei-e1d" secondAttribute="leading" constant="25" id="MgG-Wg-OmX"/>
+                                            <constraint firstAttribute="bottom" secondItem="V9f-JJ-Xwb" secondAttribute="bottom" constant="-1" id="X4h-Aw-NIY"/>
                                             <constraint firstItem="V9f-JJ-Xwb" firstAttribute="top" secondItem="M9j-dF-Lb4" secondAttribute="bottom" constant="8" id="ZPd-R5-zUV"/>
                                             <constraint firstItem="M9j-dF-Lb4" firstAttribute="top" secondItem="0GC-ei-e1d" secondAttribute="top" constant="8" id="aZh-5P-org"/>
                                             <constraint firstAttribute="trailing" secondItem="M9j-dF-Lb4" secondAttribute="trailing" constant="8" id="hrx-Lv-g5F"/>
@@ -436,17 +444,16 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prayer Requests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wgu-r1-XwW">
                                                 <rect key="frame" x="8" y="8" width="496" height="81"/>
-                                                <color key="backgroundColor" red="0.44248975940000002" green="0.73463182660000004" blue="0.96993559600000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="81" id="4XW-hs-XB2"/>
                                                     <constraint firstAttribute="width" constant="496" id="dIZ-Bv-Ttd"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Metropolis-SemiBold" family="Metropolis" pointSize="22"/>
+                                                <fontDescription key="fontDescription" name="Metropolis-BoldItalic" family="Metropolis" pointSize="35"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfI-2V-fEi">
-                                                <rect key="frame" x="8" y="97" width="496" height="1134"/>
+                                                <rect key="frame" x="25" y="97" width="462" height="2325"/>
                                                 <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat id turpis eget dictum. Etiam eleifend condimentum dolor nec volutpat. Maecenas bibendum, nulla eu convallis consequat, ipsum est volutpat metus, ac dapibus urna sapien non turpis. In augue eros, fringilla eu justo ac, fringilla rhoncus dui. Donec odio tellus, feugiat eu urna sed, porttitor sollicitudin libero. Proin maximus leo id augue ullamcorper, ac interdum sem tincidunt. Suspendisse pellentesque accumsan augue, sit amet fermentum nisl blandit sed. Nam ullamcorper, quam in hendrerit hendrerit, diam metus pellentesque dolor, eu vestibulum lacus mauris sit amet dolor. Suspendisse in sollicitudin tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut vulputate faucibus dolor. Pellentesque elementum augue ex, sed eleifend eros luctus et.
 
 Aenean venenatis ornare nunc quis efficitur. Maecenas laoreet, augue eget porta suscipit, dolor nunc rutrum nulla, tempus dapibus purus sapien vitae mauris. Morbi nec tincidunt est, vel pellentesque lectus. Maecenas ultricies scelerisque dui, eu molestie nunc feugiat ut. Ut et nunc id lectus dapibus convallis. Cras eu pretium nibh. Nunc finibus urna quis leo gravida suscipit. Proin ultrices ante et lacus sollicitudin pharetra.
@@ -456,24 +463,24 @@ Vivamus lacinia lacinia ante, id efficitur odio bibendum et. Donec at magna frin
 Suspendisse potenti. Phasellus luctus blandit maximus. Donec pulvinar ex a orci aliquam, et dapibus nulla tristique. Morbi pulvinar vulputate ligula, nec molestie purus vulputate at. Nunc faucibus felis quis sem faucibus accumsan. Vestibulum consectetur vitae odio et aliquam. Morbi finibus dui sed magna molestie, vitae imperdiet est vulputate. Nulla suscipit nunc sed nunc sagittis, ut porttitor erat dictum. Ut nisi mauris, molestie tempor fringilla ut, dictum vitae nulla. Duis at lacinia eros, nec ullamcorper velit. Donec porta pulvinar facilisis. Duis quam lacus, laoreet fringilla mi id, cursus rhoncus mi. Curabitur tristique pulvinar congue. Donec cursus neque vel tortor luctus vehicula et id nunc. Nulla in tincidunt metus. Nam interdum risus risus, sit amet vulputate turpis efficitur at.
 
 Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas massa sed laoreet. Phasellus porttitor lacus nec lacus lobortis, sed sagittis turpis interdum. Phasellus pellentesque efficitur condimentum. Maecenas suscipit, turpis eu luctus bibendum, nisl mauris vulputate neque, porta facilisis diam tortor non massa. In sed nibh imperdiet, dictum felis sed, lobortis arcu. Fusce luctus facilisis sem a posuere.</string>
-                                                <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="18"/>
+                                                <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="0.82512713803185356" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="yfI-2V-fEi" secondAttribute="trailing" constant="8" id="1VD-wo-Xqc"/>
+                                            <constraint firstAttribute="trailing" secondItem="yfI-2V-fEi" secondAttribute="trailing" constant="25" id="1VD-wo-Xqc"/>
                                             <constraint firstItem="yfI-2V-fEi" firstAttribute="top" secondItem="Wgu-r1-XwW" secondAttribute="bottom" constant="8" id="9uC-4M-Pyq"/>
                                             <constraint firstItem="Wgu-r1-XwW" firstAttribute="leading" secondItem="LUw-e0-fdK" secondAttribute="leading" constant="8" id="Li1-ZL-F5x"/>
-                                            <constraint firstItem="yfI-2V-fEi" firstAttribute="leading" secondItem="LUw-e0-fdK" secondAttribute="leading" constant="8" id="Msr-FT-erY"/>
+                                            <constraint firstItem="yfI-2V-fEi" firstAttribute="leading" secondItem="LUw-e0-fdK" secondAttribute="leading" constant="25" id="Msr-FT-erY"/>
                                             <constraint firstAttribute="bottom" secondItem="yfI-2V-fEi" secondAttribute="bottom" constant="-77" id="NKD-Vc-6z5"/>
                                             <constraint firstAttribute="trailing" secondItem="Wgu-r1-XwW" secondAttribute="trailing" constant="8" id="dDk-JI-TmK"/>
                                             <constraint firstItem="Wgu-r1-XwW" firstAttribute="top" secondItem="LUw-e0-fdK" secondAttribute="top" constant="8" id="kN8-E6-S0B"/>
                                         </constraints>
                                     </scrollView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="0GC-ei-e1d" secondAttribute="trailing" constant="512" id="6mh-Kk-xNu"/>
                                     <constraint firstAttribute="bottom" secondItem="LUw-e0-fdK" secondAttribute="bottom" id="Aka-D9-upv"/>
@@ -495,7 +502,7 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                             <constraint firstAttribute="height" constant="44" id="Q9a-YL-JHa"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="216" id="qoE-kT-qrD"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="22"/>
+                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="24"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="Support">
                                             <color key="titleColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -573,7 +580,6 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="ugc-zH-ISq" secondAttribute="trailing" constant="770" id="0fu-Gi-AVh"/>
                                     <constraint firstAttribute="trailing" secondItem="fRE-lu-uw3" secondAttribute="trailing" constant="38" id="14X-sX-TrY"/>
@@ -640,36 +646,42 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUG-zd-G6h" customClass="DesignableView" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                            <rect key="frame" x="503" y="132" width="360" height="362.5"/>
+                                            <rect key="frame" x="503" y="116.5" width="360" height="276"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="8FO-Wb-jvJ">
-                                                    <rect key="frame" x="30" y="117" width="300" height="128.5"/>
+                                                    <rect key="frame" x="30" y="58" width="300" height="160"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter email address" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eto-kZ-GA6">
-                                                            <rect key="frame" x="0.0" y="0.0" width="300" height="20.5"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email*" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eto-kZ-GA6">
+                                                            <rect key="frame" x="0.0" y="0.0" width="300" height="35"/>
+                                                            <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UyO-md-Y9v">
-                                                            <rect key="frame" x="0.0" y="44.5" width="300" height="30"/>
+                                                            <rect key="frame" x="0.0" y="59" width="300" height="30"/>
                                                             <nil key="textColor"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="20"/>
                                                             <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
                                                             <connections>
                                                                 <outlet property="delegate" destination="QvX-78-0vR" id="VbH-gS-8ly"/>
                                                             </connections>
                                                         </textField>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTV-9A-eAx" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="98.5" width="300" height="30"/>
+                                                            <rect key="frame" x="0.0" y="113" width="300" height="47"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <state key="normal" title="Sign Up"/>
+                                                            <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
+                                                            <state key="normal" title="Sign Up">
+                                                                <color key="titleColor" red="0.4549019608" green="0.38431372549999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            </state>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                                    <real key="value" value="2"/>
+                                                                    <real key="value" value="3"/>
                                                                 </userDefinedRuntimeAttribute>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                    <real key="value" value="5"/>
+                                                                    <real key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                    <color key="value" red="0.4549019608" green="0.38431372549999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
                                                             <connections>
@@ -679,6 +691,7 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                                     </subviews>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="300" id="6XG-73-uJR"/>
+                                                        <constraint firstItem="eto-kZ-GA6" firstAttribute="top" secondItem="8FO-Wb-jvJ" secondAttribute="top" id="J5v-0O-7gd"/>
                                                     </constraints>
                                                 </stackView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbe-J2-Dhg">
@@ -686,15 +699,17 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="46" id="iro-OP-3PL"/>
                                                     </constraints>
-                                                    <state key="normal" title="X"/>
+                                                    <state key="normal" title="X">
+                                                        <color key="titleColor" red="0.32549019610000002" green="0.4431372549" blue="0.16078431369999999" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="closePupUp:" destination="QvX-78-0vR" eventType="touchUpInside" id="Djx-Y7-5Yt"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
-                                                <constraint firstItem="8FO-Wb-jvJ" firstAttribute="top" secondItem="sbe-J2-Dhg" secondAttribute="bottom" constant="79" id="1LZ-1u-Ged"/>
+                                                <constraint firstItem="8FO-Wb-jvJ" firstAttribute="top" secondItem="sbe-J2-Dhg" secondAttribute="bottom" constant="20" id="1LZ-1u-Ged"/>
                                                 <constraint firstItem="8FO-Wb-jvJ" firstAttribute="centerY" secondItem="fUG-zd-G6h" secondAttribute="centerY" id="5FO-0C-aBC"/>
                                                 <constraint firstAttribute="width" constant="360" id="FMO-63-bDt"/>
                                                 <constraint firstItem="sbe-J2-Dhg" firstAttribute="top" secondItem="fUG-zd-G6h" secondAttribute="topMargin" id="Rgv-g2-4d9"/>
@@ -703,17 +718,17 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                             </constraints>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                    <real key="value" value="7"/>
+                                                    <integer key="value" value="15"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </view>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="fUG-zd-G6h" firstAttribute="centerY" secondItem="xT3-iW-64Z" secondAttribute="centerY" constant="-199" id="Oim-zJ-yYz"/>
-                                        <constraint firstItem="fUG-zd-G6h" firstAttribute="centerX" secondItem="xT3-iW-64Z" secondAttribute="centerX" id="Pcf-zH-7nF"/>
+                                        <constraint firstItem="fUG-zd-G6h" firstAttribute="centerX" secondItem="xT3-iW-64Z" secondAttribute="centerX" id="bjp-Mf-ChC"/>
+                                        <constraint firstItem="fUG-zd-G6h" firstAttribute="top" secondItem="xT3-iW-64Z" secondAttribute="top" constant="116.5" id="kZP-bX-u25"/>
                                     </constraints>
                                 </view>
-                                <blurEffect style="extraLight"/>
+                                <blurEffect style="dark"/>
                             </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -740,6 +755,6 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
         <image name="italyiocn" width="341" height="341"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cgM-7R-dv6"/>
+        <segue reference="0HU-OZ-EYt"/>
     </inferredMetricsTieBreakers>
 </document>
