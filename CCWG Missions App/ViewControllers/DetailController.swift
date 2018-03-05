@@ -8,8 +8,7 @@
 
 
 import UIKit
-
-// Global variables used to pass selected country info
+import Foundation
 
 var selectedCountry:String = ""
 var selectedImage:String = ""
@@ -30,13 +29,14 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     @IBOutlet weak var selectedCountryTitle: UILabel!
     @IBOutlet weak var selectedCountryIconImageViewer: UIImageView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
-        selectedCountryImageViewer.image = UIImage(named: selectedImage)
-        selectedCountryTitle.text = selectedTitle.uppercased()
-        selectedCountryIconImageViewer.image = UIImage(named: selectedCountryIcon)
+        selectedCountryTitle.text = selectedTitle
+//        selectedCountryImageViewer.image = UIImage(named: selectedImage)
+//        selectedCountryTitle.text = selectedTitle.uppercased()
+//        selectedCountryIconImageViewer.image = UIImage(named: selectedCountryIcon)
 
         
         // Do any additional setup after loading the view.
@@ -53,6 +53,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if selectedCountry == "China" {

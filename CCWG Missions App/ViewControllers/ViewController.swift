@@ -8,6 +8,11 @@
 
 import UIKit
 
+// Global variables used to pass selected country info
+
+
+var countryIndex:Int = 0
+
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     @IBOutlet weak var countryIconCollectionView: UICollectionView!
     
@@ -16,7 +21,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     let countryNameArray: [String] = ["China", "Haiti", "India", "Italy", "Kenya", "Mexico", "Nepal", "New Zealand", "Philippines", "South Sudan", "Uganda", "United States"]
     
-    var countryIndex:Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,6 +61,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let collectionCell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionCell", for: indexPath) as! countryIconCell
+        
         collectionCell.countryIconImageViewer.image = UIImage(named: countryIconArray[indexPath.row])
         collectionCell.countryLabel.text = countryNameArray[indexPath.row]
         
@@ -71,79 +76,67 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             selectedCountry = "China"
             selectedImage = "china"
             selectedTitle = "China"
-            performSegue(withIdentifier: "go", sender: Any?.self)
         }
         else if countryIndex == 1 {
             selectedCountry = "Haiti"
             selectedImage = "haiti"
             selectedTitle = "Haiti"
-            performSegue(withIdentifier: "go", sender: Any?.self)
         }
         else if countryIndex == 2 {
             selectedCountry = "India"
             selectedImage = "india"
             selectedTitle = "India"
-            performSegue(withIdentifier: "go", sender: Any?.self)
         }
         else if countryIndex == 3 {
             selectedCountry = "Italy"
             selectedImage = "italy"
             selectedTitle = "Italy"
-            performSegue(withIdentifier: "go", sender: Any?.self)
         }
         else if countryIndex == 4 {
             selectedCountry = "Kenya"
             selectedImage = "kenya"
             selectedTitle = "Kenya"
-            performSegue(withIdentifier: "go", sender: Any?.self)
         }
         else if countryIndex == 5 {
             selectedCountry = "Mexico"
             selectedImage = "mexico"
             selectedTitle = "Mexico"
-            performSegue(withIdentifier: "go", sender: Any?.self)
         }
         else if countryIndex == 6 {
             selectedCountry = "Nepal"
             selectedImage = "nepal"
             selectedTitle = "Nepal"
-            performSegue(withIdentifier: "go", sender: Any?.self)
         }
         else if countryIndex == 7 {
             selectedCountry = "New Zealand"
             selectedImage = "newzealand"
             selectedTitle = "New Zealand"
-            performSegue(withIdentifier: "go", sender: Any?.self)
         }
         else if countryIndex == 8 {
             selectedCountry = "Philippines"
             selectedImage = "philippines"
             selectedTitle = "Philippines"
-            performSegue(withIdentifier: "go", sender: Any?.self)
         }
         else if countryIndex == 9 {
             selectedCountry = "South Sudan"
             selectedImage = "southsudanimage"
             selectedTitle = "South Sudan"
-            performSegue(withIdentifier: "go", sender: Any?.self)
         }
         else if countryIndex == 10 {
             selectedCountry = "Uganda"
             selectedImage = "uganda"
             selectedTitle = "Uganda"
-            performSegue(withIdentifier: "go", sender: Any?.self)
         }
         else if countryIndex == 11 {
             selectedCountry = "USA"
             selectedImage = "usa"
             selectedTitle = "USA"
-            performSegue(withIdentifier: "go", sender: Any?.self)
         }
         else if countryIndex == 99 {
             selectedCountry = ""
             selectedImage = ""
             selectedTitle = ""
-            performSegue(withIdentifier: "go", sender: Any?.self)
-    }
+        }
+        
 }
 }

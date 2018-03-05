@@ -38,11 +38,6 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         missionaryfavoriteVerse.text = selectedFavoriteVerseArray[missionaryIndex]
         missionaryPrayerRequestLabel.text = selectedPrayerRequestArray[missionaryIndex]
         
-//    aboutScrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: missionaryBioLabel.bottomAnchor).isActive = true
-        
-//    prayerScrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: missionaryPrayerRequestLabel.bottomAnchor).isActive = true
-      
-        
         // Do any additional setup after loading the view.
     }
 
@@ -103,6 +98,5 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         let safariVC = SFSafariViewController(url: url!)
         present(safariVC, animated: true, completion: nil)
     }
-    
     
 }
