@@ -43,9 +43,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView opaque="NO" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="CALVARY WESTGROVE MISSIONS" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6o-O9-msY">
-                                <rect key="frame" x="20" y="82" width="1326" height="97"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_mapnarrow" translatesAutoresizingMaskIntoConstraints="NO" id="dfL-jc-uki">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="Dbh-qG-6eC"/>
+                                </constraints>
+                            </imageView>
+                            <textView opaque="NO" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="CCWG MISSIONS" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6o-O9-msY">
+                                <rect key="frame" x="20" y="86" width="1326" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="apD-g9-Hdg"/>
+                                </constraints>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Metropolis-ExtraBold" family="Metropolis" pointSize="76"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" textContentType="organization"/>
                             </textView>
@@ -131,12 +140,15 @@
                         <color key="backgroundColor" red="0.32549019610000002" green="0.4431372549" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="s1V-4q-igf" secondAttribute="bottom" id="2fB-hE-V3j"/>
+                            <constraint firstItem="dfL-jc-uki" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Izt-Ri-BKw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s1V-4q-igf" secondAttribute="trailing" id="LzI-uv-2gE"/>
                             <constraint firstItem="s1V-4q-igf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OSS-bJ-rhF"/>
-                            <constraint firstItem="y6o-O9-msY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="Qxp-gI-gZk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="dfL-jc-uki" secondAttribute="top" constant="20" id="PJF-lN-hCZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y6o-O9-msY" secondAttribute="trailing" constant="20" id="VLF-BZ-ncm"/>
-                            <constraint firstItem="s1V-4q-igf" firstAttribute="top" secondItem="y6o-O9-msY" secondAttribute="bottom" constant="60" id="YaY-8a-SpT"/>
+                            <constraint firstItem="s1V-4q-igf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="219" id="qgE-3e-GAz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dfL-jc-uki" secondAttribute="trailing" id="szS-87-O7h"/>
                             <constraint firstItem="y6o-O9-msY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="w9q-ig-j5Z"/>
+                            <constraint firstItem="y6o-O9-msY" firstAttribute="bottom" secondItem="dfL-jc-uki" secondAttribute="bottom" constant="-67" id="x7F-eb-dfi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <variation key="default">
@@ -152,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-547" y="-40"/>
+            <point key="canvasLocation" x="-547.29136163982423" y="-40.4296875"/>
         </scene>
         <!--Detail Controller-->
         <scene sceneID="D9Q-iq-Ofe">
@@ -241,7 +253,7 @@
                                 <rect key="frame" x="0.0" y="683" width="1366" height="341"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.01" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MissionaryCell" rowHeight="142" id="wRq-Wh-Ij1" customClass="MissionaryCell" customModule="CCWG_Missions_App" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MissionaryCell" rowHeight="142" id="wRq-Wh-Ij1" customClass="MissionaryCell" customModule="CCWG_Missions_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="1366" height="142"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wRq-Wh-Ij1" id="Zj3-KB-UQ9">
@@ -757,6 +769,7 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
         </scene>
     </scenes>
     <resources>
+        <image name="green_mapnarrow" width="640" height="108"/>
         <image name="ipadpro129" width="910" height="682"/>
     </resources>
     <inferredMetricsTieBreakers>
