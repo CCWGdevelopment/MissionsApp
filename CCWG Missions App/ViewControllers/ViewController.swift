@@ -79,7 +79,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         }
         else if countryIndex == 1 {
             selectedCountry = "Haiti"
-            selectedImage = "haiti"
+            selectedImage = "haitiimage"
             selectedTitle = "Haiti"
         }
         else if countryIndex == 2 {
@@ -89,12 +89,12 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         }
         else if countryIndex == 3 {
             selectedCountry = "Italy"
-            selectedImage = "italy"
+            selectedImage = "italyimage"
             selectedTitle = "Italy"
         }
         else if countryIndex == 4 {
             selectedCountry = "Kenya"
-            selectedImage = "kenya"
+            selectedImage = "kenyaimage"
             selectedTitle = "Kenya"
         }
         else if countryIndex == 5 {
@@ -104,7 +104,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         }
         else if countryIndex == 6 {
             selectedCountry = "Nepal"
-            selectedImage = "nepal"
+            selectedImage = "nepalimage"
             selectedTitle = "Nepal"
         }
         else if countryIndex == 7 {
@@ -124,7 +124,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         }
         else if countryIndex == 10 {
             selectedCountry = "Uganda"
-            selectedImage = "uganda"
+            selectedImage = "ugandaimage"
             selectedTitle = "Uganda"
         }
         else if countryIndex == 11 {
