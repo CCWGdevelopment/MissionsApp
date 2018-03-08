@@ -11,8 +11,6 @@ import UIKit
 // Global variables used to pass selected country info
 
 
-var countryIndex:Int = 0
-
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     @IBOutlet weak var countryIconCollectionView: UICollectionView!
     
@@ -23,7 +21,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+      
         
         //override default layout
         
@@ -37,7 +35,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         countryIconCollectionView.collectionViewLayout = layout
         
-        
+          super.viewDidLoad()
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,9 +43,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         // Dispose of any resources that can be recreated.
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
-    }
+//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+//
+//    }
     
     // No Status Bar
     
@@ -70,6 +68,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
+        var countryIndex:Int = 0
         countryIndex = indexPath.row
         
         if countryIndex == 0 {

@@ -30,15 +30,12 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     @IBOutlet weak var selectedCountryIconImageViewer: UIImageView!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
         
-
-        selectedCountryTitle.text = selectedTitle
 //        selectedCountryImageViewer.image = UIImage(named: selectedImage)
 //        selectedCountryTitle.text = selectedTitle.uppercased()
 //        selectedCountryIconImageViewer.image = UIImage(named: selectedCountryIcon)
 
-        
+        super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
