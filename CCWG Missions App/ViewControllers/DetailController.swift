@@ -28,6 +28,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     @IBOutlet weak var selectedCountryImageViewer: UIImageView!
     @IBOutlet weak var selectedCountryTitle: UILabel!
     @IBOutlet weak var selectedCountryIconImageViewer: UIImageView!
+    @IBOutlet weak var selectedCountryDescription: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
