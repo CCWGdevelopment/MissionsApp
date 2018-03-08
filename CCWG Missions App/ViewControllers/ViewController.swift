@@ -43,9 +43,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         // Dispose of any resources that can be recreated.
     }
     
-//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-//
-//    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+
+    }
     
     // No Status Bar
     
@@ -70,66 +70,42 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         var countryIndex:Int = 0
         countryIndex = indexPath.row
-        
+
         if countryIndex == 0 {
-            selectedCountry = "China"
-            selectedImage = "china"
-            selectedTitle = "China"
+            setCountry(country: "china")
         }
         else if countryIndex == 1 {
-            selectedCountry = "Haiti"
-            selectedImage = "haitiimage"
-            selectedTitle = "Haiti"
+            setCountry(country: "haiti")
         }
         else if countryIndex == 2 {
-            selectedCountry = "India"
-            selectedImage = "india"
-            selectedTitle = "India"
+            setCountry(country: "india")
         }
         else if countryIndex == 3 {
-            selectedCountry = "Italy"
-            selectedImage = "italyimage"
-            selectedTitle = "Italy"
+            setCountry(country: "italy")
         }
         else if countryIndex == 4 {
-            selectedCountry = "Kenya"
-            selectedImage = "kenyaimage"
-            selectedTitle = "Kenya"
+            setCountry(country: "kenya")
         }
         else if countryIndex == 5 {
-            selectedCountry = "Mexico"
-            selectedImage = "mexico"
-            selectedTitle = "Mexico"
+            setCountry(country: "mexico")
         }
         else if countryIndex == 6 {
-            selectedCountry = "Nepal"
-            selectedImage = "nepalimage"
-            selectedTitle = "Nepal"
+            setCountry(country: "nepal")
         }
         else if countryIndex == 7 {
-            selectedCountry = "New Zealand"
-            selectedImage = "newzealand"
-            selectedTitle = "New Zealand"
+            setCountry(country: "new zealand")
         }
         else if countryIndex == 8 {
-            selectedCountry = "Philippines"
-            selectedImage = "philippines"
-            selectedTitle = "Philippines"
+            setCountry(country: "philippines")
         }
         else if countryIndex == 9 {
-            selectedCountry = "South Sudan"
-            selectedImage = "southsudanimage"
-            selectedTitle = "South Sudan"
+            setCountry(country: "south sudan")
         }
         else if countryIndex == 10 {
-            selectedCountry = "Uganda"
-            selectedImage = "ugandaimage"
-            selectedTitle = "Uganda"
+            setCountry(country: "uganda")
         }
         else if countryIndex == 11 {
-            selectedCountry = "USA"
-            selectedImage = "usa"
-            selectedTitle = "USA"
+            setCountry(country: "usa")
         }
         else if countryIndex == 99 {
             selectedCountry = ""

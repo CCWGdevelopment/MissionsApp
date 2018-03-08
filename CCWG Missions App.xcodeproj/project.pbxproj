@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		245A6B581FF4A14500E7261C /* NewsletterPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245A6B571FF4A14500E7261C /* NewsletterPopUpVC.swift */; };
 		2468AA4B1FDDACA000E7C506 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468AA4A1FDDACA000E7C506 /* DetailController.swift */; };
+		2475AB182050C11800421617 /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475AB172050C11800421617 /* functions.swift */; };
 		248C66391FE1DDBD00620545 /* MissionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248C66381FE1DDBD00620545 /* MissionaryViewController.swift */; };
 		249621AD1FF46E6200E23A36 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249621AC1FF46E6200E23A36 /* DesignableButton.swift */; };
 		249621AF1FF4778A00E23A36 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249621AE1FF4778A00E23A36 /* DesignableView.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		245A6B571FF4A14500E7261C /* NewsletterPopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterPopUpVC.swift; sourceTree = "<group>"; };
 		2468AA4A1FDDACA000E7C506 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		2475AB172050C11800421617 /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
 		248C66381FE1DDBD00620545 /* MissionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionaryViewController.swift; sourceTree = "<group>"; };
 		249621AC1FF46E6200E23A36 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		249621AE1FF4778A00E23A36 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		24DDB3341FDDA922002A0722 = {
 			isa = PBXGroup;
 			children = (
+				2475AB172050C11800421617 /* functions.swift */,
 				8F15ADBA2048C55B0029CF04 /* Assets.xcassets */,
 				8F8E4E7D202A8DA5000D3445 /* Fonts */,
 				24DDB33F1FDDA922002A0722 /* CCWG Missions App */,
@@ -274,6 +277,7 @@
 				248C66391FE1DDBD00620545 /* MissionaryViewController.swift in Sources */,
 				24A854A31FE0DDF200846A37 /* Missionary.swift in Sources */,
 				2468AA4B1FDDACA000E7C506 /* DetailController.swift in Sources */,
+				2475AB182050C11800421617 /* functions.swift in Sources */,
 				24DDB3411FDDA922002A0722 /* AppDelegate.swift in Sources */,
 				245A6B581FF4A14500E7261C /* NewsletterPopUpVC.swift in Sources */,
 				24C52165200E6F12002C9A27 /* countryIconCell.swift in Sources */,
