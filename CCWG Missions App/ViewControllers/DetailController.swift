@@ -54,39 +54,51 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if selectedCountry == "China" {
+            setTitleValues()
             return chinaMissionaryName.count
         }
         else if selectedCountry == "Haiti" {
+            setTitleValues()
             return haitiMissionaryName.count
         }
         else if selectedCountry == "India" {
+            setTitleValues()
             return indiaMissionaryName.count
         }
         else if selectedCountry == "Italy" {
+            setTitleValues()
             return italyMissionaryName.count
         }
         else if selectedCountry == "Kenya" {
+            setTitleValues()
             return kenyaMissionaryName.count
         }
         else if selectedCountry == "Mexico" {
+            setTitleValues()
             return mexicoMissionaryName.count
         }
         else if selectedCountry == "Nepal" {
+            setTitleValues()
             return nepalMissionaryName.count
         }
         else if selectedCountry == "New Zealand" {
+            setTitleValues()
             return newzealandMissionaryName.count
         }
         else if selectedCountry == "Philippines" {
+            setTitleValues()
             return philippinesMissionaryName.count
         }
         else if selectedCountry == "South Sudan" {
+            setTitleValues()
             return southsudanMissionaryName.count
         }
         else if selectedCountry == "Uganda" {
+            setTitleValues()
             return ugandaMissionaryName.count
         }
         else{
+            setTitleValues()
             return usaMissionaryName.count
         }
     }
@@ -284,5 +296,14 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         performSegue(withIdentifier: "segue", sender: self)
     }
     
+    func setTitleValues () {
+        /* Call this function to set variables */
+        
+        selectedCountryTitle.text = selectedCountry.uppercased()
+        selectedCountryImageViewer.image = UIImage(named: selectedImage)
+        selectedCountryIconImageViewer.image = UIImage(named: selectedCountryIcon)
+        
+        /* ------------------------------------------------*/
+    }
 
 }
