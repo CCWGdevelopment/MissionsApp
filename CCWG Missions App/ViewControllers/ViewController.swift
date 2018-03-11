@@ -19,14 +19,13 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     let countryNameArray: [String] = ["China", "Haiti", "India", "Italy", "Kenya", "Mexico", "Nepal", "New Zealand", "Philippines", "South Sudan", "Uganda", "United States"]
     
+    let itemSize = UIScreen.main.bounds.width/4 - 8
+    let layout = UICollectionViewFlowLayout()
+
     
     override func viewDidLoad() {
       
-        
         //override default layout
-        
-        let itemSize = UIScreen.main.bounds.width/4 - 8
-        let layout = UICollectionViewFlowLayout()
         
         layout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10)
         layout.itemSize = CGSize(width: itemSize, height: itemSize)
@@ -51,6 +50,12 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     override var prefersStatusBarHidden: Bool {
         return true
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let secondVC:DetailController = segue.destination as! DetailController
+        secondVC.labelText = selectedCountry
+        secondVC.countryImage = selectedImage
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -112,6 +117,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             selectedImage = ""
             selectedTitle = ""
         }
+        
+        performSegue(withIdentifier: "go", sender: self)
         
 }
 }

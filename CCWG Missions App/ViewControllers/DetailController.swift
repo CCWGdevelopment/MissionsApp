@@ -29,14 +29,16 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     @IBOutlet weak var selectedCountryTitle: UILabel!
     @IBOutlet weak var selectedCountryIconImageViewer: UIImageView!
     
+    var labelText = String()
+    var countryImage = String()
+    var countryIcon = String()
+    
     override func viewDidLoad() {
         
-//        selectedCountryImageViewer.image = UIImage(named: selectedImage)
-//        selectedCountryTitle.text = selectedTitle.uppercased()
-//        selectedCountryIconImageViewer.image = UIImage(named: selectedCountryIcon)
+        selectedCountryTitle.text = labelText.uppercased()
+        selectedCountryImageViewer.image = UIImage(named: countryImage)
 
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,54 +53,41 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         return true
     }
     
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if selectedCountry == "china" {
-            setTitleValues()
             return chinaMissionaryName.count
         }
         else if selectedCountry == "haiti" {
-            setTitleValues()
             return haitiMissionaryName.count
         }
         else if selectedCountry == "india" {
-            setTitleValues()
             return indiaMissionaryName.count
         }
         else if selectedCountry == "italy" {
-            setTitleValues()
             return italyMissionaryName.count
         }
         else if selectedCountry == "kenya" {
-            setTitleValues()
             return kenyaMissionaryName.count
         }
         else if selectedCountry == "mexico" {
-            setTitleValues()
             return mexicoMissionaryName.count
         }
         else if selectedCountry == "nepal" {
-            setTitleValues()
             return nepalMissionaryName.count
         }
         else if selectedCountry == "new zealand" {
-            setTitleValues()
             return newzealandMissionaryName.count
         }
         else if selectedCountry == "philippines" {
-            setTitleValues()
             return philippinesMissionaryName.count
         }
         else if selectedCountry == "south sudan" {
-            setTitleValues()
             return southsudanMissionaryName.count
         }
         else if selectedCountry == "uganda" {
-            setTitleValues()
             return ugandaMissionaryName.count
         }
         else{
-            setTitleValues()
             return usaMissionaryName.count
         }
     }
@@ -224,14 +213,14 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         performSegue(withIdentifier: "segue", sender: self)
     }
     
-    func setTitleValues () {
-        /* Call this function to set variables */
-        
-        selectedCountryTitle.text = selectedCountry.uppercased()
-        selectedCountryImageViewer.image = UIImage(named: selectedImage)
-        selectedCountryIconImageViewer.image = UIImage(named: selectedCountryIcon)
-        
-        /* ------------------------------------------------*/
-    }
+//    func setTitleValues () {
+//        /* Call this function to set variables */
+//
+//        selectedCountryTitle.text = selectedCountry.uppercased()
+//        selectedCountryImageViewer.image = UIImage(named: selectedImage)
+//        selectedCountryIconImageViewer.image = UIImage(named: selectedCountryIcon)
+//
+//        /* ------------------------------------------------*/
+//    }
 
 }

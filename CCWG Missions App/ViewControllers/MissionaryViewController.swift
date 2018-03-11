@@ -51,7 +51,17 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     override var prefersStatusBarHidden: Bool {
         return true
     }
-  
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let countryVC:DetailController = segue.destination as! DetailController
+        countryVC.labelText = selectedCountry
+        countryVC.countryImage = selectedImage
+        
+    }
+    @IBAction func backButton(_ sender: Any) {
+        performSegue(withIdentifier: "back", sender: self)
+    }
+    
     // Send email button functions
     
     @IBAction func sendEmail(_ sender: Any) {

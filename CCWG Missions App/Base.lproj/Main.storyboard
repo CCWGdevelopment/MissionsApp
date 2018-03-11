@@ -127,7 +127,6 @@
                                         <connections>
                                             <outlet property="countryIconImageViewer" destination="YFq-Gm-MSK" id="wdB-Kr-bga"/>
                                             <outlet property="countryLabel" destination="cHa-FL-md4" id="0Uc-57-Woi"/>
-                                            <segue destination="Vrc-FP-bOJ" kind="show" identifier="go" id="jdy-qg-gGy"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -160,6 +159,7 @@
                     </view>
                     <connections>
                         <outlet property="countryIconCollectionView" destination="s1V-4q-igf" id="HuT-g5-erb"/>
+                        <segue destination="Vrc-FP-bOJ" kind="show" identifier="go" id="hJc-1W-Vfy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -356,6 +356,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
+                                            <action selector="backButton:" destination="CZa-xH-fDG" eventType="touchUpInside" id="NZH-5q-o4x"/>
                                             <segue destination="Vrc-FP-bOJ" kind="show" identifier="back" animates="NO" id="cgM-7R-dv6"/>
                                         </connections>
                                     </button>
@@ -773,6 +774,6 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
         <image name="ipadpro129" width="910" height="682"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jdy-qg-gGy"/>
+        <segue reference="cgM-7R-dv6"/>
     </inferredMetricsTieBreakers>
 </document>
