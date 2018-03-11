@@ -18,14 +18,15 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     
     let countryNameArray: [String] = ["China", "Haiti", "India", "Italy", "Kenya", "Mexico", "Nepal", "New Zealand", "Philippines", "South Sudan", "Uganda", "United States"]
-    
-    let itemSize = UIScreen.main.bounds.width/4 - 8
-    let layout = UICollectionViewFlowLayout()
 
     
     override func viewDidLoad() {
-      
+        super.viewDidLoad()
+        
         //override default layout
+        
+        let itemSize = UIScreen.main.bounds.width/4 - 8
+        let layout = UICollectionViewFlowLayout()
         
         layout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10)
         layout.itemSize = CGSize(width: itemSize, height: itemSize)
@@ -33,8 +34,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         layout.minimumLineSpacing = 4
         
         countryIconCollectionView.collectionViewLayout = layout
-        
-          super.viewDidLoad()
+    
     }
 
     override func didReceiveMemoryWarning() {

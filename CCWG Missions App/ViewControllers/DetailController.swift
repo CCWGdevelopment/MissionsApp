@@ -212,15 +212,5 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         missionaryIndex = indexPath.row
         performSegue(withIdentifier: "segue", sender: self)
     }
-    
-//    func setTitleValues () {
-//        /* Call this function to set variables */
-//
-//        selectedCountryTitle.text = selectedCountry.uppercased()
-//        selectedCountryImageViewer.image = UIImage(named: selectedImage)
-//        selectedCountryIconImageViewer.image = UIImage(named: selectedCountryIcon)
-//
-//        /* ------------------------------------------------*/
-//    }
 
 }

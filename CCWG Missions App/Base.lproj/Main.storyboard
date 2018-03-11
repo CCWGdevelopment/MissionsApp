@@ -540,33 +540,6 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                             <action selector="supportMissionary:" destination="CZa-xH-fDG" eventType="touchUpInside" id="nde-rr-c0K"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ugc-zH-ISq" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                        <rect key="frame" x="38" y="30" width="216" height="44"/>
-                                        <color key="backgroundColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="44" id="dKX-qX-DQS"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="22"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <state key="normal" title="Get Updates">
-                                            <color key="titleColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="3"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" red="0.47058823529999999" green="0.3803921569" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="0.0"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <action selector="supportMissionary:" destination="CZa-xH-fDG" eventType="touchUpInside" id="MhM-P6-EDu"/>
-                                            <segue destination="QvX-78-0vR" kind="presentation" modalPresentationStyle="overFullScreen" modalTransitionStyle="crossDissolve" id="bh1-4f-RlF"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="11o-hs-Swk" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
                                         <rect key="frame" x="404" y="30" width="216" height="44"/>
                                         <color key="backgroundColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
@@ -597,19 +570,42 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                             <action selector="sendEmail:" destination="CZa-xH-fDG" eventType="touchUpInside" id="h5q-BU-cfc"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDu-en-SC3" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
+                                        <rect key="frame" x="38" y="30" width="216" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="216" id="y3Z-yK-Wy2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="22"/>
+                                        <state key="normal" title="Get Updates">
+                                            <color key="titleColor" red="0.47058823529999999" green="0.3803921569" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.47058823529999999" green="0.3803921569" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="newsletterButton:" destination="CZa-xH-fDG" eventType="touchUpInside" id="iXf-5m-5es"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="ugc-zH-ISq" secondAttribute="trailing" constant="770" id="0fu-Gi-AVh"/>
                                     <constraint firstAttribute="trailing" secondItem="fRE-lu-uw3" secondAttribute="trailing" constant="38" id="14X-sX-TrY"/>
                                     <constraint firstAttribute="bottom" secondItem="fRE-lu-uw3" secondAttribute="bottom" constant="31" id="1we-45-Ysa"/>
                                     <constraint firstAttribute="trailing" secondItem="11o-hs-Swk" secondAttribute="trailing" constant="404" id="4mL-de-OhZ"/>
-                                    <constraint firstAttribute="height" constant="105" id="7Ch-3C-fJX"/>
                                     <constraint firstItem="11o-hs-Swk" firstAttribute="top" secondItem="l7G-fZ-aXH" secondAttribute="top" constant="30" id="7vE-uN-xfv"/>
+                                    <constraint firstAttribute="bottom" secondItem="TDu-en-SC3" secondAttribute="bottom" constant="31" id="DhW-x4-fAc"/>
                                     <constraint firstItem="11o-hs-Swk" firstAttribute="leading" secondItem="l7G-fZ-aXH" secondAttribute="leading" constant="404" id="I4C-KT-VJv"/>
-                                    <constraint firstAttribute="bottom" secondItem="ugc-zH-ISq" secondAttribute="bottom" constant="31" id="IEc-eZ-ndK"/>
-                                    <constraint firstItem="ugc-zH-ISq" firstAttribute="leading" secondItem="l7G-fZ-aXH" secondAttribute="leading" constant="38" id="OF0-5a-hUZ"/>
-                                    <constraint firstItem="ugc-zH-ISq" firstAttribute="top" secondItem="l7G-fZ-aXH" secondAttribute="top" constant="30" id="QWa-Te-2XQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="TDu-en-SC3" secondAttribute="trailing" constant="770" id="OZh-FC-pBb"/>
                                     <constraint firstItem="fRE-lu-uw3" firstAttribute="leading" secondItem="l7G-fZ-aXH" secondAttribute="leading" constant="770" id="cpu-rE-eVM"/>
+                                    <constraint firstItem="TDu-en-SC3" firstAttribute="top" secondItem="l7G-fZ-aXH" secondAttribute="top" constant="30" id="dnG-Qc-DcR"/>
+                                    <constraint firstItem="TDu-en-SC3" firstAttribute="leading" secondItem="l7G-fZ-aXH" secondAttribute="leading" constant="38" id="tdT-5d-err"/>
                                     <constraint firstItem="fRE-lu-uw3" firstAttribute="top" secondItem="l7G-fZ-aXH" secondAttribute="top" constant="30" id="vSw-JL-zyT"/>
                                     <constraint firstAttribute="bottom" secondItem="11o-hs-Swk" secondAttribute="bottom" constant="31" id="wKJ-9G-HDd"/>
                                     <constraint firstItem="11o-hs-Swk" firstAttribute="centerX" secondItem="l7G-fZ-aXH" secondAttribute="centerX" id="xUs-gV-KAb"/>
@@ -644,6 +640,7 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                         <outlet property="prayerScrollView" destination="LUw-e0-fdK" id="klY-bT-qs2"/>
                         <outlet property="sendEmailButton" destination="11o-hs-Swk" id="u5E-pA-ZHv"/>
                         <outlet property="supportMissionaryButton" destination="fRE-lu-uw3" id="Xku-50-WM0"/>
+                        <segue destination="QvX-78-0vR" kind="show" identifier="newsletter" animates="NO" id="3kP-NU-JV0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8RE-au-UAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -766,7 +763,7 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mPE-UV-LsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="951" y="1250"/>
+            <point key="canvasLocation" x="1117" y="768"/>
         </scene>
     </scenes>
     <resources>
@@ -774,6 +771,7 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
         <image name="ipadpro129" width="910" height="682"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="WJ0-Sj-XOX"/>
         <segue reference="cgM-7R-dv6"/>
     </inferredMetricsTieBreakers>
 </document>

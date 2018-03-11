@@ -53,14 +53,28 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "back" {
+            
         let countryVC:DetailController = segue.destination as! DetailController
         countryVC.labelText = selectedCountry
         countryVC.countryImage = selectedImage
+        
+        }
+        
+        if segue.identifier == "newsletter" {
+            let newsletterVC:NewsletterPopUpVC = segue.destination as! NewsletterPopUpVC
+            present(newsletterVC, animated: false, completion: nil)
+        }
         
     }
     @IBAction func backButton(_ sender: Any) {
         performSegue(withIdentifier: "back", sender: self)
     }
+    @IBAction func newsletterButton(_ sender: Any) {
+        performSegue(withIdentifier: "newsletter", sender: self)
+    }
+    
     
     // Send email button functions
     
