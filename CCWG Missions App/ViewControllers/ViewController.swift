@@ -18,10 +18,10 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     
     let countryNameArray: [String] = ["China", "Haiti", "India", "Italy", "Kenya", "Mexico", "Nepal", "New Zealand", "Philippines", "South Sudan", "Uganda", "United States"]
-    
+
     
     override func viewDidLoad() {
-      
+        super.viewDidLoad()
         
         //override default layout
         
@@ -34,8 +34,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         layout.minimumLineSpacing = 4
         
         countryIconCollectionView.collectionViewLayout = layout
-        
-          super.viewDidLoad()
+    
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,6 +50,12 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     override var prefersStatusBarHidden: Bool {
         return true
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let secondVC:DetailController = segue.destination as! DetailController
+        secondVC.labelText = selectedCountry
+        secondVC.countryImage = selectedImage
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -112,6 +117,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             selectedImage = ""
             selectedTitle = ""
         }
+        
+        performSegue(withIdentifier: "go", sender: self)
         
 }
 }
