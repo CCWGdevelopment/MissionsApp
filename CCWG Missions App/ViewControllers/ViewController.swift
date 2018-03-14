@@ -19,6 +19,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     let countryNameArray: [String] = ["China", "Haiti", "India", "Italy", "Kenya", "Mexico", "Nepal", "New Zealand", "Philippines", "South Sudan", "Uganda", "United States"]
 
+    var headerId = "header"
+    
     override func viewDidLayoutSubviews() {
         
         //override default layout
@@ -30,6 +32,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         layout.itemSize = CGSize(width: itemSize, height: itemSize)
         layout.minimumInteritemSpacing = 5
         layout.minimumLineSpacing = 5
+        layout.headerReferenceSize = CGSize(width: 0, height: 340)
         
         countryIconCollectionView.collectionViewLayout = layout
         
@@ -122,5 +125,11 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         performSegue(withIdentifier: "go", sender: self)
         
-}
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: headerId, for: indexPath)
+        return headerView
+    }
+    
 }
