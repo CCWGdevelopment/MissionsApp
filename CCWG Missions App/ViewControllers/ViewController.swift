@@ -14,10 +14,10 @@ import UIKit
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     @IBOutlet weak var countryIconCollectionView: UICollectionView!
     
-    let countryIconArray: [String] = ["chinacircle", "haiticircle", "indiacircle", "italycircle", "kenyacircle", "mexicocircle", "nepalcircle", "newzealandcircle", "philippinescircle", "southsudancircle", "ugandacircle", "usacircle"]
+    let countryIconArray: [String] = ["chinacircle", "haiticircle", "indiacircle", "italycircle", "mexicocircle", "nepalcircle", "newzealandcircle", "philippinescircle", "southsudancircle", "ugandacircle"]
     
     
-    let countryNameArray: [String] = ["China", "Haiti", "India", "Italy", "Kenya", "Mexico", "Nepal", "New Zealand", "Philippines", "South Sudan", "Uganda", "United States"]
+    let countryNameArray: [String] = ["China", "Haiti", "India", "Italy", "Mexico", "Nepal", "New Zealand", "Philippines", "South Sudan", "Uganda"]
 
     var headerId = "header"
     
@@ -28,7 +28,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         let itemSize = UIScreen.main.bounds.width/5 - 10
         let layout = UICollectionViewFlowLayout()
         
-        layout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10)
+        layout.sectionInset = UIEdgeInsetsMake(90, 10, 10, 10)
         layout.itemSize = CGSize(width: itemSize, height: itemSize)
         layout.minimumInteritemSpacing = 5
         layout.minimumLineSpacing = 5
@@ -93,30 +93,30 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         else if countryIndex == 3 {
             setCountry(country: "italy", icon: "italyicon", description: italy.description)
         }
+//        else if countryIndex == 4 {
+//            setCountry(country: "kenya", icon: "kenyaicon", description: kenya.description)
+//        }
         else if countryIndex == 4 {
-            setCountry(country: "kenya", icon: "kenyaicon", description: kenya.description)
-        }
-        else if countryIndex == 5 {
             setCountry(country: "mexico", icon: "mexicoicon", description: mexico.description)
         }
-        else if countryIndex == 6 {
+        else if countryIndex == 5 {
             setCountry(country: "nepal", icon: "nepalicon", description: nepal.description)
         }
-        else if countryIndex == 7 {
+        else if countryIndex == 6 {
             setCountry(country: "new zealand", icon: "newzealandicon", description: newzealand.description)
         }
-        else if countryIndex == 8 {
+        else if countryIndex == 7 {
             setCountry(country: "philippines", icon: "philippinesicon", description: philippines.description)
         }
-        else if countryIndex == 9 {
+        else if countryIndex == 8 {
             setCountry(country: "south sudan", icon: "southsudanicon", description: southsudan.description)
         }
-        else if countryIndex == 10 {
+        else if countryIndex == 9 {
             setCountry(country: "uganda", icon: "ugandaicon", description: uganda.description)
         }
-        else if countryIndex == 11 {
-            setCountry(country: "usa", icon: "usaicon", description: usa.description)
-        }
+//        else if countryIndex == 11 {
+//            setCountry(country: "usa", icon: "usaicon", description: usa.description)
+//        }
         else if countryIndex == 99 {
             selectedCountry = ""
             selectedImage = ""
