@@ -77,40 +77,40 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         countryIndex = indexPath.row
 
         if countryIndex == 0 {
-            setCountry(country: "china")
+            setCountry(country: "china", icon: "chinaicon")
         }
         else if countryIndex == 1 {
-            setCountry(country: "haiti")
+            setCountry(country: "haiti", icon: "haitiicon")
         }
         else if countryIndex == 2 {
-            setCountry(country: "india")
+            setCountry(country: "india", icon: "indiaicon")
         }
         else if countryIndex == 3 {
-            setCountry(country: "italy")
+            setCountry(country: "italy", icon: "italyicon")
         }
         else if countryIndex == 4 {
-            setCountry(country: "kenya")
+            setCountry(country: "kenya", icon: "kenyaicon")
         }
         else if countryIndex == 5 {
-            setCountry(country: "mexico")
+            setCountry(country: "mexico", icon: "mexicoicon")
         }
         else if countryIndex == 6 {
-            setCountry(country: "nepal")
+            setCountry(country: "nepal", icon: "nepalicon")
         }
         else if countryIndex == 7 {
-            setCountry(country: "new zealand")
+            setCountry(country: "new zealand", icon: "newzealandicon")
         }
         else if countryIndex == 8 {
-            setCountry(country: "philippines")
+            setCountry(country: "philippines", icon: "philippinesicon")
         }
         else if countryIndex == 9 {
-            setCountry(country: "south sudan")
+            setCountry(country: "south sudan", icon: "southsudanicon")
         }
         else if countryIndex == 10 {
-            setCountry(country: "uganda")
+            setCountry(country: "uganda", icon: "ugandaicon")
         }
         else if countryIndex == 11 {
-            setCountry(country: "usa")
+            setCountry(country: "usa", icon: "usaicon")
         }
         else if countryIndex == 99 {
             selectedCountry = ""
