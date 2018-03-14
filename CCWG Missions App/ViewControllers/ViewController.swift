@@ -19,22 +19,21 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     let countryNameArray: [String] = ["China", "Haiti", "India", "Italy", "Kenya", "Mexico", "Nepal", "New Zealand", "Philippines", "South Sudan", "Uganda", "United States"]
 
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewDidLayoutSubviews() {
         
         //override default layout
         
-        let itemSize = UIScreen.main.bounds.width/4 - 8
+        let itemSize = UIScreen.main.bounds.width/5 - 10
         let layout = UICollectionViewFlowLayout()
         
         layout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10)
         layout.itemSize = CGSize(width: itemSize, height: itemSize)
-        layout.minimumInteritemSpacing = 4
-        layout.minimumLineSpacing = 4
+        layout.minimumInteritemSpacing = 5
+        layout.minimumLineSpacing = 5
         
         countryIconCollectionView.collectionViewLayout = layout
-    
+        
+        super.viewDidLayoutSubviews()
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,6 +50,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let secondVC:DetailController = segue.destination as! DetailController
