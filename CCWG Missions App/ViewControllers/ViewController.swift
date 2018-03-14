@@ -14,10 +14,10 @@ import UIKit
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     @IBOutlet weak var countryIconCollectionView: UICollectionView!
     
-    let countryIconArray: [String] = ["chinacircle", "haiticircle", "indiacircle", "italycircle", "kenyacircle", "mexicocircle", "nepalcircle", "newzealandcircle", "philippinescircle", "southsudancircle", "ugandacircle", "usacircle"]
+    let countryIconArray: [String] = ["chinacircle", "haiticircle", "indiacircle", "italycircle", "mexicocircle", "nepalcircle", "newzealandcircle", "philippinescircle", "southsudancircle", "ugandacircle"]
     
     
-    let countryNameArray: [String] = ["China", "Haiti", "India", "Italy", "Kenya", "Mexico", "Nepal", "New Zealand", "Philippines", "South Sudan", "Uganda", "United States"]
+    let countryNameArray: [String] = ["China", "Haiti", "India", "Italy", "Mexico", "Nepal", "New Zealand", "Philippines", "South Sudan", "Uganda"]
 
     var headerId = "header"
     
@@ -28,7 +28,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         let itemSize = UIScreen.main.bounds.width/5 - 10
         let layout = UICollectionViewFlowLayout()
         
-        layout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10)
+        layout.sectionInset = UIEdgeInsetsMake(90, 10, 10, 10)
         layout.itemSize = CGSize(width: itemSize, height: itemSize)
         layout.minimumInteritemSpacing = 5
         layout.minimumLineSpacing = 5
