@@ -116,7 +116,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="1366" height="340"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_mapnarrow" translatesAutoresizingMaskIntoConstraints="NO" id="rfe-AS-Ur5">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_mapnarrow" translatesAutoresizingMaskIntoConstraints="NO" id="rfe-AS-Ur5">
                                             <rect key="frame" x="0.0" y="0.0" width="1366" height="340"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CCWG MISSIONS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVm-qp-kNl">
