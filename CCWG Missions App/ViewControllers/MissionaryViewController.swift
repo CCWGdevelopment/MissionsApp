@@ -59,6 +59,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         let countryVC:DetailController = segue.destination as! DetailController
         countryVC.labelText = selectedCountry
         countryVC.countryImage = selectedImage
+        countryVC.countryIcon = selectedCountryIcon
         
         }
         

@@ -8,11 +8,12 @@
 
 import Foundation
 
-func setCountry(country: String, icon: String){
+func setCountry(country: String, icon: String, description: String){
     selectedCountry = country
     selectedImage = country
     selectedTitle = country
     selectedCountryIcon = icon
+    selectedCountryDescription = description
 }
 
 func setMissionaries(name: [String], image: [String], shortinfo: [String], longinfo: [String], verse: [String], prayerrequest: [String], email: [String]) {

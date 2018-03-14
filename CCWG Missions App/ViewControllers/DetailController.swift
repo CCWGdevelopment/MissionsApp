@@ -14,6 +14,7 @@ var selectedCountry:String = ""
 var selectedImage:String = ""
 var selectedTitle:String = ""
 var selectedCountryIcon:String = ""
+var selectedCountryDescription: String = ""
 var selectedNameArray:[String] = [""]
 var selectedImageArray:[String] = [""]
 var selectedShortInfoArray:[String] = [""]
@@ -33,11 +34,14 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     var labelText = String()
     var countryImage = String()
     var countryIcon = String()
+    var countryDescription = String()
     
     override func viewDidLoad() {
         
         selectedCountryTitle.text = labelText.uppercased()
         selectedCountryImageViewer.image = UIImage(named: countryImage)
+        selectedCountryIconImageViewer.image = UIImage(named: countryIcon)
+        selectedCountryDescription.text = countryDescription
 
         super.viewDidLoad()
     }

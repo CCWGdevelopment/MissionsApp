@@ -11,6 +11,7 @@
 		2468AA4B1FDDACA000E7C506 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468AA4A1FDDACA000E7C506 /* DetailController.swift */; };
 		2475AB182050C11800421617 /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475AB172050C11800421617 /* functions.swift */; };
 		248C66391FE1DDBD00620545 /* MissionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248C66381FE1DDBD00620545 /* MissionaryViewController.swift */; };
+		248EB8982058B539008D0E0E /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EB8972058B539008D0E0E /* Country.swift */; };
 		249621AD1FF46E6200E23A36 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249621AC1FF46E6200E23A36 /* DesignableButton.swift */; };
 		249621AF1FF4778A00E23A36 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249621AE1FF4778A00E23A36 /* DesignableView.swift */; };
 		24A20E441FE08F0300AAD91C /* MissionaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A20E431FE08F0300AAD91C /* MissionaryCell.swift */; };
@@ -46,6 +47,7 @@
 		2468AA4A1FDDACA000E7C506 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		2475AB172050C11800421617 /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
 		248C66381FE1DDBD00620545 /* MissionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionaryViewController.swift; sourceTree = "<group>"; };
+		248EB8972058B539008D0E0E /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		249621AC1FF46E6200E23A36 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		249621AE1FF4778A00E23A36 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		24A20E431FE08F0300AAD91C /* MissionaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionaryCell.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				24C52167200E70A1002C9A27 /* ViewControllers */,
 				24DDB3401FDDA922002A0722 /* AppDelegate.swift */,
 				24A854A21FE0DDF200846A37 /* Missionary.swift */,
+				248EB8972058B539008D0E0E /* Country.swift */,
 				24DDB3441FDDA922002A0722 /* Main.storyboard */,
 				24DDB3491FDDA922002A0722 /* LaunchScreen.storyboard */,
 				24DDB34C1FDDA922002A0722 /* Info.plist */,
@@ -274,6 +277,7 @@
 				24DDB3431FDDA922002A0722 /* ViewController.swift in Sources */,
 				24A20E441FE08F0300AAD91C /* MissionaryCell.swift in Sources */,
 				249621AD1FF46E6200E23A36 /* DesignableButton.swift in Sources */,
+				248EB8982058B539008D0E0E /* Country.swift in Sources */,
 				248C66391FE1DDBD00620545 /* MissionaryViewController.swift in Sources */,
 				24A854A31FE0DDF200846A37 /* Missionary.swift in Sources */,
 				2468AA4B1FDDACA000E7C506 /* DetailController.swift in Sources */,
