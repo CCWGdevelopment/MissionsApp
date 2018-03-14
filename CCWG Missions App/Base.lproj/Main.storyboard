@@ -252,6 +252,8 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="142" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dBg-R0-A1h">
                                 <rect key="frame" x="0.0" y="683" width="1366" height="341"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.01" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MissionaryCell" rowHeight="142" id="wRq-Wh-Ij1" customClass="MissionaryCell" customModule="CCWG_Missions_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="1366" height="142"/>
@@ -294,7 +296,7 @@
                                                 <constraint firstItem="ClV-Ef-32s" firstAttribute="top" secondItem="Zj3-KB-UQ9" secondAttribute="topMargin" constant="10" id="xrB-TS-xQ3"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.01" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <outlet property="missionaryImageView" destination="Iui-MQ-ZzY" id="KdT-PO-OOF"/>
                                             <outlet property="missionaryInfoLabel" destination="7ee-M7-2KL" id="T2s-db-Fc6"/>
@@ -308,7 +310,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="3sZ-Av-cgz" firstAttribute="trailing" secondItem="3Wh-jg-ZiN" secondAttribute="trailing" id="0PC-LX-Klh"/>
                             <constraint firstItem="3sZ-Av-cgz" firstAttribute="bottom" secondItem="dBg-R0-A1h" secondAttribute="bottom" id="ANC-yG-aRD"/>
