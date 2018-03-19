@@ -60,6 +60,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         countryVC.labelText = selectedCountry
         countryVC.countryImage = selectedImage
         countryVC.countryIcon = selectedCountryIcon
+        countryVC.countryDescription = selectedCountryDescription
         
         }
         
