@@ -396,7 +396,7 @@ var nyika = Missionary(name: "Pastor James and Jane Nyika", image: "nyika", info
 \u{2022}    For ministry and personal financial provision
 """
 
-var sarkar = Missionary(name: "Pankaj and Tonielle Sarkar", image: "sarkar", infoShort: sarkarinfoShort, infoLong: sarkarinfoLong, favoriteVerse: sarkarfavoriteVerse, prayerRequest: sarkarfavoriteVerse, email: "sarkar@sgwm.com")
+var sarkar = Missionary(name: "Pankaj and Tonielle Sarkar", image: "sarkar", infoShort: sarkarinfoShort, infoLong: sarkarinfoLong, favoriteVerse: sarkarfavoriteVerse, prayerRequest: sarkarprayerRequest, email: "sarkar@sgwm.com")
 
 
     //**Vincent**
