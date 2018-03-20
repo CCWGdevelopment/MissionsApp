@@ -15,9 +15,6 @@
         <array key="Metropolis-Bold.otf">
             <string>Metropolis-Bold</string>
         </array>
-        <array key="Metropolis-BoldItalic.otf">
-            <string>Metropolis-BoldItalic</string>
-        </array>
         <array key="Metropolis-Medium.otf">
             <string>Metropolis-Medium</string>
         </array>
@@ -435,23 +432,42 @@
                                                     <constraint firstAttribute="height" constant="81" id="lah-1K-js9"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="81" id="usV-k9-EJA"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Metropolis-BoldItalic" family="Metropolis" pointSize="35"/>
+                                                <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9f-JJ-Xwb">
-                                                <rect key="frame" x="25" y="97" width="462" height="2325"/>
-                                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat id turpis eget dictum. Etiam eleifend condimentum dolor nec volutpat. Maecenas bibendum, nulla eu convallis consequat, ipsum est volutpat metus, ac dapibus urna sapien non turpis. In augue eros, fringilla eu justo ac, fringilla rhoncus dui. Donec odio tellus, feugiat eu urna sed, porttitor sollicitudin libero. Proin maximus leo id augue ullamcorper, ac interdum sem tincidunt. Suspendisse pellentesque accumsan augue, sit amet fermentum nisl blandit sed. Nam ullamcorper, quam in hendrerit hendrerit, diam metus pellentesque dolor, eu vestibulum lacus mauris sit amet dolor. Suspendisse in sollicitudin tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut vulputate faucibus dolor. Pellentesque elementum augue ex, sed eleifend eros luctus et.
-
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9f-JJ-Xwb">
+                                                <rect key="frame" x="25" y="97" width="462" height="2286"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <mutableString key="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat id turpis eget dictum. Etiam eleifend condimentum dolor nec volutpat. Maecenas bibendum, nulla eu convallis consequat, ipsum est volutpat metus, ac dapibus urna sapien non turpis. In augue eros, fringilla eu justo ac, fringilla rhoncus dui. Donec odio tellus, feugiat eu urna sed, porttitor sollicitudin libero. Proin maximus leo id augue ullamcorper, ac interdum sem tincidunt. Suspendisse pellentesque accumsan augue, sit amet fermentum nisl blandit sed. Nam ullamcorper, quam in hendrerit hendrerit, diam metus pellentesque dolor, eu vestibulum lacus mauris sit amet dolor. Suspendisse in sollicitudin tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut vulputate faucibus dolor. Pellentesque elementum augue ex, sed eleifend eros luctus et.
+</mutableString>
+                                                        <attributes>
+                                                            <font key="NSFont" size="20" name="Merriweather-Light"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <mutableString key="content">
 Aenean venenatis ornare nunc quis efficitur. Maecenas laoreet, augue eget porta suscipit, dolor nunc rutrum nulla, tempus dapibus purus sapien vitae mauris. Morbi nec tincidunt est, vel pellentesque lectus. Maecenas ultricies scelerisque dui, eu molestie nunc feugiat ut. Ut et nunc id lectus dapibus convallis. Cras eu pretium nibh. Nunc finibus urna quis leo gravida suscipit. Proin ultrices ante et lacus sollicitudin pharetra.
 
 Vivamus lacinia lacinia ante, id efficitur odio bibendum et. Donec at magna fringilla, rutrum dolor sed, vehicula arcu. Phasellus vel dui tempor, viverra elit vitae, mattis neque. Aliquam hendrerit risus ac ligula tincidunt scelerisque. Aliquam at nisl ac mauris tempus finibus. Donec sollicitudin purus elit, vitae eleifend enim hendrerit at. Nunc sed ornare lacus. Duis ac sem vestibulum, laoreet ex vel, consectetur quam. Proin purus augue, gravida ac tempus efficitur, dignissim rutrum leo. Sed sit amet dolor pretium, aliquet tortor sit amet, molestie nunc. Donec odio ligula, gravida sit amet augue et, iaculis pulvinar quam.
 
 Suspendisse potenti. Phasellus luctus blandit maximus. Donec pulvinar ex a orci aliquam, et dapibus nulla tristique. Morbi pulvinar vulputate ligula, nec molestie purus vulputate at. Nunc faucibus felis quis sem faucibus accumsan. Vestibulum consectetur vitae odio et aliquam. Morbi finibus dui sed magna molestie, vitae imperdiet est vulputate. Nulla suscipit nunc sed nunc sagittis, ut porttitor erat dictum. Ut nisi mauris, molestie tempor fringilla ut, dictum vitae nulla. Duis at lacinia eros, nec ullamcorper velit. Donec porta pulvinar facilisis. Duis quam lacus, laoreet fringilla mi id, cursus rhoncus mi. Curabitur tristique pulvinar congue. Donec cursus neque vel tortor luctus vehicula et id nunc. Nulla in tincidunt metus. Nam interdum risus risus, sit amet vulputate turpis efficitur at.
 
-Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas massa sed laoreet. Phasellus porttitor lacus nec lacus lobortis, sed sagittis turpis interdum. Phasellus pellentesque efficitur condimentum. Maecenas suscipit, turpis eu luctus bibendum, nisl mauris vulputate neque, porta facilisis diam tortor non massa. In sed nibh imperdiet, dictum felis sed, lobortis arcu. Fusce luctus facilisis sem a posuere.</string>
-                                                <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="25"/>
-                                                <nil key="textColor"/>
+</mutableString>
+                                                        <attributes>
+                                                            <font key="NSFont" size="20" name="Merriweather-Light"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas massa sed laoreet. Phasellus porttitor lacus nec lacus lobortis, sed sagittis turpis interdum. Phasellus pellentesque efficitur condimentum. Maecenas suscipit, turpis eu luctus bibendum, nisl mauris vulputate neque, porta facilisis diam tortor non massa. In sed nibh imperdiet, dictum felis sed, lobortis arcu. Fusce luctus facilisis sem a posuere.</string>
+                                                        <attributes>
+                                                            <font key="NSFont" size="20" name="Merriweather-Light"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="11" defaultTabInterval="6" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
                                                 <nil key="highlightedColor"/>
                                                 <string key="userLabel">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat id turpis eget dictum. Etiam eleifend condimentum dolor nec volutpat. Maecenas bibendum, nulla eu convallis consequat, ipsum est volutpat metus, ac dapibus urna sapien non turpis. In augue eros, fringilla eu justo ac, fringilla rhoncus dui. Donec odio tellus, feugiat eu urna sed, porttitor sollicitudin libero. Proin maximus leo id augue ullamcorper, ac interdum sem tincidunt. Suspendisse pellentesque accumsan augue, sit amet fermentum nisl blandit sed. Nam ullamcorper, quam in hendrerit hendrerit, diam metus pellentesque dolor, eu vestibulum lacus mauris sit amet dolor. Suspendisse in sollicitudin tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut vulputate faucibus dolor. Pellentesque elementum augue ex, sed eleifend eros luctus et.  Aenean venenatis ornare nunc quis efficitur. Maecenas laoreet, augue eget porta suscipit, dolor nunc rutrum nulla, tempus dapibus purus sapien vitae mauris. Morbi nec tincidunt est, vel pellentesque lectus. Maecenas ultricies scelerisque dui, eu molestie nunc feugiat ut. Ut et nunc id lectus dapibus convallis. Cras eu pretium nibh. Nunc finibus urna quis leo gravida suscipit. Proin ultrices ante et lacus sollicitudin pharetra.  Vivamus lacinia lacinia ante, id efficitur odio bibendum et. Donec at magna fringilla, rutrum dolor sed, vehicula arcu. Phasellus vel dui tempor, viverra elit vitae, mattis neque. Aliquam hendrerit risus ac ligula tincidunt scelerisque. Aliquam at nisl ac mauris tempus finibus. Donec sollicitudin purus elit, vitae eleifend enim hendrerit at. Nunc sed ornare lacus. Duis ac sem vestibulum, laoreet ex vel, consectetur quam. Proin purus augue, gravida ac tempus efficitur, dignissim rutrum leo. Sed sit amet dolor pretium, aliquet tortor sit amet, molestie nunc. Donec odio ligula, gravida sit amet augue et, iaculis pulvinar quam.  Suspendisse potenti. Phasellus luctus blandit maximus. Donec pulvinar ex a orci aliquam, et dapibus nulla tristique. Morbi pulvinar vulputate ligula, nec molestie purus vulputate at. Nunc faucibus felis quis sem faucibus accumsan. Vestibulum consectetur vitae odio et aliquam. Morbi finibus dui sed magna molestie, vitae imperdiet est vulputate. Nulla suscipit nunc sed nunc sagittis, ut porttitor erat dictum. Ut nisi mauris, molestie tempor fringilla ut, dictum vitae nulla. Duis at lacinia eros, nec ullamcorper velit. Donec porta pulvinar facilisis. Duis quam lacus, laoreet fringilla mi id, cursus rhoncus mi. Curabitur tristique pulvinar congue. Donec cursus neque vel tortor luctus vehicula et id nunc. Nulla in tincidunt metus. Nam interdum risus risus, sit amet vulputate turpis efficitur at.  Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas massa sed laoreet. Phasellus porttitor lacus nec lacus lobortis, sed sagittis turpis interdum. Phasellus pellentesque efficitur condimentum. Maecenas suscipit, turpis eu luctus bibendum, nisl mauris vulputate neque, porta facilisis diam tortor non massa. In sed nibh imperdiet, dictum felis sed, lobortis arcu. Fusce luctus facilisis sem a posuere.</string>
                                             </label>
@@ -475,7 +491,7 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                                     <constraint firstAttribute="height" constant="81" id="4XW-hs-XB2"/>
                                                     <constraint firstAttribute="width" constant="496" id="dIZ-Bv-Ttd"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Metropolis-BoldItalic" family="Metropolis" pointSize="35"/>
+                                                <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -780,7 +796,6 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
         <image name="ipadpro129" width="910" height="682"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WJ0-Sj-XOX"/>
         <segue reference="cgM-7R-dv6"/>
     </inferredMetricsTieBreakers>
 </document>

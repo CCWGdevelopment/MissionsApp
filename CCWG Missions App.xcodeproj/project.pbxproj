@@ -40,6 +40,14 @@
 		8F8E4E9F202A8DED000D3445 /* Metropolis-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F8E4E8D202A8DEB000D3445 /* Metropolis-Regular.otf */; };
 		8F8E4EA0202A8DED000D3445 /* Metropolis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F8E4E8E202A8DEC000D3445 /* Metropolis-SemiBold.otf */; };
 		8F8E4EA1202A8DED000D3445 /* Metropolis-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F8E4E8F202A8DEC000D3445 /* Metropolis-Thin.otf */; };
+		CAD0D7902061CFCE00998A36 /* Merriweather-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAD0D7882061CFCC00998A36 /* Merriweather-BlackItalic.ttf */; };
+		CAD0D7912061CFCE00998A36 /* Merriweather-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAD0D7892061CFCC00998A36 /* Merriweather-Bold.ttf */; };
+		CAD0D7922061CFCE00998A36 /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAD0D78A2061CFCD00998A36 /* Merriweather-BoldItalic.ttf */; };
+		CAD0D7932061CFCE00998A36 /* Merriweather-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAD0D78B2061CFCD00998A36 /* Merriweather-Black.ttf */; };
+		CAD0D7942061CFCE00998A36 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAD0D78C2061CFCD00998A36 /* Merriweather-Regular.ttf */; };
+		CAD0D7952061CFCE00998A36 /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAD0D78D2061CFCD00998A36 /* Merriweather-Light.ttf */; };
+		CAD0D7962061CFCE00998A36 /* Merriweather-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAD0D78E2061CFCD00998A36 /* Merriweather-LightItalic.ttf */; };
+		CAD0D7972061CFCE00998A36 /* Merriweather-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAD0D78F2061CFCE00998A36 /* Merriweather-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +86,14 @@
 		8F8E4E8D202A8DEB000D3445 /* Metropolis-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Regular.otf"; sourceTree = "<group>"; };
 		8F8E4E8E202A8DEC000D3445 /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
 		8F8E4E8F202A8DEC000D3445 /* Metropolis-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Thin.otf"; sourceTree = "<group>"; };
+		CAD0D7882061CFCC00998A36 /* Merriweather-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CAD0D7892061CFCC00998A36 /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.ttf"; sourceTree = "<group>"; };
+		CAD0D78A2061CFCD00998A36 /* Merriweather-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CAD0D78B2061CFCD00998A36 /* Merriweather-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Black.ttf"; sourceTree = "<group>"; };
+		CAD0D78C2061CFCD00998A36 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		CAD0D78D2061CFCD00998A36 /* Merriweather-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.ttf"; sourceTree = "<group>"; };
+		CAD0D78E2061CFCD00998A36 /* Merriweather-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-LightItalic.ttf"; sourceTree = "<group>"; };
+		CAD0D78F2061CFCE00998A36 /* Merriweather-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Italic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +174,14 @@
 		8F8E4E7D202A8DA5000D3445 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				CAD0D78B2061CFCD00998A36 /* Merriweather-Black.ttf */,
+				CAD0D7882061CFCC00998A36 /* Merriweather-BlackItalic.ttf */,
+				CAD0D7892061CFCC00998A36 /* Merriweather-Bold.ttf */,
+				CAD0D78A2061CFCD00998A36 /* Merriweather-BoldItalic.ttf */,
+				CAD0D78F2061CFCE00998A36 /* Merriweather-Italic.ttf */,
+				CAD0D78D2061CFCD00998A36 /* Merriweather-Light.ttf */,
+				CAD0D78E2061CFCD00998A36 /* Merriweather-LightItalic.ttf */,
+				CAD0D78C2061CFCD00998A36 /* Merriweather-Regular.ttf */,
 				8F8E4E85202A8DE8000D3445 /* Metropolis-Black.otf */,
 				8F8E4E8A202A8DEA000D3445 /* Metropolis-BlackItalic.otf */,
 				8F8E4E7E202A8DE6000D3445 /* Metropolis-Bold.otf */,
@@ -243,21 +267,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F8E4E97202A8DED000D3445 /* Metropolis-Black.otf in Resources */,
+				CAD0D7932061CFCE00998A36 /* Merriweather-Black.ttf in Resources */,
 				8F8E4E92202A8DED000D3445 /* Metropolis-ThinItalic.otf in Resources */,
 				8F8E4E9E202A8DED000D3445 /* Metropolis-BoldItalic.otf in Resources */,
 				8F8E4E91202A8DED000D3445 /* Metropolis-ExtraLightItalic.otf in Resources */,
+				CAD0D7912061CFCE00998A36 /* Merriweather-Bold.ttf in Resources */,
 				8F15ADBB2048C55B0029CF04 /* Assets.xcassets in Resources */,
 				8F8E4E9F202A8DED000D3445 /* Metropolis-Regular.otf in Resources */,
+				CAD0D7942061CFCE00998A36 /* Merriweather-Regular.ttf in Resources */,
+				CAD0D7952061CFCE00998A36 /* Merriweather-Light.ttf in Resources */,
 				8F8E4E9D202A8DED000D3445 /* Metropolis-LightItalic.otf in Resources */,
 				8F8E4E96202A8DED000D3445 /* Metropolis-SemiBoldItalic.otf in Resources */,
+				CAD0D7972061CFCE00998A36 /* Merriweather-Italic.ttf in Resources */,
 				8F8E4E9A202A8DED000D3445 /* Metropolis-Medium.otf in Resources */,
+				CAD0D7922061CFCE00998A36 /* Merriweather-BoldItalic.ttf in Resources */,
 				8F8E4E93202A8DED000D3445 /* Metropolis-RegularItalic.otf in Resources */,
 				24DDB34B1FDDA922002A0722 /* LaunchScreen.storyboard in Resources */,
 				8F8E4E98202A8DED000D3445 /* Metropolis-ExtraBoldItalic.otf in Resources */,
 				8F8E4E9B202A8DED000D3445 /* Metropolis-Light.otf in Resources */,
 				8F8E4E99202A8DED000D3445 /* Metropolis-ExtraBold.otf in Resources */,
 				8F8E4E90202A8DED000D3445 /* Metropolis-Bold.otf in Resources */,
+				CAD0D7902061CFCE00998A36 /* Merriweather-BlackItalic.ttf in Resources */,
 				8F8E4E95202A8DED000D3445 /* Metropolis-MediumItalic.otf in Resources */,
+				CAD0D7962061CFCE00998A36 /* Merriweather-LightItalic.ttf in Resources */,
 				8F8E4EA0202A8DED000D3445 /* Metropolis-SemiBold.otf in Resources */,
 				24DDB3461FDDA922002A0722 /* Main.storyboard in Resources */,
 				8F8E4E94202A8DED000D3445 /* Metropolis-ExtraLight.otf in Resources */,
