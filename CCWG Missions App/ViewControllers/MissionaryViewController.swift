@@ -36,7 +36,6 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         infoShortLabel.text = selectedShortInfoArray[missionaryIndex]
         missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
         missionaryfavoriteVerse.text = selectedFavoriteVerseArray[missionaryIndex]
-//        missionaryPrayerRequestLabel.text = selectedPrayerRequestArray[missionaryIndex]
         missionaryPrayerRequestLabel.attributedText = makeBullets(stringList: newPrayerArray, font: missionaryPrayerRequestLabel.font)
         
         // Do any additional setup after loading the view.
@@ -123,7 +122,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBAction func supportMissionary(_ sender: Any) {
         let url = URL(string: "http://ccwgweb.myshelby.org/default.aspx?page=3412")
         let safariVC = SFSafariViewController(url: url!)
-        present(safariVC, animated: true, completion: nil)
+        present(safariVC, animated: false, completion: nil)
     }
     
 }

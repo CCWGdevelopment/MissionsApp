@@ -155,9 +155,9 @@ var davis = Missionary(name: "Jim and Shonda Davis", image: "davis", infoShort: 
 //Diego
 let diegoinfoShort = "A short blurb about Iyana Diego goes here"
 let diegoinfoLong = """
-        Iyana Diego, 22 years old, has spent several years attending short-term CCWG mission trips to various countries and now will be making a nine month commitment to working in Uganda, Africa. She will be staying in Arua and working alongside the Onzima family at Calvary Chapel Arua.
+        Iyana was only 14 when she decided to follow Jesus and pursue a relationship with Him. Early on in her walk with Christ, her love for people and serving them grew. Her junior year of High School she went on two missions trips to Las Vegas and Belize with the CCWG High School Ministry. During those two missions was when the Lord opened her eyes and gave her a strong desire to serve the broken, wherever they may be. The Lord, in His timing has allowed Iyana to be equipped with administrative skills and experience with youth of all ages and has opened the door for her to use these skills on the mission field.
 
-        God has blessed Iyana with love for administration, assisting, and discipleship, which will all be valuable skills as she helps with Promise Child in Uganda, girls discipleship with another missionary, Becky, anything CC Arua needs, and whatever else the Lord has in store for her in Uganda. Iyana says she wants to enter the mission field with open hands to everything the Lord places before her.
+        Iyana Diego will be making a six-month commitment to working in Kathmandu, Nepal. She will be staying in Kathmandu and working alongside Calvary Chapel Kathmandu. Her particular gifts will all be valuable skills as she helps with the CC Bible College and the Promise Child Girls Home, anything CC Kathmandu needs, and whatever else the Lord has in store for her in Nepal. Iyana says she wants to enter the mission field with open hands to everything the Lord places before her.
 """
 let diegofavoriteVerse = """
     “I shall run the way of Your commandments, for You will enlarge my heart.” Psalm 119:32
@@ -177,7 +177,7 @@ let douglassinfoLong = """
 let douglassfavoriteVerse = """
     “Bear one another’s burdens, as to fulfill the law of Christ.”  Galatians 6:2
 """
-let douglassprayerRequest = [""]
+let douglassprayerRequest = ["Pray for safety and provision for national pastors and missionaries as they preach the Gospel in dangerous situations", "Pray for the missions program at the Bible College and for God to raise up bold missionaries ready to fulfill the Great Commission", "Pray for wisdom on how to represent Jesus in extreme, cross-cultural situations"]
 var douglass = Missionary(name: "Pastor Rob and Heidi Douglass", image: "douglass", infoShort: douglassinfoShort, infoLong: douglassinfoLong, favoriteVerse: douglassfavoriteVerse, prayerRequest: douglassprayerRequest, email: "douglass.rob@gmail.com")
 
 
@@ -227,7 +227,7 @@ let courtneyinfoLong = """
         Courtney teaches a weekly women’s Bible study on Thursday evenings. On Saturdays, she volunteers at an equine therapy center that provides free services to families with children who have mental or physical handicaps. She helps care for the horses, prays with families, and assists with exercise and therapy programs.
 """
 let courtneyfavoriteVerse = """
-    “Therefore encourage one another and build each other up, just as in fact you are doing”  1 Thessalonians 5:11
+    “Therefore encourage one another and build each other up, just as in fact you are doing.”  1 Thessalonians 5:11
 """
 let courtneyprayerRequest = ["For Courtney to learn Spanish and get immersed in the community", "For the Gospel to be spread with power", "For financial and personal provision"]
 
@@ -342,135 +342,135 @@ var wright = Missionary(name: "Brandon Wright", image: "wright", infoShort: wrig
 
 ////////////   Missionary Arrays  ///////////
 
-    // China
+// China
 
-    var chinaMissionaryName:[String] = [chinamissionary.name]
-    var chinaMissionaryImage:[String] = [chinamissionary.image]
-    var chinaMissionaryinfoShort:[String] = [chinamissionary.infoShort]
-    var chinaMissionaryinfoLong:[String] = [chinamissionary.infoLong]
-    var chinaMissionaryfavoriteVerse:[String] = [chinamissionary.favoriteVerse]
-    var chinaMissionaryPrayerRequest:[[String]] = [chinamissionary.prayerRequest]
-    var chinaMissionaryEmail:[String] = [chinamissionary.email]
-
-
-    // Haiti
-
-    var haitiMissionaryName:[String] = [bastia.name]
-    var haitiMissionaryImage:[String] = [bastia.image]
-    var haitiMissionaryinfoShort:[String] = [bastia.infoShort]
-    var haitiMissionaryinfoLong:[String] = [bastia.infoLong]
-    var haitiMissionaryfavoriteVerse:[String] = [bastia.favoriteVerse]
-    var haitiMissionaryPrayerRequest:[[String]] = [bastia.prayerRequest]
-    var haitiMissionaryEmail:[String] = [bastia.email]
+var chinaMissionaryName:[String] = [chinamissionary.name]
+var chinaMissionaryImage:[String] = [chinamissionary.image]
+var chinaMissionaryinfoShort:[String] = [chinamissionary.infoShort]
+var chinaMissionaryinfoLong:[String] = [chinamissionary.infoLong]
+var chinaMissionaryfavoriteVerse:[String] = [chinamissionary.favoriteVerse]
+var chinaMissionaryPrayerRequest:[[String]] = [chinamissionary.prayerRequest]
+var chinaMissionaryEmail:[String] = [chinamissionary.email]
 
 
-    // India
+// Haiti
 
-    var indiaMissionaryName:[String] = [daliya.name]
-    var indiaMissionaryImage:[String] = [daliya.image]
-    var indiaMissionaryinfoShort:[String] = [daliya.infoShort]
-    var indiaMissionaryinfoLong:[String] = [daliya.infoLong]
-    var indiaMissionaryfavoriteVerse:[String] = [daliya.favoriteVerse]
-    var indiaMissionaryPrayerRequest:[[String]] = [daliya.prayerRequest]
-    var indiaMissionaryEmail:[String] = [daliya.email]
-
-
-    // Italy
-
-    var italyMissionaryName:[String] = [hernandez.name]
-    var italyMissionaryImage:[String] = [hernandez.image]
-    var italyMissionaryinfoShort:[String] = [hernandez.infoShort]
-    var italyMissionaryinfoLong:[String] = [hernandez.infoLong]
-    var italyMissionaryfavoriteVerse:[String] = [hernandez.favoriteVerse]
-    var italyMissionaryPrayerRequest:[[String]] = [hernandez.prayerRequest]
-    var italyMissionaryEmail:[String] = [hernandez.email]
+var haitiMissionaryName:[String] = [bastia.name]
+var haitiMissionaryImage:[String] = [bastia.image]
+var haitiMissionaryinfoShort:[String] = [bastia.infoShort]
+var haitiMissionaryinfoLong:[String] = [bastia.infoLong]
+var haitiMissionaryfavoriteVerse:[String] = [bastia.favoriteVerse]
+var haitiMissionaryPrayerRequest:[[String]] = [bastia.prayerRequest]
+var haitiMissionaryEmail:[String] = [bastia.email]
 
 
-    // Kenya
+// India
 
-    var kenyaMissionaryName:[String] = []
-    var kenyaMissionaryImage:[String] = []
-    var kenyaMissionaryinfoShort:[String] = []
-    var kenyaMissionaryinfoLong:[String] = []
-    var kenyaMissionaryfavoriteVerse:[String] = []
-    var kenyaMissionaryPrayerRequest:[[String]] = []
-    var kenyaMissionaryEmail:[String] = []
-
-
-    // Mexico
-
-    var mexicoMissionaryName:[String] = [nusslock.name, courtneyNusslock.name, vincent.name]
-    var mexicoMissionaryImage:[String] = [nusslock.image, courtneyNusslock.image, vincent.image]
-    var mexicoMissionaryinfoShort:[String] = [nusslock.infoShort, courtneyNusslock.infoShort, vincent.infoShort]
-    var mexicoMissionaryinfoLong:[String] = [nusslock.infoLong, courtneyNusslock.infoLong, vincent.infoLong]
-    var mexicoMissionaryfavoriteVerse:[String] = [nusslock.favoriteVerse, courtneyNusslock.favoriteVerse, vincent.favoriteVerse]
-    var mexicoMissionaryPrayerRequest:[[String]] = [nusslock.prayerRequest, courtneyNusslock.prayerRequest, vincent.prayerRequest]
-    var mexicoMissionaryEmail:[String] = [nusslock.email, courtneyNusslock.email, vincent.email]
+var indiaMissionaryName:[String] = [daliya.name]
+var indiaMissionaryImage:[String] = [daliya.image]
+var indiaMissionaryinfoShort:[String] = [daliya.infoShort]
+var indiaMissionaryinfoLong:[String] = [daliya.infoLong]
+var indiaMissionaryfavoriteVerse:[String] = [daliya.favoriteVerse]
+var indiaMissionaryPrayerRequest:[[String]] = [daliya.prayerRequest]
+var indiaMissionaryEmail:[String] = [daliya.email]
 
 
-    // Nepal
+// Italy
 
-    var nepalMissionaryName:[String] = [nelson.name, sarkar.name, wright.name]
-    var nepalMissionaryImage:[String] = [nelson.image, sarkar.image, wright.image]
-    var nepalMissionaryinfoShort:[String] = [nelson.infoShort, sarkar.infoShort, wright.infoShort]
-    var nepalMissionaryinfoLong:[String] = [nelson.infoLong, sarkar.infoLong, wright.infoLong]
-    var nepalMissionaryfavoriteVerse:[String] = [nelson.favoriteVerse, sarkar.favoriteVerse, wright.favoriteVerse]
-    var nepalMissionaryPrayerRequest:[[String]] = [nelson.prayerRequest, sarkar.prayerRequest, wright.prayerRequest]
-    var nepalMissionaryEmail:[String] = [nelson.email, sarkar.email, wright.email]
-
-
-    // New Zealand arrays
-
-    var newzealandMissionaryName:[String] = [cisneros.name]
-    var newzealandMissionaryImage:[String] = [cisneros.image]
-    var newzealandMissionaryinfoShort:[String] = [cisneros.infoShort]
-    var newzealandMissionaryinfoLong:[String] = [cisneros.infoLong]
-    var newzealandMissionaryfavoriteVerse:[String] = [cisneros.favoriteVerse]
-    var newzealandMissionaryPrayerRequest:[[String]] = [cisneros.prayerRequest]
-    var newzealandMissionaryEmail:[String] = [cisneros.email]
+var italyMissionaryName:[String] = [hernandez.name]
+var italyMissionaryImage:[String] = [hernandez.image]
+var italyMissionaryinfoShort:[String] = [hernandez.infoShort]
+var italyMissionaryinfoLong:[String] = [hernandez.infoLong]
+var italyMissionaryfavoriteVerse:[String] = [hernandez.favoriteVerse]
+var italyMissionaryPrayerRequest:[[String]] = [hernandez.prayerRequest]
+var italyMissionaryEmail:[String] = [hernandez.email]
 
 
-    // Philippines arrays
+// Kenya
 
-    var philippinesMissionaryName:[String] = [davis.name]
-    var philippinesMissionaryImage:[String] = [davis.image]
-    var philippinesMissionaryinfoShort:[String] = [davis.infoShort]
-    var philippinesMissionaryinfoLong:[String] = [davis.infoLong]
-    var philippinesMissionaryfavoriteVerse:[String] = [davis.favoriteVerse]
-    var philippinesMissionaryPrayerRequest:[[String]] = [davis.prayerRequest]
-    var philippinesMissionaryEmail:[String] = [davis.email]
-
-
-    // South Sudan
-
-    var southsudanMissionaryName:[String] = [douglass.name, nyika.name]
-    var southsudanMissionaryImage:[String] = [douglass.image, nyika.image]
-    var southsudanMissionaryinfoShort:[String] = [douglass.infoShort, nyika.infoShort]
-    var southsudanMissionaryinfoLong:[String] = [douglass.infoLong, nyika.infoLong]
-    var southsudanMissionaryfavoriteVerse:[String] = [douglass.favoriteVerse, nyika.favoriteVerse]
-    var southsudanMissionaryPrayerRequest:[[String]] = [douglass.prayerRequest, nyika.prayerRequest]
-    var southsudanMissionaryEmail:[String] = [douglass.email, nyika.email]
+var kenyaMissionaryName:[String] = []
+var kenyaMissionaryImage:[String] = []
+var kenyaMissionaryinfoShort:[String] = []
+var kenyaMissionaryinfoLong:[String] = []
+var kenyaMissionaryfavoriteVerse:[String] = []
+var kenyaMissionaryPrayerRequest:[[String]] = []
+var kenyaMissionaryEmail:[String] = []
 
 
-    // Uganda
+// Mexico
 
-    var ugandaMissionaryName:[String] = [abale.name, agabe.name, breznau.name, diego.name, emuku.name, nelson.name, onzima.name, wright.name]
-    var ugandaMissionaryImage:[String] = [abale.image, agabe.image, breznau.image, diego.image, emuku.image, nelson.image, onzima.image, wright.image]
-    var ugandaMissionaryinfoShort:[String] = [abale.infoShort, agabe.infoShort, breznau.infoShort, diego.infoShort, emuku.infoShort, nelson.infoShort, onzima.infoShort, wright.infoShort]
-    var ugandaMissionaryinfoLong:[String] = [abale.infoLong, agabe.infoLong, breznau.infoLong, diego.infoLong, emuku.infoLong, nelson.infoLong, onzima.infoLong, wright.infoLong]
-    var ugandaMissionaryfavoriteVerse:[String] = [abale.favoriteVerse, agabe.favoriteVerse, breznau.favoriteVerse, diego.favoriteVerse, emuku.favoriteVerse, nelson.favoriteVerse, onzima.favoriteVerse, wright.favoriteVerse]
-    var ugandaMissionaryPrayerRequest:[[String]] = [abale.prayerRequest, agabe.prayerRequest, breznau.prayerRequest, diego.prayerRequest, emuku.prayerRequest, nelson.prayerRequest, onzima.prayerRequest, wright.prayerRequest]
-    var ugandaMissionaryEmail:[String] = [abale.email, agabe.email, breznau.email, diego.email, emuku.email,  nelson.email, onzima.email, wright.email]
+var mexicoMissionaryName:[String] = [nusslock.name, courtneyNusslock.name, vincent.name]
+var mexicoMissionaryImage:[String] = [nusslock.image, courtneyNusslock.image, vincent.image]
+var mexicoMissionaryinfoShort:[String] = [nusslock.infoShort, courtneyNusslock.infoShort, vincent.infoShort]
+var mexicoMissionaryinfoLong:[String] = [nusslock.infoLong, courtneyNusslock.infoLong, vincent.infoLong]
+var mexicoMissionaryfavoriteVerse:[String] = [nusslock.favoriteVerse, courtneyNusslock.favoriteVerse, vincent.favoriteVerse]
+var mexicoMissionaryPrayerRequest:[[String]] = [nusslock.prayerRequest, courtneyNusslock.prayerRequest, vincent.prayerRequest]
+var mexicoMissionaryEmail:[String] = [nusslock.email, courtneyNusslock.email, vincent.email]
 
 
-    // USA
+// Nepal
 
-    var usaMissionaryName:[String] = []
-    var usaMissionaryImage:[String] = []
-    var usaMissionaryinfoShort:[String] = []
-    var usaMissionaryinfoLong:[String] = []
-    var usaMissionaryfavoriteVerse:[String] = []
-    var usaMissionaryPrayerRequest:[String] = []
-    var usaMissionaryEmail:[String] = []
+var nepalMissionaryName:[String] = [diego.name, nelson.name, sarkar.name, wright.name]
+var nepalMissionaryImage:[String] = [diego.image, nelson.image, sarkar.image, wright.image]
+var nepalMissionaryinfoShort:[String] = [diego.infoShort, nelson.infoShort, sarkar.infoShort, wright.infoShort]
+var nepalMissionaryinfoLong:[String] = [diego.infoLong, nelson.infoLong, sarkar.infoLong, wright.infoLong]
+var nepalMissionaryfavoriteVerse:[String] = [diego.favoriteVerse, nelson.favoriteVerse, sarkar.favoriteVerse, wright.favoriteVerse]
+var nepalMissionaryPrayerRequest:[[String]] = [diego.prayerRequest, nelson.prayerRequest, sarkar.prayerRequest, wright.prayerRequest]
+var nepalMissionaryEmail:[String] = [diego.email, nelson.email, sarkar.email, wright.email]
+
+
+// New Zealand arrays
+
+var newzealandMissionaryName:[String] = [cisneros.name]
+var newzealandMissionaryImage:[String] = [cisneros.image]
+var newzealandMissionaryinfoShort:[String] = [cisneros.infoShort]
+var newzealandMissionaryinfoLong:[String] = [cisneros.infoLong]
+var newzealandMissionaryfavoriteVerse:[String] = [cisneros.favoriteVerse]
+var newzealandMissionaryPrayerRequest:[[String]] = [cisneros.prayerRequest]
+var newzealandMissionaryEmail:[String] = [cisneros.email]
+
+
+// Philippines arrays
+
+var philippinesMissionaryName:[String] = [davis.name]
+var philippinesMissionaryImage:[String] = [davis.image]
+var philippinesMissionaryinfoShort:[String] = [davis.infoShort]
+var philippinesMissionaryinfoLong:[String] = [davis.infoLong]
+var philippinesMissionaryfavoriteVerse:[String] = [davis.favoriteVerse]
+var philippinesMissionaryPrayerRequest:[[String]] = [davis.prayerRequest]
+var philippinesMissionaryEmail:[String] = [davis.email]
+
+
+// South Sudan
+
+var southsudanMissionaryName:[String] = [douglass.name, nyika.name]
+var southsudanMissionaryImage:[String] = [douglass.image, nyika.image]
+var southsudanMissionaryinfoShort:[String] = [douglass.infoShort, nyika.infoShort]
+var southsudanMissionaryinfoLong:[String] = [douglass.infoLong, nyika.infoLong]
+var southsudanMissionaryfavoriteVerse:[String] = [douglass.favoriteVerse, nyika.favoriteVerse]
+var southsudanMissionaryPrayerRequest:[[String]] = [douglass.prayerRequest, nyika.prayerRequest]
+var southsudanMissionaryEmail:[String] = [douglass.email, nyika.email]
+
+
+// Uganda
+
+var ugandaMissionaryName:[String] = [abale.name, agabe.name, breznau.name, emuku.name, nelson.name, onzima.name, wright.name]
+var ugandaMissionaryImage:[String] = [abale.image, agabe.image, breznau.image, emuku.image, nelson.image, onzima.image, wright.image]
+var ugandaMissionaryinfoShort:[String] = [abale.infoShort, agabe.infoShort, breznau.infoShort, emuku.infoShort, nelson.infoShort, onzima.infoShort, wright.infoShort]
+var ugandaMissionaryinfoLong:[String] = [abale.infoLong, agabe.infoLong, breznau.infoLong, emuku.infoLong, nelson.infoLong, onzima.infoLong, wright.infoLong]
+var ugandaMissionaryfavoriteVerse:[String] = [abale.favoriteVerse, agabe.favoriteVerse, breznau.favoriteVerse, emuku.favoriteVerse, nelson.favoriteVerse, onzima.favoriteVerse, wright.favoriteVerse]
+var ugandaMissionaryPrayerRequest:[[String]] = [abale.prayerRequest, agabe.prayerRequest, breznau.prayerRequest, emuku.prayerRequest, nelson.prayerRequest, onzima.prayerRequest, wright.prayerRequest]
+var ugandaMissionaryEmail:[String] = [abale.email, agabe.email, breznau.email, emuku.email,  nelson.email, onzima.email, wright.email]
+
+
+// USA
+
+var usaMissionaryName:[String] = []
+var usaMissionaryImage:[String] = []
+var usaMissionaryinfoShort:[String] = []
+var usaMissionaryinfoLong:[String] = []
+var usaMissionaryfavoriteVerse:[String] = []
+var usaMissionaryPrayerRequest:[String] = []
+var usaMissionaryEmail:[String] = []
 
 

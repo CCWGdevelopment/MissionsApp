@@ -62,7 +62,7 @@ let southsudanDescriptionArray:[String] = ["Population: 12.8 Million", "58% of t
 var southsudan = Country(descriptionArray: southsudanDescriptionArray)
 
 //Uganda
-let ugandaDescriptionArray:[String] = ["1", "2", "3"]
+let ugandaDescriptionArray:[String] = ["Population: 41.6", "45% Roman Catholic, 34% Evangelical Christian, 9% Islam", "13 languages are without a translated Bible", "Audio teachings are vital due to poverty and illiteracy"]
 var uganda = Country(descriptionArray: ugandaDescriptionArray)
 
 //USA

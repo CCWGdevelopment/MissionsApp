@@ -10,6 +10,7 @@
 import UIKit
 import Foundation
 
+// Global variables
 var selectedCountry:String = ""
 var selectedImage:String = ""
 var selectedTitle:String = ""
@@ -58,9 +59,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         return true
     }
     
-
-    
-    
+    //Table View
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if selectedCountry == "china" {
             return chinaMissionaryName.count

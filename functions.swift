@@ -29,7 +29,6 @@ func setMissionaries(name:[String], image:[String], shortinfo:[String], longinfo
     
 }
 
-
 func makeBullets(stringList: [String],
                  font: UIFont,
                  bullet: String = "\u{2022}",

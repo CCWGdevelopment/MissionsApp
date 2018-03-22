@@ -16,10 +16,10 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     let countryIconArray: [String] = ["chinacircle", "haiticircle", "indiacircle", "italycircle", "mexicocircle", "nepalcircle", "newzealandcircle", "philippinescircle", "southsudancircle", "ugandacircle"]
     
-    
     let countryNameArray: [String] = ["China", "Haiti", "India", "Italy", "Mexico", "Nepal", "New Zealand", "Philippines", "South Sudan", "Uganda"]
 
     var headerId = "header"
+    
     
     override func viewDidLayoutSubviews() {
         
@@ -53,7 +53,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     override var prefersStatusBarHidden: Bool {
         return true
     }
-    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let secondVC:DetailController = segue.destination as! DetailController
