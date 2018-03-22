@@ -36,7 +36,7 @@ class Missionary {
 //
 
 //Abale
-let abaleinfoShort = "A short blurb about Pastor John Bosco and Janay goes here."
+let abaleinfoShort = "Faithfully serving the Lord together in Uganda, Africa with their two young daughters for more than 5 years."
 let abaleinfoLong = """
         Pastor Bosco and Janay are serving in Midigo, Uganda, a 95% Muslim community in the far North-Western part of the country.  Pastor Bosco serves as the youth and outreach Pastor and often teaches the midweek service at Calvary Chapel Midigo.  He also leads the prison ministry and outreach to the refugee camps, as there are nearly 2 million South Sudanese Refugees in Uganda.
 
@@ -64,7 +64,7 @@ var agabe = Missionary(name: "Pastor Chris Agabe", image: "agaba", infoShort: ag
 
 
 //Bastia
-let bastiainfoShort = "A short blurb about Pastor Huguener Bastia goes here."
+let bastiainfoShort = "Faithfully serving the Lord in Caneille, Haiti for over a decade in the midst of a spiritually oppressed land."
 let bastiainfoLong = """
         Pastor Bastia is the director of Calvary Chapel School of Grace in Caneille, Haiti. The school opened in September of 2006 with a few students in grades one through three and now provides education up to the 10th grade with approximately 500 students. With Promise Child support, the school is able to provide education, uniforms, school supplies, and a hot meal for those who formerly had no opportunity to attend school.  Pastor Bastia has recently opened a market place where people from the community can come and sell various goods to provide for their families.
 
@@ -93,7 +93,7 @@ var breznau = Missionary(name: "Becky Breznau", image: "breznau", infoShort: bre
 
 
 //China
-let chinamissionaryinfoShort = "A short bleajdslkfjalsdj "
+let chinamissionaryinfoShort = "Although it is a very hostile country to the Gospel and Christianity is illegal, the truth of God’s Word is being preached and many souls are being transformed."
 let chinamissionaryinfoLong = """
         Our missionaries in this region of the world are people who have been faithful to hear and answer the call from God to go. With this country having one of the fastest growing number of churches in the world, there is great risk for those who openly proclaim the Gospel of Jesus Christ. These missionaries have been involved in some of the most fruitful works in the country. They put their lives at risk daily because of their love for Jesus.
 
@@ -103,11 +103,11 @@ let chinafavoriteVerse = """
     “Then He said to His disciples, ‘The harvest is plentiful, but the laborers are few; therefore pray earnestly to the Lord of the harvest to send out laborers into His harvest.’” Matthew 9: 37-38
 """
 let chinaprayerRequest = ["Continual salvation of souls in the midst of persecution", "For God to raise up leaders and ministry workers", "For the Lord’s will with current political situation in regard to Christianity"]
-var chinamissionary = Missionary(name: "China Missionaries", image: "china", infoShort: chinamissionaryinfoShort, infoLong: chinamissionaryinfoLong, favoriteVerse: chinafavoriteVerse, prayerRequest: chinaprayerRequest, email: "")
+var chinamissionary = Missionary(name: "Unnamed Missionary", image: "china", infoShort: chinamissionaryinfoShort, infoLong: chinamissionaryinfoLong, favoriteVerse: chinafavoriteVerse, prayerRequest: chinaprayerRequest, email: "")
 
 
 //Cisneros
-let cisnerosinfoShort = "A short blurb about Vickie Cisneros goes here."
+let cisnerosinfoShort = "Answered the call of her Lord and Savior to venture across the globe and serve the people of New Zealand."
 let cisnerosinfoLong = """
         In September 2017, Vickie moved to New Zealand to serve alongside the ministries at Calvary Chapel Bible Institute (CCBI) and Shoreline Church. She is currently serving on staff at CCBI overseeing the worship ministry and local outreach to Shoreline Church as well as teaching part-time in the ladies’ discipleship class. By living with the students on campus, Vickie has the opportunity to pour into the students on a daily basis, serve alongside them, and watch them grow in the Lord. Vickie is also leading worship at Shoreline Church and will be serving in the youth ministry to disciple young girls in the church. Her desire is to take all that she has learned and pass it on to the next generation of leaders.
 
@@ -121,7 +121,7 @@ var cisneros = Missionary(name: "Vickie Cisneros", image: "cisneros", infoShort:
 
 
 //Daliya
-let daliyainfoShort = "A short blurb about Pastor Manoj and Nasreen Daliya goes here"
+let daliyainfoShort = "Committed their lives and their family to building better lives for the less fortunate children of India."
 let daliyainfoLong = """
         Pastor Manoj and his family live in Mussoorie, India. Their family’s passion for ministry is reaching people in remote villages and sharing the Gospel with those unreached. They opened a school in the village of Sainji, because through the school God has given them the opportunity to stay among the villagers and evangelize house to house.
 
@@ -134,12 +134,11 @@ let daliyafavoriteVerse = """
 """
 let daliyaprayerRequest = ["Pray that God would soften the hearts of the villagers to hear and receive the Word of God",
 "For safety and provision for their entire team", "For wisdom and provision while handling their monthly budget"]
-
 var daliya = Missionary(name: "Pastor Manoj and Nasreen Daliya", image: "daliya", infoShort: daliyainfoShort, infoLong: daliyainfoLong, favoriteVerse: daliyafavoriteVerse, prayerRequest: daliyaprayerRequest, email: "daliya.manoj@gmail.com")
 
 
 //Davis
-let davisinfoShort = "A short blurb about Jim and Shonda Davis goes here"
+let davisinfoShort = "The Lord continues to bless and grow their labor of love in the Philippines through various ministries and open doors for the Gospel."
 let davisinfoLong = """
         Married over 45 years, Jim and Shonda started their ministry together in 1972.  Jim was the Senior Pastor of Calvary Chapel Mission Viejo before moving the family to the Philippines in 1987. Pastor Jim and Shonda are blessed with 4 grown children and 12 grandchildren.  Jim is the International Director of Pastoral Training of Asia (PTA) with American missionaries in 5 Asian Countries. PTA has two Print Shops (Philippines & India), which have printed over 8 million Gospel tracts and books that are all given out for free!  PTA ministry includes: training pastors and leaders in the inductive method of Bible study, evangelism (thousands have come to Christ via this practical training), and counseling marriage and family life.  PTA also has an active children’s ministry, medical outreach, and several other mission projects.
 
@@ -153,22 +152,21 @@ var davis = Missionary(name: "Jim and Shonda Davis", image: "davis", infoShort: 
 
 
 //Diego
-let diegoinfoShort = "A short blurb about Iyana Diego goes here"
+let diegoinfoShort = "Serving in Kathmandu, Nepal at the Promise Child Girl’s Home and the Calvary Chapel Bible College for six-months."
 let diegoinfoLong = """
-        Iyana was only 14 when she decided to follow Jesus and pursue a relationship with Him. Early on in her walk with Christ, her love for people and serving them grew. Her junior year of High School she went on two missions trips to Las Vegas and Belize with the CCWG High School Ministry. During those two missions was when the Lord opened her eyes and gave her a strong desire to serve the broken, wherever they may be. The Lord, in His timing has allowed Iyana to be equipped with administrative skills and experience with youth of all ages and has opened the door for her to use these skills on the mission field.
 
-        Iyana Diego will be making a six-month commitment to working in Kathmandu, Nepal. She will be staying in Kathmandu and working alongside Calvary Chapel Kathmandu. Her particular gifts will all be valuable skills as she helps with the CC Bible College and the Promise Child Girls Home, anything CC Kathmandu needs, and whatever else the Lord has in store for her in Nepal. Iyana says she wants to enter the mission field with open hands to everything the Lord places before her.
+Iyana was only 14 when she decided to follow Jesus and purse a relationship with Him
+
 """
 let diegofavoriteVerse = """
     “I shall run the way of Your commandments, for You will enlarge my heart.” Psalm 119:32
 """
-let diegoprayerRequest = ["For humility, compassion, love towards the Ugandans", "A smooth adjustment to new cultural and social differences", "For health and safety", "For boldness to share about Jesus in all circumstances"]
-
+let diegoprayerRequest = ["For boldness to share about Jesus in all circumstances", "For humility, compassion, and love for the people of Nepal", "For a smooth adjustment to new cultural and social norms"]
 var diego = Missionary(name: "Iyana Diego", image: "iyana", infoShort: diegoinfoShort, infoLong: diegoinfoLong, favoriteVerse: diegofavoriteVerse, prayerRequest: diegoprayerRequest, email: "iyanana95@gmail.com")
 
 
 //Douglass
-let douglassinfoShort = " A short blurb about Pastor Rob and Heidi Douglass goes here."
+let douglassinfoShort = "Pastor over many ministries, he leads his family by example in striving to fulfill the Great Commission as he ventures around the world bringing the Gospel of Christ to unreached people groups around the world."
 let douglassinfoLong = """
         Pastor Rob Douglass began his missionary service in a Sudanese refugee camp in East Africa and after four years turned the ministry over to the leadership of national Pastors. Rob then spent the next four years pioneering Saving Grace World Missions, which provides training and sending for American missionaries to countries all over the globe. Pastor Rob also spent two years in Sri Lanka training national missionaries.
 
@@ -182,7 +180,7 @@ var douglass = Missionary(name: "Pastor Rob and Heidi Douglass", image: "douglas
 
 
 //Emuku
-let emukuinfoShort = "A short blurb about Pastor Juventine and Elizabeth Emuku goes here."
+let emukuinfoShort = "The work that the Lord has done in Uganda through the lives of the Emuku family is beyond anything anyone thought possible when they started praying under a mango tree many years ago for God’s provision and opening for the Gospel."
 let emukuinfoLong = """
         Pastor Juventine Emuku and his wife Elizabeth are both doctors currently serving at Bethesda Hospital in Soroti, Uganda. They have a passion for maternity and pediatric care. They have helped save the lives of many women and children who would have died without proper medical care. Dr. Juventine planted this hospital as well as the growing Calvary Chapel Soroti church. They have also started a School of Ministry, where the next generation of church planters in Uganda is being raised up. Pastor Juventine and Elizabeth’s dream is to see a Calvary Chapel church plant in every village in Uganda.
 
@@ -197,7 +195,7 @@ var emuku = Missionary(name: "Pastor Juventine and Elizabeth Emuku", image: "emu
 
 
 //Hernandez
-let hernandezinfoShort = "A short blurb about Amy Hernandez goes here."
+let hernandezinfoShort = "She left the comfort of her life here in California and moved across the world to Northern Italy to serve there as long as the Lord calls."
 let hernandezinfoLong = """
         The Lord first called Amy to missions through attending Calvary Chapel Bible College Italy in 2013. During the next four years, the Lord would bring her back for more semesters as a student and also as an intern. It was throughout these years that the Lord showed Amy the need for more laborers in Italy to proclaim the Gospel and for true discipleship. After spending seasons serving with CCBC Montebelluna, the Lord opened the door to serve alongside Calvary Chapel Ferrara, a small church in the middle of a university town about two hours south.
 
@@ -212,30 +210,30 @@ var hernandez = Missionary(name: "Amy Hernandez", image: "amyhernandez", infoSho
 
 
 //Courtney Nusslock
-let courtneyinfoShort = "Courtney is currently serving in Rosarito, Mexico alongside her parents."
-let courtneyinfoLong = """
-    After serving in Rosarito, Mexico for one year, Courtney moved with her parents to La Mision, a small farming community about two hours south of the border, to come on staff at a new Calvary Chapel church plant.
-
-        She has been there for one year now and is involved with recovery home ministries for men with addiction and women saved from human trafficking and prostitution. For the past year, Courtney has used her experience from Calvary Chapel School of Worship to help direct the worship team at Calvary Chapel Liberty Ranch, while leading worship for their Sunday and Wednesday services. During the week, she spends time at the women’s home teaching and discipling the women.
-
-        Courtney teaches a weekly women’s Bible study on Thursday evenings. On Saturdays, she volunteers at an equine therapy center that provides free services to families with children who have mental or physical handicaps. She helps care for the horses, prays with families, and assists with exercise and therapy programs.
-
-        After serving in Rosarito, Mexico for one year, Courtney moved with her parents to La Mision, a small farming community about two hours south of the border, to come on staff at a new Calvary Chapel church plant.
-
-        She has been there for one year now and is involved with recovery home ministries for men with addiction and women saved from human trafficking and prostitution. For the past year, Courtney has used her experience from Calvary Chapel School of Worship to help direct the worship team at Calvary Chapel Liberty Ranch, while leading worship for their Sunday and Wednesday services. During the week, she spends time at the women’s home teaching and discipling the women.
-
-        Courtney teaches a weekly women’s Bible study on Thursday evenings. On Saturdays, she volunteers at an equine therapy center that provides free services to families with children who have mental or physical handicaps. She helps care for the horses, prays with families, and assists with exercise and therapy programs.
-"""
-let courtneyfavoriteVerse = """
-    “Therefore encourage one another and build each other up, just as in fact you are doing.”  1 Thessalonians 5:11
-"""
-let courtneyprayerRequest = ["For Courtney to learn Spanish and get immersed in the community", "For the Gospel to be spread with power", "For financial and personal provision"]
-
-var courtneyNusslock = Missionary(name: "Courtney Nusslock", image: "courtneynusslock", infoShort: courtneyinfoShort, infoLong: courtneyinfoLong, favoriteVerse: courtneyfavoriteVerse, prayerRequest: courtneyprayerRequest, email: "cjnusslock@icloud.com")
-
+//let courtneyinfoShort = "Courtney is currently serving in Rosarito, Mexico alongside her parents."
+//let courtneyinfoLong = """
+//    After serving in Rosarito, Mexico for one year, Courtney moved with her parents to La Mision, a small farming community about two hours south of the border, to come on staff at a new Calvary Chapel church plant.
+//
+//        She has been there for one year now and is involved with recovery home ministries for men with addiction and women saved from human trafficking and prostitution. For the past year, Courtney has used her experience from Calvary Chapel School of Worship to help direct the worship team at Calvary Chapel Liberty Ranch, while leading worship for their Sunday and Wednesday services. During the week, she spends time at the women’s home teaching and discipling the women.
+//
+//        Courtney teaches a weekly women’s Bible study on Thursday evenings. On Saturdays, she volunteers at an equine therapy center that provides free services to families with children who have mental or physical handicaps. She helps care for the horses, prays with families, and assists with exercise and therapy programs.
+//
+//        After serving in Rosarito, Mexico for one year, Courtney moved with her parents to La Mision, a small farming community about two hours south of the border, to come on staff at a new Calvary Chapel church plant.
+//
+//        She has been there for one year now and is involved with recovery home ministries for men with addiction and women saved from human trafficking and prostitution. For the past year, Courtney has used her experience from Calvary Chapel School of Worship to help direct the worship team at Calvary Chapel Liberty Ranch, while leading worship for their Sunday and Wednesday services. During the week, she spends time at the women’s home teaching and discipling the women.
+//
+//        Courtney teaches a weekly women’s Bible study on Thursday evenings. On Saturdays, she volunteers at an equine therapy center that provides free services to families with children who have mental or physical handicaps. She helps care for the horses, prays with families, and assists with exercise and therapy programs.
+//"""
+//let courtneyfavoriteVerse = """
+//    “Therefore encourage one another and build each other up, just as in fact you are doing.”  1 Thessalonians 5:11
+//"""
+//let courtneyprayerRequest = ["For Courtney to learn Spanish and get immersed in the community", "For the Gospel to be spread with power", "For financial and personal provision"]
+//
+//var courtneyNusslock = Missionary(name: "Courtney Nusslock", image: "courtneynusslock", infoShort: courtneyinfoShort, infoLong: courtneyinfoLong, favoriteVerse: courtneyfavoriteVerse, prayerRequest: courtneyprayerRequest, email: "cjnusslock@icloud.com")
+//
 
 //Nelson
-let nelsoninfoShort = "A short blurb about Dane Nelson goes here."
+let nelsoninfoShort = "A recent Engineering college graduate, will be partnering with Brandon Wright to serve at the Calvary Chapel Bible College in Kathmandu, Nepal for the fall semester as inductive bible study teachers."
 let nelsoninfoLong = """
         Dane Nelson, 23 years old, has grown up in Calvary Chapel WestGrove and remembers first truly giving his life to Jesus as a young 6th grader. Since then, He has made reading God’s Word daily not only a habit but also a very critical priority. One of Dane’s greatest prayers that he prayed often was for courage and boldness for the Gospel of Jesus Christ. As the years went on, Dane started to lead Bible studies in CCWG’s high school and college ministry, join various short-term mission trips, help start the evangelism ministry at CCWG, and now has committed to a long-term mission trip to India, Nepal, and Uganda from August 2018 to August 2019.
 
@@ -250,7 +248,7 @@ var nelson = Missionary(name: "Dane Nelson", image: "dane", infoShort: nelsoninf
 
 
 //Nusslock
-let nusslockinfoShort = "Jeff and Burnadette are serving full time in Rosarito, Mexico"
+let nusslockinfoShort = "Fulfilling their call from the Lord to help facilitate Christian rehabilitation centers and Calvary Chapel church plants in the country of Mexico."
 let nusslockinfoLong = """
         Pastor Jeff and Bernadette Nusslock describe themselves as ordinary people who said yes to the call that our Lord placed on their lives. After working in Rosarito, Mexico as missionaries for one year, Jeff and Bernadette moved to La Mision, Mexico and have been there now for over a year. They have been faithfully serving in La Mision, where not only have they built a church, but also are working alongside a men's addiction recovery home called Rancho Libertad. There are currently over 50 men that are in the recovery home.  This year they opened a women’s home for women who have been saved out of prostitution and sex trafficking. Pastor Jeff and Bernadette believe their calling from the Lord is to disciple men and women helping them to grow into godly parents, work jobs to support their families, and to help them find their place in the body of Christ as new believers.
 
@@ -265,7 +263,7 @@ var nusslock = Missionary(name: "Jeff and Burnadette Nusslock", image: "nusslock
 
 
 //Nyika
-let nyikainfoShort = "A short blurb about Pastor James and Jane Nyika goes here."
+let nyikainfoShort = "This strong family of eight have dedicated all that they are and have to spreading the Gospel and saving grace of Jesus Christ among the rigid and broken people of South Sudan."
 let nyikainfoLong = """
         James and Jane Nyika are Africa missionaries serving the Lord among the Toposa and Teuso people of South Sudan. They have been married for 18 years and are blessed to have 6 children: Fiona (17), Jeff (12), Blessing (9), twins Abigail and Jonathan (7), and Joel (5). James is trained in Biblical knowledge through a USA based Calvary Chapel school. Both James and Jane attended a mission’s school in Kenya for two years.
 
@@ -281,7 +279,7 @@ var nyika = Missionary(name: "Pastor James and Jane Nyika", image: "nyika", info
 
 
 //Onzima
-let onzimainfoShort = "A short blurb about Pastor David and Medline Onzima goes here."
+let onzimainfoShort = "David and the people of Arua, Uganda are reaping the blessings of a God faithful to His children."
 let onzimainfoLong = """
         David and Medline Onzima have been married since April 2010 and have two young children, Melody Wendo, six years old, and Nathan Jeremiah, four years old. Pastor David started his ministry as part of Promise Child Ministries and is now the Senior Pastor of Calvary Chapel Arua, which began in March 2010. The weekly services have anywhere from 80-100 children in attendance, as well as many adults. In June of 2010, they started a Promise Child boys home for former street kids who are now teenagers and young adults, some of whom are now earning their living with different trades they learned while staying in the boys home. In 2014, they helped start a Promise Child ministry with women saved out of prostitution and sex trafficking who were willing to change their lifestyles. There have now been two groups of ladies whom Pastor David and Medline have equipped with skills to operate their own business that enable them to earn a living in a new way, such as sewing or hairdressing.
 
@@ -296,7 +294,7 @@ var onzima = Missionary(name: "Pastor David and Medline Onzima", image: "onzima"
 
 
 //Sarkar
-let sarkarinfoShort = "A short blurb about Pankaj and Tonielle goes here."
+let sarkarinfoShort = "Dedicated to seeing all nations worship Jesus Christ in the midst of government red tape and natural disasters in Kathmandu, Nepal."
 let sarkarinfoLong = """
         Pastor Pankaj and Tonielle Sarkar have a great passion for youth, worship, discipleship, and church planting. Their calling from the Lord is to train, equip, and develop leaders and pastors throughout the countries of Nepal, India, Bhutan, and China. They are currently serving full-time in Kathmandu, Nepal, where Pankaj is a Calvary Chapel Senior Pastor and helps oversee the Salvation Worship Team and Salvation Music Center.
 
@@ -309,22 +307,32 @@ let sarkarprayerRequest = ["For wisdom and guidance for them while they run the 
 
 var sarkar = Missionary(name: "Pankaj and Tonielle Sarkar", image: "sarkar", infoShort: sarkarinfoShort, infoLong: sarkarinfoLong, favoriteVerse: sarkarfavoriteVerse, prayerRequest: sarkarprayerRequest, email: "sarkar@sgwm.com")
 
+//Singh
+let singhinfoShort = ""
+let singhinfoLong = """
+        Jay was born into a Hindu family in Nepal. At the age of 17, he came to know the Lord while studying business in college and decided to stop studying business in order to attend Bible College. This decision was compelled by his passion to study and know more of the Word of God. He completed his bachelor’s of Theology in 2009 and worked as a mission assistance in a local church, which gave him the opportunity to visit churches in remote areas of Nepal and teach the Word to the local leaders.
+        After working for three years in the mission field, Jay felt the call to get involved in training church leaders to teach the Word accurately and passionately. He then joined an M.Div program that is focused on teaching and training leaders in South Asia. When Calvary Chapel Bible College Nepal started in 2014, Jay joined as staff faculty and has been teaching and training leaders from different parts of Nepal ever since. Jay also is part of the leadership team of Calvary Chapel Kathmandu and has been serving in the church with his wife, Sangeeta. They were recently blessed with a beautiful son, Yohann. Jay’s heart is to reach pastors and leaders from every corner of Nepal and help them be able to teach the Bible verse by verse in spirit and truth.
+"""
+let singhfavoriteVerse = ""
+let singhprayerRequest = [""]
+var singh = Missionary(name: "Jay Singh", image: "singh", infoShort: singhinfoShort, infoLong: singhinfoLong, favoriteVerse: singhfavoriteVerse, prayerRequest: singhprayerRequest, email: "")
+
 
 //Vincent
-let vincentinfoShort = "A short blurb about Pastor Mike and Sarah Vincent goes here"
+let vincentinfoShort = "The Vincent family continue to make it their priority to teach the complete Word of God, disciple, and send out national ministry workers throughout Mexico. "
 let vincentinfoLong = """
         In 2002, the Vincent family moved from Orange County to Rosarito, Mexico as missionaries to plant a local church, Calvary Chapel Rosarito. Mike and Sarah Vincent are blessed to have two children, Grace and Daniel. The Vincent family is dedicated to discipling leaders and pastors to send out to other regions of Mexico that are in need of Bible teaching churches. After 15 years of ministry, CC Rosarito presently ministers to approximately 1,200 people weekly and has sent out 19 other church plants. The Vincent family says they feel blessed and honored to serve as CC WestGrove Missionaries.
 """
 let vincentfavoriteVerse = """
     “Now to Him who is able to do immeasurably more than all we ask or imagine, according to His power that is at work within us.”  Ephesians 3:20
 """
-let vincentprayerRequest = ["Please pray for the continual grow of their ministry", "For God’s favor for more church plants to be sent out", "For God’s provision of more Bible teaching ministry workers in Mexico"]
+let vincentprayerRequest = ["For the continual growth of their ministry", "For God’s favor for more church plants to be sent out", "For God’s provision of more Bible teaching ministry workers in Mexico"]
 
 var vincent = Missionary(name: "Pastor Mike and Sarah Vincent", image: "vincent", infoShort: vincentinfoShort, infoLong: vincentinfoLong, favoriteVerse: vincentfavoriteVerse, prayerRequest: vincentprayerRequest, email: "calvarychapelrosarito@yahoo.com")
 
 
 //Wright
-let wrightinfoShort = "A short blurb about Brandon Wright goes here."
+let wrightinfoShort = "A young adult with a strong conviction for service, will be partnering with Dane Nelson to serve at the Calvary Chapel Bible College in Kathmandu, Nepal for the fall semester as inductive bible study teachers."
 let wrightinfoLong = """
         Brandon Wright, 23 years old, has grown up at Calvary Chapel WestGrove who says he has had the blessing of an amazing family and church family to help raise him up as a true disciple of Jesus Christ. His heart for missions and reaching those who are unreached with the Gospel began long ago in junior high school.
 
@@ -399,13 +407,13 @@ var kenyaMissionaryEmail:[String] = []
 
 // Mexico
 
-var mexicoMissionaryName:[String] = [nusslock.name, courtneyNusslock.name, vincent.name]
-var mexicoMissionaryImage:[String] = [nusslock.image, courtneyNusslock.image, vincent.image]
-var mexicoMissionaryinfoShort:[String] = [nusslock.infoShort, courtneyNusslock.infoShort, vincent.infoShort]
-var mexicoMissionaryinfoLong:[String] = [nusslock.infoLong, courtneyNusslock.infoLong, vincent.infoLong]
-var mexicoMissionaryfavoriteVerse:[String] = [nusslock.favoriteVerse, courtneyNusslock.favoriteVerse, vincent.favoriteVerse]
-var mexicoMissionaryPrayerRequest:[[String]] = [nusslock.prayerRequest, courtneyNusslock.prayerRequest, vincent.prayerRequest]
-var mexicoMissionaryEmail:[String] = [nusslock.email, courtneyNusslock.email, vincent.email]
+var mexicoMissionaryName:[String] = [nusslock.name, vincent.name]
+var mexicoMissionaryImage:[String] = [nusslock.image, vincent.image]
+var mexicoMissionaryinfoShort:[String] = [nusslock.infoShort, vincent.infoShort]
+var mexicoMissionaryinfoLong:[String] = [nusslock.infoLong, vincent.infoLong]
+var mexicoMissionaryfavoriteVerse:[String] = [nusslock.favoriteVerse, vincent.favoriteVerse]
+var mexicoMissionaryPrayerRequest:[[String]] = [nusslock.prayerRequest, vincent.prayerRequest]
+var mexicoMissionaryEmail:[String] = [nusslock.email, vincent.email]
 
 
 // Nepal
