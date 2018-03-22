@@ -159,7 +159,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else if selectedCountry == "nepal" {
             
-            setMissionaries(name: nepalMissionaryName, image: nepalMissionaryImage, shortinfo: nepalMissionaryinfoShort, longinfo: nepalMissionaryinfoLong, verse: mexicoMissionaryfavoriteVerse, prayerrequest: nepalMissionaryPrayerRequest, email: nepalMissionaryEmail)
+            setMissionaries(name: nepalMissionaryName, image: nepalMissionaryImage, shortinfo: nepalMissionaryinfoShort, longinfo: nepalMissionaryinfoLong, verse: nepalMissionaryfavoriteVerse, prayerrequest: nepalMissionaryPrayerRequest, email: nepalMissionaryEmail)
             
             cell.missionaryNameLabel.text = nepalMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = nepalMissionaryinfoShort[indexPath.row]

@@ -154,9 +154,9 @@ var davis = Missionary(name: "Jim and Shonda Davis", image: "davis", infoShort: 
 //Diego
 let diegoinfoShort = "Serving in Kathmandu, Nepal at the Promise Child Girl’s Home and the Calvary Chapel Bible College for six-months."
 let diegoinfoLong = """
-        Iyana was only 14 when she decided to follow Jesus and pursue a relationship with Him. Early on in her walk with Christ, her love for people and serving them grew. Her junior year of High School she went on two missions trips to Las Vegas and Belize with the CCWG High School Ministry. During those two missions was when the Lord opened her eyes and gave her a strong desire to serve the broken, wherever they may be. The Lord, in His timing has allowed Iyana to be equipped with administrative skills and experience with youth of all ages and has opened the door for her to use these skills on the mission field.
 
-        Iyana Diego will be making a six-month commitment to working in Kathmandu, Nepal. She will be staying in Kathmandu and working alongside Calvary Chapel Kathmandu. Her particular gifts will all be valuable skills as she helps with the CC Bible College and the Promise Child Girls Home, anything CC Kathmandu needs, and whatever else the Lord has in store for her in Nepal. Iyana says she wants to enter the mission field with open hands to everything the Lord places before her.
+Iyana was only 14 when she decided to follow Jesus and purse a relationship with Him
+
 """
 let diegofavoriteVerse = """
     “I shall run the way of Your commandments, for You will enlarge my heart.” Psalm 119:32
