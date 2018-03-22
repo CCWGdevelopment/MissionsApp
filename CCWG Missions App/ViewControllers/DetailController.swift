@@ -109,7 +109,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             
             cell.missionaryNameLabel.text = chinaMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = chinaMissionaryinfoShort[indexPath.row]
-            cell.missionaryImageView.image = UIImage(named: chinaMissionaryImage[indexPath.row])
+//          cell.missionaryImageView.image = UIImage(named: chinaMissionaryImage[indexPath.row])
             
         }
         else if selectedCountry == "haiti" {
