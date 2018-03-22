@@ -26,17 +26,18 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBOutlet weak var aboutScrollView: UIScrollView!
     @IBOutlet weak var prayerScrollView: UIScrollView!
     
+    var newPrayerArray:[String] = selectedPrayerRequestArray[missionaryIndex]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         missionaryLabel.text = selectedNameArray[missionaryIndex]
-        //missionaryTitleImageViewer.image = UIImage(named: selectedImage)
         missionaryImageViewer.image = UIImage(named: selectedImageArray[missionaryIndex])
         infoShortLabel.text = selectedShortInfoArray[missionaryIndex]
         missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
         missionaryfavoriteVerse.text = selectedFavoriteVerseArray[missionaryIndex]
-        missionaryPrayerRequestLabel.text = selectedPrayerRequestArray[missionaryIndex]
+//        missionaryPrayerRequestLabel.text = selectedPrayerRequestArray[missionaryIndex]
+        missionaryPrayerRequestLabel.attributedText = makeBullets(stringList: newPrayerArray, font: missionaryPrayerRequestLabel.font)
         
         // Do any additional setup after loading the view.
     }
@@ -60,7 +61,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         countryVC.labelText = selectedCountry
         countryVC.countryImage = selectedImage
         countryVC.countryIcon = selectedCountryIcon
-        countryVC.countryDescription = selectedCountryDescription
+        countryVC.countryDescriptionArray = selectedCountryDescriptionArray
         
         }
         

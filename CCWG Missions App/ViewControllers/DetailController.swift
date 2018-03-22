@@ -14,13 +14,13 @@ var selectedCountry:String = ""
 var selectedImage:String = ""
 var selectedTitle:String = ""
 var selectedCountryIcon:String = ""
-var selectedCountryDescription: String = ""
+var selectedCountryDescriptionArray:[String] = [""]
 var selectedNameArray:[String] = [""]
 var selectedImageArray:[String] = [""]
 var selectedShortInfoArray:[String] = [""]
 var selectedLongInfoArray:[String] = [""]
-var selectedFavoriteVerseArray: [String] = [""]
-var selectedPrayerRequestArray: [String] = [""]
+var selectedFavoriteVerseArray:[String] = [""]
+var selectedPrayerRequestArray:[[String]] = [[""]]
 var selectedEmailArray:[String] = [""]
 var missionaryIndex:Int = 0
 
@@ -34,14 +34,14 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     var labelText = String()
     var countryImage = String()
     var countryIcon = String()
-    var countryDescription = String()
+    var countryDescriptionArray = [String]()
     
     override func viewDidLoad() {
         
         selectedCountryTitle.text = labelText.uppercased()
         selectedCountryImageViewer.image = UIImage(named: countryImage)
         selectedCountryIconImageViewer.image = UIImage(named: countryIcon)
-        selectedCountryDescription.text = countryDescription
+        selectedCountryDescription.attributedText = makeBullets(stringList: countryDescriptionArray, font: selectedCountryDescription.font)
 
         super.viewDidLoad()
     }
@@ -58,60 +58,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         return true
     }
     
-     // Bullet Point Formatting, if I am lucky.
-  /*
-    let label = UILabel()
-    
-    
-    
-    
-    func add (selectedCountryDescription: [String],
-        font: UIFont,
-        bullet: String = "\u{2022}",
-        indentation: CGFloat = 20,
-        lineSpacing: CGFloat = 2,
-        paragraphSpacing: CGFloat = 12,
-        textColor: UIColor = .black,
-        bulletColor: UIColor = .red) -> NSAttributedString {
-        
-        let textAttributes: [NSAttributedStringKey: Any] = [NSAttributedStringKey.font: font, NSAttributedStringKey.foregroundColor: textColor]
-        let bulletAttributes: [NSAttributedStringKey: Any] = [NSAttributedStringKey.font: font, NSAttributedStringKey.foregroundColor: bulletColor]
 
-        let paragraphStyle = NSMutableParagraphStyle()
-        let nonOptions = [NSTextTab.OptionKey: Any]()
-        paragraphStyle.tabStops = [
-            NSTextTab(textAlignment: .left, location: indentation, options: nonOptions)]
-        paragraphStyle.defaultTabInterval = indentation
-        //paragraphStyle.firstLineHeadIndent = 0
-        //paragraphStyle.headIndent = 20
-        //paragraphStyle.tailIndent = 1
-        paragraphStyle.lineSpacing = lineSpacing
-        paragraphStyle.paragraphSpacing = paragraphSpacing
-        paragraphStyle.headIndent = indentation
-        
-        let bulletList = NSMutableAttributedString()
-        for string in selectedCountryDescription {
-            let formattedString = "\(bullet)\t\(string)\n"
-            let attributedString = NSMutableAttributedString(string: formattedString)
-            
-            attributedString.addAttributes(
-                [NSAttributedStringKey.paragraphStyle : paragraphStyle],
-                range: NSMakeRange(0, attributedString.length))
-            
-            attributedString.addAttributes(
-                textAttributes,
-                range: NSMakeRange(0, attributedString.length))
-            
-            let string:NSString = NSString(string: formattedString)
-            let rangeForBullet:NSRange = string.range(of: bullet)
-            attributedString.addAttributes(bulletAttributes, range: rangeForBullet)
-            bulletList.append(attributedString)
-        }
-        
-        return bulletList
-    }
- 
-    */
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -258,7 +205,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else {
             
-            setMissionaries(name: usaMissionaryName, image: usaMissionaryImage, shortinfo: usaMissionaryinfoShort, longinfo: ugandaMissionaryinfoLong, verse: usaMissionaryfavoriteVerse, prayerrequest: usaMissionaryPrayerRequest, email: usaMissionaryEmail)
+            setMissionaries(name: usaMissionaryName, image: usaMissionaryImage, shortinfo: usaMissionaryinfoShort, longinfo: ugandaMissionaryinfoLong, verse: usaMissionaryfavoriteVerse, prayerrequest: [usaMissionaryPrayerRequest], email: usaMissionaryEmail)
 
             cell.missionaryNameLabel.text = usaMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = usaMissionaryinfoShort[indexPath.row]

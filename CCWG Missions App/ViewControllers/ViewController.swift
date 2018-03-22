@@ -60,7 +60,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         secondVC.labelText = selectedCountry
         secondVC.countryImage = selectedImage
         secondVC.countryIcon = selectedCountryIcon
-        secondVC.countryDescription = selectedCountryDescription
+        secondVC.countryDescriptionArray = selectedCountryDescriptionArray
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -82,40 +82,40 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         countryIndex = indexPath.row
 
         if countryIndex == 0 {
-            setCountry(country: "china", icon: "chinaicon", description: china.description)
+            setCountry(country: "china", icon: "chinaicon", descriptionArray: china.descriptionArray)
         }
         else if countryIndex == 1 {
-            setCountry(country: "haiti", icon: "haitiicon", description: haiti.description)
+            setCountry(country: "haiti", icon: "haitiicon", descriptionArray: haitiDescriptionArray)
         }
         else if countryIndex == 2 {
-            setCountry(country: "india", icon: "indiaicon", description: india.description)
+            setCountry(country: "india", icon: "indiaicon", descriptionArray: indiaDescriptionArray)
         }
         else if countryIndex == 3 {
-            setCountry(country: "italy", icon: "italyicon", description: italy.description)
+            setCountry(country: "italy", icon: "italyicon", descriptionArray: italyDescriptionArray)
         }
 //        else if countryIndex == 4 {
-//            setCountry(country: "kenya", icon: "kenyaicon", description: kenya.description)
+            //            setCountry(country: "kenya", icon: "kenyaicon", descriptionArray: kenyaDescriptionArray)
 //        }
         else if countryIndex == 4 {
-            setCountry(country: "mexico", icon: "mexicoicon", description: mexico.description)
+            setCountry(country: "mexico", icon: "mexicoicon", descriptionArray: mexicoDescriptionArray)
         }
         else if countryIndex == 5 {
-            setCountry(country: "nepal", icon: "nepalicon", description: nepal.description)
+            setCountry(country: "nepal", icon: "nepalicon", descriptionArray: nepalDescriptionArray)
         }
         else if countryIndex == 6 {
-            setCountry(country: "new zealand", icon: "newzealandicon", description: newzealand.description)
+            setCountry(country: "new zealand", icon: "newzealandicon", descriptionArray: newzealandDescriptionArray)
         }
         else if countryIndex == 7 {
-            setCountry(country: "philippines", icon: "philippinesicon", description: philippines.description)
+            setCountry(country: "philippines", icon: "philippinesicon", descriptionArray: philippinesDescriptionArray)
         }
         else if countryIndex == 8 {
-            setCountry(country: "south sudan", icon: "southsudanicon", description: southsudan.description)
+            setCountry(country: "south sudan", icon: "southsudanicon", descriptionArray: southsudanDescriptionArray)
         }
         else if countryIndex == 9 {
-            setCountry(country: "uganda", icon: "ugandaicon", description: uganda.description)
+            setCountry(country: "uganda", icon: "ugandaicon", descriptionArray: ugandaDescriptionArray)
         }
 //        else if countryIndex == 11 {
-//            setCountry(country: "usa", icon: "usaicon", description: usa.description)
+            //            setCountry(country: "usa", icon: "usaicon", descriptionArray: usa.descriptionArray)
 //        }
         else if countryIndex == 99 {
             selectedCountry = ""
