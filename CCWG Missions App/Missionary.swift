@@ -103,7 +103,7 @@ let chinafavoriteVerse = """
     “Then He said to His disciples, ‘The harvest is plentiful, but the laborers are few; therefore pray earnestly to the Lord of the harvest to send out laborers into His harvest.’” Matthew 9: 37-38
 """
 let chinaprayerRequest = ["Continual salvation of souls in the midst of persecution", "For God to raise up leaders and ministry workers", "For the Lord’s will with current political situation in regard to Christianity"]
-var chinamissionary = Missionary(name: "Unnamed Missionary", image: "china", infoShort: chinamissionaryinfoShort, infoLong: chinamissionaryinfoLong, favoriteVerse: chinafavoriteVerse, prayerRequest: chinaprayerRequest, email: "")
+var chinamissionary = Missionary(name: "Unnamed Missionary", image: "unnamedmissionary", infoShort: chinamissionaryinfoShort, infoLong: chinamissionaryinfoLong, favoriteVerse: chinafavoriteVerse, prayerRequest: chinaprayerRequest, email: "")
 
 
 //Cisneros
