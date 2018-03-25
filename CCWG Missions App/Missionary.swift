@@ -313,8 +313,10 @@ let singhinfoLong = """
         Jay was born into a Hindu family in Nepal. At the age of 17, he came to know the Lord while studying business in college and decided to stop studying business in order to attend Bible College. This decision was compelled by his passion to study and know more of the Word of God. He completed his bachelor’s of Theology in 2009 and worked as a mission assistance in a local church, which gave him the opportunity to visit churches in remote areas of Nepal and teach the Word to the local leaders.
         After working for three years in the mission field, Jay felt the call to get involved in training church leaders to teach the Word accurately and passionately. He then joined an M.Div program that is focused on teaching and training leaders in South Asia. When Calvary Chapel Bible College Nepal started in 2014, Jay joined as staff faculty and has been teaching and training leaders from different parts of Nepal ever since. Jay also is part of the leadership team of Calvary Chapel Kathmandu and has been serving in the church with his wife, Sangeeta. They were recently blessed with a beautiful son, Yohann. Jay’s heart is to reach pastors and leaders from every corner of Nepal and help them be able to teach the Bible verse by verse in spirit and truth.
 """
-let singhfavoriteVerse = ""
-let singhprayerRequest = [""]
+let singhfavoriteVerse = """
+    “Be diligent to present yourself approved to God as a workman who does not need to be ashamed, accurately handling the Word of truth.” 2 Timothy 2:15
+"""
+let singhprayerRequest = ["For the Lord’s continual blessing on the Bible College and Calvary Chapel Kathmandu, so that ministry workers would be equipped and sent out to start local churches in each district of Nepal", "For Jay and his family to remain steadfast witnesses of the Gospel of Jesus Christ in their daily lives and to have endurance under all forms of persecution", "For all the children at the Promise Child Girls Home and Children’s Home in Hetauda to grow in their knowledge of and love for God and to walk with Him all the days of their lives"]
 var singh = Missionary(name: "Jay Singh", image: "singh", infoShort: singhinfoShort, infoLong: singhinfoLong, favoriteVerse: singhfavoriteVerse, prayerRequest: singhprayerRequest, email: "")
 
 
@@ -418,13 +420,13 @@ var mexicoMissionaryEmail:[String] = [nusslock.email, vincent.email]
 
 // Nepal
 
-var nepalMissionaryName:[String] = [diego.name, nelson.name, sarkar.name, wright.name]
-var nepalMissionaryImage:[String] = [diego.image, nelson.image, sarkar.image, wright.image]
-var nepalMissionaryinfoShort:[String] = [diego.infoShort, nelson.infoShort, sarkar.infoShort, wright.infoShort]
-var nepalMissionaryinfoLong:[String] = [diego.infoLong, nelson.infoLong, sarkar.infoLong, wright.infoLong]
-var nepalMissionaryfavoriteVerse:[String] = [diego.favoriteVerse, nelson.favoriteVerse, sarkar.favoriteVerse, wright.favoriteVerse]
-var nepalMissionaryPrayerRequest:[[String]] = [diego.prayerRequest, nelson.prayerRequest, sarkar.prayerRequest, wright.prayerRequest]
-var nepalMissionaryEmail:[String] = [diego.email, nelson.email, sarkar.email, wright.email]
+var nepalMissionaryName:[String] = [diego.name, nelson.name, sarkar.name, singh.name, wright.name]
+var nepalMissionaryImage:[String] = [diego.image, nelson.image, sarkar.image, singh.image, wright.image]
+var nepalMissionaryinfoShort:[String] = [diego.infoShort, nelson.infoShort, sarkar.infoShort, singh.infoShort, wright.infoShort]
+var nepalMissionaryinfoLong:[String] = [diego.infoLong, nelson.infoLong, sarkar.infoLong, singh.infoLong, wright.infoLong]
+var nepalMissionaryfavoriteVerse:[String] = [diego.favoriteVerse, nelson.favoriteVerse, sarkar.favoriteVerse, singh.favoriteVerse, wright.favoriteVerse]
+var nepalMissionaryPrayerRequest:[[String]] = [diego.prayerRequest, nelson.prayerRequest, sarkar.prayerRequest, singh.prayerRequest, wright.prayerRequest]
+var nepalMissionaryEmail:[String] = [diego.email, nelson.email, sarkar.email, singh.email, wright.email]
 
 
 // New Zealand arrays
