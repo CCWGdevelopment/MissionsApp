@@ -17,9 +17,10 @@ class Missionary {
     var favoriteVerse: String
     var prayerRequest: [String]
     var email: String
+    var url: String
 
     
-    init(name: String, image: String, infoShort: String, infoLong: String, favoriteVerse: String, prayerRequest: [String], email: String) {
+    init(name:String, image:String, infoShort:String, infoLong:String, favoriteVerse:String, prayerRequest:[String], email:String, url:String) {
         self.name = name
         self.image = image
         self.infoShort = infoShort
@@ -27,6 +28,7 @@ class Missionary {
         self.favoriteVerse = favoriteVerse
         self.prayerRequest = prayerRequest
         self.email = email
+        self.url = url
     }
     
 }
@@ -48,19 +50,20 @@ let abalefavoriteVerse = """
     "But I do not consider my life of any account as dear to myself, so that I may finish my course and the ministry which I received from the Lord Jesus, to testify solemnly of the gospel of the grace of God.” - Acts 20:24
 """
 let abaleprayerRequest = ["Please pray for their health, protection from malaria, safety while ministering in a dangerous area, fruitful ministry, and wisdom in all areas of life", "Pray that the church to withstands persecution from the Muslims and that the church will mature in faith and walk in holiness"]
-var abale = Missionary(name: "Pastor John Bosco and Janay Abale", image: "abale", infoShort: abaleinfoShort, infoLong: abaleinfoLong, favoriteVerse: abalefavoriteVerse, prayerRequest: abaleprayerRequest, email: "pippil88@yahoo.com")
+let abaleurl = ""
+var abale = Missionary(name: "Pastor John Bosco and Janay Abale", image: "abale", infoShort: abaleinfoShort, infoLong: abaleinfoLong, favoriteVerse: abalefavoriteVerse, prayerRequest: abaleprayerRequest, email: "pippil88@yahoo.com", url: abaleurl)
 
 
 //Agabe
-let agabeinfoShort = "A short blurb about Pastor Chris Agabe goes here."
-let agabeinfoLong = """
-
-"""
-let agabefavoriteVerse = """
-n/a
-"""
-let agabeprayerRequest = [""]
-var agabe = Missionary(name: "Pastor Chris Agabe", image: "agaba", infoShort: agabeinfoShort, infoLong: agabeinfoLong, favoriteVerse: agabefavoriteVerse, prayerRequest: agabeprayerRequest, email: "agabachris786@gmail.com")
+//let agabeinfoShort = "A short blurb about Pastor Chris Agabe goes here."
+//let agabeinfoLong = """
+//
+//"""
+//let agabefavoriteVerse = """
+//n/a
+//"""
+//let agabeprayerRequest = [""]
+//var agabe = Missionary(name: "Pastor Chris Agabe", image: "agaba", infoShort: agabeinfoShort, infoLong: agabeinfoLong, favoriteVerse: agabefavoriteVerse, prayerRequest: agabeprayerRequest, email: "agabachris786@gmail.com")
 
 
 //Bastia
@@ -74,26 +77,27 @@ let bastiafavoriteVerse = """
     “For I am convinced that neither death, nor life, nor angels, nor principalities, nor things present, nor things to come, nor powers, nor height, nor depth, nor any other created thing, will be able to separate us from the love of God, which is in Christ Jesus our Lord.” Romans 8:38-39
 """
 let bastiaprayerRequest = ["For the Lord’s provision to improve school building to accommodate for growing number of students", "Fruitful ministry through the new marketplace", "Protection over the church and children of God from spiritual oppression"]
-var bastia = Missionary(name: "Pastor Huguener Bastia", image: "bastia", infoShort: bastiainfoShort, infoLong: bastiainfoLong, favoriteVerse: bastiafavoriteVerse, prayerRequest: bastiaprayerRequest, email: "cccgetsaved@yahoo.com")
+let bastiaurl = ""
+var bastia = Missionary(name: "Pastor Huguener Bastia", image: "bastia", infoShort: bastiainfoShort, infoLong: bastiainfoLong, favoriteVerse: bastiafavoriteVerse, prayerRequest: bastiaprayerRequest, email: "cccgetsaved@yahoo.com", url: "")
 
 
 //Breznau
-let breznauinfoShort = "A short blurb about Becky Breznau goes here."
-let breznauinfoLong = """
-        Becky Breznau currently lives as a missionary in Arua, Uganda. Her greatest passion is discipleship as she has spent this past year living with four local young women. Becky studies God’s Word with them and teaches them spiritual truths every day. Her discipleship program with these girls, Fridah, Scovia, Fortunate, and Peace, is truly a 24/7 discipleship program. Becky is also part of a pioneering effort to open a rehabilitation center for children in the area who have special needs.
-
-        She says some of her biggest blessings being on the field include, seeing this unreached people group hear of the amazing love of our Lord Jesus, continuing to support these new sisters in each ministry He has sent them to serve in, and ministering in whatever other capacities the Lord might call her to! Becky says it is her prayer that everything she does would be grounded in the knowledge of the exceedingly rich and abundantly gracious love of God.
-"""
-let breznaufavoriteVerse = """
-    “I pray that out of his glorious riches He may strengthen you with power through His Spirit in your inner being, so that Christ may dwell in your hearts through faith.”  Ephesians 3: 16-17
-"""
-let breznauprayerRequest = ["For the development and completion of the children’s home", "Pray that the Lord would give Becky wisdom and boldness as she minister to women in her area", "For safety and financial provision"]
-
-var breznau = Missionary(name: "Becky Breznau", image: "breznau", infoShort: breznauinfoShort, infoLong: breznauinfoLong, favoriteVerse: breznaufavoriteVerse, prayerRequest: breznauprayerRequest, email: "becky.breznau@yahoo.com")
+//let breznauinfoShort = "A short blurb about Becky Breznau goes here."
+//let breznauinfoLong = """
+//        Becky Breznau currently lives as a missionary in Arua, Uganda. Her greatest passion is discipleship as she has spent this past year living with four local young women. Becky studies God’s Word with them and teaches them spiritual truths every day. Her discipleship program with these girls, Fridah, Scovia, Fortunate, and Peace, is truly a 24/7 discipleship program. Becky is also part of a pioneering effort to open a rehabilitation center for children in the area who have special needs.
+//
+//        She says some of her biggest blessings being on the field include, seeing this unreached people group hear of the amazing love of our Lord Jesus, continuing to support these new sisters in each ministry He has sent them to serve in, and ministering in whatever other capacities the Lord might call her to! Becky says it is her prayer that everything she does would be grounded in the knowledge of the exceedingly rich and abundantly gracious love of God.
+//"""
+//let breznaufavoriteVerse = """
+//    “I pray that out of his glorious riches He may strengthen you with power through His Spirit in your inner being, so that Christ may dwell in your hearts through faith.”  Ephesians 3: 16-17
+//"""
+//let breznauprayerRequest = ["For the development and completion of the children’s home", "Pray that the Lord would give Becky wisdom and boldness as she minister to women in her area", "For safety and financial provision"]
+//
+//var breznau = Missionary(name: "Becky Breznau", image: "breznau", infoShort: breznauinfoShort, infoLong: breznauinfoLong, favoriteVerse: breznaufavoriteVerse, prayerRequest: breznauprayerRequest, email: "becky.breznau@yahoo.com")
 
 
 //China
-let chinamissionaryinfoShort = "Although it is a very hostile country to the Gospel and Christianity is illegal, the truth of God’s Word is being preached and many souls are being transformed."
+let chinamissionaryinfoShort = "Although the country of China is very hostile towards the Gospel and government has outlawed Christianity, the truth of God’s Word is still being preached and transforming many souls."
 let chinamissionaryinfoLong = """
         Our missionaries in this region of the world are people who have been faithful to hear and answer the call from God to go. With this country having one of the fastest growing number of churches in the world, there is great risk for those who openly proclaim the Gospel of Jesus Christ. These missionaries have been involved in some of the most fruitful works in the country. They put their lives at risk daily because of their love for Jesus.
 
@@ -103,7 +107,8 @@ let chinafavoriteVerse = """
     “Then He said to His disciples, ‘The harvest is plentiful, but the laborers are few; therefore pray earnestly to the Lord of the harvest to send out laborers into His harvest.’” Matthew 9: 37-38
 """
 let chinaprayerRequest = ["Continual salvation of souls in the midst of persecution", "For God to raise up leaders and ministry workers", "For the Lord’s will with current political situation in regard to Christianity"]
-var chinamissionary = Missionary(name: "Unnamed Missionary", image: "unnamedmissionary", infoShort: chinamissionaryinfoShort, infoLong: chinamissionaryinfoLong, favoriteVerse: chinafavoriteVerse, prayerRequest: chinaprayerRequest, email: "")
+let chinaurl = ""
+var chinamissionary = Missionary(name: "Unnamed Missionary", image: "unnamedmissionary", infoShort: chinamissionaryinfoShort, infoLong: chinamissionaryinfoLong, favoriteVerse: chinafavoriteVerse, prayerRequest: chinaprayerRequest, email: "", url: "")
 
 
 //Cisneros
@@ -117,11 +122,12 @@ let cisnerosfavoriteVerse = """
     “I beseech you therefore, brethren, by the mercies of God, that you present your bodies a living sacrifice, holy, acceptable to God, which is your reasonable service.” Romans 12:1
 """
 let cisnerosprayerRequest = ["Please pray for the nation of New Zealand, that hearts would be open to the saving power of the Gospel and there would be a spiritual revival", "Pray that the Lord would raise up laborers to be a part of the ministries and church plants in New Zealand and the surrounding nations", "Please pray for the hearts of the staff and students at CCBI to be open to the Lord’s work and trust that the Lord will continue to provide for their needs"]
-var cisneros = Missionary(name: "Vickie Cisneros", image: "cisneros", infoShort: cisnerosinfoShort, infoLong: cisnerosinfoLong, favoriteVerse: cisnerosfavoriteVerse, prayerRequest:cisnerosprayerRequest, email: "vickieccwgmissions@gmail.com")
+let cisnerosurl = ""
+var cisneros = Missionary(name: "Vickie Cisneros", image: "cisneros", infoShort: cisnerosinfoShort, infoLong: cisnerosinfoLong, favoriteVerse: cisnerosfavoriteVerse, prayerRequest:cisnerosprayerRequest, email: "vickieccwgmissions@gmail.com", url: "")
 
 
 //Daliya
-let daliyainfoShort = "Committed their lives and their family to building better lives for the less fortunate children of India."
+let daliyainfoShort = "Dedicated their lives to building better lives for the hurting children of India making a way for the Gospel to be preached. "
 let daliyainfoLong = """
         Pastor Manoj and his family live in Mussoorie, India. Their family’s passion for ministry is reaching people in remote villages and sharing the Gospel with those unreached. They opened a school in the village of Sainji, because through the school God has given them the opportunity to stay among the villagers and evangelize house to house.
 
@@ -134,7 +140,8 @@ let daliyafavoriteVerse = """
 """
 let daliyaprayerRequest = ["Pray that God would soften the hearts of the villagers to hear and receive the Word of God",
 "For safety and provision for their entire team", "For wisdom and provision while handling their monthly budget"]
-var daliya = Missionary(name: "Pastor Manoj and Nasreen Daliya", image: "daliya", infoShort: daliyainfoShort, infoLong: daliyainfoLong, favoriteVerse: daliyafavoriteVerse, prayerRequest: daliyaprayerRequest, email: "daliya.manoj@gmail.com")
+let daliyaurl = ""
+var daliya = Missionary(name: "Pastor Manoj and Nasreen Daliya", image: "daliya", infoShort: daliyainfoShort, infoLong: daliyainfoLong, favoriteVerse: daliyafavoriteVerse, prayerRequest: daliyaprayerRequest, email: "daliya.manoj@gmail.com", url: "")
 
 
 //Davis
@@ -148,21 +155,23 @@ let davisfavoriteVerse = """
     “Call unto Me and I will answer you, and show you great and mighty things which you do not know.” Jeremiah 33:3
 """
 let davisprayerRequest = ["Please pray for more American missionaries to join PTA", "For Jim and Shonda’s health and protection", "For God’s continual provisions for the ministry and their family"]
-var davis = Missionary(name: "Jim and Shonda Davis", image: "davis", infoShort: davisinfoShort, infoLong: davisinfoLong, favoriteVerse: davisfavoriteVerse, prayerRequest: davisprayerRequest, email: "ptadavis@aol.com")
+let davisurl = ""
+var davis = Missionary(name: "Jim and Shonda Davis", image: "davis", infoShort: davisinfoShort, infoLong: davisinfoLong, favoriteVerse: davisfavoriteVerse, prayerRequest: davisprayerRequest, email: "ptadavis@aol.com", url: davisurl)
 
 
 //Diego
 let diegoinfoShort = "Serving in Kathmandu, Nepal at the Promise Child Girl’s Home and the Calvary Chapel Bible College for six-months."
 let diegoinfoLong = """
+        Iyana was only 14 when she decided to follow Jesus and pursue a relationship with Him. Early on in her walk with Christ, her love for people and serving them grew. Her junior year of High School she went on two missions trips to Las Vegas and Belize with the CCWG High School Ministry. During those two missions was when the Lord opened her eyes and gave her a strong desire to serve the broken, wherever they may be. The Lord, in His timing has allowed Iyana to be equipped with administrative skills and experience with youth of all ages and has opened the door for her to use these skills on the mission field. Iyana Diego will be making a six-month commitment to working in Kathmandu, Nepal.
 
-Iyana was only 14 when she decided to follow Jesus and purse a relationship with Him
-
+        She will be staying in Kathmandu and working alongside Calvary Chapel Kathmandu. Her particular gifts will all be valuable skills as she helps with the CC Bible College and the Promise Child Girls Home, anything CC Kathmandu needs, and whatever else the Lord has in store for her in Nepal. Iyana says she wants to enter the mission field with open hands to everything the Lord places before her.
 """
 let diegofavoriteVerse = """
     “I shall run the way of Your commandments, for You will enlarge my heart.” Psalm 119:32
 """
 let diegoprayerRequest = ["For boldness to share about Jesus in all circumstances", "For humility, compassion, and love for the people of Nepal", "For a smooth adjustment to new cultural and social norms"]
-var diego = Missionary(name: "Iyana Diego", image: "iyana", infoShort: diegoinfoShort, infoLong: diegoinfoLong, favoriteVerse: diegofavoriteVerse, prayerRequest: diegoprayerRequest, email: "iyanana95@gmail.com")
+let diegourl = ""
+var diego = Missionary(name: "Iyana Diego", image: "iyana", infoShort: diegoinfoShort, infoLong: diegoinfoLong, favoriteVerse: diegofavoriteVerse, prayerRequest: diegoprayerRequest, email: "iyanana95@gmail.com", url: diegourl)
 
 
 //Douglass
@@ -176,7 +185,8 @@ let douglassfavoriteVerse = """
     “Bear one another’s burdens, as to fulfill the law of Christ.”  Galatians 6:2
 """
 let douglassprayerRequest = ["Pray for safety and provision for national pastors and missionaries as they preach the Gospel in dangerous situations", "Pray for the missions program at the Bible College and for God to raise up bold missionaries ready to fulfill the Great Commission", "Pray for wisdom on how to represent Jesus in extreme, cross-cultural situations"]
-var douglass = Missionary(name: "Pastor Rob and Heidi Douglass", image: "douglass", infoShort: douglassinfoShort, infoLong: douglassinfoLong, favoriteVerse: douglassfavoriteVerse, prayerRequest: douglassprayerRequest, email: "douglass.rob@gmail.com")
+let douglassurl = "http://sgwm.com/blog/missionaries/the-douglass-family/"
+var douglass = Missionary(name: "Pastor Rob and Heidi Douglass", image: "douglass", infoShort: douglassinfoShort, infoLong: douglassinfoLong, favoriteVerse: douglassfavoriteVerse, prayerRequest: douglassprayerRequest, email: "douglass.rob@gmail.com", url: douglassurl)
 
 
 //Emuku
@@ -190,8 +200,8 @@ let emukufavoriteVerse = """
     “All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work.” 2 Timothy 3:16-17
 """
 let emukuprayerRequest = ["For the Lord’s guidance in every step of ministry", "Continued provision for Promise Child students and those who wish the further their education through college", "For the Word of God to stir up young leaders to be the next generation of ministry workers", "For the Lord to send more medical professionals to help the people Uganda"]
-
-var emuku = Missionary(name: "Pastor Juventine and Elizabeth Emuku", image: "emuku", infoShort: emukuinfoShort, infoLong: emukuinfoLong, favoriteVerse: emukufavoriteVerse, prayerRequest: emukuprayerRequest, email: "emukujuv@yahoo.com")
+let emukuurl = ""
+var emuku = Missionary(name: "Pastor Juventine and Elizabeth Emuku", image: "emuku", infoShort: emukuinfoShort, infoLong: emukuinfoLong, favoriteVerse: emukufavoriteVerse, prayerRequest: emukuprayerRequest, email: "emukujuv@yahoo.com", url: emukuurl)
 
 
 //Hernandez
@@ -205,8 +215,8 @@ let hernandezfavoriteVerse = """
     “The Lord is not slow about His promise, as some count slowness, but is patient toward you, not wishing for any to perish but for all to come to repentance.” 2 Peter 3:9
 """
 let hernandezprayerRequest = ["For favor in learning the language fluently", "A smooth transition throughout the first year", "New friendships/conversations with university students who are being taught atheism and have wrong views of Jesus and salvation", "Discipleship opportunities with new believers"]
-
-var hernandez = Missionary(name: "Amy Hernandez", image: "amyhernandez", infoShort: hernandezinfoShort, infoLong: hernandezinfoLong, favoriteVerse: hernandezfavoriteVerse, prayerRequest: hernandezprayerRequest, email: "amyisabel3@yahoo.com")
+let hernandezurl = ""
+var hernandez = Missionary(name: "Amy Hernandez", image: "amyhernandez", infoShort: hernandezinfoShort, infoLong: hernandezinfoLong, favoriteVerse: hernandezfavoriteVerse, prayerRequest: hernandezprayerRequest, email: "amyisabel3@yahoo.com", url: hernandezurl)
 
 
 //Courtney Nusslock
@@ -233,7 +243,7 @@ var hernandez = Missionary(name: "Amy Hernandez", image: "amyhernandez", infoSho
 //
 
 //Nelson
-let nelsoninfoShort = "A recent Engineering college graduate, will be partnering with Brandon Wright to serve at the Calvary Chapel Bible College in Kathmandu, Nepal for the fall semester as inductive bible study teachers."
+let nelsoninfoShort = "Serving as a Bible teacher at the CC Bible College in Kathmandu, Nepal for the fall semester before being sent to Uganda to equip, minister to, and encourage national ministry workers and refugees in Camp Bidi Bidi."
 let nelsoninfoLong = """
         Dane Nelson, 23 years old, has grown up in Calvary Chapel WestGrove and remembers first truly giving his life to Jesus as a young 6th grader. Since then, He has made reading God’s Word daily not only a habit but also a very critical priority. One of Dane’s greatest prayers that he prayed often was for courage and boldness for the Gospel of Jesus Christ. As the years went on, Dane started to lead Bible studies in CCWG’s high school and college ministry, join various short-term mission trips, help start the evangelism ministry at CCWG, and now has committed to a long-term mission trip to India, Nepal, and Uganda from August 2018 to August 2019.
 
@@ -243,8 +253,8 @@ let nelsonfavoriteVerse = """
     “You will make known to me the path of life; In Your presence is fullness of joy; In Your right hand there are pleasures forever.” Psalm 16:11
 """
 let nelsonprayerRequest = ["For endurance while on the field", "To be a man who is filled with and empowered by the Holy Spirit", "For God to use Dane to teach His Word with diligence", "For the hearts of the people to be reached and open doors to proclaim the Gospel with boldness"]
-
-var nelson = Missionary(name: "Dane Nelson", image: "dane", infoShort: nelsoninfoShort, infoLong: nelsoninfoLong, favoriteVerse: nelsonfavoriteVerse, prayerRequest: nelsonprayerRequest, email: "dane5golf@mgail.com")
+let nelsonurl = ""
+var nelson = Missionary(name: "Dane Nelson", image: "dane", infoShort: nelsoninfoShort, infoLong: nelsoninfoLong, favoriteVerse: nelsonfavoriteVerse, prayerRequest: nelsonprayerRequest, email: "dane5golf@mgail.com", url: nelsonurl)
 
 
 //Nusslock
@@ -258,8 +268,8 @@ let nusslockfavoriteVerse = """
     “And the Lord said unto the servant, ‘Go out into the highways and hedges, and compel them to come in, that My house may be filled.’” Luke 14:23
 """
 let nusslockprayerRequest = ["Please pray for teams to come along side and work with the Nusslocks as they continue to build and disciple", "Prayers of protection over their family, health, financial support, wisdom, and discernment"]
-
-var nusslock = Missionary(name: "Jeff and Burnadette Nusslock", image: "nusslock", infoShort: nusslockinfoShort, infoLong: nusslockinfoLong, favoriteVerse: nusslockfavoriteVerse, prayerRequest: nusslockprayerRequest, email: "compeloutreach@gmail.com")
+let nusslockurl = ""
+var nusslock = Missionary(name: "Jeff and Burnadette Nusslock", image: "nusslock", infoShort: nusslockinfoShort, infoLong: nusslockinfoLong, favoriteVerse: nusslockfavoriteVerse, prayerRequest: nusslockprayerRequest, email: "compeloutreach@gmail.com", url: nusslockurl)
 
 
 //Nyika
@@ -274,12 +284,12 @@ let nyikafavoriteVerse = """
 """
 let nyikaprayerRequest = ["Please pray for them as they visit the work among the unreached people in Narus South Sudan",
 "For God’s provision and favor as they move to Northern Uganda to start intentional discipleship among the two million South Sudanese refugees"]
-
-var nyika = Missionary(name: "Pastor James and Jane Nyika", image: "nyika", infoShort: nyikainfoShort, infoLong: nyikainfoLong, favoriteVerse: nyikafavoriteVerse, prayerRequest: nyikaprayerRequest, email: "jamesandjanenyika@gmail.com")
+let nyikaurl = "http://sgwm.com/blog/missionaries/the-nyika-family/"
+var nyika = Missionary(name: "Pastor James and Jane Nyika", image: "nyika", infoShort: nyikainfoShort, infoLong: nyikainfoLong, favoriteVerse: nyikafavoriteVerse, prayerRequest: nyikaprayerRequest, email: "jamesandjanenyika@gmail.com", url: nyikaurl)
 
 
 //Onzima
-let onzimainfoShort = "David and the people of Arua, Uganda are reaping the blessings of a God faithful to His children."
+let onzimainfoShort = "Two faithful servants of Christ serving the Lord together and teaching their providence of Arua, Uganda about Jesus and salvation through Him alone."
 let onzimainfoLong = """
         David and Medline Onzima have been married since April 2010 and have two young children, Melody Wendo, six years old, and Nathan Jeremiah, four years old. Pastor David started his ministry as part of Promise Child Ministries and is now the Senior Pastor of Calvary Chapel Arua, which began in March 2010. The weekly services have anywhere from 80-100 children in attendance, as well as many adults. In June of 2010, they started a Promise Child boys home for former street kids who are now teenagers and young adults, some of whom are now earning their living with different trades they learned while staying in the boys home. In 2014, they helped start a Promise Child ministry with women saved out of prostitution and sex trafficking who were willing to change their lifestyles. There have now been two groups of ladies whom Pastor David and Medline have equipped with skills to operate their own business that enable them to earn a living in a new way, such as sewing or hairdressing.
 
@@ -289,8 +299,8 @@ let onzimafavoriteVerse = """
     “The things which you have heard from me in the presence of many witnesses, entrust these to faithful men who will be able to teach others also.” 2 Timothy 2:2
 """
 let onzimaprayerRequest = ["For the community to open up and receive the Gospel", "Pray for strength and provision for the completion of the main Church building", "Pray for God to raise up more leaders as the church grows", "Pray for the Lord to continue to provide for their family and a deeper understanding of God’s Word"]
-
-var onzima = Missionary(name: "Pastor David and Medline Onzima", image: "onzima", infoShort: onzimainfoShort, infoLong: onzimainfoLong, favoriteVerse: onzimafavoriteVerse, prayerRequest: onzimaprayerRequest, email: "calvarychapelarua@gmail.com")
+let onzimaurl = "https://connect.egiving.com/david-onzima/promise-child"
+var onzima = Missionary(name: "Pastor David and Medline Onzima", image: "onzima", infoShort: onzimainfoShort, infoLong: onzimainfoLong, favoriteVerse: onzimafavoriteVerse, prayerRequest: onzimaprayerRequest, email: "calvarychapelarua@gmail.com", url: onzimaurl)
 
 
 //Sarkar
@@ -304,8 +314,8 @@ let sarkarfavoriteVerse = """
     “Now to Him who is able to do exceedingly abundantly above all that we ask or think, according to the power that works in us, to Him be glory in the church by Christ Jesus to all generations, forever and ever. Amen.” Ephesians 3:20-21
 """
 let sarkarprayerRequest = ["For wisdom and guidance for them while they run the ministries", "For unity between each of the ministry team members", "For spiritual and physical protection over their marriage, family, and ministries", "For ministry and personal financial provision"]
-
-var sarkar = Missionary(name: "Pankaj and Tonielle Sarkar", image: "sarkar", infoShort: sarkarinfoShort, infoLong: sarkarinfoLong, favoriteVerse: sarkarfavoriteVerse, prayerRequest: sarkarprayerRequest, email: "sarkar@sgwm.com")
+let sarkarurl = "http://sgwm.com/blog/missionaries/sarkar/"
+var sarkar = Missionary(name: "Pankaj and Tonielle Sarkar", image: "sarkar", infoShort: sarkarinfoShort, infoLong: sarkarinfoLong, favoriteVerse: sarkarfavoriteVerse, prayerRequest: sarkarprayerRequest, email: "sarkar@sgwm.com", url: sarkarurl)
 
 //Singh
 let singhinfoShort = ""
@@ -317,7 +327,8 @@ let singhfavoriteVerse = """
     “Be diligent to present yourself approved to God as a workman who does not need to be ashamed, accurately handling the Word of truth.” 2 Timothy 2:15
 """
 let singhprayerRequest = ["For the Lord’s continual blessing on the Bible College and Calvary Chapel Kathmandu, so that ministry workers would be equipped and sent out to start local churches in each district of Nepal", "For Jay and his family to remain steadfast witnesses of the Gospel of Jesus Christ in their daily lives and to have endurance under all forms of persecution", "For all the children at the Promise Child Girls Home and Children’s Home in Hetauda to grow in their knowledge of and love for God and to walk with Him all the days of their lives"]
-var singh = Missionary(name: "Jay Singh", image: "singh", infoShort: singhinfoShort, infoLong: singhinfoLong, favoriteVerse: singhfavoriteVerse, prayerRequest: singhprayerRequest, email: "")
+let singhurl = ""
+var singh = Missionary(name: "Jay Singh", image: "singh", infoShort: singhinfoShort, infoLong: singhinfoLong, favoriteVerse: singhfavoriteVerse, prayerRequest: singhprayerRequest, email: "", url: singhurl)
 
 
 //Vincent
@@ -329,12 +340,12 @@ let vincentfavoriteVerse = """
     “Now to Him who is able to do immeasurably more than all we ask or imagine, according to His power that is at work within us.”  Ephesians 3:20
 """
 let vincentprayerRequest = ["For the continual growth of their ministry", "For God’s favor for more church plants to be sent out", "For God’s provision of more Bible teaching ministry workers in Mexico"]
-
-var vincent = Missionary(name: "Pastor Mike and Sarah Vincent", image: "vincent", infoShort: vincentinfoShort, infoLong: vincentinfoLong, favoriteVerse: vincentfavoriteVerse, prayerRequest: vincentprayerRequest, email: "calvarychapelrosarito@yahoo.com")
+let vincenturl = "http://sgwm.com/blog/missionaries/the-vincent-family/"
+var vincent = Missionary(name: "Pastor Mike and Sarah Vincent", image: "vincent", infoShort: vincentinfoShort, infoLong: vincentinfoLong, favoriteVerse: vincentfavoriteVerse, prayerRequest: vincentprayerRequest, email: "calvarychapelrosarito@yahoo.com", url: vincenturl)
 
 
 //Wright
-let wrightinfoShort = "A young adult with a strong conviction for service, will be partnering with Dane Nelson to serve at the Calvary Chapel Bible College in Kathmandu, Nepal for the fall semester as inductive bible study teachers."
+let wrightinfoShort = "Serving as a Bible teacher at the CC Bible College in Kathmandu, Nepal for the fall semester before being sent to Uganda to equip, minister to, and encourage national ministry workers and refugees in Camp Bidi Bidi."
 let wrightinfoLong = """
         Brandon Wright, 23 years old, has grown up at Calvary Chapel WestGrove who says he has had the blessing of an amazing family and church family to help raise him up as a true disciple of Jesus Christ. His heart for missions and reaching those who are unreached with the Gospel began long ago in junior high school.
 
@@ -346,8 +357,8 @@ let wrightfavoriteVerse = """
     “You will go out in joy and be led forth in peace; the mountains and hills will burst into song before you, and all the trees of the field will clap their hands” Isaiah 55:12
 """
 let wrightprayerRequest = ["Pray for strength and boldness to preach in challenging and uncomfortable situations", "Pray that the Lord will reveal His Word to Brandon as he teaches at the Bible colleges", "Pray for safety and provision throughout travel and stay"]
-
-var wright = Missionary(name: "Brandon Wright", image: "wright", infoShort: wrightinfoShort, infoLong: wrightinfoLong, favoriteVerse: wrightfavoriteVerse, prayerRequest: wrightprayerRequest, email: "bwrightttt23@gmail.com")
+let wrighturl = ""
+var wright = Missionary(name: "Brandon Wright", image: "wright", infoShort: wrightinfoShort, infoLong: wrightinfoLong, favoriteVerse: wrightfavoriteVerse, prayerRequest: wrightprayerRequest, email: "bwrightttt23@gmail.com", url: wrighturl)
 
 
 ////////////   Missionary Arrays  ///////////
@@ -361,6 +372,7 @@ var chinaMissionaryinfoLong:[String] = [chinamissionary.infoLong]
 var chinaMissionaryfavoriteVerse:[String] = [chinamissionary.favoriteVerse]
 var chinaMissionaryPrayerRequest:[[String]] = [chinamissionary.prayerRequest]
 var chinaMissionaryEmail:[String] = [chinamissionary.email]
+var chinaMissionaryUrl:[String] = [chinamissionary.url]
 
 
 // Haiti
@@ -372,6 +384,7 @@ var haitiMissionaryinfoLong:[String] = [bastia.infoLong]
 var haitiMissionaryfavoriteVerse:[String] = [bastia.favoriteVerse]
 var haitiMissionaryPrayerRequest:[[String]] = [bastia.prayerRequest]
 var haitiMissionaryEmail:[String] = [bastia.email]
+var haitiMissionaryUrl:[String] = [bastia.url]
 
 
 // India
@@ -383,6 +396,7 @@ var indiaMissionaryinfoLong:[String] = [daliya.infoLong]
 var indiaMissionaryfavoriteVerse:[String] = [daliya.favoriteVerse]
 var indiaMissionaryPrayerRequest:[[String]] = [daliya.prayerRequest]
 var indiaMissionaryEmail:[String] = [daliya.email]
+var indiaMissionaryUrl:[String] = [daliya.url]
 
 
 // Italy
@@ -394,6 +408,7 @@ var italyMissionaryinfoLong:[String] = [hernandez.infoLong]
 var italyMissionaryfavoriteVerse:[String] = [hernandez.favoriteVerse]
 var italyMissionaryPrayerRequest:[[String]] = [hernandez.prayerRequest]
 var italyMissionaryEmail:[String] = [hernandez.email]
+var italyMissionaryUrl:[String] = [hernandez.url]
 
 
 // Kenya
@@ -405,6 +420,7 @@ var kenyaMissionaryinfoLong:[String] = []
 var kenyaMissionaryfavoriteVerse:[String] = []
 var kenyaMissionaryPrayerRequest:[[String]] = []
 var kenyaMissionaryEmail:[String] = []
+var kenyaMissionaryUrl:[String] = []
 
 
 // Mexico
@@ -416,6 +432,7 @@ var mexicoMissionaryinfoLong:[String] = [nusslock.infoLong, vincent.infoLong]
 var mexicoMissionaryfavoriteVerse:[String] = [nusslock.favoriteVerse, vincent.favoriteVerse]
 var mexicoMissionaryPrayerRequest:[[String]] = [nusslock.prayerRequest, vincent.prayerRequest]
 var mexicoMissionaryEmail:[String] = [nusslock.email, vincent.email]
+var mexicoMissionaryUrl:[String] = [nusslock.url, vincent.url]
 
 
 // Nepal
@@ -427,6 +444,7 @@ var nepalMissionaryinfoLong:[String] = [diego.infoLong, nelson.infoLong, sarkar.
 var nepalMissionaryfavoriteVerse:[String] = [diego.favoriteVerse, nelson.favoriteVerse, sarkar.favoriteVerse, singh.favoriteVerse, wright.favoriteVerse]
 var nepalMissionaryPrayerRequest:[[String]] = [diego.prayerRequest, nelson.prayerRequest, sarkar.prayerRequest, singh.prayerRequest, wright.prayerRequest]
 var nepalMissionaryEmail:[String] = [diego.email, nelson.email, sarkar.email, singh.email, wright.email]
+var nepalMissionaryUrl:[String] = [diego.url, nelson.url, sarkar.url, singh.url, wright.url]
 
 
 // New Zealand arrays
@@ -438,10 +456,10 @@ var newzealandMissionaryinfoLong:[String] = [cisneros.infoLong]
 var newzealandMissionaryfavoriteVerse:[String] = [cisneros.favoriteVerse]
 var newzealandMissionaryPrayerRequest:[[String]] = [cisneros.prayerRequest]
 var newzealandMissionaryEmail:[String] = [cisneros.email]
+var newzealandMissionaryUrl:[String] = [cisneros.url]
 
 
 // Philippines arrays
-
 var philippinesMissionaryName:[String] = [davis.name]
 var philippinesMissionaryImage:[String] = [davis.image]
 var philippinesMissionaryinfoShort:[String] = [davis.infoShort]
@@ -449,10 +467,10 @@ var philippinesMissionaryinfoLong:[String] = [davis.infoLong]
 var philippinesMissionaryfavoriteVerse:[String] = [davis.favoriteVerse]
 var philippinesMissionaryPrayerRequest:[[String]] = [davis.prayerRequest]
 var philippinesMissionaryEmail:[String] = [davis.email]
+var philippinesMissionaryUrl:[String] = [davis.url]
 
 
 // South Sudan
-
 var southsudanMissionaryName:[String] = [douglass.name, nyika.name]
 var southsudanMissionaryImage:[String] = [douglass.image, nyika.image]
 var southsudanMissionaryinfoShort:[String] = [douglass.infoShort, nyika.infoShort]
@@ -460,21 +478,21 @@ var southsudanMissionaryinfoLong:[String] = [douglass.infoLong, nyika.infoLong]
 var southsudanMissionaryfavoriteVerse:[String] = [douglass.favoriteVerse, nyika.favoriteVerse]
 var southsudanMissionaryPrayerRequest:[[String]] = [douglass.prayerRequest, nyika.prayerRequest]
 var southsudanMissionaryEmail:[String] = [douglass.email, nyika.email]
+var southsudanMissionaryUrl:[String] = [douglass.url, nyika.url]
 
 
 // Uganda
-
-var ugandaMissionaryName:[String] = [abale.name, agabe.name, breznau.name, emuku.name, nelson.name, onzima.name, wright.name]
-var ugandaMissionaryImage:[String] = [abale.image, agabe.image, breznau.image, emuku.image, nelson.image, onzima.image, wright.image]
-var ugandaMissionaryinfoShort:[String] = [abale.infoShort, agabe.infoShort, breznau.infoShort, emuku.infoShort, nelson.infoShort, onzima.infoShort, wright.infoShort]
-var ugandaMissionaryinfoLong:[String] = [abale.infoLong, agabe.infoLong, breznau.infoLong, emuku.infoLong, nelson.infoLong, onzima.infoLong, wright.infoLong]
-var ugandaMissionaryfavoriteVerse:[String] = [abale.favoriteVerse, agabe.favoriteVerse, breznau.favoriteVerse, emuku.favoriteVerse, nelson.favoriteVerse, onzima.favoriteVerse, wright.favoriteVerse]
-var ugandaMissionaryPrayerRequest:[[String]] = [abale.prayerRequest, agabe.prayerRequest, breznau.prayerRequest, emuku.prayerRequest, nelson.prayerRequest, onzima.prayerRequest, wright.prayerRequest]
-var ugandaMissionaryEmail:[String] = [abale.email, agabe.email, breznau.email, emuku.email,  nelson.email, onzima.email, wright.email]
+var ugandaMissionaryName:[String] = [abale.name, emuku.name, nelson.name, onzima.name, wright.name]
+var ugandaMissionaryImage:[String] = [abale.image, emuku.image, nelson.image, onzima.image, wright.image]
+var ugandaMissionaryinfoShort:[String] = [abale.infoShort, emuku.infoShort, nelson.infoShort, onzima.infoShort, nelson.infoShort]
+var ugandaMissionaryinfoLong:[String] = [abale.infoLong, emuku.infoLong, nelson.infoLong, onzima.infoLong, wright.infoLong]
+var ugandaMissionaryfavoriteVerse:[String] = [abale.favoriteVerse, emuku.favoriteVerse, nelson.favoriteVerse, onzima.favoriteVerse, wright.favoriteVerse]
+var ugandaMissionaryPrayerRequest:[[String]] = [abale.prayerRequest, emuku.prayerRequest, nelson.prayerRequest, onzima.prayerRequest, wright.prayerRequest]
+var ugandaMissionaryEmail:[String] = [abale.email, emuku.email, nelson.email, onzima.email, wright.email]
+var ugandaMissionaryUrl:[String] = [abale.url, emuku.url, nelson.url, onzima.url, wright.url]
 
 
 // USA
-
 var usaMissionaryName:[String] = []
 var usaMissionaryImage:[String] = []
 var usaMissionaryinfoShort:[String] = []
@@ -482,5 +500,6 @@ var usaMissionaryinfoLong:[String] = []
 var usaMissionaryfavoriteVerse:[String] = []
 var usaMissionaryPrayerRequest:[String] = []
 var usaMissionaryEmail:[String] = []
+var usaMissionaryUrl:[String] = []
 
 

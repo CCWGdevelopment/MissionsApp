@@ -17,7 +17,7 @@ func setCountry(country:String, icon:String, descriptionArray:[String]){
     selectedCountryDescriptionArray = descriptionArray
 }
 
-func setMissionaries(name:[String], image:[String], shortinfo:[String], longinfo:[String], verse:[String], prayerrequest:[[String]], email:[String]) {
+func setMissionaries(name:[String], image:[String], shortinfo:[String], longinfo:[String], verse:[String], prayerrequest:[[String]], email:[String], url:[String]) {
     
     selectedNameArray = name
     selectedImageArray = image
@@ -26,6 +26,7 @@ func setMissionaries(name:[String], image:[String], shortinfo:[String], longinfo
     selectedFavoriteVerseArray = verse
     selectedPrayerRequestArray = prayerrequest
     selectedEmailArray = email
+    selectedUrlArray = url
     
 }
 

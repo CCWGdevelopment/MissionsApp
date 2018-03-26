@@ -173,7 +173,7 @@
         <scene sceneID="D9Q-iq-Ofe">
             <objects>
                 <viewController modalTransitionStyle="crossDissolve" id="Vrc-FP-bOJ" customClass="DetailController" customModule="CCWG_Missions_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="aEL-XQ-Iy1">
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="aEL-XQ-Iy1" userLabel="DetailView">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -188,7 +188,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spe-3i-cwz">
-                                        <rect key="frame" x="434" y="120" width="496.5" height="100"/>
+                                        <rect key="frame" x="434.5" y="120.5" width="496.5" height="100"/>
                                         <fontDescription key="fontDescription" name="Metropolis-SemiBold" family="Metropolis" pointSize="100"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -252,7 +252,7 @@
                                     <constraint firstItem="pNQ-ae-WEt" firstAttribute="leading" secondItem="gcL-sH-5FY" secondAttribute="leading" constant="442" id="yxS-GE-8qo"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="142" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dBg-R0-A1h">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="142" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dBg-R0-A1h" userLabel="MissionaryTableView">
                                 <rect key="frame" x="0.0" y="683" width="1366" height="341"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -442,11 +442,11 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9f-JJ-Xwb">
-                                                <rect key="frame" x="25" y="97" width="462" height="418"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9f-JJ-Xwb">
+                                                <rect key="frame" x="25" y="97" width="462" height="2325"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
-                                                        <mutableString key="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat id turpis eget dictum. Etiam eleifend condimentum dolor nec volutpat. Maecenas bibendum, nulla eu convallis consequat, ipsum est volutpat metus, ac dapibus urna sapien non turpis. In augue eros, fringilla eu justo ac, fringilla rhoncus dui. Donec odio tellus, feugiat eu urna sed, porttitor sollicitudin libero. Proin maximus leo id augue ullamcorper, ac interdum sem tincidunt. Suspendisse pellentesque accumsan augue, sit amet fermentum nisl blandit sed. Nam ullamcorper, quam in hendrerit hendrerit, diam metus pellentesque dolor, eu vestibulum lacus mauris sit amet dolor. Suspendisse in sollicitudin tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut vulputate faucibus dolor. Pellentesque elementum augue ex, sed eleifend eros luctus et.
+                                                        <string key="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat id turpis eget dictum. Etiam eleifend condimentum dolor nec volutpat. Maecenas bibendum, nulla eu convallis consequat, ipsum est volutpat metus, ac dapibus urna sapien non turpis. In augue eros, fringilla eu justo ac, fringilla rhoncus dui. Donec odio tellus, feugiat eu urna sed, porttitor sollicitudin libero. Proin maximus leo id augue ullamcorper, ac interdum sem tincidunt. Suspendisse pellentesque accumsan augue, sit amet fermentum nisl blandit sed. Nam ullamcorper, quam in hendrerit hendrerit, diam metus pellentesque dolor, eu vestibulum lacus mauris sit amet dolor. Suspendisse in sollicitudin tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut vulputate faucibus dolor. Pellentesque elementum augue ex, sed eleifend eros luctus et.
 
 Aenean venenatis ornare nunc quis efficitur. Maecenas laoreet, augue eget porta suscipit, dolor nunc rutrum nulla, tempus dapibus purus sapien vitae mauris. Morbi nec tincidunt est, vel pellentesque lectus. Maecenas ultricies scelerisque dui, eu molestie nunc feugiat ut. Ut et nunc id lectus dapibus convallis. Cras eu pretium nibh. Nunc finibus urna quis leo gravida suscipit. Proin ultrices ante et lacus sollicitudin pharetra.
 
@@ -454,7 +454,7 @@ Vivamus lacinia lacinia ante, id efficitur odio bibendum et. Donec at magna frin
 
 Suspendisse potenti. Phasellus luctus blandit maximus. Donec pulvinar ex a orci aliquam, et dapibus nulla tristique. Morbi pulvinar vulputate ligula, nec molestie purus vulputate at. Nunc faucibus felis quis sem faucibus accumsan. Vestibulum consectetur vitae odio et aliquam. Morbi finibus dui sed magna molestie, vitae imperdiet est vulputate. Nulla suscipit nunc sed nunc sagittis, ut porttitor erat dictum. Ut nisi mauris, molestie tempor fringilla ut, dictum vitae nulla. Duis at lacinia eros, nec ullamcorper velit. Donec porta pulvinar facilisis. Duis quam lacus, laoreet fringilla mi id, cursus rhoncus mi. Curabitur tristique pulvinar congue. Donec cursus neque vel tortor luctus vehicula et id nunc. Nulla in tincidunt metus. Nam interdum risus risus, sit amet vulputate turpis efficitur at.
 
-</mutableString>
+</string>
                                                         <attributes>
                                                             <font key="NSFont" size="25" name="Metropolis-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -543,7 +543,7 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                         <color key="backgroundColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="Q9a-YL-JHa"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="216" id="qoE-kT-qrD"/>
+                                            <constraint firstAttribute="width" constant="216" id="qoE-kT-qrD"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="24"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -569,7 +569,7 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                         <rect key="frame" x="404" y="30" width="216" height="44"/>
                                         <color key="backgroundColor" red="0.47058823529411764" green="0.38039215686274508" blue="0.28627450980392155" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="216" id="AAI-yh-ahZ"/>
+                                            <constraint firstAttribute="width" constant="216" id="AAI-yh-ahZ"/>
                                             <constraint firstAttribute="height" constant="44" id="vd2-lR-iem"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="22"/>
@@ -796,7 +796,6 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
         <image name="ipadpro129" width="910" height="682"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WJ0-Sj-XOX"/>
         <segue reference="cgM-7R-dv6"/>
     </inferredMetricsTieBreakers>
 </document>

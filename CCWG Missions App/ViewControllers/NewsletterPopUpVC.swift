@@ -84,7 +84,7 @@ class NewsletterPopUpVC: UIViewController, UITextFieldDelegate, MFMailComposeVie
     func configuredMailComposeViewController() -> MFMailComposeViewController {
         let mailComposerVC = MFMailComposeViewController()
         mailComposerVC.mailComposeDelegate = self
-        mailComposerVC.setToRecipients(["marcus@ccwg.org"])
+        mailComposerVC.setToRecipients(["brandon@ccwg.org", "talia@ccwg.org"])
         
         mailComposerVC.setSubject("Sign me up for \(selectedNameArray[missionaryIndex])'s newsletter!")
         mailComposerVC.setMessageBody(emailTextField.text!, isHTML: false)

@@ -54,16 +54,6 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        if segue.identifier == "back" {
-            
-        let countryVC:DetailController = segue.destination as! DetailController
-        countryVC.labelText = selectedCountry
-        countryVC.countryImage = selectedImage
-        countryVC.countryIcon = selectedCountryIcon
-        countryVC.countryDescriptionArray = selectedCountryDescriptionArray
-        
-        }
-        
         if segue.identifier == "newsletter" {
             let newsletterVC:NewsletterPopUpVC = segue.destination as! NewsletterPopUpVC
             present(newsletterVC, animated: false, completion: nil)
@@ -71,7 +61,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         
     }
     @IBAction func backButton(_ sender: Any) {
-        performSegue(withIdentifier: "back", sender: self)
+        self.dismiss(animated: false, completion: nil)
     }
     @IBAction func newsletterButton(_ sender: Any) {
         performSegue(withIdentifier: "newsletter", sender: self)
@@ -120,9 +110,16 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     }
     
     @IBAction func supportMissionary(_ sender: Any) {
-        let url = URL(string: "http://ccwgweb.myshelby.org/default.aspx?page=3412")
-        let safariVC = SFSafariViewController(url: url!)
-        present(safariVC, animated: false, completion: nil)
+        if selectedUrlArray[missionaryIndex] != "" {
+            let url = URL(string: selectedUrlArray[missionaryIndex])
+            let safariVC = SFSafariViewController(url: url!)
+            present(safariVC, animated: false, completion: nil)
+        }
+        else {
+            let url = URL(string: "http://ccwgweb.myshelby.org/default.aspx?page=3412")
+            let safariVC = SFSafariViewController(url: url!)
+            present(safariVC, animated: false, completion: nil)
+        }
     }
     
 }

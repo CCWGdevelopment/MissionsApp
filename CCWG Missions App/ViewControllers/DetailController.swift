@@ -23,9 +23,10 @@ var selectedLongInfoArray:[String] = [""]
 var selectedFavoriteVerseArray:[String] = [""]
 var selectedPrayerRequestArray:[[String]] = [[""]]
 var selectedEmailArray:[String] = [""]
+var selectedUrlArray:[String] = [""]
 var missionaryIndex:Int = 0
 
-class DetailController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class DetailController: UIViewController, UITableViewDataSource, UITableViewDelegate, UIViewControllerTransitioningDelegate {
     
     @IBOutlet weak var selectedCountryImageViewer: UIImageView!
     @IBOutlet weak var selectedCountryTitle: UILabel!
@@ -43,7 +44,8 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         selectedCountryImageViewer.image = UIImage(named: countryImage)
         selectedCountryIconImageViewer.image = UIImage(named: countryIcon)
         selectedCountryDescription.attributedText = makeBullets(stringList: countryDescriptionArray, font: selectedCountryDescription.font)
-
+        
+        
         super.viewDidLoad()
     }
 
@@ -105,7 +107,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         
         if selectedCountry == "china" {
             
-        setMissionaries(name: chinaMissionaryName, image: chinaMissionaryImage, shortinfo: chinaMissionaryinfoShort, longinfo: chinaMissionaryinfoLong, verse: chinaMissionaryfavoriteVerse, prayerrequest: chinaMissionaryPrayerRequest, email: chinaMissionaryEmail)
+            setMissionaries(name: chinaMissionaryName, image: chinaMissionaryImage, shortinfo: chinaMissionaryinfoShort, longinfo: chinaMissionaryinfoLong, verse: chinaMissionaryfavoriteVerse, prayerrequest: chinaMissionaryPrayerRequest, email: chinaMissionaryEmail, url: chinaMissionaryUrl)
             
             cell.missionaryNameLabel.text = chinaMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = chinaMissionaryinfoShort[indexPath.row]
@@ -114,7 +116,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else if selectedCountry == "haiti" {
             
-        setMissionaries(name: haitiMissionaryName, image: haitiMissionaryImage, shortinfo: haitiMissionaryinfoShort, longinfo: haitiMissionaryinfoLong, verse: haitiMissionaryfavoriteVerse, prayerrequest: haitiMissionaryPrayerRequest, email: haitiMissionaryEmail)
+            setMissionaries(name: haitiMissionaryName, image: haitiMissionaryImage, shortinfo: haitiMissionaryinfoShort, longinfo: haitiMissionaryinfoLong, verse: haitiMissionaryfavoriteVerse, prayerrequest: haitiMissionaryPrayerRequest, email: haitiMissionaryEmail, url: haitiMissionaryUrl)
             
             cell.missionaryNameLabel.text = haitiMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = haitiMissionaryinfoShort[indexPath.row]
@@ -123,7 +125,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else if selectedCountry == "india" {
             
-        setMissionaries(name: indiaMissionaryName, image: indiaMissionaryImage, shortinfo: indiaMissionaryinfoShort, longinfo: indiaMissionaryinfoLong, verse: indiaMissionaryfavoriteVerse, prayerrequest: indiaMissionaryPrayerRequest, email: indiaMissionaryEmail)
+            setMissionaries(name: indiaMissionaryName, image: indiaMissionaryImage, shortinfo: indiaMissionaryinfoShort, longinfo: indiaMissionaryinfoLong, verse: indiaMissionaryfavoriteVerse, prayerrequest: indiaMissionaryPrayerRequest, email: indiaMissionaryEmail, url: indiaMissionaryUrl)
             
             cell.missionaryNameLabel.text = indiaMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = indiaMissionaryinfoShort[indexPath.row]
@@ -132,7 +134,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else if selectedCountry == "italy" {
             
-            setMissionaries(name: italyMissionaryName, image: italyMissionaryImage, shortinfo: italyMissionaryinfoShort, longinfo: italyMissionaryinfoLong, verse: italyMissionaryfavoriteVerse, prayerrequest: italyMissionaryPrayerRequest, email: italyMissionaryEmail)
+            setMissionaries(name: italyMissionaryName, image: italyMissionaryImage, shortinfo: italyMissionaryinfoShort, longinfo: italyMissionaryinfoLong, verse: italyMissionaryfavoriteVerse, prayerrequest: italyMissionaryPrayerRequest, email: italyMissionaryEmail, url: italyMissionaryUrl)
             
             cell.missionaryNameLabel.text = italyMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = italyMissionaryinfoShort[indexPath.row]
@@ -141,7 +143,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else if selectedCountry == "kenya" {
             
-            setMissionaries(name: kenyaMissionaryName, image: kenyaMissionaryImage, shortinfo: kenyaMissionaryinfoShort, longinfo: kenyaMissionaryinfoLong, verse: kenyaMissionaryfavoriteVerse, prayerrequest: kenyaMissionaryPrayerRequest, email: kenyaMissionaryEmail)
+            setMissionaries(name: kenyaMissionaryName, image: kenyaMissionaryImage, shortinfo: kenyaMissionaryinfoShort, longinfo: kenyaMissionaryinfoLong, verse: kenyaMissionaryfavoriteVerse, prayerrequest: kenyaMissionaryPrayerRequest, email: kenyaMissionaryEmail, url: kenyaMissionaryUrl)
             
             cell.missionaryNameLabel.text = kenyaMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = kenyaMissionaryinfoShort[indexPath.row]
@@ -150,7 +152,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else if selectedCountry == "mexico" {
             
-            setMissionaries(name: mexicoMissionaryName, image: mexicoMissionaryImage, shortinfo: mexicoMissionaryinfoShort, longinfo: mexicoMissionaryinfoLong, verse: mexicoMissionaryfavoriteVerse, prayerrequest: mexicoMissionaryPrayerRequest, email: mexicoMissionaryEmail)
+            setMissionaries(name: mexicoMissionaryName, image: mexicoMissionaryImage, shortinfo: mexicoMissionaryinfoShort, longinfo: mexicoMissionaryinfoLong, verse: mexicoMissionaryfavoriteVerse, prayerrequest: mexicoMissionaryPrayerRequest, email: mexicoMissionaryEmail, url: mexicoMissionaryUrl)
             
             cell.missionaryNameLabel.text = mexicoMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = mexicoMissionaryinfoShort[indexPath.row]
@@ -159,7 +161,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else if selectedCountry == "nepal" {
             
-            setMissionaries(name: nepalMissionaryName, image: nepalMissionaryImage, shortinfo: nepalMissionaryinfoShort, longinfo: nepalMissionaryinfoLong, verse: nepalMissionaryfavoriteVerse, prayerrequest: nepalMissionaryPrayerRequest, email: nepalMissionaryEmail)
+            setMissionaries(name: nepalMissionaryName, image: nepalMissionaryImage, shortinfo: nepalMissionaryinfoShort, longinfo: nepalMissionaryinfoLong, verse: nepalMissionaryfavoriteVerse, prayerrequest: nepalMissionaryPrayerRequest, email: nepalMissionaryEmail, url: nepalMissionaryUrl)
             
             cell.missionaryNameLabel.text = nepalMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = nepalMissionaryinfoShort[indexPath.row]
@@ -168,7 +170,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else if selectedCountry == "new zealand" {
             
-            setMissionaries(name: newzealandMissionaryName, image: newzealandMissionaryImage, shortinfo: newzealandMissionaryinfoShort, longinfo: newzealandMissionaryinfoLong, verse: newzealandMissionaryfavoriteVerse, prayerrequest: newzealandMissionaryPrayerRequest, email: newzealandMissionaryEmail)
+            setMissionaries(name: newzealandMissionaryName, image: newzealandMissionaryImage, shortinfo: newzealandMissionaryinfoShort, longinfo: newzealandMissionaryinfoLong, verse: newzealandMissionaryfavoriteVerse, prayerrequest: newzealandMissionaryPrayerRequest, email: newzealandMissionaryEmail, url: newzealandMissionaryUrl)
             
             cell.missionaryNameLabel.text = newzealandMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = newzealandMissionaryinfoShort[indexPath.row]
@@ -177,7 +179,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else if selectedCountry == "philippines" {
             
-            setMissionaries(name: philippinesMissionaryName, image: philippinesMissionaryImage, shortinfo: philippinesMissionaryinfoShort, longinfo: philippinesMissionaryinfoLong, verse: philippinesMissionaryfavoriteVerse, prayerrequest: philippinesMissionaryPrayerRequest, email: philippinesMissionaryEmail)
+            setMissionaries(name: philippinesMissionaryName, image: philippinesMissionaryImage, shortinfo: philippinesMissionaryinfoShort, longinfo: philippinesMissionaryinfoLong, verse: philippinesMissionaryfavoriteVerse, prayerrequest: philippinesMissionaryPrayerRequest, email: philippinesMissionaryEmail, url: philippinesMissionaryUrl)
             
             cell.missionaryNameLabel.text = philippinesMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = philippinesMissionaryinfoShort[indexPath.row]
@@ -186,7 +188,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else if selectedCountry == "south sudan" {
             
-            setMissionaries(name: southsudanMissionaryName, image: southsudanMissionaryImage, shortinfo: southsudanMissionaryinfoShort, longinfo: southsudanMissionaryinfoLong, verse: southsudanMissionaryfavoriteVerse, prayerrequest: southsudanMissionaryPrayerRequest, email: southsudanMissionaryEmail)
+            setMissionaries(name: southsudanMissionaryName, image: southsudanMissionaryImage, shortinfo: southsudanMissionaryinfoShort, longinfo: southsudanMissionaryinfoLong, verse: southsudanMissionaryfavoriteVerse, prayerrequest: southsudanMissionaryPrayerRequest, email: southsudanMissionaryEmail, url: southsudanMissionaryUrl)
             
             cell.missionaryNameLabel.text = southsudanMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = southsudanMissionaryinfoShort[indexPath.row]
@@ -195,7 +197,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else if selectedCountry == "uganda" {
             
-            setMissionaries(name: ugandaMissionaryName, image: ugandaMissionaryImage, shortinfo: ugandaMissionaryinfoShort, longinfo: ugandaMissionaryinfoLong, verse: ugandaMissionaryfavoriteVerse, prayerrequest: ugandaMissionaryPrayerRequest, email: ugandaMissionaryEmail)
+            setMissionaries(name: ugandaMissionaryName, image: ugandaMissionaryImage, shortinfo: ugandaMissionaryinfoShort, longinfo: ugandaMissionaryinfoLong, verse: ugandaMissionaryfavoriteVerse, prayerrequest: ugandaMissionaryPrayerRequest, email: ugandaMissionaryEmail, url: ugandaMissionaryUrl)
             
             cell.missionaryNameLabel.text = ugandaMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = ugandaMissionaryinfoShort[indexPath.row]
@@ -204,7 +206,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         }
         else {
             
-            setMissionaries(name: usaMissionaryName, image: usaMissionaryImage, shortinfo: usaMissionaryinfoShort, longinfo: ugandaMissionaryinfoLong, verse: usaMissionaryfavoriteVerse, prayerrequest: [usaMissionaryPrayerRequest], email: usaMissionaryEmail)
+            setMissionaries(name: usaMissionaryName, image: usaMissionaryImage, shortinfo: usaMissionaryinfoShort, longinfo: ugandaMissionaryinfoLong, verse: usaMissionaryfavoriteVerse, prayerrequest: [usaMissionaryPrayerRequest], email: usaMissionaryEmail, url: usaMissionaryUrl)
 
             cell.missionaryNameLabel.text = usaMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = usaMissionaryinfoShort[indexPath.row]
@@ -219,5 +221,5 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         missionaryIndex = indexPath.row
         performSegue(withIdentifier: "segue", sender: self)
     }
-
+    
 }
