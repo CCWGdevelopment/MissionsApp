@@ -61,7 +61,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         
     }
     @IBAction func backButton(_ sender: Any) {
-        self.dismiss(animated: false, completion: nil)
+        self.dismiss(animated: true, completion: nil)
     }
     @IBAction func newsletterButton(_ sender: Any) {
         performSegue(withIdentifier: "newsletter", sender: self)

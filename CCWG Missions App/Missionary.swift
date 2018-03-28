@@ -243,7 +243,7 @@ var hernandez = Missionary(name: "Amy Hernandez", image: "amyhernandez", infoSho
 //
 
 //Nelson
-let nelsoninfoShort = "Serving as a Bible teacher at the CC Bible College in Kathmandu, Nepal for the fall semester before being sent to Uganda to equip, minister to, and encourage national ministry workers and refugees in Camp Bidi Bidi."
+let nelsoninfoShort = "Serving as a Bible teacher at the CC Bible College in Kathmandu, Nepal for the fall semester before being sent to Uganda to equip, minister to, and encourage ministry workers and refugees in Camp Bidi Bidi."
 let nelsoninfoLong = """
         Dane Nelson, 23 years old, has grown up in Calvary Chapel WestGrove and remembers first truly giving his life to Jesus as a young 6th grader. Since then, He has made reading God’s Word daily not only a habit but also a very critical priority. One of Dane’s greatest prayers that he prayed often was for courage and boldness for the Gospel of Jesus Christ. As the years went on, Dane started to lead Bible studies in CCWG’s high school and college ministry, join various short-term mission trips, help start the evangelism ministry at CCWG, and now has committed to a long-term mission trip to India, Nepal, and Uganda from August 2018 to August 2019.
 
@@ -345,7 +345,7 @@ var vincent = Missionary(name: "Pastor Mike and Sarah Vincent", image: "vincent"
 
 
 //Wright
-let wrightinfoShort = "Serving as a Bible teacher at the CC Bible College in Kathmandu, Nepal for the fall semester before being sent to Uganda to equip, minister to, and encourage national ministry workers and refugees in Camp Bidi Bidi."
+let wrightinfoShort = "Serving as a Bible teacher at the CC Bible College in Kathmandu, Nepal for the fall semester before being sent to Uganda to equip, minister to, and encourage ministry workers and refugees in Camp Bidi Bidi."
 let wrightinfoLong = """
         Brandon Wright, 23 years old, has grown up at Calvary Chapel WestGrove who says he has had the blessing of an amazing family and church family to help raise him up as a true disciple of Jesus Christ. His heart for missions and reaching those who are unreached with the Gospel began long ago in junior high school.
 
