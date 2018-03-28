@@ -254,7 +254,7 @@ let nelsonfavoriteVerse = """
 """
 let nelsonprayerRequest = ["For endurance while on the field", "To be a man who is filled with and empowered by the Holy Spirit", "For God to use Dane to teach His Word with diligence", "For the hearts of the people to be reached and open doors to proclaim the Gospel with boldness"]
 let nelsonurl = ""
-var nelson = Missionary(name: "Dane Nelson", image: "dane", infoShort: nelsoninfoShort, infoLong: nelsoninfoLong, favoriteVerse: nelsonfavoriteVerse, prayerRequest: nelsonprayerRequest, email: "dane5golf@mgail.com", url: nelsonurl)
+var nelson = Missionary(name: "Dane Nelson", image: "dane", infoShort: nelsoninfoShort, infoLong: nelsoninfoLong, favoriteVerse: nelsonfavoriteVerse, prayerRequest: nelsonprayerRequest, email: "dane5golf@gmail.com", url: nelsonurl)
 
 
 //Nusslock
@@ -269,7 +269,7 @@ let nusslockfavoriteVerse = """
 """
 let nusslockprayerRequest = ["Please pray for teams to come along side and work with the Nusslocks as they continue to build and disciple", "Prayers of protection over their family, health, financial support, wisdom, and discernment"]
 let nusslockurl = ""
-var nusslock = Missionary(name: "Jeff and Burnadette Nusslock", image: "nusslock", infoShort: nusslockinfoShort, infoLong: nusslockinfoLong, favoriteVerse: nusslockfavoriteVerse, prayerRequest: nusslockprayerRequest, email: "compeloutreach@gmail.com", url: nusslockurl)
+var nusslock = Missionary(name: "Jeff and Bernadette Nusslock", image: "nusslock", infoShort: nusslockinfoShort, infoLong: nusslockinfoLong, favoriteVerse: nusslockfavoriteVerse, prayerRequest: nusslockprayerRequest, email: "compeloutreach@gmail.com", url: nusslockurl)
 
 
 //Nyika
