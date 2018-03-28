@@ -328,7 +328,7 @@ let singhfavoriteVerse = """
 """
 let singhprayerRequest = ["For the Lord’s continual blessing on the Bible College and Calvary Chapel Kathmandu, so that ministry workers would be equipped and sent out to start local churches in each district of Nepal", "For Jay and his family to remain steadfast witnesses of the Gospel of Jesus Christ in their daily lives and to have endurance under all forms of persecution", "For all the children at the Promise Child Girls Home and Children’s Home in Hetauda to grow in their knowledge of and love for God and to walk with Him all the days of their lives"]
 let singhurl = ""
-var singh = Missionary(name: "Jay Singh", image: "singh", infoShort: singhinfoShort, infoLong: singhinfoLong, favoriteVerse: singhfavoriteVerse, prayerRequest: singhprayerRequest, email: "", url: singhurl)
+var singh = Missionary(name: "Jay Singh", image: "singh", infoShort: singhinfoShort, infoLong: singhinfoLong, favoriteVerse: singhfavoriteVerse, prayerRequest: singhprayerRequest, email: "always.jjj@gmail.com", url: singhurl)
 
 
 //Vincent
