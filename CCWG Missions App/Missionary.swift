@@ -318,7 +318,7 @@ let sarkarurl = "http://sgwm.com/blog/missionaries/sarkar/"
 var sarkar = Missionary(name: "Pankaj and Tonielle Sarkar", image: "sarkar", infoShort: sarkarinfoShort, infoLong: sarkarinfoLong, favoriteVerse: sarkarfavoriteVerse, prayerRequest: sarkarprayerRequest, email: "sarkar@sgwm.com", url: sarkarurl)
 
 //Singh
-let singhinfoShort = ""
+let singhinfoShort = "Associate director at the Calvary Chapel Bible College in Nepal."
 let singhinfoLong = """
         Jay was born into a Hindu family in Nepal. At the age of 17, he came to know the Lord while studying business in college and decided to stop studying business in order to attend Bible College. This decision was compelled by his passion to study and know more of the Word of God. He completed his bachelor’s of Theology in 2009 and worked as a mission assistance in a local church, which gave him the opportunity to visit churches in remote areas of Nepal and teach the Word to the local leaders.
         After working for three years in the mission field, Jay felt the call to get involved in training church leaders to teach the Word accurately and passionately. He then joined an M.Div program that is focused on teaching and training leaders in South Asia. When Calvary Chapel Bible College Nepal started in 2014, Jay joined as staff faculty and has been teaching and training leaders from different parts of Nepal ever since. Jay also is part of the leadership team of Calvary Chapel Kathmandu and has been serving in the church with his wife, Sangeeta. They were recently blessed with a beautiful son, Yohann. Jay’s heart is to reach pastors and leaders from every corner of Nepal and help them be able to teach the Bible verse by verse in spirit and truth.
