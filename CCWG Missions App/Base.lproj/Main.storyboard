@@ -199,7 +199,7 @@
                                             <constraint firstAttribute="width" constant="60" id="SsV-Mj-it5"/>
                                             <constraint firstAttribute="height" constant="40" id="WMl-ZM-wKN"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Metropolis-SemiBold" family="Metropolis" pointSize="24"/>
+                                        <fontDescription key="fontDescription" name="Metropolis-SemiBold" family="Metropolis" pointSize="21"/>
                                         <state key="normal" title="Back">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -358,12 +358,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="375"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pyh-Iq-ekc">
-                                        <rect key="frame" x="20" y="20" width="58" height="40"/>
+                                        <rect key="frame" x="20" y="20" width="48" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="V3h-Pz-QEN"/>
                                             <constraint firstAttribute="height" constant="40" id="Xr2-qT-Y1k"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="24"/>
+                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="20"/>
                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <state key="normal" title="Back">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -373,7 +373,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="InfoShort" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHX-fJ-K4J">
-                                        <rect key="frame" x="465" y="268" width="533" height="82"/>
+                                        <rect key="frame" x="465" y="264" width="533" height="82"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="82" id="Smo-6G-4rq"/>
                                         </constraints>
@@ -382,22 +382,22 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4r-Uo-mGB">
-                                        <rect key="frame" x="465" y="121" width="484" height="139"/>
+                                        <rect key="frame" x="465" y="117" width="484" height="139"/>
                                         <fontDescription key="fontDescription" name="Metropolis-RegularItalic" family="Metropolis" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" text="Missionary Name" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vo6-pP-3xc">
-                                        <rect key="frame" x="68" y="20" width="889" height="50"/>
+                                        <rect key="frame" x="68" y="20" width="889" height="46"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="889" id="Bnt-uJ-rA2"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="50"/>
+                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="46"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CYk-l7-Vt8">
-                                        <rect key="frame" x="75" y="121" width="315" height="239"/>
+                                        <rect key="frame" x="75" y="117" width="315" height="239"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="315" id="A4P-H0-2eI"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="305" id="MzV-9j-UBJ"/>
