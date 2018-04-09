@@ -58,6 +58,10 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
             let newsletterVC:NewsletterPopUpVC = segue.destination as! NewsletterPopUpVC
             present(newsletterVC, animated: false, completion: nil)
         }
+        else if segue.identifier == "sendEmail" {
+            let emailVC:SendEmailViewController = segue.destination as! SendEmailViewController
+            present(emailVC, animated: false, completion: nil)
+        }
         
     }
     @IBAction func backButton(_ sender: Any) {
@@ -72,13 +76,15 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     
     @IBAction func sendEmail(_ sender: Any) {
         
-        let mailComposeViewController = configuredMailComposeViewController()
-        if MFMailComposeViewController.canSendMail() {
-            self.present(mailComposeViewController, animated: true, completion: nil)
-        }
-        else {
-            self.showSendMailErrorAlert()
-        }
+        performSegue(withIdentifier: "sendEmail", sender: self)
+//
+//        let mailComposeViewController = configuredMailComposeViewController()
+//        if MFMailComposeViewController.canSendMail() {
+//            self.present(mailComposeViewController, animated: true, completion: nil)
+//        }
+//        else {
+//            self.showSendMailErrorAlert()
+//        }
         
     }
     

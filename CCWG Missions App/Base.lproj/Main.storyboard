@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad12_9" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -346,6 +346,103 @@
             </objects>
             <point key="canvasLocation" x="259.59004392386527" y="-40.4296875"/>
         </scene>
+        <!--Send Email View Controller-->
+        <scene sceneID="Qik-I6-fpn">
+            <objects>
+                <viewController id="VtZ-Pv-Zrk" customClass="SendEmailViewController" customModule="CCWG_Missions_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hRW-l0-HOK">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pfr-h7-VAl">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhu-Zx-we5">
+                                        <rect key="frame" x="8" y="28" width="126" height="66"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.90081870720000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Back"/>
+                                        <connections>
+                                            <action selector="backButton:" destination="VtZ-Pv-Zrk" eventType="touchUpInside" id="1HD-VP-LZj"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkc-dM-CRM">
+                                        <rect key="frame" x="331" y="110" width="101" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0D-lc-Jig">
+                                        <rect key="frame" x="331" y="197" width="95" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tf5-08-qt1">
+                                        <rect key="frame" x="331" y="292" width="95" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="23C-AZ-Jww">
+                                        <rect key="frame" x="484" y="110" width="240" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G6W-zU-jvJ">
+                                        <rect key="frame" x="484" y="197" width="240" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="y1g-wf-g3H">
+                                        <rect key="frame" x="484" y="292" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HoX-el-NTx">
+                                        <rect key="frame" x="519" y="503" width="170" height="105"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.47058823529999999" green="0.3803921569" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Send Message"/>
+                                        <connections>
+                                            <action selector="sendMessage:" destination="VtZ-Pv-Zrk" eventType="touchUpInside" id="P1S-vf-yMB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Pfr-h7-VAl" firstAttribute="top" secondItem="hRW-l0-HOK" secondAttribute="top" id="26h-qq-Fqb"/>
+                            <constraint firstItem="Pfr-h7-VAl" firstAttribute="bottom" secondItem="vAF-Km-zBu" secondAttribute="bottom" id="NzG-Od-DUK"/>
+                            <constraint firstItem="Pfr-h7-VAl" firstAttribute="leading" secondItem="hRW-l0-HOK" secondAttribute="leading" id="gtD-3V-5xN"/>
+                            <constraint firstAttribute="trailing" secondItem="Pfr-h7-VAl" secondAttribute="trailing" id="orS-er-AlM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vAF-Km-zBu"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextBox" destination="G6W-zU-jvJ" id="Pm6-eO-8uj"/>
+                        <outlet property="messageTextBox" destination="y1g-wf-g3H" id="TpR-bl-24I"/>
+                        <outlet property="nameTextBox" destination="23C-AZ-Jww" id="b6P-oa-szI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rql-yq-JJj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1116.9838945827232" y="-730.078125"/>
+        </scene>
         <!--Missionary View Controller-->
         <scene sceneID="TX9-Ma-tO2">
             <objects>
@@ -666,6 +763,7 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                         <outlet property="sendEmailButton" destination="11o-hs-Swk" id="u5E-pA-ZHv"/>
                         <outlet property="supportMissionaryButton" destination="fRE-lu-uw3" id="Xku-50-WM0"/>
                         <segue destination="QvX-78-0vR" kind="show" identifier="newsletter" animates="NO" id="3kP-NU-JV0"/>
+                        <segue destination="VtZ-Pv-Zrk" kind="show" identifier="sendEmail" id="3vR-0x-R1P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8RE-au-UAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
