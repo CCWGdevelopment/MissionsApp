@@ -88,7 +88,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Countrylabel" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHa-FL-md4">
                                                     <rect key="frame" x="20" y="148" width="160" height="32"/>
                                                     <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="30"/>
-                                                    <color key="textColor" white="0.2131618923611111" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" red="0.21176470588235294" green="0.23137254901960785" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                                                     <size key="shadowOffset" width="2" height="2"/>
@@ -229,6 +229,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="wordWrap" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNQ-ae-WEt">
                                         <rect key="frame" x="442" y="45" width="900" height="250"/>
                                         <fontDescription key="fontDescription" name="Metropolis-SemiBoldItalic" family="Metropolis" pointSize="22"/>
+                                        <color key="textColor" red="0.21176470588235294" green="0.23137254901960785" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A4Y-Rm-3Bd">
@@ -277,15 +278,15 @@
                                                         <constraint firstAttribute="height" constant="30" id="p12-cZ-wpR"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" red="0.21176470588235294" green="0.23137254901960785" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MissionaryInfoLabel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ee-M7-2KL">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MissionaryInfoLabel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ee-M7-2KL">
                                                     <rect key="frame" x="202" y="50" width="1131" height="70"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="1131" id="vuf-d1-Vps"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Metropolis-RegularItalic" family="Metropolis" pointSize="20"/>
+                                                    <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="20"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.90081870719178081" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -377,8 +378,8 @@
                                             <constraint firstAttribute="height" constant="35" id="E1u-MS-ApF"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="101" id="hDo-tg-7a9"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="25"/>
+                                        <color key="textColor" red="0.21176470588235294" green="0.23137254901960785" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="23C-AZ-Jww">
@@ -387,14 +388,14 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0D-lc-Jig">
-                                        <rect key="frame" x="86" y="190" width="95" height="35"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email (optional)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0D-lc-Jig">
+                                        <rect key="frame" x="86" y="190" width="196" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="95" id="R3Y-d8-Wxj"/>
                                             <constraint firstAttribute="height" constant="35" id="Shr-XG-Uwg"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="25"/>
+                                        <color key="textColor" red="0.21176470588235294" green="0.23137254901960785" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G6W-zU-jvJ">
@@ -409,13 +410,16 @@
                                             <constraint firstAttribute="height" constant="35" id="cLs-KM-fWF"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="fC5-TZ-LOS"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="25"/>
+                                        <color key="textColor" red="0.21176470588235294" green="0.23137254901960785" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HoX-el-NTx" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                        <rect key="frame" x="86" y="545" width="377" height="47"/>
-                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
+                                        <rect key="frame" x="86" y="542" width="377" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="d7m-oH-oXx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="27"/>
                                         <state key="normal" title="Send Message">
                                             <color key="titleColor" red="0.4549019608" green="0.38431372549999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
@@ -588,7 +592,7 @@
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="81" id="usV-k9-EJA"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.21176470588235294" green="0.23137254901960785" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9f-JJ-Xwb">
@@ -641,7 +645,7 @@ Suspendisse potenti. Phasellus luctus blandit maximus. Donec pulvinar ex a orci 
                                                     <constraint firstAttribute="width" constant="496" id="dIZ-Bv-Ttd"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.21176470588235294" green="0.23137254901960785" blue="0.24313725490196078" alpha="0.90081870720000001" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfI-2V-fEi">
@@ -837,19 +841,19 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUG-zd-G6h" customClass="DesignableView" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                            <rect key="frame" x="503" y="116.5" width="360" height="276"/>
+                                            <rect key="frame" x="503" y="116.5" width="360" height="253"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="8FO-Wb-jvJ">
-                                                    <rect key="frame" x="30" y="58" width="300" height="160"/>
+                                                    <rect key="frame" x="30" y="58" width="300" height="137"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email*" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eto-kZ-GA6">
-                                                            <rect key="frame" x="0.0" y="0.0" width="300" height="35"/>
-                                                            <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
-                                                            <nil key="textColor"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="300" height="25"/>
+                                                            <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="25"/>
+                                                            <color key="textColor" red="0.21176470589999999" green="0.23137254900000001" blue="0.24313725489999999" alpha="0.90081870720000001" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UyO-md-Y9v">
-                                                            <rect key="frame" x="0.0" y="59" width="300" height="30"/>
+                                                            <rect key="frame" x="0.0" y="49" width="300" height="30"/>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="20"/>
                                                             <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
@@ -858,9 +862,9 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                                                             </connections>
                                                         </textField>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTV-9A-eAx" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="113" width="300" height="47"/>
+                                                            <rect key="frame" x="0.0" y="103" width="300" height="34"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="35"/>
+                                                            <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="22"/>
                                                             <state key="normal" title="Sign Up">
                                                                 <color key="titleColor" red="0.4549019608" green="0.38431372549999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             </state>
