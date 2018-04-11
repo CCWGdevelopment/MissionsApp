@@ -358,7 +358,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pfr-h7-VAl">
                                 <rect key="frame" x="0.0" y="0.0" width="540" height="620"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhu-Zx-we5">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vhu-Zx-we5">
                                         <rect key="frame" x="20" y="20" width="48" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="aoh-KM-PVM"/>
@@ -829,112 +829,89 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
         <!--Newsletter Pop UpVC-->
         <scene sceneID="tpT-Fq-dUg">
             <objects>
-                <viewController id="QvX-78-0vR" customClass="NewsletterPopUpVC" customModule="CCWG_Missions_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="formSheet" id="QvX-78-0vR" customClass="NewsletterPopUpVC" customModule="CCWG_Missions_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E7a-E6-a4x">
-                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="540" height="310"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1CU-42-uga">
-                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="xT3-iW-64Z">
-                                    <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUG-zd-G6h" customClass="DesignableView" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                            <rect key="frame" x="503" y="116.5" width="360" height="253"/>
-                                            <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="8FO-Wb-jvJ">
-                                                    <rect key="frame" x="30" y="58" width="300" height="137"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email*" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eto-kZ-GA6">
-                                                            <rect key="frame" x="0.0" y="0.0" width="300" height="25"/>
-                                                            <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="25"/>
-                                                            <color key="textColor" red="0.21176470589999999" green="0.23137254900000001" blue="0.24313725489999999" alpha="0.90081870720000001" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UyO-md-Y9v">
-                                                            <rect key="frame" x="0.0" y="49" width="300" height="30"/>
-                                                            <nil key="textColor"/>
-                                                            <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="20"/>
-                                                            <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
-                                                            <connections>
-                                                                <outlet property="delegate" destination="QvX-78-0vR" id="VbH-gS-8ly"/>
-                                                            </connections>
-                                                        </textField>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTV-9A-eAx" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="103" width="300" height="34"/>
-                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="22"/>
-                                                            <state key="normal" title="Sign Up">
-                                                                <color key="titleColor" red="0.4549019608" green="0.38431372549999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                            </state>
-                                                            <userDefinedRuntimeAttributes>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                                    <real key="value" value="3"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                    <real key="value" value="1"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                                    <color key="value" red="0.4549019608" green="0.38431372549999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                            </userDefinedRuntimeAttributes>
-                                                            <connections>
-                                                                <action selector="signUp:" destination="QvX-78-0vR" eventType="touchUpInside" id="161-C5-rI0"/>
-                                                            </connections>
-                                                        </button>
-                                                    </subviews>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="300" id="6XG-73-uJR"/>
-                                                        <constraint firstItem="eto-kZ-GA6" firstAttribute="top" secondItem="8FO-Wb-jvJ" secondAttribute="top" id="J5v-0O-7gd"/>
-                                                    </constraints>
-                                                </stackView>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbe-J2-Dhg">
-                                                    <rect key="frame" x="306" y="8" width="46" height="30"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="46" id="iro-OP-3PL"/>
-                                                    </constraints>
-                                                    <state key="normal" title="X">
-                                                        <color key="titleColor" red="0.32549019610000002" green="0.4431372549" blue="0.16078431369999999" alpha="0.0" colorSpace="calibratedRGB"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="closePupUp:" destination="QvX-78-0vR" eventType="touchUpInside" id="Djx-Y7-5Yt"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <constraints>
-                                                <constraint firstItem="8FO-Wb-jvJ" firstAttribute="top" secondItem="sbe-J2-Dhg" secondAttribute="bottom" constant="20" id="1LZ-1u-Ged"/>
-                                                <constraint firstItem="8FO-Wb-jvJ" firstAttribute="centerY" secondItem="fUG-zd-G6h" secondAttribute="centerY" id="5FO-0C-aBC"/>
-                                                <constraint firstAttribute="width" constant="360" id="FMO-63-bDt"/>
-                                                <constraint firstItem="sbe-J2-Dhg" firstAttribute="top" secondItem="fUG-zd-G6h" secondAttribute="topMargin" id="Rgv-g2-4d9"/>
-                                                <constraint firstItem="sbe-J2-Dhg" firstAttribute="trailing" secondItem="fUG-zd-G6h" secondAttribute="trailingMargin" id="XA3-6g-769"/>
-                                                <constraint firstItem="8FO-Wb-jvJ" firstAttribute="centerX" secondItem="fUG-zd-G6h" secondAttribute="centerX" id="a9y-P7-qfF"/>
-                                            </constraints>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                    <integer key="value" value="15"/>
-                                                </userDefinedRuntimeAttribute>
-                                            </userDefinedRuntimeAttributes>
-                                        </view>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="fUG-zd-G6h" firstAttribute="centerX" secondItem="xT3-iW-64Z" secondAttribute="centerX" id="bjp-Mf-ChC"/>
-                                        <constraint firstItem="fUG-zd-G6h" firstAttribute="top" secondItem="xT3-iW-64Z" secondAttribute="top" constant="116.5" id="kZP-bX-u25"/>
-                                    </constraints>
-                                </view>
-                                <blurEffect style="dark"/>
-                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="8Aa-Jp-62z">
+                                <rect key="frame" x="20" y="20" width="48" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="T6b-Ib-gSj"/>
+                                    <constraint firstAttribute="height" constant="40" id="Xhg-YI-4ck"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.4549019608" green="0.38431372549999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButton:" destination="QvX-78-0vR" eventType="touchUpInside" id="Vi4-2l-lHE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email*" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eto-kZ-GA6">
+                                <rect key="frame" x="86" y="85" width="91" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="91" id="VK5-YM-eAZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="25"/>
+                                <color key="textColor" red="0.21176470589999999" green="0.23137254900000001" blue="0.24313725489999999" alpha="0.90081870720000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UyO-md-Y9v">
+                                <rect key="frame" x="86" y="118" width="377" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="JqZ-z0-YuR"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
+                                <connections>
+                                    <outlet property="delegate" destination="QvX-78-0vR" id="VbH-gS-8ly"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTV-9A-eAx" customClass="DesignableButton" customModule="CCWG_Missions_App" customModuleProvider="target">
+                                <rect key="frame" x="86" y="212" width="377" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="xdl-Uo-tny"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="22"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" red="0.4549019608" green="0.38431372549999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.4549019608" green="0.38431372549999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="signUp:" destination="QvX-78-0vR" eventType="touchUpInside" id="161-C5-rI0"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.93999999999999995" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="1CU-42-uga" firstAttribute="top" secondItem="E7a-E6-a4x" secondAttribute="top" id="K9Q-9M-LTr"/>
-                            <constraint firstItem="1CU-42-uga" firstAttribute="bottom" secondItem="Ul2-cK-ZHZ" secondAttribute="bottom" id="YP2-cR-Qvr"/>
-                            <constraint firstItem="1CU-42-uga" firstAttribute="leading" secondItem="E7a-E6-a4x" secondAttribute="leading" id="l5T-aB-vTy"/>
-                            <constraint firstAttribute="trailing" secondItem="1CU-42-uga" secondAttribute="trailing" id="xkH-4I-v2P"/>
+                            <constraint firstItem="Ul2-cK-ZHZ" firstAttribute="trailing" secondItem="BTV-9A-eAx" secondAttribute="trailing" constant="77" id="5FC-sT-7u6"/>
+                            <constraint firstItem="eto-kZ-GA6" firstAttribute="top" secondItem="Ul2-cK-ZHZ" secondAttribute="top" constant="85" id="6V4-5G-3Nb"/>
+                            <constraint firstItem="eto-kZ-GA6" firstAttribute="leading" secondItem="Ul2-cK-ZHZ" secondAttribute="leading" constant="86" id="P2w-JC-hFf"/>
+                            <constraint firstItem="BTV-9A-eAx" firstAttribute="leading" secondItem="Ul2-cK-ZHZ" secondAttribute="leading" constant="86" id="W0T-5u-ghK"/>
+                            <constraint firstItem="UyO-md-Y9v" firstAttribute="leading" secondItem="Ul2-cK-ZHZ" secondAttribute="leading" constant="86" id="Ye3-np-4ds"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8Aa-Jp-62z" secondAttribute="trailing" constant="20" symbolic="YES" id="fLi-A8-pzC"/>
+                            <constraint firstItem="BTV-9A-eAx" firstAttribute="top" secondItem="UyO-md-Y9v" secondAttribute="bottom" constant="64" id="gO2-g4-GIk"/>
+                            <constraint firstItem="8Aa-Jp-62z" firstAttribute="leading" secondItem="Ul2-cK-ZHZ" secondAttribute="leading" constant="20" id="kxC-CN-UtS"/>
+                            <constraint firstItem="UyO-md-Y9v" firstAttribute="top" secondItem="eto-kZ-GA6" secondAttribute="bottom" constant="8" id="wme-ld-gK0"/>
+                            <constraint firstItem="Ul2-cK-ZHZ" firstAttribute="trailing" secondItem="UyO-md-Y9v" secondAttribute="trailing" constant="77" id="x1y-fC-bqg"/>
+                            <constraint firstItem="8Aa-Jp-62z" firstAttribute="top" secondItem="Ul2-cK-ZHZ" secondAttribute="top" constant="20" id="xX6-H8-Utg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ul2-cK-ZHZ"/>
                     </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="540" height="310"/>
                     <connections>
                         <outlet property="emailTextField" destination="UyO-md-Y9v" id="aFD-18-zyI"/>
                         <outlet property="signUpButton" destination="BTV-9A-eAx" id="P4V-31-jK1"/>
@@ -942,7 +919,7 @@ Etiam mollis erat vestibulum ultrices scelerisque. Phasellus dictum egestas mass
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mPE-UV-LsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1117" y="768"/>
+            <point key="canvasLocation" x="1116.9838945827232" y="767.578125"/>
         </scene>
     </scenes>
     <resources>

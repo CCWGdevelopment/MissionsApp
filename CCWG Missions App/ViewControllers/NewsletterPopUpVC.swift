@@ -14,6 +14,9 @@ class NewsletterPopUpVC: UIViewController, UITextFieldDelegate, MFMailComposeVie
     
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var signUpButton: DesignableButton!
+    @IBAction func backButton(_ sender: UIButton) {
+        self.dismiss(animated: false, completion: nil)
+    }
     
     
     override func viewDidLoad() {
