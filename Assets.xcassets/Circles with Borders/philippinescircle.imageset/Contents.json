@@ -2,10 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "phillipinescircle@1x.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "phillipinescircle@2x.png",
       "scale" : "2x"
     },
     {

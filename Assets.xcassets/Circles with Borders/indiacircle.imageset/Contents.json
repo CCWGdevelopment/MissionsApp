@@ -2,10 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "indiacircle@1x.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "indiacircle@2x.png",
       "scale" : "2x"
     },
     {
