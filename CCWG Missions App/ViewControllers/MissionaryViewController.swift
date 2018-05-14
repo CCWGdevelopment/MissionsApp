@@ -20,11 +20,11 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBOutlet weak var supportMissionaryButton: UIButton!
     @IBOutlet weak var infoShortLabel: UILabel!
     @IBOutlet weak var missionaryfavoriteVerse: UILabel!
-    @IBOutlet weak var missionaryBioLabel: UILabel!
-    @IBOutlet weak var prayerRequestLabel: UILabel!
-    @IBOutlet weak var missionaryPrayerRequestLabel: UILabel!
-    @IBOutlet weak var aboutScrollView: UIScrollView!
-    @IBOutlet weak var prayerScrollView: UIScrollView!
+//    @IBOutlet weak var missionaryBioLabel: UILabel!
+//    @IBOutlet weak var prayerRequestLabel: UILabel!
+//    @IBOutlet weak var missionaryPrayerRequestLabel: UILabel!
+//    @IBOutlet weak var aboutScrollView: UIScrollView!
+//    @IBOutlet weak var prayerScrollView: UIScrollView!
     
     var newPrayerArray:[String] = selectedPrayerRequestArray[missionaryIndex]
     
@@ -34,9 +34,9 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         missionaryLabel.text = selectedNameArray[missionaryIndex]
         missionaryImageViewer.image = UIImage(named: selectedImageArray[missionaryIndex])
         infoShortLabel.text = selectedShortInfoArray[missionaryIndex]
-        missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
+//        missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
         missionaryfavoriteVerse.text = selectedFavoriteVerseArray[missionaryIndex]
-        missionaryPrayerRequestLabel.attributedText = makeBullets(stringList: newPrayerArray, font: missionaryPrayerRequestLabel.font)
+//        missionaryPrayerRequestLabel.attributedText = makeBullets(stringList: newPrayerArray, font: missionaryPrayerRequestLabel.font)
         
         // Do any additional setup after loading the view.
     }
