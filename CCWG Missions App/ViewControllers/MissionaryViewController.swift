@@ -16,6 +16,11 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBOutlet weak var missionaryLabel: UILabel!
     @IBOutlet weak var infoShortLabel: UILabel!
     @IBOutlet weak var missionaryfavoriteVerse: UILabel!
+    @IBOutlet weak var centerLabel: UILabel!
+    @IBOutlet weak var aboutTitleLabel: UILabel!
+    @IBOutlet weak var aboutLabel: UILabel!
+    @IBOutlet weak var prayerRequestTitle: UILabel!
+    @IBOutlet weak var prayerRequestLabel: UILabel!
     
     @IBOutlet weak var missionaryTitleImageViewer: UIImageView!
     @IBOutlet weak var missionaryImageViewer: UIImageView!
@@ -23,6 +28,7 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBOutlet weak var sendEmailButton: UIButton!
     @IBOutlet weak var supportMissionaryButton: UIButton!
     @IBOutlet weak var getUpdatesButton: DesignableButton!
+    @IBOutlet weak var backButton: UIButton!
 
     @IBOutlet weak var topView: UIView!
     @IBOutlet weak var middleView: UIView!
@@ -30,6 +36,13 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
     @IBOutlet weak var midRightView: UIView!
     @IBOutlet weak var midCenterView: UIView!
     @IBOutlet weak var bottomView: UIView!
+    @IBOutlet weak var leftView: UIView!
+    @IBOutlet weak var rightView: UIView!
+    
+
+    
+    @IBOutlet weak var leftScrollView: UIScrollView!
+    @IBOutlet weak var rightScrollView: UIScrollView!
     
     
     var newPrayerArray:[String] = selectedPrayerRequestArray[missionaryIndex]
@@ -40,9 +53,9 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         missionaryLabel.text = selectedNameArray[missionaryIndex]
         missionaryImageViewer.image = UIImage(named: selectedImageArray[missionaryIndex])
         infoShortLabel.text = selectedShortInfoArray[missionaryIndex]
-//        missionaryBioLabel.text = selectedLongInfoArray[missionaryIndex]
+        aboutLabel.text = selectedLongInfoArray[missionaryIndex]
         missionaryfavoriteVerse.text = selectedFavoriteVerseArray[missionaryIndex]
-//        missionaryPrayerRequestLabel.attributedText = makeBullets(stringList: newPrayerArray, font: missionaryPrayerRequestLabel.font)
+        prayerRequestLabel.attributedText = makeBullets(stringList: newPrayerArray, font: prayerRequestLabel.font)
         
         setupLayout()
         // Do any additional setup after loading the view.
@@ -68,6 +81,13 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         topView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         topView.translatesAutoresizingMaskIntoConstraints = false
         
+            //Back Button
+            backButton.topAnchor.constraint(equalTo: missionaryLabel.topAnchor).isActive = true
+            backButton.leadingAnchor.constraint(equalTo: topView.leadingAnchor, constant: 20).isActive = true
+            backButton.heightAnchor.constraint(equalTo: missionaryLabel.heightAnchor).isActive = true
+            backButton.widthAnchor.constraint(equalTo: topView.widthAnchor, multiplier: 0.1).isActive = true
+            backButton.translatesAutoresizingMaskIntoConstraints = false
+        
             //Missionary Image Viewer
             missionaryImageViewer.contentMode = .scaleAspectFit
             missionaryImageViewer.leadingAnchor.constraint(equalTo: topView.leadingAnchor, constant: 30).isActive = true
@@ -77,21 +97,22 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         
             //Missionary Label
             missionaryLabel.widthAnchor.constraint(equalTo: topView.widthAnchor, multiplier: 0.75).isActive = true
-            missionaryLabel.topAnchor.constraint(equalTo: topView.topAnchor, constant: 20).isActive = true
+            missionaryLabel.topAnchor.constraint(equalTo: topView.topAnchor, constant: 10).isActive = true
             missionaryLabel.centerXAnchor.constraint(equalTo: topView.centerXAnchor).isActive = true
+            missionaryLabel.heightAnchor.constraint(equalTo: topView.heightAnchor, multiplier: 0.2).isActive = true
             missionaryLabel.translatesAutoresizingMaskIntoConstraints = false
         
             //Favorite Verse Label
             missionaryfavoriteVerse.widthAnchor.constraint(equalTo: topView.widthAnchor, multiplier: 0.55).isActive = true
-            missionaryfavoriteVerse.heightAnchor.constraint(equalTo: topView.heightAnchor, multiplier: 0.40).isActive = true
+            missionaryfavoriteVerse.heightAnchor.constraint(equalTo: topView.heightAnchor, multiplier: 0.30).isActive = true
             missionaryfavoriteVerse.trailingAnchor.constraint(equalTo: topView.trailingAnchor, constant: -30).isActive = true
-            missionaryfavoriteVerse.topAnchor.constraint(equalTo: missionaryLabel.bottomAnchor, constant: 30).isActive = true
+            missionaryfavoriteVerse.topAnchor.constraint(equalTo: missionaryLabel.bottomAnchor, constant: 10).isActive = true
             missionaryfavoriteVerse.translatesAutoresizingMaskIntoConstraints = false
         
             //Missionary Short Bio Label
             infoShortLabel.bottomAnchor.constraint(equalTo: topView.bottomAnchor, constant: -25).isActive = true
             infoShortLabel.widthAnchor.constraint(equalTo: topView.widthAnchor, multiplier: 0.55).isActive = true
-            infoShortLabel.heightAnchor.constraint(equalTo: topView.heightAnchor, multiplier: 0.35).isActive = true
+            infoShortLabel.heightAnchor.constraint(equalTo: topView.heightAnchor, multiplier: 0.30).isActive = true
             infoShortLabel.trailingAnchor.constraint(equalTo: topView.trailingAnchor, constant: -30).isActive = true
             infoShortLabel.translatesAutoresizingMaskIntoConstraints = false
         
@@ -150,6 +171,70 @@ class MissionaryViewController: UIViewController, MFMailComposeViewControllerDel
         bottomView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         bottomView.heightAnchor.constraint(equalToConstant: 400).isActive = true
         bottomView.translatesAutoresizingMaskIntoConstraints = false
+    
+            //Center Label
+            centerLabel.centerYAnchor.constraint(equalTo: bottomView.centerYAnchor).isActive = true
+            centerLabel.centerXAnchor.constraint(equalTo: bottomView.centerXAnchor).isActive = true
+            centerLabel.widthAnchor.constraint(equalToConstant: 1).isActive = true
+            centerLabel.heightAnchor.constraint(equalTo: bottomView.heightAnchor).isActive = true
+            centerLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+            //Left Scroll View
+            leftScrollView.topAnchor.constraint(equalTo: bottomView.topAnchor).isActive = true
+            leftScrollView.widthAnchor.constraint(equalTo: bottomView.widthAnchor, multiplier: 0.5).isActive = true
+            leftScrollView.leadingAnchor.constraint(equalTo: bottomView.leadingAnchor).isActive = true
+            leftScrollView.bottomAnchor.constraint(equalTo: bottomView.bottomAnchor).isActive = true
+            leftScrollView.translatesAutoresizingMaskIntoConstraints = false
+        
+                //Left View
+                leftView.widthAnchor.constraint(equalTo: leftScrollView.widthAnchor).isActive = true
+                leftView.topAnchor.constraint(equalTo: leftScrollView.topAnchor).isActive = true
+                leftView.bottomAnchor.constraint(equalTo: leftScrollView.bottomAnchor).isActive = true
+                leftView.leadingAnchor.constraint(equalTo: leftScrollView.leadingAnchor).isActive = true
+                leftView.translatesAutoresizingMaskIntoConstraints = false
+        
+                    //About title label
+                    aboutTitleLabel.heightAnchor.constraint(equalTo: bottomView.heightAnchor, multiplier: 0.2).isActive = true
+                    aboutTitleLabel.centerXAnchor.constraint(equalTo: leftView.centerXAnchor).isActive = true
+                    aboutTitleLabel.widthAnchor.constraint(equalTo: leftView.widthAnchor).isActive = true
+                    aboutTitleLabel.topAnchor.constraint(equalTo: leftView.topAnchor).isActive = true
+                    aboutTitleLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+                    //About label
+                    aboutLabel.centerXAnchor.constraint(equalTo: leftView.centerXAnchor).isActive = true
+                    aboutLabel.topAnchor.constraint(equalTo: aboutTitleLabel.bottomAnchor, constant: 10).isActive = true
+                    aboutLabel.widthAnchor.constraint(equalTo: leftView.widthAnchor, constant: -20).isActive = true
+                    aboutLabel.bottomAnchor.constraint(equalTo: leftView.bottomAnchor).isActive = true
+                    aboutLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+        
+            //Right Scroll View
+            rightScrollView.topAnchor.constraint(equalTo: bottomView.topAnchor).isActive = true
+            rightScrollView.widthAnchor.constraint(equalTo: bottomView.widthAnchor, multiplier: 0.5).isActive = true
+            rightScrollView.leadingAnchor.constraint(equalTo: centerLabel.trailingAnchor).isActive = true
+            rightScrollView.bottomAnchor.constraint(equalTo: bottomView.bottomAnchor).isActive = true
+            rightScrollView.translatesAutoresizingMaskIntoConstraints = false
+        
+                //Right View
+                rightView.widthAnchor.constraint(equalTo: rightScrollView.widthAnchor).isActive = true
+                rightView.topAnchor.constraint(equalTo: rightScrollView.topAnchor).isActive = true
+                rightView.bottomAnchor.constraint(equalTo: rightScrollView.bottomAnchor).isActive = true
+                rightView.leadingAnchor.constraint(equalTo: rightScrollView.leadingAnchor).isActive = true
+                rightView.translatesAutoresizingMaskIntoConstraints = false
+        
+                    //prayer request title label
+                    prayerRequestTitle.heightAnchor.constraint(equalTo: bottomView.heightAnchor, multiplier: 0.2).isActive = true
+                    prayerRequestTitle.centerXAnchor.constraint(equalTo: rightView.centerXAnchor).isActive = true
+                    prayerRequestTitle.widthAnchor.constraint(equalTo: rightView.widthAnchor).isActive = true
+                    prayerRequestTitle.topAnchor.constraint(equalTo: rightView.topAnchor).isActive = true
+                    prayerRequestTitle.translatesAutoresizingMaskIntoConstraints = false
+        
+                    //prayer request label
+                    prayerRequestLabel.centerXAnchor.constraint(equalTo: rightView.centerXAnchor).isActive = true
+                    prayerRequestLabel.topAnchor.constraint(equalTo: prayerRequestTitle.bottomAnchor, constant: 10).isActive = true
+                    prayerRequestLabel.widthAnchor.constraint(equalTo: rightView.widthAnchor, constant: -20).isActive = true
+                    prayerRequestLabel.bottomAnchor.constraint(equalTo: rightView.bottomAnchor).isActive = true
+                    prayerRequestLabel.translatesAutoresizingMaskIntoConstraints = false
         
     }
     
