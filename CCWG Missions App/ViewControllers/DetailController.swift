@@ -32,23 +32,111 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
     @IBOutlet weak var selectedCountryTitle: UILabel!
     @IBOutlet weak var selectedCountryIconImageViewer: UIImageView!
     @IBOutlet weak var selectedCountryDescription: UILabel!
+    @IBOutlet weak var topView: UIView!
+    @IBOutlet weak var middleView: UIView!
+    @IBOutlet weak var leftMiddleView: UIView!
+    @IBOutlet weak var rightMiddleView: UIView!
+    @IBOutlet weak var tableView: UITableView!
     
     var labelText = String()
     var countryImage = String()
     var countryIcon = String()
     var countryDescriptionArray = [String]()
     
-    override func viewDidLoad() {
+    override func viewDidLayoutSubviews() {
         
         selectedCountryTitle.text = labelText.uppercased()
         selectedCountryImageViewer.image = UIImage(named: countryImage)
         selectedCountryIconImageViewer.image = UIImage(named: countryIcon)
         selectedCountryDescription.attributedText = makeBullets(stringList: countryDescriptionArray, font: selectedCountryDescription.font)
-        
+        selectedCountryDescription.adjustsFontSizeToFitWidth = true
+        selectedCountryDescription.minimumScaleFactor = 0.2
+        setupLayout()
         
         super.viewDidLoad()
     }
-
+    
+    private func setupLayout() {
+        
+        // TOP VIEW
+        topView.translatesAutoresizingMaskIntoConstraints = false
+        
+        topView.topAnchor.constraint(equalTo: view.topAnchor, constant: 1).isActive = true
+        topView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        topView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        topView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.33).isActive = true
+        //        topView.backgroundColor = .orange
+        
+            selectedCountryImageViewer.translatesAutoresizingMaskIntoConstraints = false
+        
+            selectedCountryImageViewer.topAnchor.constraint(equalTo: topView.topAnchor, constant: -3).isActive = true
+            selectedCountryImageViewer.leadingAnchor.constraint(equalTo: topView.leadingAnchor, constant: -3).isActive = true
+            selectedCountryImageViewer.trailingAnchor.constraint(equalTo: topView.trailingAnchor, constant: 3).isActive = true
+            selectedCountryImageViewer.bottomAnchor.constraint(equalTo: topView.bottomAnchor, constant: 1).isActive = true
+            selectedCountryImageViewer.contentMode = .scaleAspectFill
+        
+            selectedCountryTitle.translatesAutoresizingMaskIntoConstraints = false
+        
+            selectedCountryTitle.centerXAnchor.constraint(equalTo: topView.centerXAnchor).isActive = true
+            selectedCountryTitle.centerYAnchor.constraint(equalTo: topView.centerYAnchor).isActive = true
+            selectedCountryTitle.textAlignment = .left
+        
+        
+        //MIDDLE VIEW
+        middleView.translatesAutoresizingMaskIntoConstraints = false
+        
+        middleView.topAnchor.constraint(equalTo: topView.bottomAnchor, constant: 1).isActive = true
+        middleView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 1).isActive = true
+        middleView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 1).isActive = true
+        middleView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.30).isActive = true
+        
+            leftMiddleView.translatesAutoresizingMaskIntoConstraints = false
+        
+            leftMiddleView.topAnchor.constraint(equalTo: middleView.topAnchor).isActive = true
+            leftMiddleView.leadingAnchor.constraint(equalTo: middleView.leadingAnchor).isActive = true
+            leftMiddleView.widthAnchor.constraint(equalTo: middleView.widthAnchor, multiplier: 0.33).isActive = true
+            leftMiddleView.bottomAnchor.constraint(equalTo: middleView.bottomAnchor).isActive = true
+            //        leftMiddleView.backgroundColor = .blue
+        
+                selectedCountryIconImageViewer.translatesAutoresizingMaskIntoConstraints = false
+        
+                selectedCountryIconImageViewer.topAnchor.constraint(equalTo: leftMiddleView.topAnchor).isActive = true
+                selectedCountryIconImageViewer.bottomAnchor.constraint(equalTo: leftMiddleView.bottomAnchor).isActive = true
+                selectedCountryIconImageViewer.leadingAnchor.constraint(equalTo: leftMiddleView.leadingAnchor).isActive = true
+                selectedCountryIconImageViewer.trailingAnchor.constraint(equalTo: leftMiddleView.trailingAnchor).isActive = true
+                selectedCountryIconImageViewer.centerXAnchor.constraint(equalTo: leftMiddleView.centerXAnchor).isActive = true
+                selectedCountryIconImageViewer.centerYAnchor.constraint(equalTo: leftMiddleView.centerYAnchor).isActive = true
+        
+            rightMiddleView.translatesAutoresizingMaskIntoConstraints = false
+        
+            rightMiddleView.topAnchor.constraint(equalTo: middleView.topAnchor).isActive = true
+            rightMiddleView.leadingAnchor.constraint(equalTo: leftMiddleView.trailingAnchor).isActive = true
+            rightMiddleView.trailingAnchor.constraint(equalTo: middleView.trailingAnchor).isActive = true
+            rightMiddleView.bottomAnchor.constraint(equalTo: middleView.bottomAnchor).isActive = true
+            //        rightMiddleView.backgroundColor = .blue
+            
+        
+                selectedCountryDescription.translatesAutoresizingMaskIntoConstraints = false
+        
+                selectedCountryDescription.topAnchor.constraint(equalTo: rightMiddleView.topAnchor, constant: 5).isActive = true
+                selectedCountryDescription.bottomAnchor.constraint(equalTo: rightMiddleView.bottomAnchor, constant: -5).isActive = true
+                selectedCountryDescription.leadingAnchor.constraint(equalTo: rightMiddleView.leadingAnchor, constant: 5).isActive = true
+                selectedCountryDescription.trailingAnchor.constraint(equalTo: rightMiddleView.trailingAnchor, constant: -5).isActive = true
+        
+        // TABLE VIEW
+        tableView.translatesAutoresizingMaskIntoConstraints = false
+        
+        tableView.topAnchor.constraint(equalTo: middleView.bottomAnchor).isActive = true
+        tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        
+        
+        
+    }
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -111,7 +199,7 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
             
             cell.missionaryNameLabel.text = chinaMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = chinaMissionaryinfoShort[indexPath.row]
-           cell.missionaryImageView.image = UIImage(named: chinaMissionaryImage[indexPath.row])
+            cell.missionaryImageView.image = UIImage(named: chinaMissionaryImage[indexPath.row])
             
         }
         else if selectedCountry == "haiti" {
@@ -207,13 +295,13 @@ class DetailController: UIViewController, UITableViewDataSource, UITableViewDele
         else {
             
             setMissionaries(name: usaMissionaryName, image: usaMissionaryImage, shortinfo: usaMissionaryinfoShort, longinfo: ugandaMissionaryinfoLong, verse: usaMissionaryfavoriteVerse, prayerrequest: [usaMissionaryPrayerRequest], email: usaMissionaryEmail, url: usaMissionaryUrl)
-
+            
             cell.missionaryNameLabel.text = usaMissionaryName[indexPath.row]
             cell.missionaryInfoLabel.text = usaMissionaryinfoShort[indexPath.row]
             cell.missionaryImageView.image = UIImage(named: usaMissionaryImage[indexPath.row])
             
         }
-            
+        
         return cell
     }
     
