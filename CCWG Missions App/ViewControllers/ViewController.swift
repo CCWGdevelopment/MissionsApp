@@ -13,12 +13,12 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     @IBOutlet weak var countryIconCollectionView: UICollectionView!
+    @IBOutlet weak var headerImageView: UIImageView!
+    @IBOutlet weak var headerLabel: UILabel!
     
     let countryIconArray: [String] = ["chinacircle", "haiticircle", "indiacircle", "italycircle", "mexicocircle", "nepalcircle", "newzealandcircle", "philippinescircle", "southsudancircle", "ugandacircle"]
     
     let countryNameArray: [String] = ["China", "Haiti", "India", "Italy", "Mexico", "Nepal", "New Zealand", "Philippines", "South Sudan", "Uganda"]
-
-    var headerId = "header"
     
     
     override func viewDidLayoutSubviews() {
@@ -28,13 +28,14 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         let itemSize = UIScreen.main.bounds.width/5 - 10
         let layout = UICollectionViewFlowLayout()
         
-        layout.sectionInset = UIEdgeInsetsMake(90, 10, 10, 10)
+        layout.sectionInset = UIEdgeInsetsMake(60, 10, 10, 10)
         layout.itemSize = CGSize(width: itemSize, height: itemSize)
         layout.minimumInteritemSpacing = 5
-        layout.minimumLineSpacing = 5
-        layout.headerReferenceSize = CGSize(width: 0, height: 340)
+        layout.minimumLineSpacing = 40
         
         countryIconCollectionView.collectionViewLayout = layout
+        
+        setupLayout()
         
         super.viewDidLayoutSubviews()
     }
@@ -46,6 +47,30 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 
+    }
+    
+    private func setupLayout() {
+        
+        //Header UIView
+        headerImageView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        headerImageView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        headerImageView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        headerImageView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.33).isActive = true
+        headerImageView.translatesAutoresizingMaskIntoConstraints = false
+        
+            //Header Title Label
+            headerLabel.centerXAnchor.constraint(equalTo: headerImageView.centerXAnchor).isActive = true
+            headerLabel.centerYAnchor.constraint(equalTo: headerImageView.centerYAnchor).isActive = true
+            headerLabel.widthAnchor.constraint(equalTo: headerImageView.widthAnchor, multiplier: 0.65).isActive = true
+            headerLabel.heightAnchor.constraint(equalTo: headerImageView.heightAnchor, multiplier: 0.3).isActive = true
+            headerLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+        //Collection View
+        countryIconCollectionView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.67).isActive = true
+        countryIconCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        countryIconCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        countryIconCollectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        countryIconCollectionView.translatesAutoresizingMaskIntoConstraints = false
     }
     
     // No Status Bar
@@ -124,11 +149,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         performSegue(withIdentifier: "go", sender: self)
         
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: headerId, for: indexPath)
-        return headerView
     }
     
 }
